@@ -1,27 +1,42 @@
-# NASLAB — IT 交付包 / IT Delivery
+# NASLAB — IT 交付 / IT Delivery（源码 + 成品）
 
-本仓库只用于向 IT 交付 NASLAB 官网与会员门户的**可部署成品**。
-两个成品都放在 **Releases** 页面(见右侧 / 顶部 Releases,或本仓库 Release 链接)。
+本私有仓库交付 NASLAB **官网**与**会员门户**,同时提供**源码(可自行构建)**与**成品(可直接部署)**。
 
-This repo hands the deployable builds of the NASLAB website and member portal to IT.
-Both artifacts are attached to the **latest Release**.
+Private repo delivering the NASLAB **website** and **member portal**, as both **source code** (build it yourself) and **prebuilt artifacts** (deploy directly).
 
 ---
 
-## 下载什么 / What to download (see Releases)
+## 目录结构 / Layout
 
-| 附件 Asset | 大小 | 内容 | 部署说明 |
-|---|---|---|---|
-| `naslab-website.zip` | ~311MB | 官网(React 静态站,含全部视频) | 见本仓库 `IT-website-deploy.md` |
-| `naslab-portal-auth-20260723.zip` | ~7MB | 会员门户:登录/注册/忘记/重置四页 | 解压后见包内 `portal-auth/SPEC.md` |
+| 路径 | 内容 |
+|---|---|
+| `website/` | 官网源码(React 19 + TanStack Start + Vite)。`src/` 代码 + `public/` 素材(视频/图) |
+| `portal/`  | 会员门户源码(4 个静态 HTML:登录/注册/忘记/重置)。本身即成品,无需构建 |
+| `IT-website-deploy.md` | 官网部署说明 |
+| **Releases** | 打包好的成品 zip(不想构建就直接下这个) |
 
-## 快速部署要点 / TL;DR
+## A. 想自己构建官网 / Build the website from source
 
-- **官网**:纯静态站,解压丢到任意静态服务器/CDN,配一条 **SPA 路由回落到 `/index.html`** 即可(详见 `IT-website-deploy.md`)。无需后端。
-- **门户**:4 个静态 HTML 页,是登录区前端。表单字段名已对齐现有 `member.naslabtec.com` 后端;上线时按包内 `SPEC.md` **删掉演示用的 preventDefault、接到真实后端**。
+```bash
+cd website
+npm install
+npm run build      # 产物在 website/dist/
+```
+把 `website/dist/` 的全部内容部署到任意静态服务器 / CDN,并配一条 **SPA 路由回落到 `/index.html`**(详见 `IT-website-deploy.md`)。无需后端。
 
-## 注意 / Notes
+> 首页地球 `public/earth-spin.mp4` 为 **60fps 无缝循环**高清版。改社媒/文案等在 `website/src/` 内。
 
-- 官网首页地球为 **60fps 无缝循环**高清版。
-- 视频较多(官网 72 条),服务器需支持 **HTTP Range 请求**(主流服务器默认支持)。
-- 本仓库为**私有**,仅授权人员可见。
+## B. 不想构建,直接部署 / Just deploy the prebuilt build
+
+到 **Releases** 下载:
+- `naslab-website.zip` —— 官网 `dist` 成品,解压即部署(同样配 SPA 回落)
+- `naslab-portal-auth-20260723.zip` —— 会员门户四页
+
+## 会员门户 / Member portal
+
+`portal/`(或 Release 里的门户 zip)是登录区前端。四页静态 HTML,表单字段名已对齐现有 `member.naslabtec.com` 后端;上线时按 `portal/SPEC.md` **删掉演示用的 preventDefault、接到真实后端**。
+
+## 备注 / Notes
+
+- 官网视频较多(72 条),服务器需支持 **HTTP Range 请求**(主流默认支持)。
+- 本仓库为**私有**,仅授权协作者可见/可下载。

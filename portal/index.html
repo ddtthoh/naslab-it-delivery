@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070503">
+<title>NASLAB 会员门户 · 登录/注册设计交付</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/auth.css">
+<style>
+  body { display:block; }
+  .idx { max-width: 1080px; margin: 0 auto; padding: clamp(2.5rem,6vw,4.5rem) var(--gutter) 6rem; }
+  .idx__head { border-bottom: 1px solid var(--line); padding-bottom: 2rem; margin-bottom: 2.6rem; }
+  .idx h1 { font-family: var(--font-display); font-weight: 300; font-size: clamp(2.2rem,5vw,3.2rem); line-height:1.12; margin:.7rem 0 .8rem; }
+  .idx__lead { color: var(--muted); max-width: 62ch; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:1.1rem; margin: 2rem 0 3rem; }
+  .card { display:block; text-decoration:none; color:inherit; border:1px solid var(--line); border-radius:10px; padding:1.4rem 1.5rem; background:var(--surface); transition:border-color .2s ease, transform .2s ease; }
+  .card:hover { border-color: var(--line-strong); transform: translateY(-2px); }
+  .card h3 { font-family:var(--font-display); font-weight:400; font-size:1.5rem; margin:.5rem 0 .35rem; }
+  .card p { font-size:.83rem; color:var(--muted); }
+  .card .go { display:inline-block; margin-top:.9rem; font-size:.68rem; letter-spacing:.2em; text-transform:uppercase; color:var(--gold); }
+  .sec { border-top:1px solid var(--line); padding-top:2.2rem; margin-top:2.6rem; }
+  .sec h2 { font-family:var(--font-display); font-weight:300; font-size:1.75rem; margin-bottom:1rem; }
+  table { border-collapse:collapse; width:100%; font-size:.86rem; }
+  th,td { border-bottom:1px solid var(--line); padding:.6rem .8rem; text-align:left; vertical-align:top; }
+  th { color:var(--dim); font-weight:500; font-size:.66rem; letter-spacing:.14em; text-transform:uppercase; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size:.85em; color:var(--gold); background:rgba(240,201,121,.07); padding:.1em .4em; border-radius:3px; }
+  .note { border:1px solid var(--line-strong); border-radius:10px; padding:1.2rem 1.4rem; margin-top:1.4rem; background:linear-gradient(180deg,rgba(240,201,121,.05),transparent); }
+  .note b { color: var(--gold); }
+  ul.tick { list-style:none; margin-top:.8rem; }
+  ul.tick li { position:relative; padding-left:1.4rem; margin-bottom:.5rem; color:var(--muted); font-size:.9rem; }
+  ul.tick li::before { content:"—"; position:absolute; left:0; color:var(--gold); }
+</style>
+</head>
+<body>
+<div class="idx">
+
+  <div class="idx__head">
+    <a class="brand" href="https://naslabtec.com">
+      <img class="brand__mark" src="assets/img/naslab-logo-mark.png" alt="" width="34" height="34">
+      <img class="brand__word" src="assets/img/naslab-wordmark.png" alt="NASLAB">
+    </a>
+    <h1>会员门户 · 登录与注册</h1>
+    <p class="idx__lead">
+      按官网改版的同一套设计语言重做的一整套入口 —— 纯黑 <code>#070503</code> + 香槟金
+      <code>#f0c979</code>,Cormorant Garamond + Plus Jakarta Sans,和 naslabtec.com 完全同源。
+      <b style="color:var(--cream)">字段是照线上 member.naslabtec.com 逐个抓下来的,一个不多一个不少,后端不用改。</b>
+    </p>
+  </div>
+
+  <div class="cards">
+    <a class="card" href="login.html">
+      <span class="kicker">01</span>
+      <h3>Login</h3>
+      <p>Email · Password · Captcha · Forgot password · 记住我</p>
+      <span class="go">打开 &rarr;</span>
+    </a>
+    <a class="card" href="register.html">
+      <span class="kicker">02</span>
+      <h3>Register</h3>
+      <p>Email · Password · Confirm · Sponsor ID · Captcha</p>
+      <span class="go">打开 &rarr;</span>
+    </a>
+    <a class="card" href="forgot.html">
+      <span class="kicker">03</span>
+      <h3>Forgot Password</h3>
+      <p>Email · Captcha,提交后切「已寄出」态</p>
+      <span class="go">打开 &rarr;</span>
+    </a>
+    <a class="card" href="reset.html">
+      <span class="kicker">04</span>
+      <h3>Set New Password</h3>
+      <p>Token · Email · 新密码 · 确认密码</p>
+      <span class="go">打开 &rarr;</span>
+    </a>
+  </div>
+
+  <section class="sec">
+    <h2>字段对照 —— 与线上一致</h2>
+    <table>
+      <tr><th>页面</th><th>字段 name</th><th>与线上的差异</th></tr>
+      <tr><td>Login</td><td><code>email</code> <code>password</code> <code>captcha</code></td>
+          <td>无。另加了可选的 <code>remember</code> 勾选框,不要可直接删</td></tr>
+      <tr><td>Register</td><td><code>email</code> <code>password</code> <code>password_confirmation</code> <code>sponsor_id</code> <code>captcha</code></td>
+          <td>无。<b>Sponsor ID 的真实 name 请 IT 核对一下</b></td></tr>
+      <tr><td>Forgot</td><td><code>email</code> <code>captcha</code></td><td>无</td></tr>
+      <tr><td>Reset</td><td><code>token</code> <code>email</code> <code>password</code> <code>password_confirmation</code></td><td>无</td></tr>
+    </table>
+  </section>
+
+  <section class="sec">
+    <h2>比线上多出来的地方</h2>
+    <ul class="tick">
+      <li>密码有显/隐钮 —— 现在线上打错了只能全删重打</li>
+      <li>注册和重设密码有强度条(只提示,不拦提交;门槛仍是线上的 6 位)</li>
+      <li>报错在字段下方就地显示,不再是顶部一条笼统的红字</li>
+      <li>忘记密码提交后切成独立的「已寄出」屏,文案<b>不透露邮箱是否存在</b>(后端也请照做)</li>
+      <li>901px 断点:桌面左图右表单,手机左幕收起、表单占满 —— 和官网同一个断点</li>
+      <li>ar / fa 的 RTL 规则已经写好,<code>&lt;html dir="rtl"&gt;</code> 即可</li>
+      <li>每个输入框都有真 <code>&lt;label for&gt;</code>,报错是 <code>role="alert"</code>,焦点环 2px 金色</li>
+    </ul>
+  </section>
+
+  <section class="sec">
+    <h2>交给 IT 要说的三句话</h2>
+    <div class="note">
+      <p style="margin-bottom:.7rem"><b>1.</b> 纯静态,没有构建步骤 —— 解压就能开,四个 HTML + 一个 CSS + 一个 JS。</p>
+      <p style="margin-bottom:.7rem"><b>2.</b> 表单现在<b>一律拦截提交</b>。<code>assets/auth.js</code> 里标了 <code>[接线]</code> 的那段 <code>preventDefault</code> 删掉即可正常 POST。</p>
+      <p><b>3.</b> <code>assets/img/captcha-sample.svg</code> 是<b>画出来的占位图</b>,上线必须换成后端出图的地址(<code>data-src="/captcha"</code> 已经标好位置)。</p>
+    </div>
+    <p style="margin-top:1.4rem;color:var(--muted);font-size:.88rem">
+      完整对接说明在压缩包里的 <code>SPEC.md</code> —— 字段表、CSRF 放哪、服务端报错怎么塞回字段、设计 token、字体自托管方案都在里面。
+    </p>
+  </section>
+
+</div>
+</body>
+</html>

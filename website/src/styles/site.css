@@ -1,0 +1,2866 @@
+/**
+ * Site skeleton styles — structure only.
+ *
+ * Deliberately basic: type scale, spacing, borders, nothing else. Liquid glass,
+ * motion and refined typography are the user's decisions and are NOT made here.
+ *
+ * Palette law: pure black + champagne gold. Zero orange / red / blue.
+ * Tokens (--bg / --gold / --cream / --muted / --font-*) come from global.css.
+ */
+
+:root {
+  /* ---- 顶栏尺寸(2026-07-19 抽成变量,方便整档缩放) ----
+     logo、词标、菜单字、圆 pill 全部挂在这几个变量上,改一处整条导航等比变化。
+     临时:网址带 ?nav=mid / ?nav=big 可实时切换(见 main.tsx,定稿后连同那段一起删)。 */
+  /* 桌面 = 大一号(2026-07-19 用户定稿);手机在 ≤820px 处降回小一号,
+     因为手机屏本来就窄,导航多占的每一像素都从首屏内容里扣。 */
+  --nav-h: 78px; /* 导航条高度;.shell__main 的 padding-top 跟随它 */
+  --nav-mark: 46px; /* 左上 logo 方块 */
+  --nav-word: 23px; /* NASLAB 词标高度 */
+  --nav-link: 0.92rem; /* 菜单项字号 */
+  --nav-pill: 44px; /* 语言 / 登录 圆 pill 直径 */
+  --nav-lang: 0.73rem;
+
+  --line: rgba(240, 201, 121, 0.18);
+  --line-strong: rgba(240, 201, 121, 0.34);
+  --surface: rgba(240, 201, 121, 0.04);
+  --shell-max: 1120px;
+  --gutter: clamp(20px, 5vw, 56px);
+
+  /* Liquid glass —— 中档(2026-07-19 用户定稿)
+     与导航同语言(导航 70% / blur 18px),内容卡取 66% / blur 20px。
+     用途:背景层(地球 / portal interactive)上线后托住内容可读性;
+     现在纯黑背景下表现为一层微微提亮的面板,先做容器再选背景,换背景不返工。 */
+  --glass-bg: rgba(7, 5, 3, 0.66);
+  --glass-blur: blur(20px) saturate(140%);
+  --glass-line: rgba(240, 201, 121, 0.22);
+  --glass-shadow: inset 0 1px 0 rgba(240, 201, 121, 0.16),
+    0 10px 34px -12px rgba(0, 0, 0, 0.78);
+  --glass-radius: 14px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Liquid glass —— 通用工具类                                           */
+/* 只套「卡片类」容器,不套流动正文 —— 每段文字都包一层面板会像表格,      */
+/* 不像高端品牌站。正文靠背景本身足够暗来保证可读性。                     */
+/* 具体组件在各自的规则里引用这几个 token(见 .cpoint / .ccard / .state 等)*/
+/* ------------------------------------------------------------------ */
+
+.glass {
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-line);
+  border-radius: var(--glass-radius);
+  box-shadow: var(--glass-shadow);
+}
+
+/* 降级:不支持 backdrop-filter 时加深底色,保证可读 */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  :root {
+    --glass-bg: rgba(7, 5, 3, 0.92);
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Shell                                                               */
+/* ------------------------------------------------------------------ */
+
+.shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  background: var(--bg);
+}
+
+.shell__main {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+  padding-top: var(--nav-h); /* clears the fixed nav */
+}
+
+/* ------------------------------------------------------------------ */
+/* Nav                                                                 */
+/* ------------------------------------------------------------------ */
+
+/* 玻璃质感与描边对齐 memberportal 的 .m-nav / landing header
+   (bg 70% 混透明 + blur18 saturate140,金色 18% 底描边,顶部金色渐变发丝线)。 */
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background: rgba(7, 5, 3, 0.7);
+  border-bottom: 1px solid rgba(240, 201, 121, 0.18);
+  backdrop-filter: saturate(140%) blur(18px);
+  -webkit-backdrop-filter: saturate(140%) blur(18px);
+}
+
+.nav::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(240, 201, 121, 0.4),
+    transparent
+  );
+}
+
+.nav__inner {
+  max-width: var(--shell-max);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  height: var(--nav-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.nav__brand {
+  font-family: var(--font-kicker);
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.3em;
+  color: var(--cream);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav__brand span {
+  color: var(--gold);
+}
+
+/* 手机版汉堡钮:纯三横线 icon,位于最左(logo 左边)——2026-07-17 用户指令 */
+.nav__toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: var(--gold);
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.nav__toggle svg {
+  width: 24px;
+  height: 24px;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 3vw, 2rem);
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: clamp(0.9rem, 2vw, 1.6rem);
+}
+
+.nav__item {
+  position: relative;
+}
+
+/* No text-transform: nav labels are frozen mixed-case in CONTENT-FREEZE.md
+   (Home · Naslab · Products · Careers · Collaboration · Contact Us).
+   字号/字距对齐 memberportal 菜单项(text-sm、常规字距,2026-07-17 用户指令)。 */
+.nav__link,
+.nav__link--group {
+  /* 2026-07-17 用户:换成 contact@naslabtec.com 同款字体(--font-body)预览 */
+  font-family: var(--font-body);
+  font-size: var(--nav-link);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .nav__link:hover,
+  .nav__item--group:hover .nav__link--group {
+    color: var(--gold);
+  }
+}
+
+.nav__link.active {
+  color: var(--gold);
+}
+
+/* Grouped routes ("Naslab" / "Products") — plain hover+focus disclosure. */
+.nav__sub {
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 190px;
+  padding: 0.5rem 0;
+  /* 触发项和下拉之间不能留 margin 死区——鼠标穿过空隙 hover 断链,
+     子菜单点不到(2026-07-17 实测)。间隙感改由 header 高度自带。 */
+  margin-top: 0;
+  background: rgba(7, 5, 3, 0.98);
+  border: 1px solid var(--line);
+  border-radius: 0 0 6px 6px;
+  opacity: 0;
+  visibility: hidden;
+  /* 收起延迟压到 0.1s:够桥接手滑,又不会像挂住一样(用户 2026-07-17 反馈) */
+  transition:
+    opacity 0.1s ease 0.1s,
+    visibility 0s linear 0.2s;
+}
+
+/* 触屏上 :hover 会粘住 —— 点一下「Products」下拉就再也不收，
+   挡住下方内容。故 hover 触发只给鼠标设备；触屏靠 focus-within
+   (点击后聚焦，点别处自动失焦收起)。 */
+@media (hover: hover) and (pointer: fine) {
+  .nav__item--group:hover .nav__sub {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s, 0s;
+  }
+}
+
+.nav__item--group:focus-within .nav__sub {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s, 0s;
+}
+
+.nav__sublink {
+  display: block;
+  padding: 0.55rem 1.1rem;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* 下拉里的一行:链接占满,右侧留出展开箭头的位置 */
+.nav__subrow {
+  display: flex;
+  align-items: stretch;
+}
+.nav__subrow .nav__sublink {
+  flex: 1 1 auto;
+}
+
+/* 展开/收起箭头。默认收起(2026-07-22 用户定案:不自动展开,要看的人自己点)。 */
+.nav__subtoggle {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--muted);
+  cursor: pointer;
+}
+.nav__subtoggle svg {
+  width: 10px;
+  height: 6px;
+  transition: transform 0.18s ease;
+}
+.nav__subtoggle.is-open svg {
+  transform: rotate(180deg);
+}
+@media (hover: hover) and (pointer: fine) {
+  .nav__subtoggle:hover {
+    color: var(--gold);
+  }
+}
+
+/* 二级缩进项(Ncore 2.0 的四页)——预览中,2026-07-22 未定案。
+   靠缩进 + 一条细金线表达从属,不额外加不可点的分组标题,
+   免得下拉里出现「看着像链接但点不了」的东西。 */
+.nav__sublink--sub {
+  padding-left: 2rem;
+  font-size: 0.76rem;
+  position: relative;
+}
+.nav__sublink--sub::before {
+  content: "";
+  position: absolute;
+  left: 1.25rem;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--line);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .nav__sublink:hover {
+    color: var(--gold);
+    background: var(--surface);
+  }
+}
+
+/* .active 是「当前页」标记,与指针类型无关,触屏也必须显示 */
+.nav__sublink.active {
+  color: var(--gold);
+  background: var(--surface);
+}
+
+/* 父行(Ncore 2.0)只标金字,不加底块 —— 底块留给下面那条具体的子页,
+   否则同一条路由会点亮两行(2026-07-22 手机端实拍到)。 */
+.nav__sublink--parent.active {
+  background: transparent;
+}
+
+.nav__aside {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* ------------------------------------------------------------------ */
+/* Pill 金色描边 + 光晕系统(2026-07-19 用户定稿:中档)                   */
+/* 参数与 memberportal 的 ThemeToggle 一致,四处共用一套:                 */
+/*   年份导航 · 社媒圆环 · 语言 pill · 登录按钮                            */
+/*   静态 = 描边金 60% + 环 30% + 光晕 12px/45%                           */
+/*   hover = 描边纯金 + 上浮 2px + 光晕 18px/75%                          */
+/* ------------------------------------------------------------------ */
+
+.nav__lang {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  font-family: var(--font-kicker);
+  font-size: var(--nav-lang);
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  background: transparent;
+  border: 1px solid rgba(240, 201, 121, 0.6);
+  border-radius: 999px;
+  padding: 0.4em 0.8em;
+  cursor: pointer;
+  box-shadow:
+    0 0 0 1px rgba(240, 201, 121, 0.3),
+    0 0 12px -2px rgba(240, 201, 121, 0.45);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+/* Member Login —— 人头 icon 圆 pill,桌面与手机同一形态
+   (2026-07-19 用户定稿:「member login 应该是人头 icon pill」)。
+   原本桌面是「Member Login →」文字方形按钮、只有手机才收成圆 icon;
+   统一后与右侧语言 pill 形成一组同语言的圆钮,且顶栏放大时不会因为
+   文字撑不下而把按钮挤成两行(放大预览时实测到的问题)。 */
+.nav__login {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--nav-pill);
+  height: var(--nav-pill);
+  color: var(--gold);
+  text-decoration: none;
+  border: 1px solid rgba(240, 201, 121, 0.6);
+  border-radius: 999px;
+  padding: 0;
+  box-shadow:
+    0 0 0 1px rgba(240, 201, 121, 0.3),
+    0 0 12px -2px rgba(240, 201, 121, 0.45);
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .nav__login:hover {
+    background: var(--gold);
+    color: #0a0805;
+    border-color: var(--gold);
+    transform: translateY(-2px);
+    box-shadow:
+      0 0 0 1px var(--gold),
+      0 0 22px -2px rgba(240, 201, 121, 0.8);
+  }
+}
+
+/* 语言 pill 不做上浮(避免和 login pill 抢),只做描边/光晕加强 */
+@media (hover: hover) and (pointer: fine) {
+  .nav__lang:hover {
+    border-color: var(--gold);
+    box-shadow:
+      0 0 0 1px var(--gold),
+      0 0 18px -2px rgba(240, 201, 121, 0.75);
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* 语言下拉(2026-07-22)—— 14 项。沿用 pill 的描边金/光晕语言,      */
+/* 不引入任何新色:底 onyx 黑、字奶白、当前项香槟金。                  */
+/* ------------------------------------------------------------------ */
+
+.nav__langwrap {
+  position: relative;
+}
+
+.nav__langmenu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  z-index: 60;
+  min-width: 12.5rem;
+  max-height: min(70vh, 26rem);
+  overflow-y: auto;
+  margin: 0;
+  padding: 0.35rem;
+  list-style: none;
+  background: rgba(7, 5, 3, 0.97);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(240, 201, 121, 0.35);
+  border-radius: 12px;
+  box-shadow:
+    0 0 0 1px rgba(240, 201, 121, 0.14),
+    0 18px 40px -12px rgba(0, 0, 0, 0.9);
+}
+
+/* RTL 下菜单贴左缘(整页镜像,只动方向) */
+[dir="rtl"] .nav__langmenu {
+  right: auto;
+  left: 0;
+}
+
+/* 14 项超过一屏会出滚动条,默认的浅色滚动条在纯黑底上很扎眼 */
+.nav__langmenu {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(240, 201, 121, 0.45) transparent;
+}
+.nav__langmenu::-webkit-scrollbar {
+  width: 6px;
+}
+.nav__langmenu::-webkit-scrollbar-track {
+  background: transparent;
+}
+.nav__langmenu::-webkit-scrollbar-thumb {
+  background: rgba(240, 201, 121, 0.4);
+  border-radius: 999px;
+}
+
+.nav__langitem {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.65rem;
+  border-radius: 8px;
+  font-family: var(--font-kicker);
+  font-size: 0.82rem;
+  line-height: 1.3;
+  color: var(--muted);
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    background 0.16s ease,
+    color 0.16s ease;
+}
+
+.nav__langitem:hover,
+.nav__langitem:focus-visible {
+  background: rgba(240, 201, 121, 0.1);
+  color: var(--cream);
+}
+
+.nav__langitem.is-current {
+  color: var(--gold);
+  background: rgba(240, 201, 121, 0.07);
+}
+
+.nav__langflag {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.nav__langname {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nav__login-arrow {
+  font-family: var(--font-body);
+  transition: transform 0.2s ease;
+}
+
+
+
+/* 人形 icon 现在是登录钮的唯一内容(桌面 + 手机);
+   文字与箭头收进 aria-label / title,不再上屏。 */
+.nav__login-icon {
+  display: block;
+  width: calc(var(--nav-pill) * 0.5);
+  height: calc(var(--nav-pill) * 0.5);
+}
+
+.nav__login-label,
+.nav__login-arrow {
+  display: none;
+}
+
+/* 抽屉 footer(CONNECT 眉标 + 圆环社媒钮 + Member Login 行):
+   桌面隐藏,手机版在菜单底部展开(布局在下方 max-width:900 media 块)。
+   视觉对齐 memberportal 侧栏 footer / social-links.tsx。 */
+.nav__drawer-foot {
+  display: none;
+}
+
+/* CONNECT 眉标:两侧金色发丝渐变 + 中间字 */
+.nav__connect-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  width: 100%;
+}
+
+.nav__connect-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(240, 201, 121, 0.45),
+    transparent
+  );
+}
+
+.nav__connect-label {
+  font-family: var(--font-kicker);
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.32em;
+  color: rgba(240, 201, 121, 0.72);
+}
+
+/* 圆环社媒钮 */
+.nav__socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+}
+
+.nav__social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+  border: 1px solid rgba(240, 201, 121, 0.6);
+  background: var(--surface);
+  color: var(--muted);
+  box-shadow:
+    inset 0 1px 0 rgba(240, 201, 121, 0.1),
+    0 0 0 1px rgba(240, 201, 121, 0.3),
+    0 0 12px -2px rgba(240, 201, 121, 0.45);
+  transition: color 0.25s ease, border-color 0.25s ease,
+    background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.nav__social svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .nav__social:hover {
+    color: var(--gold);
+    border-color: var(--gold);
+    background: rgba(240, 201, 121, 0.1);
+    transform: translateY(-2px);
+    box-shadow:
+      0 0 0 1px var(--gold),
+      0 0 18px -2px rgba(240, 201, 121, 0.75);
+  }
+}
+
+
+@media (max-width: 900px) {
+  /* header 上的 backdrop-filter 会变成 fixed 子元素的 containing block,
+     把全屏菜单困在 64px 的 header 里(2026-07-17 实测 bug:菜单只露出
+     第一项)。手机端拿掉滤镜,header 本身 92% 实底,视觉无差。 */
+  .nav {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+    background: rgba(7, 5, 3, 0.97);
+  }
+
+  /* 汉堡+logo 靠左成组,右侧两 pill 由 margin-left:auto 推到最右 */
+  .nav__inner {
+    justify-content: flex-start;
+    gap: 0.6rem;
+  }
+
+  .nav__toggle {
+    display: inline-flex;
+    order: -1; /* 最左,NASLAB logo 左边 */
+  }
+
+  /* 顶栏右侧只留两个圆 pill:语言 → login(2026-07-17 用户指令) */
+  .nav__aside {
+    margin-left: auto;
+    gap: 0.6rem;
+  }
+
+  .nav__lang {
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    padding: 0;
+    font-size: 0.95rem;
+  }
+
+  .nav__lang-label {
+    display: none;
+  }
+
+  /* 登录钮的圆 pill 形态已提到基础规则(桌面+手机统一),此处无需重复。 */
+
+  .nav__menu {
+    /* 全屏覆盖层(用户 2026-07-17 修订):盖满 header 以下整个视口,
+       背景近乎不透明 + 重磨砂,页面内容不再透出来打架;
+       菜单自身可滚动,展开时 body.nav-open 锁住背景滚动。 */
+    position: fixed;
+    top: 64px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 49;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem var(--gutter) 1.75rem;
+    background: rgba(9, 7, 4, 0.94);
+    -webkit-backdrop-filter: blur(26px) saturate(1.15);
+    backdrop-filter: blur(26px) saturate(1.15);
+    display: none;
+  }
+
+  .nav__menu--open {
+    display: flex;
+  }
+
+  body.nav-open {
+    overflow: hidden;
+  }
+
+  .nav__list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.9rem;
+    width: 100%;
+  }
+
+  /* Sub-menus sit inline once the nav collapses. */
+  .nav__sub {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    margin: 0.4rem 0 0;
+    border: none;
+    border-left: 1px solid var(--line);
+    border-radius: 0;
+    padding: 0 0 0 0.9rem;
+    background: transparent;
+  }
+
+  .nav__sublink {
+    padding: 0.4rem 0;
+  }
+
+  /* 2026-07-22 修手机端 bug:上面这条 `.nav__sublink{padding:.4rem 0}` 排在
+     `.nav__sublink--sub{padding-left:2rem}` 后面、特指度又相同 —— 于是二级项的
+     缩进在手机上被整条抹掉,四个子页跟 Ncore X / NCT Token 顶到同一列,
+     看不出从属;那条竖金线还悬在文字里。这里按手机的排版尺度补回来。 */
+  .nav__sublink--sub {
+    padding-left: 1.15rem;
+  }
+
+  .nav__sublink--sub::before {
+    left: 0.4rem;
+  }
+
+  /* 抽屉底部 footer — CONNECT 眉标 + 居中圆环社媒钮,整块压到最底部
+     (2026-07-18 用户指令:去掉底部登录,四个 icon 居中)。 */
+  .nav__drawer-foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1rem;
+    width: 100%;
+    margin-top: auto;
+    padding-top: 1.5rem;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Page blocks + typography                                            */
+/* ------------------------------------------------------------------ */
+
+.block {
+  /* 抬到 .globe-layer(z-index:0)之上,否则背景 canvas 会盖住正文 */
+  position: relative;
+  z-index: 1;
+  max-width: var(--shell-max);
+  margin: 0 auto;
+  padding: clamp(3rem, 8vw, 6rem) var(--gutter);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.5rem, 4vw, 2.5rem);
+}
+
+.block + .block {
+  border-top: 1px solid var(--line);
+}
+
+.page-head {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  max-width: 62ch;
+}
+
+.page-title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(2rem, 5.5vw, 3.6rem);
+  line-height: 1.1;
+  color: var(--cream);
+  text-wrap: balance;
+}
+
+.page-title--hero {
+  font-size: clamp(2.4rem, 7vw, 4.6rem);
+}
+
+/* 电脑版首屏必须一屏装下完整构图(2026-07-21 用户定稿:
+   「第一个视觉 after load 一定要好看」)。
+   45% 文字栏里 4.6rem 会把标题排成 5 行(≈405px),正文和 CTA 被挤出折叠线。
+   收到 3.5rem 档 → 标题稳定 3 行,眉题+标题+正文+按钮全部落在首屏内。
+   只动 ≥821px,手机版首屏 2026-07-19 已单独定稿,不受影响。 */
+@media (min-width: 821px) {
+  .page-title--hero {
+    font-size: clamp(2.5rem, 3.9vw, 3.5rem);
+  }
+}
+
+/* 小屏长词兜底(2026-07-22,多语言版式巡检发现,用户批准)。
+   320px 视口下 h1 可用列宽只有 280px,而 clamp 下限 2.4rem = 38.4px。
+   部分语种首屏标题里有中间无法断开的长词,在这个字号下比列宽还宽:
+     印尼语 MENGGERAKKAN  316px  → 撑破,页面出现 16px 横向滚动
+     意大利语 ALIMENTIAMO 268px  → 没破,但只剩 12px 余量(96%)
+   下限收到 2.05rem(32.8px),两者落到 270px / 229px。
+   只动 ≤360px 的 clamp 下限,7vw 与上限 4.6rem 不变
+   → 361px 以上(含 375、390、414 等主流机型)版式一个像素都不变。 */
+@media (max-width: 360px) {
+  .page-title--hero {
+    font-size: clamp(2.05rem, 7vw, 4.6rem);
+  }
+}
+
+.page-title--section {
+  font-size: clamp(1.8rem, 4.5vw, 3rem);
+}
+
+/* global.css centres .cta-row for the prototype; the skeleton is left-aligned. */
+.block .cta-row {
+  justify-content: flex-start;
+}
+
+.lead {
+  font-family: var(--font-body);
+  font-size: clamp(0.95rem, 2vw, 1.05rem);
+  line-height: 1.7;
+  color: var(--muted);
+  max-width: 62ch;
+}
+
+/* Flags a spot where CONTENT-FREEZE.md has no copy. Not a design element. */
+.gap-note {
+  font-family: var(--font-kicker);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  line-height: 1.6;
+  color: var(--gold-deep);
+  border-left: 2px solid var(--line-strong);
+  padding: 0.5rem 0 0.5rem 0.9rem;
+  max-width: 62ch;
+  opacity: 0.8;
+}
+
+/* ------------------------------------------------------------------ */
+/* Image slots — placeholders only, never a real image                 */
+/* ------------------------------------------------------------------ */
+
+.slot {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 1.5rem;
+  text-align: center;
+  border: 1px dashed var(--line-strong);
+  border-radius: 4px;
+  background: var(--surface);
+}
+
+.slot__tag {
+  font-family: var(--font-kicker);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--gold);
+  opacity: 0.7;
+}
+
+.slot__label {
+  font-family: var(--font-kicker);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  max-width: 46ch;
+}
+
+/* ------------------------------------------------------------------ */
+/* Stat bar (S2)                                                       */
+/* ------------------------------------------------------------------ */
+
+.stat-bar {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.stat-bar__item {
+  background: var(--bg);
+  padding: 1.1rem 1.2rem;
+  font-family: var(--font-kicker);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+}
+
+/* ------------------------------------------------------------------ */
+/* Panels (Ncore 2.0 prose blocks)                                     */
+/* ------------------------------------------------------------------ */
+
+/* 玻璃容器(中档) */
+.panel {
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-line);
+  border-radius: var(--glass-radius);
+  box-shadow: var(--glass-shadow);
+  padding: clamp(1.25rem, 3vw, 2rem);
+}
+
+/* No text-transform: these labels are frozen copy ("01 · FUNDAMENTALS — Basic
+   Understanding") and must render in their frozen casing. */
+.panel__label {
+  font-family: var(--font-kicker);
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  color: var(--gold);
+  margin-bottom: 0.9rem;
+}
+
+.panel__body {
+  font-size: 0.98rem;
+  line-height: 1.75;
+  color: var(--muted);
+  max-width: 74ch;
+}
+
+/* ------------------------------------------------------------------ */
+/* Data cards (frozen 附属 UI 卡 mock-ups)                              */
+/* ------------------------------------------------------------------ */
+
+/* DataCard —— 玻璃容器(中档) */
+.card {
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-line);
+  border-radius: var(--glass-radius);
+  box-shadow: var(--glass-shadow);
+  overflow: hidden;
+}
+
+.card__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 1.2rem;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+
+/* No text-transform: card titles/meta are frozen copy and carry their own
+   casing ("TRADING LOGIC" / "Live · v2.0"). */
+.card__title,
+.card__meta {
+  font-family: var(--font-kicker);
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+}
+
+.card__title {
+  font-weight: 600;
+  color: var(--gold);
+}
+
+.card__meta {
+  color: var(--muted);
+  letter-spacing: 0.1em;
+}
+
+.card__body {
+  padding: 1.2rem;
+  overflow-x: auto;
+}
+
+/* Mempool stream table */
+.stream {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-kicker);
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.stream td {
+  padding: 0.55rem 0.75rem 0.55rem 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--cream);
+}
+
+.stream tr:last-child td {
+  border-bottom: none;
+}
+
+.stream__hash {
+  color: var(--gold);
+}
+
+.stream__kind {
+  letter-spacing: 0.12em;
+}
+
+.stream__size {
+  text-align: right;
+  color: var(--cream);
+}
+
+.flow {
+  font-family: var(--font-kicker);
+  font-size: clamp(0.85rem, 2.4vw, 1.05rem);
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  color: var(--gold);
+  white-space: nowrap;
+}
+
+/* Ncore X spread card */
+.spread {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.spread__leg {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1rem 1.1rem;
+  background: var(--bg);
+}
+
+.spread__venue {
+  font-family: var(--font-kicker);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--cream);
+}
+
+.spread__meta {
+  font-family: var(--font-kicker);
+  font-size: 0.64rem;
+  letter-spacing: 0.16em;
+  color: var(--muted);
+}
+
+.spread__price {
+  font-family: var(--font-kicker);
+  font-size: 1.1rem;
+  color: var(--gold);
+}
+
+.spread__result {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.spread__result-label {
+  font-family: var(--font-kicker);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  color: var(--muted);
+}
+
+.spread__result-value {
+  font-family: var(--font-kicker);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--gold);
+}
+
+/* ------------------------------------------------------------------ */
+/* Chips (S9)                                                          */
+/* ------------------------------------------------------------------ */
+
+.chips {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.chip {
+  font-family: var(--font-kicker);
+  font-size: 0.66rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  color: var(--gold);
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  padding: 0.6em 1.3em;
+}
+
+/* ------------------------------------------------------------------ */
+/* Roles (S8)                                                          */
+/* ------------------------------------------------------------------ */
+
+.roles {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.role {
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 1.3rem;
+  background: var(--surface);
+}
+
+.role__title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.25;
+  color: var(--cream);
+  margin-bottom: 0.6rem;
+}
+
+.role__meta {
+  font-family: var(--font-kicker);
+  font-size: 0.64rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  color: var(--gold-deep);
+}
+
+.role__meta--pending {
+  color: var(--muted);
+  opacity: 0.6;
+  font-style: italic;
+  letter-spacing: 0.04em;
+}
+
+/* ------------------------------------------------------------------ */
+/* Roadmap phases (S10)                                                */
+/* ------------------------------------------------------------------ */
+
+.phases {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.phase {
+  position: relative;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: clamp(1.25rem, 3vw, 1.9rem);
+  background: var(--surface);
+}
+
+.phase__index {
+  font-family: var(--font-kicker);
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  color: var(--gold);
+  opacity: 0.6;
+}
+
+.phase__period {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.35rem, 3vw, 1.9rem);
+  line-height: 1.25;
+  color: var(--cream);
+  margin: 0.4rem 0 1rem;
+}
+
+.phase__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.phase__list li {
+  position: relative;
+  padding-left: 1.2rem;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--muted);
+  max-width: 72ch;
+}
+
+.phase__list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.66em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--gold);
+  opacity: 0.75;
+}
+
+/* 里程碑 / Expected 注释 */
+.phase__note {
+  margin-top: 0.75rem;
+  padding-left: 1.1rem;
+  border-left: 2px solid var(--line-strong);
+  font-size: 0.86rem;
+  line-height: 1.7;
+  color: var(--muted);
+  max-width: 72ch;
+}
+
+/* ------------------------------------------------------------------ */
+/* Contact (S11)                                                       */
+/* ------------------------------------------------------------------ */
+
+.contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(2rem, 5vw, 3rem);
+}
+
+@media (min-width: 900px) {
+  .contact {
+    grid-template-columns: minmax(220px, 0.6fr) 1fr;
+  }
+}
+
+.contact__details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  align-content: start;
+}
+
+/* 表单/明细字级统一提档(2026-07-17 用户反馈 0.64rem 根本看不清):
+   标签 ≥0.78rem、字距收敛、颜色提亮,与 memberportal 可读性对齐。 */
+.contact__detail-label {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--gold);
+  margin-bottom: 0.35rem;
+}
+
+.contact__detail-value {
+  font-size: 1rem;
+  color: var(--cream);
+}
+
+.contact__mail {
+  color: var(--cream);
+  text-decoration: none;
+  border-bottom: 1px solid var(--line-strong);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .contact__mail:hover {
+    color: var(--gold);
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  align-items: flex-start;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  width: 100%;
+}
+
+/* Contact 表单(2026-07-19 方案 A):单栏收窄,姓名/邮箱电话在桌面并两栏。
+   旧版是「左邮箱 / 右表单」,左栏内容太少导致重心偏右。 */
+.form--contact {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.1rem;
+  width: 100%;
+  max-width: 640px;
+}
+
+.form--contact .form__actions {
+  margin-top: 0.4rem;
+}
+
+@media (min-width: 700px) {
+  .form--contact {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.1rem;
+  }
+
+  /* 只有被标记的字段占半栏,其余(下拉、留言、按钮)通栏 */
+  .form--contact > .form__field:not(.form__field--half),
+  .form--contact > .form__actions {
+    grid-column: 1 / -1;
+  }
+}
+
+.form__label {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--cream);
+}
+
+.form__index {
+  color: var(--gold);
+}
+
+.form__input {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--cream);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 0.75rem 0.9rem;
+  resize: vertical;
+}
+
+.form__input:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+.form .btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.form__note {
+  font-family: var(--font-kicker);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+/* ------------------------------------------------------------------ */
+/* Footer (S12)                                                        */
+/* ------------------------------------------------------------------ */
+
+.footer {
+  border-top: 1px solid var(--line);
+  background: var(--bg);
+}
+
+.footer__inner {
+  max-width: var(--shell-max);
+  margin: 0 auto;
+  padding: clamp(2.5rem, 6vw, 4rem) var(--gutter);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(2rem, 5vw, 3.5rem);
+}
+
+@media (min-width: 900px) {
+  .footer__inner {
+    grid-template-columns: minmax(260px, 1fr) 1.4fr;
+  }
+}
+
+/* 官方词标图(与导航同源);高度按导航 18px 的放大版取 clamp,
+   宽度自适应(原图 900×178)。 */
+.footer__wordmark {
+  display: block;
+  height: clamp(26px, 4.5vw, 36px);
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.footer__blurb {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--muted);
+  max-width: 44ch;
+  margin-bottom: 0.9rem;
+}
+
+.footer__email {
+  font-family: var(--font-kicker);
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  color: var(--gold);
+  text-decoration: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .footer__email:hover {
+    text-decoration: underline;
+  }
+}
+
+.footer__cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+}
+
+.footer__col-title {
+  font-family: var(--font-kicker);
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+
+.footer__col-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.footer__link {
+  font-size: 0.88rem;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  a.footer__link:hover {
+    color: var(--gold);
+  }
+}
+
+/* Links with no route and no frozen copy yet. */
+.footer__link--pending {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* 底栏排版对齐 memberportal footer:legal 左 · 社交图标右,同一条 hairline 上。 */
+.footer__bottom {
+  max-width: var(--shell-max);
+  margin: 0 auto;
+  padding: 2rem var(--gutter);
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* CONNECT 眉标 + 居中圆环社媒钮 — 与手机版抽屉 footer 同款 */
+.footer__connect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.1rem;
+  width: 100%;
+  max-width: 320px;
+}
+
+.footer__connect-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  width: 100%;
+}
+
+.footer__connect-line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(240, 201, 121, 0.45),
+    transparent
+  );
+}
+
+.footer__connect-label {
+  font-family: var(--font-kicker);
+  font-size: 0.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.32em;
+  color: rgba(240, 201, 121, 0.72);
+}
+
+.footer__legal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5rem 1.25rem;
+}
+
+.footer__socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+}
+
+.footer__social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+  border: 1px solid rgba(240, 201, 121, 0.6);
+  background: var(--surface);
+  color: var(--muted);
+  box-shadow:
+    inset 0 1px 0 rgba(240, 201, 121, 0.1),
+    0 0 0 1px rgba(240, 201, 121, 0.3),
+    0 0 12px -2px rgba(240, 201, 121, 0.45);
+  transition: color 0.25s ease, border-color 0.25s ease,
+    background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.footer__social svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .footer__social:hover {
+    color: var(--gold);
+    border-color: var(--gold);
+    background: rgba(240, 201, 121, 0.1);
+    transform: translateY(-2px);
+    box-shadow:
+      0 0 0 1px var(--gold),
+      0 0 18px -2px rgba(240, 201, 121, 0.75);
+  }
+}
+
+.footer__legal p {
+  font-family: var(--font-kicker);
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  opacity: 0.7;
+}
+
+/* ---- HeroGlobe · earth v2 自转 + 入场 transition ---- */
+.hero-globe {
+  position: relative;
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transform: translateY(28px) scale(0.96);
+  transition: opacity 1.4s ease-out, transform 1.4s ease-out;
+}
+.hero-globe--in {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+.hero-globe__disc {
+  width: min(680px, 82vw);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.hero-globe__img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  animation: hero-globe-spin 60s linear infinite;
+  will-change: transform;
+  user-select: none;
+}
+.hero-globe__halo {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: min(680px, 82vw);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow:
+    0 0 60px 6px rgba(240, 201, 121, 0.16),
+    0 0 160px 30px rgba(240, 201, 121, 0.08),
+    inset 0 0 46px 10px rgba(5, 5, 5, 0.85);
+}
+@keyframes hero-globe-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-globe__img { animation: none; }
+  .hero-globe { transition: none; opacity: 1; transform: none; }
+}
+
+/* ---- Nav 左上 logo mark(尺寸对齐 memberportal Logo:h-9 = 36px,
+   2026-07-18 用户指令;词标随之等比放大,保留不移除) ---- */
+.nav__brand { display: inline-flex; align-items: center; gap: 10px; }
+.nav__brand-mark {
+  display: block;
+  width: var(--nav-mark);
+  height: var(--nav-mark);
+  object-fit: contain;
+}
+
+/* ---- 官方词标图(替代文字 NASLAB,与 PDF/lockup 同源) ---- */
+.nav__brand-word { display: block; height: var(--nav-word); width: auto; }
+
+/* ---- Roadmap 阶段定稿图 ---- */
+/* ------------------------------------------------------------------ */
+/* MediaSection — 手机方案 B / 桌面方案 C(用户 2026-07-17 定稿)        */
+/* ------------------------------------------------------------------ */
+
+.msec {
+  border-top: 1px solid var(--line);
+  padding-top: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.msec__top {
+  display: flex;
+  align-items: baseline;
+  gap: 0.8rem;
+}
+
+.msec__num {
+  font-family: var(--font-num);
+  font-size: 2.8rem;
+  color: var(--gold);
+  line-height: 1;
+}
+
+.msec__h {
+  font-family: var(--font-kicker);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  color: var(--cream);
+  text-transform: uppercase;
+}
+
+.msec__img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+}
+
+.msec__body {
+  color: var(--muted);
+  line-height: 1.75;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+@media (min-width: 901px) {
+  /* 2026-07-22 用户选定「方案 C」:图从 11fr/9fr 加宽到 13fr/7fr。
+     起因:1440px 下图只有 528×297,而正文最多的那节文字栏是 432×435 ——
+     文字比图高 138px,图被压住显小。加宽后图 633×356(+19%)。
+     保留左右交替(2026-07-18 定的版式节奏,用来打破模板感),
+     没有改成上下堆叠 —— 上下堆叠会让字少的那节(如 04 Summary 仅 184 字)
+     变成满宽大图下挂两行字,反而更空。对照见 _preview-b6/layout.html。 */
+  .msec {
+    display: grid;
+    grid-template-columns: 13fr 7fr;
+    grid-template-areas:
+      "media top"
+      "media body";
+    column-gap: 2.6rem;
+    row-gap: 1rem;
+    align-items: center;
+    padding-top: 2.4rem;
+  }
+
+  .msec--flip {
+    grid-template-columns: 7fr 13fr;
+    grid-template-areas:
+      "top media"
+      "body media";
+  }
+
+  .msec__media {
+    grid-area: media;
+  }
+
+  /* 2026-07-22 用户定案「不切」:桌面原为 16/10,而所有素材是 16:9 →
+     object-fit:cover 会把左右各切 5%。改成 16/9 后零裁切,只矮 33px。
+     手机端保持 4:3(见上方非媒体查询处),那一端由各版位单独定案。 */
+  .msec__img {
+    aspect-ratio: 16 / 9;
+  }
+
+  /* 素材本身是 4:3 的那一个版位(naslab-mastercard):桌面保持 4:3。
+     套 16:9 会把 4:3 的片上下各切 12.5%(合计 25%)—— 2026-07-22 实测到的回归。 */
+  .msec--native43 .msec__img {
+    aspect-ratio: 4 / 3;
+  }
+
+  .msec__top {
+    grid-area: top;
+    align-self: end;
+  }
+
+  .msec__num {
+    font-size: 3rem;
+  }
+
+  .msec__h {
+    font-size: 1.05rem;
+  }
+
+  .msec__body {
+    grid-area: body;
+    align-self: start;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* 版式节奏区块(2026-07-18 用户定稿)                                    */
+/* 与 MediaSection 交错编排,打破连续「标题+正文+图」的模板感(铁律⑨)。 */
+/* 断点沿用 901px,与 .msec 保持一致。                                    */
+/* ------------------------------------------------------------------ */
+
+/* ---- 宣言段:节奏顿点,无图留白 ---- */
+/* 玻璃容器(中档),金色左边线保留为重音 */
+.state {
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-line);
+  border-left: 2px solid var(--gold);
+  border-radius: var(--glass-radius);
+  box-shadow: var(--glass-shadow);
+  padding: 1.15rem 1.4rem 1.2rem clamp(16px, 3vw, 26px);
+}
+
+/* 字号落在正文(16px)与小节标题(33.6px)之间:够突出但不抢标题的位。
+   原为 clamp(1.4rem,3vw,2rem)=32px,与标题几乎同大,用户 2026-07-18 反馈过大。 */
+.state__q {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.15rem, 2.1vw, 1.5rem);
+  line-height: 1.45;
+  color: var(--cream);
+  max-width: 46ch;
+  text-wrap: balance;
+}
+
+/* ---- 通栏大图:章节分隔 ---- */
+.full {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.full__img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  /* 手机端 21:9 会细成一条,收成 4:3 */
+  aspect-ratio: 4 / 3;
+}
+
+.full__ov {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: clamp(18px, 4vw, 40px);
+  background: linear-gradient(180deg, transparent 35%, rgba(7, 5, 3, 0.92));
+}
+
+.full__h {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.7rem, 4vw, 3rem);
+  line-height: 1.05;
+  color: #fff;
+  text-wrap: balance;
+}
+
+/* ---- 卡片网格:并列关系用并列版式 ---- */
+.cgrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(16px, 2.4vw, 28px);
+}
+
+/* 玻璃容器(中档) */
+.ccard {
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-line);
+  border-radius: var(--glass-radius);
+  box-shadow: var(--glass-shadow);
+  padding: 1rem 1.05rem 1.25rem;
+}
+
+.ccard__img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+  border-radius: 10px;
+  margin-bottom: 0.9rem;
+}
+
+.ccard__h {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
+  line-height: 1.2;
+  color: var(--cream);
+  margin-bottom: 0.45rem;
+}
+
+.ccard__body {
+  font-size: 0.9rem;
+  line-height: 1.72;
+  color: var(--muted);
+}
+
+/* 玻璃容器(中档) */
+.cpoint {
+  background: var(--glass-bg);
+  -webkit-backdrop-filter: var(--glass-blur);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-line);
+  border-radius: var(--glass-radius);
+  box-shadow: var(--glass-shadow);
+  padding: 1.1rem 1.15rem 1.2rem;
+}
+
+.cpoint__h {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.94rem;
+  color: var(--gold);
+  margin-bottom: 0.35rem;
+}
+
+.cpoint__body {
+  font-size: 0.86rem;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+/* ---- 不对称分栏 60/40:打破 50/50 ---- */
+.asym {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(18px, 3vw, 40px);
+  align-items: center;
+}
+
+.asym__h {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.5rem, 3.2vw, 2.1rem);
+  line-height: 1.15;
+  color: var(--cream);
+  margin-bottom: 0.7rem;
+}
+
+/* 段间距:原先多段正文直接相贴,读起来糊成一坨(用户 2026-07-18 反馈)。 */
+.asym__text > * + * {
+  margin-top: 0.85rem;
+}
+
+.asym__text h3 + p {
+  margin-top: 0.35rem; /* 小标题与其正文贴近,和上一段拉开 */
+}
+
+.asym__text > * + h3 {
+  margin-top: 1.4rem;
+}
+
+.asym__img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+  /* 窄屏转横图,桌面才用竖图 */
+  aspect-ratio: 16 / 9;
+}
+
+@media (min-width: 901px) {
+  .cgrid--2 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .cgrid--3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .asym {
+    grid-template-columns: 1.5fr 1fr; /* 60/40 */
+  }
+
+  .asym__img {
+    aspect-ratio: 3 / 4; /* 桌面用竖图,在一页横图里制造对比 */
+  }
+
+  /* 2026-07-22 用户定案「不切」:桌面原为 21/9,素材全是 16:9 →
+     上下各切 11.9%(合计 23.8%)。改成 16/9 后零裁切,画面面积反而大 31%。
+     手机端保持 4:3,那一端逐版位定案(多数「保持现状」)。 */
+  .full__img {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Roadmap 时间轴(2026-07-19 用户定稿:方案 A · 原图不裁 · 年份导航)     */
+/* 旧版是 1:1 图占满内容宽 → 945×945、每卡 1300px+、全页 8333px。        */
+/* 时间轴把图收进半栏,1:1 只有 433px 高,长度问题解决,因此                */
+/* 【图保持原比例 1:1 完全不裁】—— 16:9 会切掉 2025 的 NASLAB 字样        */
+/* 和 2027 的塔尖(用户 2026-07-19 验图后定)。                           */
+/* ------------------------------------------------------------------ */
+
+/* 年份导航条 — pill 光晕沿用全站中档参数 */
+.yrnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-bottom: 1.3rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.yrnav__link {
+  font-family: var(--font-body);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-decoration: none;
+  border: 1px solid rgba(240, 201, 121, 0.6);
+  border-radius: 999px;
+  padding: 0.45em 1em;
+  box-shadow:
+    0 0 0 1px rgba(240, 201, 121, 0.3),
+    0 0 12px -2px rgba(240, 201, 121, 0.45);
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .yrnav__link:hover {
+    color: var(--gold);
+    border-color: var(--gold);
+    transform: translateY(-2px);
+    box-shadow:
+      0 0 0 1px var(--gold),
+      0 0 18px -2px rgba(240, 201, 121, 0.75);
+  }
+}
+
+/* 时间轴主体 */
+.tl {
+  position: relative;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 4vw, 3rem);
+}
+
+.tl::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  bottom: 8px;
+  width: 1px;
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(240, 201, 121, 0.5) 8%,
+    rgba(240, 201, 121, 0.5) 92%,
+    transparent
+  );
+}
+
+.tl__row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+  scroll-margin-top: 90px; /* 年份导航跳转时避开固定顶栏 */
+}
+
+.tl__row::before {
+  content: "";
+  position: absolute;
+  left: -27px;
+  top: 10px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--gold);
+  box-shadow: 0 0 0 3px rgba(240, 201, 121, 0.16);
+}
+
+.tl__period {
+  font-family: var(--font-num);
+  font-weight: 600;
+  color: var(--gold);
+  font-size: clamp(1.4rem, 3.2vw, 2rem);
+  line-height: 1.14;
+  margin-bottom: 0.55rem;
+}
+
+/* 原图不裁:保持 1:1 */
+.tl__img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: #0d0a06;
+}
+
+.tl__list {
+  font-size: 0.86rem;
+  line-height: 1.72;
+  color: var(--muted);
+}
+
+.tl__list li {
+  list-style: none;
+  padding-left: 13px;
+  position: relative;
+  margin-bottom: 0.3rem;
+}
+
+.tl__list li::before {
+  content: "·";
+  position: absolute;
+  left: 2px;
+  color: var(--gold);
+}
+
+.tl__note {
+  margin-top: 0.7rem;
+  font-size: 0.76rem;
+  line-height: 1.62;
+  color: var(--muted);
+  opacity: 0.85;
+  border-left: 1px solid var(--line);
+  padding-left: 0.7rem;
+}
+
+@media (min-width: 901px) {
+  .tl {
+    padding-left: 0;
+  }
+
+  .tl::before {
+    left: 50%;
+  }
+
+  .tl__row {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.6rem;
+    align-items: center;
+  }
+
+  .tl__row::before {
+    left: calc(50% - 4px);
+    top: calc(50% - 4px);
+  }
+
+  /* 左右交替:偶数行图文互换 */
+  .tl__row--flip .tl__text {
+    order: 2;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* 子页长文分节(/ncore/x · /ncore/token,naslabtec 全文)              */
+/* ------------------------------------------------------------------ */
+
+.xsec {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.xsec__h {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.5rem, 3.4vw, 2.2rem);
+  color: var(--cream);
+}
+
+.xsec__p {
+  max-width: 62ch;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.pointlist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+}
+
+.pointlist__title {
+  font-family: var(--font-kicker);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--gold);
+  margin-bottom: 0.4rem;
+}
+
+.pointlist__body {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.scenarios {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.scenario__title {
+  font-family: var(--font-kicker);
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  color: var(--gold);
+  margin-top: 0.9rem;
+}
+
+.bullets {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.bullets li::before {
+  content: "◆";
+  color: var(--gold);
+  font-size: 0.55em;
+  margin-right: 0.7em;
+  vertical-align: 0.2em;
+}
+
+.steps {
+  list-style: none;
+  counter-reset: step;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.steps li {
+  counter-increment: step;
+}
+
+.steps li::before {
+  content: counter(step);
+  font-family: var(--font-num);
+  color: var(--gold);
+  font-size: 1.3em;
+  margin-right: 0.8em;
+}
+
+.advantages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.tokstats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.tokstats__label {
+  font-family: var(--font-kicker);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+
+.tokstats__value {
+  font-family: var(--font-num);
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  color: var(--gold);
+}
+
+.alloc {
+  display: flex;
+  flex-direction: column;
+}
+
+.alloc__row {
+  display: flex;
+  align-items: baseline;
+  gap: 1.2rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.alloc__pct {
+  font-family: var(--font-num);
+  font-size: 1.6rem;
+  color: var(--gold);
+  min-width: 3.2em;
+}
+
+.alloc__label {
+  color: var(--muted);
+}
+
+/* Final artwork dropped into an ImageSlot. */
+.slot-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  display: block;
+}
+
+.phase__img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  margin: 0.9rem 0 1.1rem;
+  display: block;
+}
+
+/* ---- Roadmap 时间线强化(2026-07-17 用户要求) ----
+   方案 = 版式层做大年份,不进图:年份用定稿数字字体 Cormorant 放大压在卡图上方,
+   金色 + 细分隔线,五张统一;图内不烙年份(避免模板感 + AI 错字风险 + 改期要重画)。 */
+.phase__period {
+  font-family: var(--font-num);
+  font-size: clamp(2.1rem, 5vw, 3.2rem);
+  font-weight: 600;
+  color: var(--gold);
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6em;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.45em;
+}
+
+/* ------------------------------------------------------------------ */
+/* 首页地球背景层 + 方案 B hero 版式(2026-07-19 用户定稿)             */
+/* 核心:地球和文字划分互不侵犯的区域 → 首屏不需要遮罩。               */
+/* ------------------------------------------------------------------ */
+
+/* 三种实现共用同一个定位层:固定在视口,内容在其上滚动 */
+.globe-layer {
+  position: fixed;
+  inset: 0;
+  /* z-index 必须是 0 而非 -1:-1 会被 .shell 的不透明黑底盖住(实测不可见)。
+     内容通过 .block 的 position:relative + z-index:1 显式抬到地球之上 —— 因为
+     定位元素(本层)默认会盖住静态兄弟元素,不抬内容就会遮住 hero 文字。 */
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.globe-layer canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* 地球舞台 —— 方案 B:桌面在右(文字在左半屏),手机在上(文字在下)。
+   两者不重叠 → 首屏不需要遮罩。transform / opacity 由 JS 按滚动写入。 */
+.globe-layer__stage {
+  position: absolute;
+  left: 72%;
+  top: 50%;
+  /* 尺寸必须跟着素材的【内容外缘】走,不能只看球体。
+     旧素材内容只到半径 75%(球体即全部),780px 舞台的可见内容仅 585px;
+     现素材(特效2)带环绕光带,内容一直铺到半径 100%,同样 780px 舞台
+     实测光带顶部越过导航底 25px、右侧只剩 36px、左侧距文字仅 7px —— 三条都违规。
+     由可用空间倒推:顶部避开导航是最紧的约束,允许最大 642px。
+     760 → 640px。球体直径随之 585 → 449px,视觉上小了,但整体占位其实相当,
+     因为光带把画面撑满了(2026-07-19 用户提出「电脑版本是不是要小一些」)。
+     ⚠️ 54vw 封顶不能去掉:中心在 72%,右溢条件是 72% + 宽/2 > 100%,
+     即视口 <1143px 时 640px 就会出屏(2026-07-20 用户截图实证,821~900px
+     区间地球断点(820)还没切手机版但已经装不下桌面版)。
+     54vw ⇒ 右缘恰到 99vw,任何宽度都不溢出;≥1186px 时 54vw>640 不起作用。
+     2026-07-21 用户:「放大地球,留白有点多(电脑版)」、追问「是不是要放大」——
+     第二轮再放大:导航是毛玻璃(rgba .7 + blur18),最外圈光带滑进导航后面
+     会被虚化盖住,不再把「光带避开导航」当硬约束;真正要避开的是亮球体
+     (占舞台 70%),中心 50svh 时球体顶 = 50svh − 0.35宽,任何档位都离导航很远。
+     宽 ⇒ 100svh − 60px(光带可入导航区 ≤48px),像素上限 780 → 860。
+     实测:1470×775→715,1600×900→840,≥1130 高度→860 封顶,
+     1280×800→691(54vw 接管);窄屏 54vw 防右溢逻辑原样保留。 */
+  width: min(calc(100svh - 60px), 860px, 54vw);
+  aspect-ratio: 1 / 1;
+  transform: translate(-50%, -50%);
+  will-change: transform, opacity;
+}
+
+/* 视频铺满舞台(乒乓循环单视频,无需叠放/淡化,见 HeroGlobeLayer 注释) */
+.globe-layer__vid {
+  position: absolute;
+  inset: 0;
+}
+
+.globe-layer__stage video,
+.globe-layer__stage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  /* 遮罩必须跟着素材走 —— 换素材就要重量一次。
+     现素材(自转循环-特效2)带【环绕光带】,横向甩到画面左右边缘,
+     实测内容外缘到半径 100%(球体本身边缘只在 ~70%)。
+     旧的 78%→92% 是为上一版无光带素材定的,套到这里会把整圈光带切掉。
+     改为 86%→100%:光带完整保留,只在最外缘做羽化,
+     把视频画面自身的硬切软化成渐隐。
+     四角实测 RGB 3~6,与页面底色 #070503 几乎一致,不会露出方块。
+     ⚠️ closest-side 不能去掉:默认按【到角落】算 100%,百分比会和实测半径对不上。 */
+  -webkit-mask-image: radial-gradient(circle closest-side at 50% 50%, #000 86%, transparent 100%);
+  mask-image: radial-gradient(circle closest-side at 50% 50%, #000 86%, transparent 100%);
+}
+
+@media (max-width: 820px) {
+  /* 顶栏在手机降回小一号(用户 2026-07-19:「电脑版本大一号,手机版本小一号」)。 */
+  :root {
+    --nav-h: 64px;
+    --nav-mark: 36px;
+    --nav-word: 18px;
+    --nav-link: 0.875rem;
+    --nav-pill: 36px;
+    --nav-lang: 0.68rem;
+  }
+
+  /* 地球【不许碰任何东西】(用户 2026-07-19 硬要求):
+     上不碰导航条、下不碰文字、左右不出屏。
+     所以尺寸不能再按 vmin 拍脑袋,改成由【可用竖直带】反推:
+       可用带 = 文字顶(404) − 导航底(64) = 340px,上下各留 16px 安全边
+       → 球体可见直径上限 308px。
+     注意元素宽 ≠ 球体可见宽:遮罩在 78% 处收边,可见直径 ≈ 元素宽 × 0.78,
+     故元素宽取 308 / 0.78 ≈ 394 → 收到 380px 更稳,并按视口宽封顶防溢出。
+     居中靠拢由 left:50% 保证;top 由下面的 --globe-top 精确定位。 */
+  .globe-layer__stage {
+    left: 50%;
+    top: 28%;
+    width: min(96vw, 380px);
+  }
+
+  /* 按钮换行的真正原因:.btn 字距 0.22em + 内边距 2.1em,
+     两颗 pill 合计约 369px > 手机内容宽 350px,于是堆成两排(占 98px)。
+     手机上收紧字距与内边距让它们并排(约 46px),省下约 52px。
+     只在 ≤820px 生效,电脑版视觉不变。 */
+  .hero-b .btn {
+    letter-spacing: 0.14em;
+    padding: 0.8em 1.35em;
+    font-size: 0.72rem;
+  }
+
+  .hero-b .cta-row {
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+  }
+}
+
+/* ---- 方案 B:左右分区 ---- */
+.hero-b {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 45fr 55fr;
+  align-items: center;
+  gap: clamp(20px, 4vw, 48px);
+  min-height: clamp(520px, 78svh, 760px);
+}
+
+/* 电脑版首屏排版(2026-07-21 用户定稿:「上方不该留白,整段拉高,
+   CONTACT US / EXPLORE PRODUCTS 必须在 first view」)。
+   矮视口(~730px,用户实机截图)上 96px 顶部 padding + 居中偏移
+   把按钮挤出折叠线 → ① hero 顶部 padding 收到 2rem;
+   ② hero 高度 = 首屏可用高度(100svh − 导航 − 上下 padding),
+   内容在其中垂直居中:矮屏几乎顶满零留白,高屏留白对称、按钮必在屏内。 */
+@media (min-width: 821px) {
+  #hero.block {
+    padding-top: 2rem;
+  }
+
+  .hero-b {
+    min-height: calc(100svh - var(--nav-h) - 2rem - clamp(3rem, 8vw, 6rem));
+  }
+}
+
+.hero-b__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+/* 右栏是留给地球的空区,不放内容;手机端取消 */
+.hero-b__stage {
+  min-height: 1px;
+}
+
+@media (max-width: 820px) {
+  /* 手机:左右放不下 → 地球在上、文字在下(与 3D 关键帧的手机版一致) */
+  .hero-b {
+    grid-template-columns: 1fr;
+    /* 首屏必须完整露出 CONTACT US / EXPLORE PRODUCTS 两颗 pill
+       (用户 2026-07-19:「不然第一 view 很不好看」)。
+       原 min-height:92svh + 40fr/60fr 实测在 390×844 上把 hero 撑到 846px,
+       而导航(64)+ shell 内边距(64)之后只剩 732px,按钮组底部落到 958px,
+       整排掉到折叠线以下 114px。
+       改为【地球区定高 + 文字区按内容】,不再用比例分配:
+         280(地球) + 12(gap) + 425(文字) = 717px,起点 112 → 底 829 < 844 ✓ */
+    grid-template-rows: 280px auto;
+    min-height: auto;
+    gap: 12px;
+  }
+
+  .hero-b__text {
+    gap: 0.85rem; /* 17.6 → 13.6px,四段共省约 12px */
+  }
+
+  .hero-b__stage {
+    order: -1; /* 上方空区留给地球 */
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* 内容出现动效(2026-07-19 用户定稿:纯淡入 · 0.65s · 每次都播)         */
+/* 元素由 scroll/useReveal.ts 按选择器扫描后打上 data-reveal。          */
+/* 首屏(#hero)不参与 —— 一进站就该是完整画面。                        */
+/* ------------------------------------------------------------------ */
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(28px);
+  /* 只动 opacity + transform:两者都走合成层,不引起重排。
+     ⚠️ 绝不要用 clip-path 做初始态 —— 它把元素裁成零可见面积后,
+     IntersectionObserver 会判定元素不可见而永不触发,内容永久隐藏(已踩过)。 */
+  transition:
+    opacity 0.8s cubic-bezier(0.22, 0.61, 0.36, 1) var(--rv-d, 0ms),
+    transform 0.8s cubic-bezier(0.22, 0.61, 0.36, 1) var(--rv-d, 0ms);
+  will-change: opacity, transform;
+}
+
+[data-reveal].is-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* 无障碍:系统开启「减弱动态效果」时全部直出(useReveal.ts 里也会直接跳过) */
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* 首屏标题金色流光(2026-07-19 用户定稿:6 秒一轮)                     */
+/* 全站【只用在首页 hero 大标题】一处 —— 到处用会腻,也会削弱首屏地位。 */
+/* 原理:金色渐变当背景 + background-clip:text,只平移 background-position。 */
+/* 不改变几何、不触发重排,开销极低。                                    */
+/* 参考站 demo-rm 用 2 秒一轮,偏抢眼;放慢到 6 秒像光扫过金属,更贵气。  */
+/* ------------------------------------------------------------------ */
+
+.shimmer {
+  background: linear-gradient(
+    100deg,
+    #8a6a38 0%,
+    #c9a25e 22%,
+    #f0c979 38%,
+    #fff3d4 46%,
+    #f0c979 54%,
+    #c9a25e 70%,
+    #8a6a38 100%
+  );
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: shimmer-sweep 6s linear infinite;
+}
+
+@keyframes shimmer-sweep {
+  from {
+    background-position: 150% 0;
+  }
+  to {
+    background-position: -150% 0;
+  }
+}
+
+/* 无障碍:关闭流光,回落到纯金色实心字(不能留 transparent,否则字会消失) */
+@media (prefers-reduced-motion: reduce) {
+  .shimmer {
+    animation: none;
+    background: none;
+    -webkit-text-fill-color: var(--gold);
+    color: var(--gold);
+  }
+}
+
+/* ================================================================== */
+/* Hover 细节 + 页面转场(2026-07-20 用户逐项定稿)                     */
+/* 五项共用一套语言:【金色从一侧渐进展开】,而不是各说各话。          */
+/*   按钮 B3 金色推入 · 卡片 C3 顶部金线展开 · 图片 I8 金框+加浓      */
+/*   导航 N2 下划线展开 · 转场 淡入+上移                              */
+/* ================================================================== */
+
+/* ⚠️ 全部 hover 效果只在【真正有鼠标的设备】生效。
+   触屏上 :hover 会在点击后【粘住】—— 点一下卡片，金线会一直亮着直到点别处，
+   看起来像卡死。@media (hover:hover) and (pointer:fine) 把触屏整个排除掉。
+   触屏的等价反馈放在下面的 :active 区块(按下即时响应、松手复原)。 */
+@media (hover: hover) and (pointer: fine) {
+  /* ---- B3:金色从左推入 ---- */
+  .btn {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn__t {
+    position: relative;
+    z-index: 1; /* 压在 ::before 填充之上 */
+    transition: color 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  .btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--gold);
+    transform: translateX(-101%);
+    transition: transform 0.38s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  .btn:hover::before {
+    transform: none;
+  }
+
+  .btn:hover .btn__t {
+    color: #0a0805;
+  }
+
+  /* 覆盖旧的整块填金:改由 ::before 承担,底色保持不变 */
+  .btn:hover {
+    background: rgba(7, 5, 3, 0.78);
+    color: var(--gold);
+    border-color: var(--gold);
+  }
+
+  /* 实心主 CTA(金底):反向扫入 —— 黑色从左推到右,文字翻金
+     (2026-07-20 用户定稿:与 outline 版的金色扫入互为镜像)。 */
+  .btn--solid::before {
+    background: #0a0805;
+  }
+
+  .btn--solid:hover {
+    background: var(--gold); /* 底保持金,黑色由 ::before 盖上来 */
+    border-color: var(--gold); /* 黑填充外留一圈金描边 */
+  }
+
+  .btn--solid:hover .btn__t {
+    color: var(--gold);
+  }
+
+  /* ---- C3:卡片顶部金线展开 ---- */
+  /* 站上原本【完全没有卡片 hover 反馈】,这是补上的第一层交互。 */
+  .ccard,
+  .cpoint,
+  .card {
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  .ccard::after,
+  .cpoint::after,
+  .card::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    transform: scaleX(0);
+    transition: transform 0.45s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  .ccard:hover::after,
+  .cpoint:hover::after,
+  .card:hover::after {
+    transform: scaleX(1);
+  }
+
+  .ccard:hover,
+  .cpoint:hover,
+  .card:hover {
+    border-color: rgba(240, 201, 121, 0.4);
+  }
+
+  /* ---- 图片 hover:只留金框(2026-07-20 用户定稿:拿掉 saturate 加浓)---- */
+  /* ⚠️ 用 outline + 负偏移,不用 inset box-shadow:
+     图片是裸 <img>(无外层容器),inset 阴影在 img 上的绘制层级各浏览器不一致;
+     outline 画在元素内侧且【不占布局】,跨浏览器稳定。 */
+  .slot-img,
+  .msec__img,
+  .full__img,
+  .ccard__img,
+  .asym__img {
+    outline: 2px solid transparent;
+    outline-offset: -2px;
+    /* ⚠️ transition 是单一属性,后写的会【整条覆盖】前面的。
+       若这里只写 outline-color,就会把 [data-reveal] 的
+       opacity/transform 过渡冲掉 —— 图片进场会变成硬闪(实测踩过)。
+       故必须三个属性写在一起,进场延迟仍走 --rv-d,hover 不带延迟。 */
+    transition:
+      opacity 0.8s cubic-bezier(0.22, 0.61, 0.36, 1) var(--rv-d, 0ms),
+      transform 0.8s cubic-bezier(0.22, 0.61, 0.36, 1) var(--rv-d, 0ms),
+      outline-color 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  .slot-img:hover,
+  .msec__img:hover,
+  .full__img:hover,
+  .ccard__img:hover,
+  .asym__img:hover {
+    outline-color: rgba(240, 201, 121, 0.85);
+  }
+
+  /* ---- N2:导航下划线展开 ---- */
+  .nav__link,
+  .nav__link--group {
+    position: relative;
+  }
+
+  .nav__link::after,
+  .nav__link--group::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 1px;
+    background: var(--gold);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  .nav__link:hover::after,
+  .nav__item--group:hover .nav__link--group::after,
+  .nav__link.active::after {
+    transform: scaleX(1);
+  }
+}
+
+/* ================================================================== */
+/* 触屏点击反馈(2026-07-20 补)                                        */
+/* 手机没有 hover,上面那套四项在触屏上【完全不生效】。               */
+/* 这里给等价的按下反馈:时长压到 120ms —— 点击是瞬间动作,            */
+/* 用 hover 那种 380~500ms 会让人觉得"按了没反应"。                   */
+/* ================================================================== */
+
+@media (hover: none) {
+  .btn:active {
+    transform: scale(0.97);
+    border-color: var(--gold);
+    transition: transform 0.12s ease, border-color 0.12s ease;
+  }
+
+  .btn--solid:active {
+    filter: brightness(0.92);
+  }
+
+  .ccard:active,
+  .cpoint:active,
+  .card:active {
+    border-color: rgba(240, 201, 121, 0.55);
+    background: rgba(240, 201, 121, 0.05);
+    transition: border-color 0.12s ease, background 0.12s ease;
+  }
+
+  /* 图片:按下时金框,和桌面同一套语言,只是更快
+     (2026-07-20 用户拿掉桌面 saturate 后,触屏镜像同步只留金框) */
+  .slot-img:active,
+  .msec__img:active,
+  .full__img:active,
+  .ccard__img:active,
+  .asym__img:active {
+    outline-color: rgba(240, 201, 121, 0.85);
+    transition: outline-color 0.12s ease;
+  }
+
+  .nav__link:active,
+  .nav__sublink:active {
+    color: var(--gold);
+  }
+
+  .nav__social:active,
+  .nav__login:active {
+    border-color: var(--gold);
+    transform: scale(0.94);
+    transition: transform 0.12s ease, border-color 0.12s ease;
+  }
+}
+
+/* ---- 页面转场:淡入 + 上移 ---- */
+/* 由 Layout 在路由变化时给 .shell__main 挂 .page-in,动画结束即移除。 */
+.page-in {
+  animation: page-enter 0.42s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn::before,
+  .ccard::after,
+  .cpoint::after,
+  .card::after,
+  .nav__link::after,
+  .nav__link--group::after {
+    transition: none !important;
+  }
+  .page-in {
+    animation: none !important;
+  }
+}
+
+/* ---- 滚动三件套(2026-07-20 用户选定 M1+M2+M4)---- */
+/* 状态类由 ScrollUx.tsx 驱动。M1 导航隐藏与 M4 进度条仍只在手机端;
+   M2 回到顶部 2026-07-21 起改为全端 —— 用户:「电脑版本没有一键 back to top」。 */
+.scroll-prog {
+  display: none;
+}
+
+/* M2 回到顶部:滚过两屏后右下角浮出(条件由 ScrollUx 判定) */
+.top-btn {
+  display: grid;
+  place-items: center;
+  position: fixed;
+  right: 16px;
+  bottom: 20px;
+  width: 46px;
+  height: 46px;
+  z-index: 48; /* 压在内容上,让位给全屏菜单(49)和顶栏(50) */
+  border-radius: 999px;
+  border: 1px solid rgba(240, 201, 121, 0.55);
+  background: rgba(7, 5, 3, 0.82);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  color: var(--gold);
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(14px);
+  pointer-events: none;
+  transition:
+    opacity 0.4s cubic-bezier(0.22, 0.61, 0.36, 1),
+    transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1),
+    background 0.25s ease,
+    color 0.25s ease;
+}
+.top-btn svg {
+  width: 18px;
+  height: 18px;
+}
+.top-btn--show {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+.top-btn:hover,
+.top-btn:active {
+  background: var(--gold);
+  color: #070503;
+}
+
+/* 桌面端离边远一点,别贴着窗沿 */
+@media (min-width: 901px) {
+  .top-btn {
+    right: 28px;
+    bottom: 28px;
+    width: 52px;
+    height: 52px;
+  }
+  .top-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  /* M1 导航滚动隐藏。⚠️ transform 会把 header 里 fixed 的全屏菜单
+     困成 containing block,所以菜单展开(body.nav-open)时强制归位 ——
+     ScrollUx 在 JS 侧也同时停用了 nav-hid 的切换,双保险。 */
+  .nav {
+    transition: transform 0.35s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  body.nav-hid .nav {
+    transform: translateY(-100%);
+  }
+  body.nav-open .nav {
+    transform: none;
+  }
+
+  /* M4 阅读进度条:顶栏下沿的金线,跟随 M1 一起收起/回来 */
+  .scroll-prog {
+    display: block;
+    position: fixed;
+    top: var(--nav-h);
+    left: 0;
+    width: 0;
+    height: 2px;
+    z-index: 51;
+    background: linear-gradient(90deg, #b8933f, var(--gold));
+    box-shadow: 0 0 8px rgba(240, 201, 121, 0.55);
+    transition: transform 0.35s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  body.nav-hid .scroll-prog {
+    transform: translateY(calc(-1 * var(--nav-h)));
+  }
+
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav,
+  .scroll-prog,
+  .top-btn {
+    transition: none !important;
+  }
+}

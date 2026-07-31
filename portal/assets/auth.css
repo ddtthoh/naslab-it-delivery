@@ -1,0 +1,591 @@
+/* ============================================================
+   NASLAB Member Portal — Auth screens
+   官网(naslabtec.com 改版)同源设计 token。IT 对接请先读 SPEC.md。
+   字段与线上 member.naslabtec.com 完全一致,一个不多一个不少。
+   ============================================================ */
+
+:root {
+  --bg: #070503;          /* 纯 onyx 黑 —— 页面到底必须是它 */
+  --cream: #efe7d8;
+  --gold: #f0c979;
+  --gold-deep: #d8a94f;
+  --muted: rgba(239, 231, 216, 0.68);
+  --dim: rgba(239, 231, 216, 0.42);
+  --line: rgba(240, 201, 121, 0.18);
+  --line-strong: rgba(240, 201, 121, 0.34);
+  --surface: rgba(240, 201, 121, 0.04);
+  --danger: #e0876c;
+
+  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-body: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --gutter: clamp(1.35rem, 5vw, 3.25rem);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { background: var(--bg); overscroll-behavior: none; }
+
+body {
+  background: var(--bg);
+  color: var(--cream);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100dvh;
+}
+
+img { max-width: 100%; display: block; }
+
+/* ---------- 布局:左品牌幕 / 右表单 ---------- */
+.auth {
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 100dvh;
+}
+
+@media (min-width: 901px) {
+  .auth { grid-template-columns: 46fr 54fr; }
+}
+
+/* ---------- 左:品牌幕 ---------- */
+.auth__aside {
+  position: relative;
+  display: none;
+  overflow: hidden;
+  border-right: 1px solid var(--line);
+  padding: 2.6rem var(--gutter);
+  flex-direction: column;
+  justify-content: space-between;
+  isolation: isolate;
+}
+
+/* ⚠️ 左幕必须**钉死在一屏高**,不能跟着表单长。
+   .auth 是 grid,行高 = 两列里较高者。signup 比 login 多四个字段,
+   左幕就被撑成 656×1043(宽高比 0.6286),而 login/forgot/reset 都是 662×900(0.736)。
+   素材是 0.7467,object-fit:cover 于是左右各切 7.91% —— 青铜牌只有 2.76% 余量,直接被切掉。
+   sticky + 100dvh 之后,左幕宽高比恒等于 0.46·视口宽 / 视口高,跟表单长短彻底脱钩,
+   顺带表单滚动时品牌幕留在原地。 */
+@media (min-width: 901px) {
+  .auth__aside {
+    display: flex;
+    position: sticky;
+    top: 0;
+    height: 100dvh;
+    align-self: start;
+  }
+}
+
+/* 2026-07-22 左幕由「锁组装动画」改成**奖牌链静图**(用户定案,n1)。
+   ⚠️ 视频整条移除了,不要再加回来 —— 锁那条 k=0.70 是把 16:9 缩小再补边做的,
+   `fillborders=smear` 复制的内容最右一列本身接近纯黑,右边 244px(15%)被抹成一条死黑带
+   (整列亮度 <8/255 的像素占 100%),在版位里就是文字栏左边那块「黑空白」。
+   奖牌图是**原生 3:4 满幅**,不缩不补边,左右整列纯黑 0px —— 这个病由构造上就不存在。 */
+/* 左幕是一条视频:进页面播一次「奖牌链逐枚落位」,播完停在成品帧(= medals-still)。
+   不循环。视频末帧就是定稿图,所以**不需要**播完换图 —— 那套「盖高清静图」的做法
+   在锁时代就废弃了(两源纹理不同,切换必「咔」一声),不要加回来。 */
+.auth__aside-media,
+.auth__aside-still {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* 静图只做降级:自动播放被拦 / prefers-reduced-motion。平时藏在视频下面。 */
+.auth__aside-still {
+  opacity: 0;
+  z-index: -1;
+}
+
+.auth__aside.is-noautoplay .auth__aside-still { opacity: 1; }
+.auth__aside.is-noautoplay .auth__aside-media { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .auth__aside-media { display: none; }
+  .auth__aside-still { opacity: 1; }
+}
+
+/* 2026-07-22 重调:上一版是从头压到尾(顶 62% / 中 40% / 底 94% 黑),
+   锁正好落在 52%~70% 黑的区间里 —— 门户上这把锁只有官网亮度的三到四成,
+   用户一眼就看出来「比 website 暗」。官网那个版位根本没有任何压暗层。
+   现在只在**有文字的地方**压:顶部一小条给 logo 留对比,底部给引文留可读性,
+   中间锁所在的 30%~66% 完全不压,亮度与官网一致。
+   金色 radial 也拿掉了 —— 官网没有,留着就是两边不一样。 */
+.auth__aside::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  /* 压暗层「按像素锚定两端」,不用百分比 ——
+     百分比会随窗口高度漂移:1440×900 下面板变矮、构图上移,引文就压到反光上了。
+     现在上下各是一条固定高度的 scrim,中间恒为全透明:
+       · 顶部 200px —— 只为 logo 留对比
+       · 底部 340px —— 刚好盖住 kicker + 引文 + cite 那一块(实测约 230px + 内边距)
+     锁永远落在中间的透明段里,亮度 = 原图,和官网一致。 */
+  background:
+    linear-gradient(
+      180deg,
+      rgba(7, 5, 3, 0.62) 0,
+      rgba(7, 5, 3, 0.12) 90px,
+      rgba(7, 5, 3, 0) 200px
+    ),
+    linear-gradient(
+      0deg,
+      rgba(7, 5, 3, 0.95) 0,
+      rgba(7, 5, 3, 0.88) 80px,
+      rgba(7, 5, 3, 0.62) 190px,
+      rgba(7, 5, 3, 0.22) 280px,
+      rgba(7, 5, 3, 0) 340px
+    );
+}
+
+.auth__quote {
+  max-width: 30ch;
+}
+
+.auth__quote p {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(1.9rem, 2.5vw, 2.7rem);
+  line-height: 1.24;
+  letter-spacing: 0.01em;
+}
+
+.auth__quote em { color: var(--gold); font-style: italic; }
+
+.auth__quote cite {
+  display: block;
+  margin-top: 1.4rem;
+  font-style: normal;
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  color: var(--dim);
+}
+
+/* ---------- 通用小件 ---------- */
+.kicker {
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  text-decoration: none;
+}
+.brand img.brand__mark { width: 34px; height: 34px; }
+.brand img.brand__word { height: 21px; width: auto; }
+
+/* ---------- 右:表单 ---------- */
+.auth__main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.auth__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem var(--gutter);
+  border-bottom: 1px solid var(--line);
+}
+
+/* 手机上左幕不显示,顶栏就是唯一的品牌落点 */
+@media (min-width: 901px) { .auth__top .brand { display: none; } }
+
+.auth__back {
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--dim);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.auth__back:hover { color: var(--gold); }
+@media (max-width: 900px) { .auth__back { display: none; } }
+
+.auth__body {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(2.2rem, 6vw, 4rem) var(--gutter);
+}
+
+.auth__card { width: 100%; max-width: 27rem; }
+
+.auth__head { margin-bottom: 2.1rem; }
+
+.auth__head h1 {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(2.1rem, 4.4vw, 2.9rem);
+  line-height: 1.15;
+  margin: 0.65rem 0 0.55rem;
+}
+
+.auth__head p { color: var(--muted); font-size: 0.9rem; }
+
+/* ---------- 表单字段 ---------- */
+.field { margin-bottom: 1.25rem; }
+
+.field__label {
+  display: block;
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.55rem;
+}
+
+.field__label .opt {
+  color: var(--dim);
+  letter-spacing: 0.1em;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.field__wrap { position: relative; display: flex; align-items: center; }
+
+.input {
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--cream);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 0.85rem 1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+.input::placeholder { color: rgba(239, 231, 216, 0.28); }
+.input:hover { border-color: var(--line-strong); }
+.input:focus {
+  outline: none;
+  border-color: var(--gold);
+  background: rgba(240, 201, 121, 0.07);
+  box-shadow: 0 0 0 3px rgba(240, 201, 121, 0.12);
+}
+.input[aria-invalid="true"] { border-color: var(--danger); }
+
+/* 密码显隐钮 */
+.field__reveal {
+  position: absolute;
+  right: 0.45rem;
+  display: grid;
+  place-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  background: none;
+  border: 0;
+  color: var(--dim);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: color 0.2s ease;
+}
+.field__reveal:hover { color: var(--gold); }
+.field__reveal svg { width: 18px; height: 18px; }
+.field__wrap:has(.field__reveal) .input { padding-right: 3rem; }
+
+.field__error {
+  display: none;
+  margin-top: 0.45rem;
+  font-size: 0.76rem;
+  color: var(--danger);
+}
+.field__error.is-on { display: block; }
+
+/* 密码强度条 —— 纯前端提示,不改变后端规则(最少 6 位) */
+/* 离输入框远一点、条子粗一点 —— 贴太近时这排 2px 短线会被看成
+   「输入框的下边框断掉了」(2026-07-22 预览时发现)。 */
+.pwmeter { display: flex; gap: 5px; margin-top: 0.85rem; }
+.pwmeter i {
+  flex: 1;
+  height: 3px;
+  background: var(--line);
+  border-radius: 2px;
+  transition: background-color 0.25s ease;
+}
+.pwmeter[data-level="1"] i:nth-child(-n + 1),
+.pwmeter[data-level="2"] i:nth-child(-n + 2),
+.pwmeter[data-level="3"] i:nth-child(-n + 3),
+.pwmeter[data-level="4"] i:nth-child(-n + 4) { background: var(--gold); }
+.pwmeter__note {
+  margin-top: 0.4rem;
+  font-size: 0.72rem;
+  color: var(--dim);
+}
+
+/* ---------- Captcha ---------- */
+.captcha { display: grid; grid-template-columns: 1fr auto; gap: 0.7rem; align-items: stretch; }
+
+.captcha__img {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.captcha__img img {
+  height: 46px;
+  width: auto;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: #0d0a06;
+}
+
+.captcha__refresh {
+  display: grid;
+  place-items: center;
+  width: 2.3rem;
+  height: 2.3rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: none;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease, transform 0.35s ease;
+}
+.captcha__refresh:hover { color: var(--gold); border-color: var(--line-strong); }
+.captcha__refresh.is-spinning { transform: rotate(360deg); }
+.captcha__refresh svg { width: 15px; height: 15px; }
+
+/* ---------- 按钮 ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: 100%;
+  font-family: var(--font-body);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 999px;
+  padding: 1.05em 2.1em;
+  /* 主 CTA:实心金 + 深色字(官网 .btn--solid 同款) */
+  background: linear-gradient(160deg, #f4d492 0%, var(--gold) 45%, var(--gold-deep) 100%);
+  border: 1px solid rgba(255, 244, 214, 0.55);
+  color: #171310;
+  box-shadow: inset 0 1px 0 rgba(255, 250, 232, 0.65), 0 4px 18px rgba(216, 169, 79, 0.3);
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease;
+}
+
+/* 官网定稿的 hover:黑色从左扫入 + 文字翻金 */
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #0a0805;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.34s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn > span { position: relative; z-index: 1; }
+.btn:hover::before { transform: scaleX(1); }
+.btn:hover { color: var(--gold); }
+.btn:disabled { opacity: 0.55; cursor: not-allowed; }
+.btn:disabled::before { transform: scaleX(0); }
+
+.btn--ghost {
+  background: rgba(7, 5, 3, 0.78);
+  border-color: rgba(240, 201, 121, 0.65);
+  color: var(--gold);
+  box-shadow: none;
+}
+.btn--ghost::before { background: var(--gold); }
+.btn--ghost:hover { color: #0a0805; }
+
+/* ---------- 辅助行 ---------- */
+.rowlinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: -0.35rem 0 1.55rem;
+}
+
+.link {
+  font-size: 0.8rem;
+  color: var(--gold);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+.link:hover { border-bottom-color: var(--gold); }
+
+.check {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  cursor: pointer;
+  user-select: none;
+}
+.check input {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: 1px solid var(--line-strong);
+  border-radius: 3px;
+  background: var(--surface);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.check input:checked { background: var(--gold); border-color: var(--gold); }
+.check input:checked::after {
+  content: "";
+  width: 8px;
+  height: 4px;
+  border-left: 2px solid #171310;
+  border-bottom: 2px solid #171310;
+  transform: rotate(-45deg) translate(1px, -1px);
+}
+
+.auth__alt {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.legal {
+  margin-top: 1.15rem;
+  font-size: 0.72rem;
+  line-height: 1.65;
+  color: var(--dim);
+}
+.legal a { color: var(--muted); text-decoration: underline; text-underline-offset: 2px; }
+.legal a:hover { color: var(--gold); }
+
+/* ---------- 语言切换 ---------- */
+.langwrap { position: relative; }
+
+.lang {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  height: 36px;
+  padding: 0 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: none;
+  color: var(--muted);
+  font: 600 0.7rem/1 var(--font-body);
+  letter-spacing: 0.14em;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+.lang:hover { color: var(--gold); border-color: var(--line-strong); }
+.lang svg { width: 9px; height: 6px; }
+
+.langmenu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  z-index: 30;
+  min-width: 12.5rem;
+  max-height: 20rem;
+  overflow-y: auto;
+  list-style: none;
+  background: rgba(11, 8, 5, 0.97);
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.4rem;
+  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.6);
+}
+.langmenu[hidden] { display: none; }
+.langmenu a {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.65rem;
+  border-radius: 5px;
+  font-size: 0.82rem;
+  color: var(--muted);
+  text-decoration: none;
+}
+.langmenu a:hover { background: var(--surface); color: var(--cream); }
+.langmenu a.is-current { color: var(--gold); }
+
+/* ---------- 成功态(忘记密码提交后) ---------- */
+.done { display: none; }
+.done.is-on { display: block; }
+.done__mark {
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  color: var(--gold);
+  margin-bottom: 1.2rem;
+}
+.done__mark svg { width: 20px; height: 20px; }
+
+/* ---------- RTL(ar / fa)---------- */
+[dir="rtl"] .auth__aside { border-right: 0; border-left: 1px solid var(--line); }
+[dir="rtl"] .field__reveal { right: auto; left: 0.45rem; }
+[dir="rtl"] .field__wrap:has(.field__reveal) .input { padding-right: 1rem; padding-left: 3rem; }
+[dir="rtl"] .langmenu { right: auto; left: 0; }
+[dir="rtl"] .btn::before { transform-origin: right; }
+
+/* ---------- 无障碍 / 降级 ---------- */
+@media (prefers-reduced-motion: reduce) {
+  * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+/* ---------- i18n 字体栈(2026-07-23) ----------
+   Cormorant Garamond / Plus Jakarta Sans 只有拉丁字形;
+   CJK/泰文/天城文/阿拉伯字母走系统字体,不额外拖字体文件。
+   衬线标题在各语言里配对应的本地衬线,气质尽量贴近。 */
+html[data-lang="cn"] { --font-display:"Cormorant Garamond","Songti SC","STSong","Noto Serif SC",serif;
+                       --font-body:"Plus Jakarta Sans","PingFang SC","Microsoft YaHei",sans-serif; }
+html[data-lang="ja"] { --font-display:"Cormorant Garamond","Hiragino Mincho ProN","Yu Mincho",serif;
+                       --font-body:"Plus Jakarta Sans","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif; }
+html[data-lang="ko"] { --font-display:"Cormorant Garamond","AppleMyungjo","Nanum Myeongjo",serif;
+                       --font-body:"Plus Jakarta Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
+html[data-lang="th"] { --font-display:"Cormorant Garamond","Thonburi",serif;
+                       --font-body:"Plus Jakarta Sans","Thonburi","Leelawadee UI",sans-serif; }
+html[data-lang="hi"] { --font-display:"Cormorant Garamond","Kohinoor Devanagari","Nirmala UI",serif;
+                       --font-body:"Plus Jakarta Sans","Kohinoor Devanagari","Nirmala UI",sans-serif; }
+html[data-lang="ar"], html[data-lang="fa"] {
+  --font-display:"Cormorant Garamond","Geeza Pro","Amiri",serif;
+  --font-body:"Plus Jakarta Sans","Geeza Pro","Segoe UI",Tahoma,sans-serif;
+}
+/* RTL 语言字距归零 —— 阿拉伯字母是连写的,letter-spacing 会把连笔拆断 */
+html[dir="rtl"] .kicker, html[dir="rtl"] .btn, html[dir="rtl"] .field__label,
+html[dir="rtl"] .auth__back, html[dir="rtl"] .auth__quote cite { letter-spacing: 0; }

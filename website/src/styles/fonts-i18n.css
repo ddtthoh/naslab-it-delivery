@@ -1,0 +1,187 @@
+/* ==================================================================
+   多语言字体层(2026-07-22)
+   ------------------------------------------------------------------
+   站点字体由三个 CSS 变量组织(global.css 第 11–17 行),换字体只需覆盖
+   变量,**不动任何版式规则**。这里按 <html lang> 逐语种覆盖。
+
+   拉丁 6 语种(vi id tr es it de)不在此列 —— 已实测 Cormorant Garamond
+   与 Plus Jakarta Sans 对越南语 104 字、土耳其语 14 字等全部零缺字,
+   沿用站内原字体即可,一个字节都不用多下。
+
+   全部字体 SIL OFL,允许修改再分发 → 子集化合法,授权原文存 i18n/_fonts/OFL-*.txt。
+   子集只含各语种译文真正用到的字:原始合计 85MB → 1.9MB。
+   改文案后要重跑 `python3 i18n/subset-font.py <语种> <字体> <输出前缀>`。
+   ================================================================== */
+
+/* ---- @font-face ---------------------------------------------------
+   font-display: swap —— 子集分块是流式到达的,swap 避免首屏空白;
+   这也是之前实测「字形抖动」那个坑的解法之一。 */
+
+@font-face {
+  font-family: "NL zh display";
+  src: url("/font/zh-display-jianren.woff2") format("woff2"),
+       url("/font/zh-display-jianren.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "NL zh body";
+  src: url("/font/zh-body-notosanssc.woff2") format("woff2"),
+       url("/font/zh-body-notosanssc.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "NL ja display";
+  src: url("/font/ja-display-notoserifjp.woff2") format("woff2"),
+       url("/font/ja-display-notoserifjp.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "NL ja body";
+  src: url("/font/ja-body-notosansjp.woff2") format("woff2"),
+       url("/font/ja-body-notosansjp.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "NL ko display";
+  src: url("/font/ko-display-notoserifkr.woff2") format("woff2"),
+       url("/font/ko-display-notoserifkr.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "NL ko body";
+  src: url("/font/ko-body-notosanskr.woff2") format("woff2"),
+       url("/font/ko-body-notosanskr.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "NL th";
+  src: url("/font/th-notosansthai.woff2") format("woff2"),
+       url("/font/th-notosansthai.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "NL hi";
+  src: url("/font/hi-notosansdevanagari.woff2") format("woff2"),
+       url("/font/hi-notosansdevanagari.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "NL ar display";
+  src: url("/font/ar-display-notosansarabic.woff2") format("woff2"),
+       url("/font/ar-display-notosansarabic.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "NL ar body";
+  src: url("/font/ar-body-notonaskharabic.woff2") format("woff2"),
+       url("/font/ar-body-notonaskharabic.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "NL fa";
+  src: url("/font/fa-vazirmatn.woff2") format("woff2"),
+       url("/font/fa-vazirmatn.woff") format("woff");
+  font-display: swap;
+}
+
+/* ---- 逐语种覆盖变量 ------------------------------------------------
+   拉丁字体一律排在**第一位**:混排的 Ncore 2.0 / DEX / $2,847.20 / 箭头
+   仍由原字体渲染,视觉与英文站一致;本地字体只接手它覆盖不到的字。
+   (箭头 → ↔ 不在任何非拉丁 Noto 里,靠的就是这个顺序。) */
+
+html[lang="zh-CN"] {
+  --font-display: "Cormorant Garamond", "NL zh display", Georgia, serif;
+  --font-num: "Cormorant Garamond", "NL zh display", Georgia, serif;
+  --font-kicker: "Plus Jakarta Sans", "NL zh body", system-ui, sans-serif;
+  --font-body: "Plus Jakarta Sans", "NL zh body", system-ui, sans-serif;
+}
+
+html[lang="ja"] {
+  --font-display: "Cormorant Garamond", "NL ja display", Georgia, serif;
+  --font-num: "Cormorant Garamond", "NL ja display", Georgia, serif;
+  --font-kicker: "Plus Jakarta Sans", "NL ja body", system-ui, sans-serif;
+  --font-body: "Plus Jakarta Sans", "NL ja body", system-ui, sans-serif;
+}
+
+html[lang="ko"] {
+  --font-display: "Cormorant Garamond", "NL ko display", Georgia, serif;
+  --font-num: "Cormorant Garamond", "NL ko display", Georgia, serif;
+  --font-kicker: "Plus Jakarta Sans", "NL ko body", system-ui, sans-serif;
+  --font-body: "Plus Jakarta Sans", "NL ko body", system-ui, sans-serif;
+}
+
+/* th / hi / ar / fa 不设衬线标题字 —— 这四种文字没有对应的衬线传统。
+   阿语无大写,英文全大写标题的力度靠字重补(见下面的 font-weight)。 */
+
+html[lang="th"] {
+  --font-display: "Cormorant Garamond", "NL th", sans-serif;
+  --font-num: "Cormorant Garamond", "NL th", sans-serif;
+  --font-kicker: "Plus Jakarta Sans", "NL th", system-ui, sans-serif;
+  --font-body: "Plus Jakarta Sans", "NL th", system-ui, sans-serif;
+}
+
+html[lang="hi"] {
+  --font-display: "Cormorant Garamond", "NL hi", sans-serif;
+  --font-num: "Cormorant Garamond", "NL hi", sans-serif;
+  --font-kicker: "Plus Jakarta Sans", "NL hi", system-ui, sans-serif;
+  --font-body: "Plus Jakarta Sans", "NL hi", system-ui, sans-serif;
+}
+
+html[lang="ar"] {
+  --font-display: "Cormorant Garamond", "NL ar display", sans-serif;
+  --font-num: "Cormorant Garamond", "NL ar display", sans-serif;
+  --font-kicker: "Plus Jakarta Sans", "NL ar display", system-ui, sans-serif;
+  --font-body: "Plus Jakarta Sans", "NL ar body", system-ui, sans-serif;
+}
+
+html[lang="fa"] {
+  --font-display: "Cormorant Garamond", "NL fa", sans-serif;
+  --font-num: "Cormorant Garamond", "NL fa", sans-serif;
+  --font-kicker: "Plus Jakarta Sans", "NL fa", system-ui, sans-serif;
+  --font-body: "Plus Jakarta Sans", "NL fa", system-ui, sans-serif;
+}
+
+/* ---- 各文字体系的行高与断行 ---------------------------------------
+   只调这两项,字号/间距/配色/素材一律不动(铁律①)。 */
+
+/* 泰文有上标元音与声调符号,行高不给够会互相压 */
+html[lang="th"] body,
+html[lang="th"] p,
+html[lang="th"] li {
+  line-height: 1.65;
+}
+
+/* 天城文的合字与 nukta 同理 */
+html[lang="hi"] body,
+html[lang="hi"] p,
+html[lang="hi"] li {
+  line-height: 1.6;
+}
+
+/* 阿语/波斯语连写,行高要更松 */
+html[lang="ar"] body,
+html[lang="ar"] p,
+html[lang="ar"] li {
+  line-height: 1.7;
+}
+html[lang="fa"] body,
+html[lang="fa"] p,
+html[lang="fa"] li {
+  line-height: 1.8;
+}
+
+/* 韩文按词组折行更好看(旧翻译笔记的建议) */
+html[lang="ko"] h1,
+html[lang="ko"] h2,
+html[lang="ko"] h3,
+html[lang="ko"] p,
+html[lang="ko"] li {
+  word-break: keep-all;
+}
+
+/* 阿语无大写,标题靠字重补回英文全大写的力度 */
+html[lang="ar"] .page-title,
+html[lang="ar"] .hero-title,
+html[lang="ar"] .section-title {
+  font-weight: 700;
+}

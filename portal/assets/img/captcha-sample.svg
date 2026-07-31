@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 46" width="120" height="46" role="img" aria-label="Captcha sample">
+  <!-- 占位示意图。上线时由后端出图,IT 把 <img src> 换成线上 captcha 地址即可。 -->
+  <rect width="120" height="46" fill="#0d0a06"/>
+  <g stroke="rgba(240,201,121,.22)" stroke-width="1" fill="none">
+    <path d="M2 30 C 24 12, 46 40, 68 20 S 108 32, 118 16"/>
+    <path d="M2 14 C 30 34, 58 8, 86 28 S 110 20, 118 34"/>
+  </g>
+  <g font-family="Georgia, serif" font-size="21" fill="#f0c979" letter-spacing="1">
+    <text x="10" y="32" transform="rotate(-8 18 26)">7</text>
+    <text x="30" y="33" transform="rotate(6 38 26)">K</text>
+    <text x="52" y="31" transform="rotate(-4 60 26)">4</text>
+    <text x="72" y="34" transform="rotate(9 80 26)">m</text>
+    <text x="95" y="31" transform="rotate(-7 100 26)">9</text>
+  </g>
+  <g fill="rgba(240,201,121,.35)">
+    <circle cx="18" cy="10" r="1"/><circle cx="64" cy="38" r="1"/>
+    <circle cx="102" cy="12" r="1"/><circle cx="44" cy="9" r="1"/>
+    <circle cx="86" cy="40" r="1"/>
+  </g>
+</svg>

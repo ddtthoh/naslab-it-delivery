@@ -1,0 +1,121 @@
+/* ==================================================================
+   NASLAB · 阿拉伯语 / 波斯语 RTL 镜像层
+   ------------------------------------------------------------------
+   只在 <html dir="rtl"> 时生效，对现有 LTR 版式零影响。
+   site.css 里共 35 处方向性声明，其中 21 处是 left:0;right:0 的对称
+   写法（无需处理），真正需要镜像的是下面这 14 组。
+   铁律①：不改设计，只做左右镜像。字号/间距/配色全部不动。
+   ================================================================== */
+
+/* ---- 顶栏 ---- */
+[dir="rtl"] .nav__aside {           /* 语言/登录 pill 推到另一侧 */
+  margin-left: 0;
+  margin-right: auto;
+}
+[dir="rtl"] .nav__sub {             /* 下拉菜单对齐 + 竖分隔线 */
+  left: auto;
+  right: 0;
+  border-left: none;
+  border-right: 1px solid var(--line);
+}
+[dir="rtl"] .nav__login-arrow {     /* → 变 ← */
+  transform: scaleX(-1);
+}
+
+/* ---- 通用强调竖线（金色/灰色左边框）---- */
+[dir="rtl"] .gap-note,
+[dir="rtl"] .phase__note,
+[dir="rtl"] .tl__note {
+  border-left: none;
+  border-right: 2px solid var(--line-strong);
+  padding-left: 0;
+}
+[dir="rtl"] .phase__note { padding-right: 1.1rem; }
+[dir="rtl"] .tl__note {
+  border-right-width: 1px;
+  border-right-color: var(--line);
+  padding-right: 0.7rem;
+}
+[dir="rtl"] .state {
+  border-left: none;
+  border-right: 2px solid var(--gold);
+}
+
+/* ---- 列表项目符号 ---- */
+[dir="rtl"] .phase__list li {
+  padding-left: 0;
+  padding-right: 1.2rem;
+}
+[dir="rtl"] .phase__list li::before {
+  left: auto;
+  right: 0;
+}
+[dir="rtl"] .bullets li::before,
+[dir="rtl"] .steps li::before {
+  margin-right: 0;
+}
+[dir="rtl"] .bullets li::before { margin-left: 0.7em; }
+[dir="rtl"] .steps li::before   { margin-left: 0.8em; }
+
+/* ---- 时间轴（Roadmap）---- */
+[dir="rtl"] .tl {
+  padding-left: 0;
+  padding-right: 30px;
+}
+[dir="rtl"] .tl::before {           /* 竖轴 */
+  left: auto;
+  right: 8px;
+}
+[dir="rtl"] .tl__row::before {      /* 节点圆点 */
+  left: auto;
+  right: -27px;
+}
+[dir="rtl"] .tl__list li {
+  padding-left: 0;
+  padding-right: 13px;
+}
+[dir="rtl"] .tl__list li::before {
+  left: auto;
+  right: 2px;
+}
+
+/* ---- 数据卡右对齐数字 ---- */
+[dir="rtl"] .stream__size { text-align: left; }
+
+/* ---- 按钮 hover 扫光方向 ---- */
+[dir="rtl"] .btn::before { transform: translateX(101%); }
+[dir="rtl"] .btn:hover::before { transform: none; }
+
+/* ---- 回到顶部浮钮 ---- */
+[dir="rtl"] .top-btn {
+  right: auto;
+  left: 16px;
+}
+
+/* ---- 首屏地球：72% 镜像到 28% ----
+   注意：transform 由 ScrollUx 按滚动写成内联样式（translate(-50%,…)），
+   CSS 里再写 transform 会被内联覆盖 → 只能改 left，居中逻辑保持不变。 */
+@media (min-width: 821px) {
+  [dir="rtl"] .globe-layer__stage { left: 28%; }
+}
+
+/* ---- 手机抽屉：从另一侧滑入 ---- */
+@media (max-width: 820px) {
+  [dir="rtl"] .tl { padding-right: 0; }
+  [dir="rtl"] .tl::before { right: 50%; }
+  [dir="rtl"] .tl__row::before { right: calc(50% - 4px); }
+}
+
+/* ---- 阿拉伯/波斯字体栈（方案 B1：系统回退，零额外下载）---- */
+[dir="rtl"] {
+  font-family: "SF Arabic", "Geeza Pro", "Noto Naskh Arabic",
+    "Segoe UI Arabic", "Tahoma", sans-serif;
+}
+/* 阿拉伯文没有大小写，全大写标题的 letter-spacing 会拆散连字 */
+[dir="rtl"] .page-title,
+[dir="rtl"] .block__h2,
+[dir="rtl"] .kicker,
+[dir="rtl"] .btn {
+  text-transform: none;
+  letter-spacing: 0;
+}

@@ -1,0 +1,1301 @@
+{
+  "NAV": [
+    {
+      "label": "Start"
+    },
+    {
+      "label": "Naslab",
+      "children": [
+        {
+          "label": "Über uns"
+        },
+        {
+          "label": "Strategie"
+        },
+        {
+          "label": "Roadmap"
+        }
+      ]
+    },
+    {
+      "label": "Produkte",
+      "children": [
+        {
+          "label": "Ncore 2.0"
+        },
+        {
+          "label": "Grundlagen"
+        },
+        {
+          "label": "Trading-Logik"
+        },
+        {
+          "label": "Funktionen"
+        },
+        {
+          "label": "Markttrends"
+        },
+        {
+          "label": "Ncore X"
+        },
+        {
+          "label": "NCT Token"
+        }
+      ]
+    },
+    {
+      "label": "Karriere"
+    },
+    {
+      "label": "Kooperation"
+    },
+    {
+      "label": "Kontakt"
+    }
+  ],
+  "S1_HERO": {
+    "kicker": "DIE MARKETING-ENGINE VON NASTECH GLOBAL",
+    "h1": "WIR TREIBEN DIE NÄCHSTE ÄRA DES DIGITALEN VERMÖGENS AN",
+    "body": "Wir ermöglichen Privatpersonen und Unternehmen den Zugang zu digitalen Finanzlösungen der nächsten Generation — über sichere, skalierbare und zukunftsorientierte Strategien. Indem wir unsere Kunden dabei unterstützen, Markttrends früh zu erkennen und bessere Entscheidungen zu treffen, schafft Naslab nachhaltiges Wachstum und langfristigen Wert in einer sich stetig wandelnden digitalen Wirtschaft.",
+    "ctaPrimary": "KONTAKT AUFNEHMEN",
+    "ctaSecondary": "PRODUKTE ENTDECKEN"
+  },
+  "S2_NEW_ERA": {
+    "kicker": "EIN NEUES PARADIGMA",
+    "h2": "EINE NEUE ÄRA DES DIGITALEN VERMÖGENS",
+    "body": "Bauen Sie Ihre Krypto-Reserve mit Zuversicht auf — für sicheres, stetiges Wachstum mit Naslab.",
+    "cta": "PRODUKTE ENTDECKEN",
+    "stats": [
+      "24/7 Handelsbetrieb",
+      "99.9% Uptime-Garantie",
+      "<50ms Ausführungslatenz",
+      "Globale Marktabdeckung"
+    ]
+  },
+  "S3_MISSION": {
+    "kicker": "01 · MISSION — Was wir tun",
+    "h2": "Was wir für die nächste Finanzära leisten",
+    "body": "Naslab verbindet Unternehmen und Privatpersonen mit innovativen digitalen Finanzlösungen — durch die strategische Positionierung der fortschrittlichen Produkte von Nastech Global für nachhaltiges, langfristiges Wachstum.",
+    "cta": "UNSERE STRATEGIE ANSEHEN"
+  },
+  "S4_DIRECTION": {
+    "kicker": "02 · AUSRICHTUNG — Strategische Ausrichtung",
+    "h2": "Strategische Ausrichtung für die Zukunft der digitalen Finanzwelt",
+    "body": "Eine langfristige Roadmap, die Naslabs Weg von automatisierten Handelssystemen hin zu einer skalierbaren, globalen Infrastruktur für digitale Finanzen beschreibt.",
+    "cta": "STRATEGISCHE ROADMAP ANSEHEN"
+  },
+  "S5_NCORE_2": {
+    "kicker": "03 · PRÄDIKTIVE MEV-ENGINE — Ncore 2.0",
+    "h2": "Ncore 2.0 — Prädiktives MEV-Trading für DEX-Märkte",
+    "body": "Eine auf DEX spezialisierte MEV-Trading-Plattform, die den Mempool überwacht, große Orders antizipiert und Front-run- und Back-run-Strategien präzise ausführt.",
+    "logicCard": {
+      "title": "TRADING-LOGIK",
+      "meta": "Live · v2.0",
+      "flow": "ERKENNEN → VORHERSAGEN → AUSFÜHREN"
+    },
+    "panels": [
+      {
+        "label": "01 · GRUNDLAGEN — Basiswissen",
+        "body": "Wer den Kern von Ncore X verstehen will, muss zuerst die Logik der Ausführung on-chain erfassen: Eine Transaktion ist nicht durch ihre Einreichung garantiert, sondern wird durch Sichtbarkeit, Reihenfolge und Ausführungspfad in einem öffentlichen Umfeld bestimmt."
+      },
+      {
+        "label": "02 · LOGIK — Trading-Logik",
+        "body": "Ncore 2.0 ist eine auf DEX spezialisierte MEV-Trading-Plattform, die systematisch Wert erschließt — durch Mempool-Monitoring, Sandwich-Ausführung und optimierte Reihenfolge der Transaktionen, bevor der Markt reagiert."
+      },
+      {
+        "label": "03 — Funktionen",
+        "body": "Ncore 2.0 ist ein fortschrittliches System für Front-running auf DEX und MEV-Trading. Es verbindet Mempool-Intelligenz, Ausführung in Echtzeit, Gas-Optimierung und frei konfigurierbare Risikokontrollen, um laufend und sicher jenen Wert zu erschließen, der aus der Reihenfolge der Transaktionen entsteht."
+      },
+      {
+        "label": "04 — Markttrends",
+        "body": "Ncore 2.0 ist darauf ausgelegt, die großen Trends des Kryptomarkts zu nutzen — Wachstum von DeFi, MEV-Dynamik, institutionelle Beteiligung, Skalierung über Layer 2, KI-gestütztes Trading und steigende Volatilität — mit adaptiven, latenzarmen und auf Ausführung optimierten Trading-Funktionen."
+      }
+    ],
+    "mempoolCard": {
+      "title": "MEMPOOL STREAM",
+      "rows": [
+        {
+          "kind": "SWAP"
+        },
+        {
+          "kind": "ADD LP"
+        },
+        {
+          "kind": "SWAP"
+        },
+        {
+          "kind": "LIQ"
+        }
+      ]
+    }
+  },
+  "S6_NCORE_X": {
+    "kicker": "04 · CROSS-VENUE — Ncore X",
+    "h2": "Ncore X — Intelligente Arbitrage-Engine für alle Plattformen",
+    "body": "Eine Arbitrage-Engine über Plattformen hinweg, die DEX↔DEX, CEX↔CEX und DEX↔CEX abdeckt und Preisdifferenzen am Markt in wiederholbare, systematische Erträge übersetzt.",
+    "cta": "NCORE X ENTDECKEN",
+    "spreadCard": {
+      "resultLabel": "ERFASSTER SPREAD",
+      "resultValue": "+$4.26 / Einheit"
+    }
+  },
+  "S7_NCT": {
+    "kicker": "05 · UTILITY-TOKEN — Ncore Token (NCT)",
+    "h2": "Ncore Token (NCT)",
+    "body": "Der Ncore Token (NCT) ist der native Utility-Token des Ncore-Ökosystems. Er bildet die exklusive Ebene für Abwicklung, Zugang und Anreize, treibt die Nutzung des Systems an, sichert über Burn-Mechanismen Knappheit und richtet den Wert des Ökosystems langfristig aus.",
+    "cta": "Ncore Token (NCT) entdecken"
+  },
+  "S8_CAREERS": {
+    "kicker": "06 · OFFENE STELLEN — Karriere",
+    "h2": "Karriere bei Naslab",
+    "body": "Wir bauen technologiegetriebene Systeme für schnelle digitale Märkte — und suchen Menschen, denen Umsetzung, Präzision und Wirkung wichtig sind.",
+    "cta": "KONTAKT AUFNEHMEN",
+    "roles": [
+      {
+        "title": "QA Engineer (Qualitätssicherung)",
+        "meta": "REMOTE · VOLLZEIT · ENGINEERING"
+      },
+      {
+        "title": "Cybersecurity-Spezialist",
+        "meta": "HYBRID · VOLLZEIT · SECURITY"
+      },
+      {
+        "title": "Marketing-Spezialist"
+      },
+      {
+        "title": "Sales Executive",
+        "meta": "TOP-POSITION · VOLLZEIT · WACHSTUM"
+      },
+      {
+        "title": "Customer-Support-Spezialist",
+        "meta": "REMOTE · VOLLZEIT · OPERATIONS"
+      }
+    ]
+  },
+  "S9_COLLABORATION": {
+    "kicker": "07 · PARTNERSCHAFT — Kooperation",
+    "h2": "Zusammenarbeit mit Naslab",
+    "body": "Wir arbeiten mit Partnern zusammen, die Wert auf Qualität in der Ausführung, technische Präzision und langfristigen Systemaufbau legen.",
+    "cta": "KONTAKT AUFNEHMEN",
+    "chips": [
+      "INTEGRATIONEN",
+      "INFRASTRUKTUR",
+      "TALENT-PIPELINE",
+      "FORSCHUNG"
+    ]
+  },
+  "S10_ROADMAP": {
+    "kicker": "08 · STRATEGISCHE ROADMAP",
+    "h2": "Die Zukunft der digitalen Finanzwelt gestalten",
+    "body": "Ein langfristiger Plan — von den Kernsystemen bis zur globalen Skalierung, gemessen an Meilensteinen, Kapitalstufen und Nutzerreichweite.",
+    "phases": [
+      {
+        "period": "2024 — Fundament & Aufbau der Kernsysteme",
+        "items": [
+          "Fertigstellung der Kernarchitektur von Ncore 2.0 und des automatisierten Trading-Frameworks",
+          "Entwicklung der Crypto-Reserve-Plattform für die sichere Verwaltung digitaler Vermögenswerte",
+          "Aufbau der technischen Kern- und F&E-Teams über Nastech Global"
+        ]
+      },
+      {
+        "period": "2025 — Stabilisierung des Produkts & Design der Strategie",
+        "items": [
+          "Laufende Upgrades von Ncore 2.0 (Performance, Sicherheit, Algorithmen)",
+          "Start des Konzepts für Ncore X, Entwurf des Kernalgorithmus und Simulation der Strategien",
+          "Definition von drei Pfaden der Arbitrage-Strategie: DEX ↔ DEX / CEX ↔ CEX / DEX ↔ CEX"
+        ],
+        "note": "Meilenstein — Das erkannte Marktpotenzial führte 2025 zur offiziellen Gründung von Naslab, mit Fokus auf skalierbare digitale Finanzlösungen und die künftige globale Expansion."
+      },
+      {
+        "period": "2025 Q1 – Q4 — Ausbau & Validierung des Live-Tradings",
+        "items": [
+          "Schrittweise Ausweitung des Live-Trading-Volumens von Ncore 2.0: ~$200K → ~$1M",
+          "Ausbau von Sicherheit, Systemstabilität und Risikokontrolle",
+          "Abschluss der Vorbereitung für den internen, geschlossenen Test von Ncore X"
+        ]
+      },
+      {
+        "period": "2026 Q1 - Q4 — Skalierung & Marktreife",
+        "items": [
+          "Internationale Expansion von Ncore 2.0",
+          "Schrittweise Live-Tests von Ncore X",
+          "Trading-Volumen von ~$5M → ~$50M",
+          "Laufende Optimierung von Ausführungstempo, Kostenkontrolle und Risikomanagement",
+          "Geschätzte Nutzer von Ncore 2.0: 100,000"
+        ],
+        "note": "Prognose — Die externe Verfügbarkeit von Ncore X steht unter dem Vorbehalt von Systemstabilität, Risikobewertung und regulatorischen Rahmenbedingungen."
+      },
+      {
+        "period": "Ab 2027 — Ausbau des Ökosystems",
+        "items": [
+          "Launch der Naslab-eigenen Exchange",
+          "Plattform zur Inkubation von DeFi-Projekten (Launchpad)",
+          "Marktplatz für Trading-Strategien & Bots",
+          "Einführung des Ncore Token (NCT)",
+          "Prognostizierte Nutzer im Ökosystem: ~500,000+"
+        ]
+      }
+    ]
+  },
+  "S11_CONTACT": {
+    "kicker": "09 · KANAL OFFEN — Kontakt",
+    "h2": "Nehmen Sie Kontakt mit Naslab auf",
+    "body": "Sie haben eine Frage oder möchten mehr über unsere Produkte erfahren? Schreiben Sie uns — und lassen Sie uns darüber sprechen, wie Naslab Sie auf dem Weg in die Zukunft der digitalen Finanzwelt unterstützen kann.",
+    "details": [
+      {
+        "label": "E-MAIL"
+      },
+      {
+        "label": "HAUPTSITZ",
+        "value": "Nastech Global · Asien-Pazifik"
+      },
+      {
+        "label": "ERREICHBARKEIT",
+        "value": "Mo–Fr · 09:00–18:00 UTC+8"
+      }
+    ],
+    "fields": [
+      {
+        "label": "NAME"
+      },
+      {
+        "label": "ORGANISATION"
+      },
+      {
+        "label": "E-MAIL"
+      },
+      {
+        "label": "TELEFONNUMMER"
+      },
+      {
+        "label": "NACHRICHT"
+      }
+    ]
+  },
+  "S12_FOOTER": {
+    "blurb": "Die Marketing-Engine von Nastech Global. Wir ermöglichen Privatpersonen und Unternehmen den Zugang zu digitalen Finanzlösungen der nächsten Generation.",
+    "columns": [
+      {
+        "title": "PRODUKTE",
+        "links": [
+          {
+            "label": "Ncore 2.0"
+          },
+          {
+            "label": "Ncore X"
+          },
+          {
+            "label": "NCT Token"
+          }
+        ]
+      },
+      {
+        "title": "UNTERNEHMEN",
+        "links": [
+          {
+            "label": "Über uns"
+          },
+          {
+            "label": "Karriere"
+          },
+          {
+            "label": "Kooperation"
+          }
+        ]
+      },
+      {
+        "title": "KONTAKT",
+        "links": [
+          {
+            "label": "Kontakt"
+          },
+          {
+            "label": "Roadmap"
+          },
+          {
+            "label": "Datenschutz"
+          },
+          {
+            "label": "Nutzungsbedingungen"
+          }
+        ]
+      }
+    ],
+    "legal": [
+      "© 2026 NASLAB · ALLE RECHTE VORBEHALTEN.",
+      "IM VERBORGENEN ENTWICKELT · OFFEN AUSGELIEFERT"
+    ]
+  },
+  "ROADMAP_EXTRA": {
+    "heroBody": "Die Roadmap von Naslab steht für ein langfristiges Engagement in digitalen Finanzen, in der Adoption von Krypto und in fortschrittlicher Trading-Infrastruktur — konzipiert mit Skalierbarkeit, Sicherheit und praktischer Anwendbarkeit im Kern.",
+    "heroCta": "Zeitachse ansehen",
+    "longTermVision": {
+      "heading": "Langfristige Vision",
+      "sub": "Zukunftsfähige Infrastruktur für digitale Finanzen",
+      "lead": "Digitale Finanzen neu definiert",
+      "body": "Naslab will sich zu einem umfassenden Ökosystem für Trading und Strategien entwickeln — mit automatisiertem Trading, Arbitrage über Plattformen hinweg und offenen Marktplätzen für Strategien, um neu zu definieren, wie Nutzer mit digitalen Finanzen umgehen.",
+      "cards": [
+        {
+          "title": "Automatisiertes Trading",
+          "body": "Fortschrittliche Algorithmen für eine effiziente Ausführung am Markt"
+        },
+        {
+          "title": "Arbitrage über Plattformen",
+          "body": "Nahtlose Chancen über DEX und CEX hinweg"
+        },
+        {
+          "title": "Marktplatz für Strategien",
+          "body": "Offenes Ökosystem für Trading-Strategien und Bots"
+        },
+        {
+          "title": "Sichere Infrastruktur",
+          "body": "Sicherheit und Risikomanagement auf Enterprise-Niveau"
+        }
+      ]
+    }
+  },
+  "UI": {
+    "memberLogin": "Mitglieder-Login",
+    "connect": "Verbinden",
+    "toggleNav": "Navigation umschalten",
+    "langLabel": "Sprache",
+    "imageSlot": "BILDPLATZ",
+    "backToTop": "Nach oben",
+    "roadmapPhases": "Roadmap-Phasen"
+  },
+  "BASIC_PAGE": {
+    "title": "Basiswissen",
+    "subtitle": "Grundlagen von Blockchain und Handelsausführung on-chain",
+    "lead": "Das Fundament verstehen",
+    "leadBody": "Verstehen Sie die Kernkonzepte der Ausführung auf der Blockchain, der Reihenfolge von Transaktionen und der Wertabschöpfung — sie bilden das Rückgrat der fortschrittlichen Handelsstrategien von Ncore 2.0.",
+    "sections": [
+      {
+        "heading": "Blockchain und Handelsausführung on-chain",
+        "paragraphs": [
+          "Die Blockchain ist nicht nur ein Register zur Erfassung von Transaktionen, sondern ein System zur Ausführung von Werten, das äußerst empfindlich auf die Reihenfolge der Ausführung reagiert.",
+          "Der Tausch von Assets, Zustandsänderungen und das finale Settlement werden nicht dadurch bestimmt, ob eine Transaktion eingereicht wird, sondern durch ihre relative Position innerhalb eines Blocks.",
+          "In diesem Umfeld werden die Regeln strikt durch das Protokoll durchgesetzt, und die Ergebnisse sind unumkehrbar.",
+          "Vor der Bestätigung durchläuft jede Transaktion jedoch ein offenes, kompetitives und stark umkämpftes Verfahren der Reihenfolgebildung."
+        ]
+      },
+      {
+        "heading": "Swap: eine Anfrage zur Ausführung auf geteiltem Zustand",
+        "paragraphs": [
+          "In Systemen on-chain ist ein Swap kein einfacher Tausch von Assets, sondern eine Anfrage zur Änderung eines global geteilten Zustands.",
+          "Anders als in traditionellen Finanzmärkten mit weitgehend geschlossenen Matching-Systemen warten Swaps on-chain in einem öffentlichen Umfeld darauf, eingeordnet und ausgeführt zu werden.",
+          "In diesem Verlauf können sich Preise, Liquiditätsverhältnisse und Ausführungsergebnisse verändern.",
+          "Die Einreichung einer Transaktion garantiert deshalb nicht das erwartete Ergebnis der Ausführung."
+        ]
+      },
+      {
+        "heading": "Warum die Reihenfolge das Ergebnis verändert",
+        "paragraphs": [
+          "Weil die Ausführung auf der Blockchain deterministisch ist, kann dieselbe Menge an Transaktionen je nach Reihenfolge zu vollkommen unterschiedlichen Zuständen führen.",
+          "Sind Inhalte von Transaktionen öffentlich und Ausführungspfade vorhersehbar, wird die Reihenfolge selbst zu einer Ressource, um die konkurriert wird und die sich nutzen lässt.",
+          "Bei Swaps können vor und nach dem Trade eines Nutzers externe Transaktionen eingeschoben werden. Das verstärkt den Preiseffekt und verschiebt Wert systematisch — und zwar vollständig im Rahmen der Protokollregeln.",
+          "Das ist weder ein Fehler noch eine Anomalie, sondern das Ergebnis des Zusammenspiels von Ausführungsmodellen on-chain und ökonomischen Anreizen."
+        ]
+      },
+      {
+        "heading": "Fazit",
+        "paragraphs": [
+          "Die entscheidenden Variablen eines Swaps on-chain liegen damit nicht allein in der Logik des Contracts, sondern ebenso in der Sichtbarkeit der Transaktion, in den Mechanismen der Reihenfolge und im Design des Ausführungspfads."
+        ]
+      }
+    ],
+    "takeaways": {
+      "heading": "Die wichtigsten Punkte",
+      "sub": "Die zentralen Konzepte, die das Ausführungsgeschehen auf der Blockchain bestimmen",
+      "items": [
+        {
+          "title": "Die Reihenfolge entscheidet",
+          "body": "Die Position einer Transaktion innerhalb eines Blocks bestimmt ihr Ergebnis grundlegend — nicht die bloße Tatsache, dass sie eingereicht wurde."
+        },
+        {
+          "title": "Öffentliches Umfeld",
+          "body": "Transaktionen on-chain warten in einem sichtbaren Mempool. Das eröffnet Chancen für strategische Positionierung und Wertabschöpfung."
+        },
+        {
+          "title": "Deterministische Ergebnisse",
+          "body": "Dieselben Transaktionen führen in anderer Reihenfolge zu anderen Ergebnissen — ein Grundprinzip aller MEV-Strategien."
+        }
+      ]
+    },
+    "nextChapter": {
+      "kicker": "NÄCHSTES KAPITEL",
+      "heading": "Bereit für mehr?",
+      "body": "Erfahren Sie, wie Ncore 2.0 diese Grundlagen nutzt, um fortschrittliche MEV-Strategien auszuführen.",
+      "cta": "Weiter zur Trading-Logik"
+    }
+  },
+  "TRADING_PAGE": {
+    "title": "Trading-Logik",
+    "subtitle": "Ncore 2.0 — auf DEX spezialisierte MEV-Trading-Plattform",
+    "origins": {
+      "heading": "Die Ursprünge von Ncore 2.0",
+      "body": "Ncore 2.0 wurde von Nastech Global entwickelt und ist eigens auf das rasch wachsende Ökosystem dezentraler Börsen (DEX) zugeschnitten. Mit der wachsenden Bedeutung digitaler Assets stoßen klassische Handelssysteme an ihre Grenzen:",
+      "bullets": [
+        "hochfrequente Schwankungen in DeFi-Märkten",
+        "große Orders, die sich rasch verändern",
+        "komplexe Anforderungen an die Ausführung in Echtzeit"
+      ],
+      "closing": "Ncore 2.0 entstand als prädiktive Handelsarchitektur, die Marktchancen erkennt, bevor große ausstehende Transaktionen oder bedeutende Marktereignisse eintreten."
+    },
+    "sandwich": {
+      "heading": "MEV und Sandwich-Strategie",
+      "sub": "Logik von Front-Run und Back-Run",
+      "intro": [
+        "Auf DEX-Plattformen gelangt jede Transaktion zunächst in den Mempool, bevor sie in einem Block bestätigt wird. Daraus entsteht die Chance auf MEV (Maximal Extractable Value): Durch die Optimierung der Reihenfolge lässt sich zusätzlicher Wert erfassen.",
+        "Die Kernstrategie von Ncore 2.0 ist die Sandwich-Strategie, auch bekannt als Logik von Front-Run und Back-Run. Sie überführt MEV in eine produktreife Lösung für DEX-Märkte:"
+      ],
+      "legs": [
+        {
+          "title": "Front-Run (Ausführung vor der Transaktion)",
+          "bullets": [
+            "Trades gezielt platzieren, bevor eine große ausstehende Order ausgeführt wird",
+            "den bevorstehenden Preiseffekt dieser Order nutzen",
+            "die Bedingungen für den anschließenden Gewinn schaffen"
+          ]
+        },
+        {
+          "title": "Back-Run (Ausführung nach der Transaktion)",
+          "bullets": [
+            "unmittelbar reagieren, sobald die Zielorder ausgeführt ist",
+            "die Preisabweichung erfassen und den Gewinnzyklus schließen",
+            "systematische Erträge maximieren und dabei das Risiko steuern"
+          ]
+        }
+      ],
+      "closing": "Durch diese Kombination schließt Ncore 2.0 die Sandwich-Strategie ab, bevor der breite Markt reagiert, und sichert Nutzern früh zugängliche Gewinnchancen."
+    },
+    "coreFeatures": {
+      "heading": "Kernfunktionen von Ncore 2.0",
+      "items": [
+        {
+          "title": "Mempool-Monitoring",
+          "bullets": [
+            "laufendes Scannen unbestätigter Transaktionen",
+            "präzises Erkennen großer Orders und ihres möglichen Preiseffekts",
+            "vorauseilende Trades zur Erfassung kurzfristiger Preisabweichungen"
+          ]
+        },
+        {
+          "title": "Markteinblicke in Echtzeit",
+          "bullets": [
+            "Fokus auf DEX-Daten on-chain",
+            "Analyse von Transaktionsströmen und Preistrends",
+            "maximaler Gewinn aus der Back-Run-Ausführung"
+          ]
+        },
+        {
+          "title": "Gas-Optimierung",
+          "bullets": [
+            "dynamische Steuerung der Gas-Gebühren zur bevorzugten Ausführung",
+            "geringere Kosten bei Auslastung des Netzwerks",
+            "hohe Effizienz der Ausführung und maximale Erträge"
+          ]
+        },
+        {
+          "title": "Prognose von Markttrends",
+          "bullets": [
+            "fortschrittliche Algorithmen analysieren Orderflüsse und Marktdynamik",
+            "Erfassen kurzfristiger Trends in der Volatilität",
+            "Abschluss der Handelsschritte, bevor der Markt breit reagiert"
+          ]
+        }
+      ]
+    },
+    "productized": {
+      "heading": "Produktisierter Nutzen & Vorteile für Kunden",
+      "intro": "Ncore 2.0 verpackt anspruchsvolle Sandwich-Strategien in ein sofort einsetzbares Produkt. Nutzer konzentrieren sich damit auf Erträge statt auf technische Details.",
+      "points": [
+        {
+          "title": "Handeln mit Vorsprung",
+          "body": "Preisbewegungen auf DEX früh erfassen — mit MEV und Sandwich-Strategie"
+        },
+        {
+          "title": "Systematische Ausführung",
+          "body": "Zyklen aus Front-Run und Back-Run sichern kontrollierte, wiederholbare Gewinne"
+        },
+        {
+          "title": "Günstig & effizient",
+          "body": "Die Gas-Optimierung sorgt für schnelle und kostenbewusste Ausführung"
+        },
+        {
+          "title": "Einfach in der Nutzung",
+          "body": "Komplexe Logik on-chain läuft für Kunden vollständig automatisiert"
+        }
+      ]
+    },
+    "useCase": {
+      "heading": "Anwendungsfall aus der Praxis",
+      "intro": "In einem hochfrequenten DEX-Umfeld:",
+      "steps": [
+        "Eine große ausstehende Order erscheint im Mempool",
+        "Ncore 2.0 führt einen Front-Run-Trade aus und positioniert sich vorab",
+        "Nach Ausführung der Order schließt ein Back-Run-Trade den Gewinnzyklus",
+        "Die Erträge sind gesichert, bevor der Markt vollständig reagiert"
+      ],
+      "closing": "Diese Strategie ermöglicht Kunden planbare, systematische und steuerbare Erträge in volatilen DEX-Märkten."
+    },
+    "devPath": {
+      "heading": "Der Entwicklungsweg von Ncore 2.0",
+      "intro": "Ncore 2.0 bündelt die langjährige Erfahrung von Nastech Global im automatisierten Trading:",
+      "bullets": [
+        "zunächst maßgeschneiderte Lösungen für anspruchsvolle Kunden",
+        "mit wachsender Komplexität der Märkte weiterentwickelt zu einer prädiktiven, systematisierten Handelsarchitektur",
+        "Integration von Mempool-Monitoring, Ausführung der Sandwich-Strategie, Gas-Optimierung und Prognose von Markttrends",
+        "hochfrequente Trading-Funktionen mit geringer Latenz für private wie institutionelle Nutzer"
+      ],
+      "resultHeading": "Das Ergebnis",
+      "resultBody": "Ncore 2.0 ist mehr als ein Trading-Bot — es ist eine produktisierte MEV-Lösung für DEX, die Kunden hilft, in schnell wandelnden Märkten ihren Vorsprung zu halten."
+    },
+    "highlights": {
+      "heading": "Die wichtigsten Punkte",
+      "bullets": [
+        "Mempool-Monitoring in Echtzeit zur Erkennung ausstehender Trades",
+        "MEV + Sandwich-Strategie (Front-Run / Back-Run) für systematische, effiziente Ausführung",
+        "prädiktive Analyse von Preisbewegungen",
+        "Gas-Optimierung und Ausführung mit geringer Latenz für maximale Erträge",
+        "vollständig produktisiert für den Kundeneinsatz — keine manuellen Eingriffe nötig"
+      ]
+    },
+    "stayingAhead": {
+      "heading": "Den Vorsprung halten",
+      "intro": "In einem kompetitiven, hochfrequenten DEX-Markt:",
+      "items": [
+        {
+          "title": "Einblicke zur rechten Zeit",
+          "body": "laufende Beobachtung großer Orders im Mempool"
+        },
+        {
+          "title": "Optimierte Ausführung",
+          "body": "Front-Run-Trades zur Positionierung, Back-Run-Trades zum Schließen des Zyklus"
+        },
+        {
+          "title": "Kluges Gas-Management",
+          "body": "bevorzugte Ausführung zu minimalen Kosten"
+        }
+      ],
+      "closing": [
+        "Wenn der breite Markt reagiert, haben Kunden ihre Trades bereits abgeschlossen und Wert erfasst — und bleiben so dauerhaft vorn.",
+        "Bereit, das volle Potenzial von Ncore 2.0 zu erschließen und in die Zukunft des automatisierten Tradings einzusteigen? Entdecken Sie, wie dieses Werkzeug Ihnen hilft, neue Chancen zu nutzen, dem Markt voraus zu sein und schon heute klügere, profitablere Trades zu machen."
+      ]
+    },
+    "footNav": {
+      "prev": "Basiswissen",
+      "next": "Weiter zu den Funktionen"
+    }
+  },
+  "FEATURES_PAGE": {
+    "title": "Funktionen",
+    "intro": [
+      "Ncore 2.0 vereint eine breite Palette fortschrittlicher Funktionen und verschafft Krypto-Tradern einen Vorteil im schnellen Handel mit digitalen Assets.",
+      "Diese Funktionen greifen ineinander, um Handelsstrategien zu optimieren, Risiken zu senken und die Profitabilität zu erhöhen — bei einer Oberfläche, die intuitiv bedienbar bleibt. Nachfolgend die Kernfunktionen, die Ncore 2.0 auszeichnen."
+    ],
+    "features": [
+      {
+        "title": "Fortschrittliche Front-Running-Algorithmen",
+        "how": "Ncore 2.0 scannt den Mempool laufend nach großen Orders und erkennt bedeutende Transaktionen, bevor sie ausgeführt werden. So agiert das System schneller als der Markt. Steht ein großer Trade zur Verarbeitung an, führt Ncore 2.0 den eigenen Trade im optimalen Moment aus — bevor der Markt auf die große Order reagiert.",
+        "why": "Krypto-Märkte sind stark volatil; große Trades lösen häufig Preisausschläge aus. Indem Ncore 2.0 diesen großen Transaktionen zuvorkommt, können Trader Preisveränderungen nutzen, bevor sie vollständig im Markt eingepreist sind — mit entsprechend höherem Gewinnpotenzial."
+      },
+      {
+        "title": "Marktbeobachtung in Echtzeit",
+        "how": "Ncore 2.0 nutzt eine Vielzahl von Datenquellen, darunter dezentrale Börsen und Transaktionsdaten der Blockchain, um Marktbewegungen fortlaufend zu verfolgen. Diese Daten werden in Echtzeit verarbeitet, sodass Ncore 2.0 auf Verschiebungen im Markt reagieren kann, während sie geschehen. Auf dieser Basis passt der Bot seine Handelsstrategie an die aktuellen Trends an.",
+        "why": "In der Kryptowelt, in der Preise sich rasch ändern, ist ein Bild der Marktlage in Echtzeit unerlässlich. Weil Ncore 2.0 schnell auf Entwicklungen reagiert, können Trader fundierte Entscheidungen treffen und ihre Chancen auf profitable Trades erhöhen."
+      },
+      {
+        "title": "Dynamische Optimierung der Gas-Gebühren",
+        "how": "Ncore 2.0 bewertet die Auslastung des Netzwerks intelligent und bestimmt die passende Gas-Gebühr, damit die eigenen Trades bevorzugt und zeitnah ausgeführt werden. Ist das Netzwerk ausgelastet, erhöht Ncore 2.0 die Gebühr leicht, um eine rasche Verarbeitung sicherzustellen. Ist das Netzwerk frei, senkt Ncore 2.0 die Gebühr, um unnötige Kosten zu vermeiden.",
+        "why": "Gas-Gebühren schwanken je nach Aktivität im Netzwerk erheblich, und zu hohe Gebühren zehren am Gewinn. Die dynamische Optimierung von Ncore 2.0 verhindert die Verschwendung von Mitteln und sichert zugleich eine schnelle Ausführung — die richtige Balance aus Kosten und Tempo."
+      },
+      {
+        "title": "Kompatibilität über Plattformen hinweg",
+        "how": "Ncore 2.0 ist nicht auf eine einzelne Blockchain oder Börse beschränkt, sondern lässt sich für mehrere Plattformen konfigurieren, darunter Ethereum, Binance Smart Chain und weitere. Diese Kompatibilität erlaubt Tradern, in verschiedenen Ökosystemen aktiv zu sein und unterschiedliche Marktlagen zu nutzen.",
+        "why": "Weil auf mehreren Plattformen gehandelt werden kann, streuen Nutzer von Ncore 2.0 ihr Portfolio über verschiedene Blockchain-Netzwerke. Das senkt die Abhängigkeit von einem einzelnen Netzwerk, macht Handelsstrategien robuster und eröffnet zusätzliche Gewinnchancen in unterschiedlichen Märkten."
+      },
+      {
+        "title": "Umfassendes Risikomanagement",
+        "how": "Ncore 2.0 erlaubt Nutzern, Risikogrenzen vorab festzulegen — etwa Stop-Loss-Marken, die bei Erreichen bestimmter Bedingungen automatisch auslösen (zum Beispiel, wenn der Preis einer Kryptowährung unter einen definierten Punkt fällt). Zusätzlich liefert Ncore 2.0 Analysen in Echtzeit, die die Performance des Bots verfolgen und die Bewertung der eigenen Strategien erleichtern.",
+        "why": "Der Krypto-Markt ist volatil, und der Schutz von Investitionen vor größeren Verlusten ist entscheidend. Mit den Werkzeugen für Risikomanagement in Ncore 2.0 begrenzen Trader ihr Risiko und schützen ihr Kapital — Handeln wird damit sicherer und selbstbewusster."
+      },
+      {
+        "title": "Bedienoberfläche mit klarer Führung",
+        "how": "Die Oberfläche ist aufgeräumt und klar strukturiert: Nutzer sehen die Handelsaktivität, setzen Parameter und prüfen Kennzahlen zur Performance in Echtzeit. Das Dashboard enthält Werkzeuge, um Handelsstrategien einzurichten und anzupassen, Risiken zu steuern und vergangene Trades zu prüfen.",
+        "why": "Eine klar geführte Oberfläche hilft Tradern jedes Erfahrungsstands, sich im komplexen Krypto-Handel zurechtzufinden. Ob Einsteiger oder erfahrener Nutzer algorithmischen Tradings — das intuitive Design von Ncore 2.0 macht es leicht, Trades zu verfolgen und bei Bedarf nachzujustieren."
+      },
+      {
+        "title": "Weitreichende Anpassung der Strategien",
+        "how": "Nutzer justieren Parameter wie Regeln der Ausführung, Sensitivität und Timing passend zum eigenen Handelsstil. Ncore 2.0 erlaubt die Feinabstimmung von Strategien, um die Performance zu maximieren und das Verhalten des Bots an den eigenen Zielen auszurichten.",
+        "why": "Nicht jeder Trader verfolgt dieselben Ziele oder trägt dasselbe Risiko. Weil sich Strategien in Ncore 2.0 anpassen lassen, deckt das System eine große Bandbreite an Handelsstilen ab — vom konservativen Ansatz mit Fokus auf Sicherheit bis zur offensiven Strategie mit Blick auf höhere Erträge."
+      },
+      {
+        "title": "Backtesting",
+        "how": "Nutzer geben die gewünschten Parameter einer Strategie in Ncore 2.0 ein und prüfen deren Performance anhand historischer Marktdaten über vergangene Handelsperioden. Der Bot erstellt daraus Berichte, die zeigen, wie gut die Strategie unter diesen Bedingungen funktioniert hätte.",
+        "why": "Backtesting liefert wertvolle Hinweise auf die Erfolgsaussichten einer Strategie, ohne echtes Kapital zu riskieren. Es hilft Nutzern, ihre Ansätze zu schärfen, Risiken zu verstehen und vor dem Live-Einsatz fundierter zu entscheiden."
+      },
+      {
+        "title": "Prädiktive Analyse mit KI",
+        "how": "Ncore 2.0 wird fortschrittliche Verfahren des maschinellen Lernens einsetzen, um historische Marktdaten und Daten in Echtzeit zu verarbeiten. Aus dieser Analyse werden Muster und Trends abgeleitet, mit denen sich künftige Preisbewegungen prognostizieren lassen; der Bot passt seine Strategien im Zeitverlauf an und optimiert sie.",
+        "why": "Analysen mit KI werden es Ncore 2.0 erlauben, seine Handelsstrategien fortlaufend zu verbessern, indem das System aus vergangenen Trades lernt und sich wandelnden Marktbedingungen anpasst. Das Ergebnis sind klügere Handelsentscheidungen und ein effizienteres Risikomanagement."
+      },
+      {
+        "title": "Sicherer und transparenter Betrieb",
+        "how": "Ncore 2.0 setzt marktübliche Verschlüsselung ein, um sensible Daten zu schützen, darunter persönliche Angaben und Transaktionsdetails. Zusätzlich stehen detaillierte Protokolle aller Trades sowie Kennzahlen zur Performance bereit, die Nutzer jederzeit einsehen können, um die Aktivität des Bots zu prüfen.",
+        "why": "Im Krypto-Umfeld sind Sicherheit und Transparenz entscheidend. Nutzer müssen darauf vertrauen können, dass Daten und Mittel geschützt sind. Die Sicherheitsprotokolle von Ncore 2.0 sorgen zusammen mit der transparenten Nachvollziehbarkeit dafür, dass Nutzer mit Zuversicht handeln — im Wissen, dass ihre Transaktionen sicher und ihre Ergebnisse einsehbar sind."
+      },
+      {
+        "title": "24/7 im Einsatz",
+        "how": "Ncore 2.0 arbeitet rund um die Uhr eigenständig, analysiert Blockchain-Netzwerke und führt Trades in Echtzeit aus. Selbst wenn Trader die Märkte nicht aktiv verfolgen, ist Ncore 2.0 jederzeit bereit, aufkommende Chancen zu nutzen.",
+        "why": "Krypto-Märkte sind unberechenbar und schnell — auch außerhalb klassischer Handelszeiten. Weil Ncore 2.0 24/7 arbeitet, entgehen Tradern keine Chancen, und ihre Trades werden zügig ausgeführt, wann immer sie anfallen."
+      },
+      {
+        "title": "Community und Support",
+        "how": "Nutzer von Ncore 2.0 tauschen sich in Community-Foren aus oder erhalten direkte Unterstützung über die Kanäle des Kundenservice. Ob es um die Optimierung von Strategien oder um die Lösung technischer Fragen geht — hilfreiche Ressourcen und Support stehen jederzeit bereit.",
+        "why": "Eine starke Community trägt dazu bei, dass Trader lernen und wachsen. Weil Ncore 2.0 auf Austausch in der Community und auf Kundenbetreuung setzt, erhalten Nutzer stets die Unterstützung, die sie für ihren Erfolg brauchen."
+      }
+    ],
+    "conclusion": "Mit diesen leistungsfähigen Funktionen bietet Ncore 2.0 Krypto-Tradern eine umfassende, sichere und anpassbare Lösung, um Gewinne zu maximieren, Risiken zu steuern und sich stetig wandelnden Märkten anzupassen. Ob Einsteiger oder erfahrener Profi — Ncore 2.0 versetzt Sie in die Lage, im Krypto-Handel klüger und wirksamer zu agieren.",
+    "footNav": {
+      "prev": "Trading-Logik",
+      "next": "Weiter zu den Markttrends"
+    }
+  },
+  "TRENDS_PAGE": {
+    "title": "Markttrends",
+    "subtitle": "Markttrends mit Einfluss auf Ncore 2.0",
+    "intro": "Die Krypto-Landschaft wandelt sich rasch, und Ncore 2.0 ist darauf ausgelegt, dieser Entwicklung voraus zu sein und die zentralen Markttrends zu nutzen, die Handelschancen und Strategien prägen. Nachfolgend im Detail, wie diese Trends Einsatz und Fähigkeiten von Ncore 2.0 beeinflussen.",
+    "trends": [
+      {
+        "title": "Der Aufstieg von Decentralized Finance (DeFi)",
+        "impact": "DeFi-Plattformen bieten Tradern einen dezentralen, offenen Markt. Das erhöht die Volatilität und schafft Arbitrage-Chancen zwischen zentralen Börsen (CEX) und dezentralen Börsen (DEX). Ncore 2.0 ist darauf ausgelegt, diese Differenzen in Echtzeit zu nutzen, sodass Anwender auf beiden Plattformtypen effizient handeln.",
+        "advantage": "Durch das reibungslose Zusammenspiel mit DeFi-Plattformen und -Protokollen stellt Ncore 2.0 sicher, dass Nutzer Arbitrage-Chancen wahrnehmen und ihre Trades auf maximale Profitabilität ausrichten. Ob Liquidität über mehrere Chains hinweg oder Preisunterschiede — Ncore 2.0 hilft, sich in der Komplexität der DeFi-Ökosysteme zurechtzufinden, und verschafft einen Vorsprung gegenüber klassischen Trading-Bots, die in dezentralen Umgebungen an Grenzen stoßen."
+      },
+      {
+        "title": "Zunehmende Beteiligung institutioneller Anleger",
+        "impact": "Institutionelle Trader verlangen fortschrittliche Handelslösungen, die höhere Volumina bewältigen, Risiken begrenzen und Compliance sicherstellen. Entsprechend brauchen diese Investoren Werkzeuge, die nicht nur Tempo bieten, sondern auch die Treffsicherheit von Marktprognosen erhöhen und ein umfassendes Risikomanagement ermöglichen.",
+        "advantage": "Ncore 2.0 bietet eine anspruchsvolle Handelsumgebung, die große Orders mit minimaler Slippage verarbeitet. Mit Funktionen wie Risikomanagement in Echtzeit, dynamischer Optimierung der Gas-Gebühren und fortschrittlichen algorithmischen Strategien liefert Ncore 2.0 die Präzision und Anpassungsfähigkeit, die institutionelle Trader erwarten. Es ist eine verlässliche Plattform, um sich in zentralen wie dezentralen Märkten souverän zu bewegen."
+      },
+      {
+        "title": "Fortschritte in der Blockchain-Technologie",
+        "impact": "Mit der Weiterentwicklung von Blockchain-Plattformen entstehen neue Protokolle und Funktionen, die Tempo, Skalierbarkeit und Kosten von Transaktionen verbessern. Trader brauchen Werkzeuge, die sich mit diesen neuen Technologien verbinden lassen, um wettbewerbsfähig zu bleiben.",
+        "advantage": "Ncore 2.0 ist darauf ausgelegt, sich an neue Blockchain-Protokolle und Technologien anzupassen. Wenn sich etwa Lösungen auf Layer 2 stärker durchsetzen, wird Ncore 2.0 nahtlos mit diesen Plattformen zusammenarbeiten und so schnellere Verarbeitung bei geringeren Gebühren ermöglichen. Diese Flexibilität erlaubt Nutzern, die neuesten Entwicklungen im Blockchain-Bereich voll zu nutzen, ohne sich um Kompatibilität sorgen zu müssen."
+      },
+      {
+        "title": "Steigende Transaktionsgebühren und Netzwerkauslastung",
+        "impact": "Hohe Gebühren und ausgelastete Netzwerke erschweren die schnelle Ausführung von Trades. Die Folge sind verpasste Chancen oder höhere Kosten. Besonders betroffen sind kleinere Trader, denen die Mittel für Premium-Gebühren fehlen.",
+        "advantage": "Die dynamische Optimierung der Gas-Gebühren in Ncore 2.0 sichert eine zeitnahe Ausführung auch bei stark ausgelastetem Netzwerk. Durch die gezielte Anpassung der Gebühren und den Einsatz prädiktiver Analysen stellt Ncore 2.0 sicher, dass Trades schnell, effizient und kostenbewusst ausgeführt werden — für maximale Profitabilität in volatilen Phasen."
+      },
+      {
+        "title": "Regulatorische Entwicklungen",
+        "impact": "Das sich wandelnde regulatorische Umfeld schafft für Trader und Investoren zugleich Chancen und Hürden. Da Aufsichtsbehörden auf klarere Rahmenwerke für Teilnehmer am Kryptomarkt hinarbeiten, wird Compliance zunehmend anspruchsvoll. Solche Vorgaben können Unsicherheit bringen, insbesondere wenn sie sich rasch ändern, und Risiken bei Verstößen erzeugen.",
+        "advantage": "In diesem stetig wandelnden regulatorischen Umfeld liefert Ncore 2.0 die Werkzeuge, um Veränderungen einen Schritt voraus zu sein. Transparenz und Sicherheit sind im Kern angelegt, sodass Nutzer regulatorische Verschiebungen souverän bewältigen. Funktionen von Ncore 2.0 wie detaillierte Transaktionsprotokolle und Berichte zur Performance schaffen volle Transparenz und geben Nutzern eine verlässliche Möglichkeit, Compliance bei Bedarf nachzuweisen. Durch die reibungslose Anpassung an neue Vorgaben stellt Ncore 2.0 sicher, dass Nutzer weiterhin effizient und regelkonform handeln."
+      },
+      {
+        "title": "Volatilität der Märkte",
+        "impact": "Volatilität im Krypto-Bereich bedeutet zugleich erhebliche Gewinnchancen und erhöhte Risiken. Trader brauchen Werkzeuge, die Preistrends rasch erkennen und Trades im optimalen Moment ausführen, um Gewinne zu maximieren und mögliche Verluste zu begrenzen.",
+        "advantage": "Die fortschrittlichen Front-Running-Algorithmen und die Marktbeobachtung in Echtzeit erlauben Ncore 2.0, Marktbewegungen unmittelbar zu erkennen und zu nutzen. Weil das System Bewegungen zuvorkommt und Strategien in Echtzeit anpasst, können Trader volatile Phasen besser nutzen, ohne von plötzlichen Einbrüchen oder Ausschlägen erfasst zu werden."
+      },
+      {
+        "title": "Das Aufkommen von Lösungen auf Layer 2",
+        "impact": "Lösungen auf Layer 2 dürften eine wesentliche Rolle dabei spielen, Transaktionskosten zu senken und die Skalierbarkeit zu verbessern. Für Trader eröffnet das die besondere Chance, Trades mit niedrigeren Gebühren und kürzeren Verarbeitungszeiten auszuführen.",
+        "advantage": "Da Technologien auf Layer 2 weiter an Bedeutung gewinnen, ist Ncore 2.0 darauf ausgelegt, sich mit diesen neuen Plattformen zu verbinden und Nutzern schnellere und günstigere Ausführung zu bieten. Durch die frühe Adoption dieser Technologien sorgt Ncore 2.0 dafür, dass seine Nutzer gut aufgestellt sind, um die Vorteile von Layer 2 voll auszuschöpfen."
+      },
+      {
+        "title": "Integration künstlicher Intelligenz (KI) im Trading",
+        "impact": "Trading-Bots mit KI passen sich in Echtzeit an die Marktlage an und schärfen ihre Strategien auf Basis fortlaufender Datenanalyse. Diese Anpassungsfähigkeit ist im volatilen Kryptomarkt entscheidend, wo schnelle Entscheidungen die Profitabilität deutlich beeinflussen.",
+        "advantage": "Durch die Integration fortschrittlicher KI-Algorithmen verbessert Ncore 2.0 Marktanalyse und Ausführung. Weil das System Daten in Echtzeit verarbeitet und Strategien dynamisch nachjustiert, behalten Nutzer in schnellen Handelsumgebungen ihren Vorsprung."
+      },
+      {
+        "title": "Tokenisierung realer Vermögenswerte (RWA)",
+        "impact": "Die Tokenisierung von Werten wie Immobilien, Kunst oder Rohstoffen erschließt neue Märkte und Anlagechancen. Anteiliges Eigentum lässt sich leichter handeln, und die Liquidität steigt.",
+        "advantage": "Weil Ncore 2.0 anpassungsfähig ist, kann es mit unterschiedlichen tokenisierten Werten arbeiten. Nutzer erhalten damit breitere Handelsoptionen und die Möglichkeit, aufkommende Märkte im Krypto-Bereich zu nutzen."
+      },
+      {
+        "title": "Neue Finanzprodukte und Finanzdienste",
+        "impact": "Neue Finanzinstrumente eröffnen vielfältige Anlagechancen, beeinflussen die Marktdynamik und geben Tradern zusätzliche Wege zum Gewinn.",
+        "advantage": "Weil sich Ncore 2.0 an unterschiedliche Finanzprodukte anpasst, können Nutzer diese neuen Instrumente wirksam einsetzen und in ihre Handelsstrategien einbinden, um Erträge zu maximieren."
+      },
+      {
+        "title": "Blockchain-Technologie im klassischen Finanzwesen",
+        "impact": "Blockchain-Technologie verankert sich immer tiefer im Bank- und Finanzwesen und ermöglicht schnellere Transaktionen, mehr Transparenz und neue Funktionen.",
+        "advantage": "Das Design von Ncore 2.0 erlaubt die nahtlose Anbindung an unterschiedliche Blockchain-Protokolle, sodass Nutzer die jüngsten Fortschritte dieser Technologie für effizientes und sicheres Trading nutzen können."
+      }
+    ],
+    "conclusion": "Ncore 2.0 ist darauf ausgerichtet, diese dynamischen Markttrends zu nutzen, und bietet Krypto-Tradern eine anspruchsvolle, anpassungsfähige und verlässliche Lösung. Weil sich das System fortlaufend weiterentwickelt und neue Technologien wie Marktentwicklungen aufnimmt, bleiben Nutzer in einer schnellen und wandelbaren Krypto-Landschaft wettbewerbsfähig. Mit fortschrittlichen Funktionen, prädiktiven Fähigkeiten und Anpassungsfähigkeit am Markt ist Ncore 2.0 darauf ausgelegt, die Profitabilität zu maximieren und das Risiko zu senken — auch unter den volatilsten Bedingungen.",
+    "footNav": {
+      "prev": "Funktionen",
+      "next": "Ncore X"
+    }
+  },
+  "X_PAGE": {
+    "title": "Ncore X",
+    "subtitle": "Intelligente Arbitrage-Engine für alle Plattformen",
+    "newEra": {
+      "heading": "Eine neue Ära der Arbitrage über Plattformen hinweg",
+      "paragraphs": [
+        "In den heutigen Märkten für digitale Assets bewegen sich Preise nicht nur innerhalb einer Börse, sondern auch zwischen mehreren Handelsplattformen.",
+        "Ncore X ist darauf ausgelegt, diese flüchtigen Chancen zwischen Plattformen zu erfassen. Kunden erhalten damit einen systematischen Weg, von zeitweiligen Preisabweichungen zwischen dezentralen (DEX) und zentralen Börsen (CEX) zu profitieren.",
+        "Ncore X analysiert Preise, Orderbücher und die Verteilung der Liquidität mehrerer Plattformen in Echtzeit und führt automatisierte Arbitrage-Trades genau in dem Moment aus, in dem Ineffizienzen am Markt auftreten. So bleiben Kunden vorn und erfassen planbare, systematisierte Gewinne."
+      ]
+    },
+    "coreConcept": {
+      "heading": "Das Kernprinzip: Arbitrage über Plattformen hinweg",
+      "intro": "Arbitrage über Plattformen hinweg nutzt Preisunterschiede zwischen Handelsplätzen, um Gewinne zu erzielen:",
+      "points": [
+        {
+          "title": "Unabhängig von der Richtung",
+          "body": "Erträge entstehen aus kurzfristigen Preisabweichungen, nicht aus Markttrends"
+        },
+        {
+          "title": "Systematische Ausführung",
+          "body": "Algorithmisch gesteuerte Automatisierung senkt manuelle Eingriffe"
+        },
+        {
+          "title": "Mehr Effizienz am Markt",
+          "body": "Arbitrage trägt dazu bei, Preise über Plattformen hinweg anzugleichen"
+        }
+      ],
+      "closing": "Ncore X überführt diese Strategie vollständig in ein Produkt und erlaubt Kunden, Arbitrage-Chancen effizient und verlässlich zu erfassen."
+    },
+    "scenarios": {
+      "heading": "Drei Szenarien der Arbitrage",
+      "items": [
+        {
+          "title": "Arbitrage DEX ↔ DEX",
+          "bullets": [
+            "nutzt zeitweilige Preislücken zwischen dezentralen Börsen",
+            "kauft automatisch aus günstiger bepreisten Liquiditätspools und verkauft in höher bepreiste Pools",
+            "schließt Arbitrage-Zyklen rasch ab und verbessert die Preiskonsistenz über DEX hinweg"
+          ]
+        },
+        {
+          "title": "Arbitrage CEX ↔ CEX",
+          "bullets": [
+            "erkennt kleinste Preisdifferenzen zwischen zentralen Börsen",
+            "nutzt Unterschiede in Ordertiefe, Matching-Mechanismen oder regionalen Faktoren",
+            "systematische Ausführung erlaubt Kunden, Marktbewegungen zuvorzukommen"
+          ]
+        },
+        {
+          "title": "Arbitrage DEX ↔ CEX",
+          "bullets": [
+            "verbindet dezentrale und zentrale Plattformen",
+            "erfasst Preisabweichungen über Systemgrenzen hinweg",
+            "führt Arbitrage-Trades automatisch aus und verschiebt Liquidität effizient"
+          ]
+        }
+      ]
+    },
+    "advantages": {
+      "heading": "Die zentralen Vorteile von Ncore X",
+      "items": [
+        {
+          "title": "Intelligente Beobachtung mehrerer Plattformen",
+          "bullets": [
+            "Verfolgung von DEX- und CEX-Daten in Echtzeit",
+            "präzises Erkennen von Preisanomalien und Arbitrage-Signalen"
+          ]
+        },
+        {
+          "title": "Ausführung mit minimaler Latenz",
+          "bullets": [
+            "schnelle Übermittlung von Handelsanweisungen an alle Plattformen",
+            "sichert Arbitrage-Chancen, bevor die Preise zurücklaufen"
+          ]
+        },
+        {
+          "title": "Optimierung der Kosten",
+          "bullets": [
+            "kluge Steuerung der Transaktionsgebühren",
+            "minimiert Kosten bei Auslastung des Netzwerks und maximiert den Nettogewinn"
+          ]
+        },
+        {
+          "title": "Intelligente Risikosteuerung",
+          "bullets": [
+            "laufende Beobachtung von Ausführung und Volatilität am Markt",
+            "dynamische Anpassung der Strategie für stabile, kontrollierte Erträge"
+          ]
+        }
+      ]
+    },
+    "productized": {
+      "heading": "Produktisierter Nutzen für Kunden",
+      "points": [
+        {
+          "title": "Umfassende Marktabdeckung",
+          "body": "Eine einzige Strategie greift auf mehrere Plattformen zu"
+        },
+        {
+          "title": "Automatisierte Ausführung",
+          "body": "Arbitrage-Trades laufen ohne manuelle Eingriffe ab"
+        },
+        {
+          "title": "Hohe Effizienz & geringe Kosten",
+          "body": "Optimierte Transaktionsgebühren und Ausführung"
+        },
+        {
+          "title": "Kontrolliertes Risiko",
+          "body": "Adaptive Parameter der Strategie sichern Schutz und Ertrag"
+        }
+      ],
+      "closing": "Ncore X macht aus komplexen Arbitrage-Strategien über Plattformen hinweg eine sofort einsetzbare, produktisierte Lösung. Kunden konzentrieren sich damit auf Erträge statt auf technische Komplexität."
+    },
+    "realWorld": {
+      "heading": "Anwendung in der Praxis",
+      "intro": "In der Praxis:",
+      "steps": [
+        "Zwischen Plattformen entstehen Preisunterschiede",
+        "Ncore X erkennt das Arbitrage-Signal automatisch",
+        "kauft günstig auf der einen Plattform, verkauft teurer auf der anderen und schließt den Gewinnzyklus",
+        "sichert die Erträge, bevor der Markt breit reagiert"
+      ],
+      "closing": "Dieser Ansatz erlaubt Kunden, planbare und wiederholbare Gewinne in schnellen Märkten zu erfassen."
+    },
+    "futureVision": {
+      "heading": "Die Zukunftsvision von Ncore X",
+      "intro": "Ncore X ist nicht bloß ein Handelswerkzeug — es steht für die Standardisierung intelligenter Arbitrage:",
+      "bullets": [
+        "konzipiert für private wie institutionelle Nutzer",
+        "automatisiert Arbitrage über mehrere Plattformen hinweg",
+        "erfasst Ineffizienzen am Markt systematisch",
+        "skalierbar über zahlreiche Assets und Plattformen"
+      ],
+      "closing": "In der sich rasch wandelnden Welt digitaler Assets versetzt Ncore X Kunden in die Lage, vorn zu bleiben, beständig Erträge zu erzielen und langfristig zu wachsen."
+    },
+    "highlights": {
+      "heading": "Die wichtigsten Punkte",
+      "bullets": [
+        "vollständige Abdeckung der Arbitrage über Plattformen hinweg (DEX ↔ DEX / CEX ↔ CEX / DEX ↔ CEX)",
+        "systematische, automatisierte Ausführung mit geringer Latenz",
+        "optimierte Kosten und intelligentes Risikomanagement",
+        "produktisierte Lösung, sofort einsetzbar für Kunden"
+      ]
+    }
+  },
+  "NCT_PAGE": {
+    "title": "Ncore Token (NCT)",
+    "subtitle": "Der native Utility-Token als Antrieb des Ncore-Ökosystems",
+    "intro": [
+      "Der Ncore Token (NCT) ist der zentrale Utility-Token des Naslab-Ökosystems, konzipiert rund um die Nutzung des Systems, die Teilhabe am Ökosystem und die langfristige Ausrichtung des Werts.",
+      "NCT ist kein spekulatives Asset, sondern dient als Ebene für Abwicklung, Zugang und Anreize über alle Ncore-Produkte hinweg."
+    ],
+    "tokenomics": {
+      "heading": "Tokenomics",
+      "stats": [
+        {
+          "label": "GESAMTMENGE"
+        },
+        {
+          "label": "AUSGABEPREIS",
+          "value": "USD 0.10"
+        },
+        {
+          "label": "ANFANGS IM UMLAUF",
+          "value": "100,000,000 NCT (10%)"
+        }
+      ],
+      "initialSplit": [
+        "50,000,000 für bestehende Nutzer",
+        "50,000,000 für Halter von Nodes"
+      ],
+      "allocationHeading": "Aufteilung der Zuteilung",
+      "allocation": [
+        {
+          "label": "Community & Ökosystem"
+        },
+        {
+          "label": "Listings & Partnerschaften"
+        },
+        {
+          "label": "Treasury / Reserven"
+        },
+        {
+          "label": "Gründer & Team (Vesting über 4 Jahre)"
+        },
+        {
+          "label": "Advisors"
+        },
+        {
+          "label": "Private Sale"
+        },
+        {
+          "label": "Public Sale"
+        }
+      ]
+    },
+    "revenue": {
+      "heading": "Ertragsmodell",
+      "bullets": [
+        "Alle Abonnements der Ncore-Systeme werden ausschließlich in NCT bezahlt",
+        "Im System eingesetzte Token werden automatisch verbrannt",
+        "die im Umlauf befindliche Menge sinkt fortlaufend",
+        "Rückkauf- und Swap-Mechanismen stützen die Wertstabilität auf lange Sicht",
+        "künftige Staking-Mechanismen erschließen tiefere Vorteile im Ökosystem"
+      ]
+    },
+    "utility": {
+      "heading": "Nutzen & Vorteile",
+      "groups": [
+        {
+          "title": "Primärer Token für die Abwicklung",
+          "bullets": [
+            "NCT ist die einzige Währung für Ncore-Abonnements",
+            "kein Ersatz durch Fiat oder andere Token",
+            "das nutzungsgetriebene Burn-Verfahren stärkt die Knappheit"
+          ]
+        },
+        {
+          "title": "Wertstruktur auf Basis von Knappheit",
+          "bullets": [
+            "Token gehen ausschließlich an bestehende Nutzer und Halter von Nodes",
+            "kontrolliertes Wachstum der Menge",
+            "steigende Nachfrage bei sinkendem Angebot",
+            "ausgelegt auf nachhaltigen Wertaufbau über lange Sicht"
+          ]
+        },
+        {
+          "title": "Exklusiver Zugang zum Ökosystem",
+          "bullets": [
+            "Privilegien beim Whitelisting",
+            "frühe Teilnahme an aussichtsreichen Projekten des Ökosystems",
+            "bevorzugter Zugang zu Initiativen von Partnern",
+            "Chancen auf strategische Zusammenarbeit"
+          ]
+        },
+        {
+          "title": "Compliance & langfristige Vision",
+          "bullets": [
+            "NCT wird als Teil der Vermögensbasis von Naslab anerkannt",
+            "geplante Einbindung in die regulierten Marktstrukturen Hongkongs",
+            "mehr Transparenz und Glaubwürdigkeit gegenüber dem klassischen Finanzwesen",
+            "positioniert als Brücke zwischen Blockchain-Innovation und reguliertem Finanzwesen"
+          ]
+        }
+      ]
+    },
+    "mastercard": {
+      "heading": "Naslab Mastercard",
+      "points": [
+        {
+          "title": "Sichere Verwahrung von Krypto",
+          "body": "Ermöglicht die sichere Verwahrung von Krypto, weltweites Bezahlen und Transaktionen."
+        },
+        {
+          "title": "Anbindung an klassische Systeme",
+          "body": "Verbindet Blockchain-Assets mit klassischen Zahlungsnetzwerken."
+        },
+        {
+          "title": "Nutzung im Alltag",
+          "body": "Bringt digitale Assets in die alltägliche Nutzung im Finanzbereich."
+        }
+      ]
+    }
+  },
+  "ABOUT_PAGE": {
+    "title": "Über Naslab",
+    "subtitle": "Wir vermarkten innovative digitale Finanzlösungen von Nastech Global",
+    "intro": "Bei Naslab sind wir darauf spezialisiert, die hochmodernen digitalen Finanzlösungen von Nastech Global zu vermarkten und bekannt zu machen. Als Marketing-Arm von Nastech kommt uns eine Schlüsselrolle dabei zu, die innovativen Produkte des Unternehmens einzuführen und ihre Bekanntheit auszubauen — darunter Krypto-Reserven, Staking-Programme und Werkzeuge für automatisiertes Trading. Unsere Aufgabe ist es, Privatpersonen und Unternehmen den Weg durch die rasch wandelnde digitale Wirtschaft zu ebnen, indem wir ihnen Zugang zu sicheren, skalierbaren und vorausschauenden Finanzstrategien verschaffen.",
+    "founded": {
+      "label": "Gegründet"
+    },
+    "story": {
+      "heading": "Unsere Geschichte",
+      "paragraphs": [
+        "Naslab wurde als zentraler Partner von Nastech Global gegründet und konzentriert sich auf wirkungsstarke Marketingstrategien, die die Verbreitung der Produkte von Nastech vorantreiben. Wir sorgen dafür, dass diese fortschrittlichen Lösungen ein breiteres Publikum erreichen, schaffen Aufmerksamkeit und unterstützen das Wachstum von Kunden und Nutzern. Unsere Arbeit ist darauf ausgelegt, den besonderen Nutzen der Angebote von Nastech herauszustellen und sie als unverzichtbare Werkzeuge der digitalen Finanzwelt zu positionieren.",
+        "Mit klarem Fokus auf die Innovationen von Nastech richtet Naslab seine Strategien an den unterschiedlichen Bedürfnissen von Unternehmen und Privatpersonen aus. Wir sind überzeugt: Kunden sind dann erfolgreich, wenn sie Zugang zu den jüngsten Fortschritten im digitalen Finanzbereich haben. Ob es darum geht, das Anlagepotenzial auszuschöpfen, die Profitabilität zu steigern oder automatisiertes Trading zu nutzen — Naslab stellt sicher, dass die Produkte von Nastech auf die sich wandelnden Anforderungen des Marktes ausgerichtet sind.",
+        "Mit Blick nach vorn bleibt Naslab die Brücke zwischen den wegweisenden Produkten von Nastech Global und dem globalen Markt. Unser Fokus liegt weiterhin darauf, unsere Reichweite auszubauen und Unternehmen wie Privatpersonen mit den besten Mitteln auszustatten, um in der sich stetig wandelnden digitalen Finanzwelt zu bestehen."
+      ]
+    },
+    "mission": {
+      "heading": "Unsere Mission",
+      "body": "Bei Naslab ist es unsere Mission, Unternehmen und Privatpersonen mit erstklassigen digitalen Finanzlösungen zu stärken und so Innovation und nachhaltiges Wachstum zu fördern. Als Marketing-Arm von Nastech Global machen wir hochmoderne Produkte bekannt — darunter Krypto-Reserven, Staking-Programme und Werkzeuge für automatisiertes Trading. Wir setzen auf sichere, skalierbare und vorausschauende Strategien, die unseren Kunden den Weg durch die rasch wandelnde digitale Wirtschaft ebnen. Auf Basis der wegweisenden Lösungen von Nastech optimieren wir die Performance und schaffen bleibenden Wert für Privatpersonen wie Unternehmen."
+    },
+    "vision": {
+      "heading": "Unsere Vision",
+      "body": "Wir sehen eine Zukunft, in der digitale Finanzen Unternehmen und Privatpersonen ihr volles Potenzial erschließen und klügere, effizientere und sicherere Abläufe ermöglichen. Bei Naslab schärfen wir unsere Marketingstrategien fortlaufend, damit die innovativen Produkte von Nastech Global zugänglich und wirksam sind. Indem wir Expertise in digitalen Finanzen mit vorausschauendem Marketing verbinden, wollen wir eine neue Generation von Kunden dafür gewinnen, diese Lösungen zu nutzen, Markttrends voraus zu sein und die Chancen des digitalen Zeitalters zu ergreifen. Gemeinsam gestalten wir eine Zukunft, in der Innovation in digitalen Finanzen langfristigen Erfolg und Wohlstand für alle trägt."
+    },
+    "leadership": {
+      "heading": "Unsere Führung",
+      "sub": "Innovation in digitalen Finanzen — mit Weitblick und Erfahrung",
+      "role": "CEO von Naslab & Nastech Global",
+      "quote": "„Bei Naslab ist es unser Ziel, Unternehmen und Privatpersonen mit innovativen Lösungen zu stärken, die nachhaltigen Erfolg in der digitalen Wirtschaft tragen. Wir liefern sichere, skalierbare Strategien, mit denen unsere Kunden der Entwicklung stets einen Schritt voraus sind.“",
+      "bio": [
+        "Peter Kovac ist die treibende Kraft hinter Nastech Global und Naslab und verfolgt eine klare Vision: die digitale Finanzwelt zu verändern. Mit starkem Hintergrund in Finanzen wie in Technologie setzt er Innovation gezielt ein, um reale Herausforderungen zu lösen.",
+        "Vor der Gründung von Naslab im Jahr 2025 gründete Peter Kovac 2024 Nastech Global, wo er fortschrittliche Technologien in den Finanzsektor einbrachte. Sein tiefes Verständnis für Markttrends prägte seine Vision für Naslab als Marketing-Arm für die hochmodernen Produkte von Nastech.",
+        "Führung bedeutet für ihn, bleibenden Wert zu schaffen und Kunden mit innovativen digitalen Lösungen zu stärken. Transparenz, Innovation und der Erfolg der Kunden stehen für ihn in der stetig wandelnden digitalen Wirtschaft an erster Stelle."
+      ]
+    },
+    "values": {
+      "heading": "Unsere Grundwerte",
+      "items": [
+        {
+          "title": "Innovation",
+          "body": "Naslab vermarktet innovative Produkte von Nastech Global, darunter Krypto-Reserven, Staking-Programme und Werkzeuge für automatisiertes Trading. Sie alle verlangen hochmoderne Lösungen und einen vorausschauenden Ansatz."
+        },
+        {
+          "title": "Integrität",
+          "body": "Als Marketingunternehmen muss Naslab das Vertrauen seiner Kunden und Partner wahren. Transparenz und ethisches Handeln sind entscheidend, um die Produkte von Nastech verantwortungsvoll und glaubwürdig zu vermarkten."
+        },
+        {
+          "title": "Sicherheit",
+          "body": "Da Naslab digitale Finanzlösungen vermarktet, insbesondere rund um Krypto und Trading, ist Sicherheit entscheidend für das Vertrauen der Kunden und für den geschützten Umgang mit sensiblen Daten und Transaktionen."
+        },
+        {
+          "title": "Nachhaltigkeit",
+          "body": "Naslab richtet sich auf langfristigen Erfolg aus, nicht auf kurzfristige Marketingerfolge. Kunden im wandelnden digitalen Finanzbereich nachhaltig wachsen zu lassen, zahlt unmittelbar auf langfristige Stabilität ein."
+        },
+        {
+          "title": "Fokus auf den Kunden",
+          "body": "Die Mission von Naslab ist es, Kunden den Weg durch die digitale Finanzwelt zu ebnen. Persönliche, wirkungsstarke Marketinglösungen im Einklang mit den Bedürfnissen der Kunden sind dafür entscheidend."
+        },
+        {
+          "title": "Zusammenarbeit",
+          "body": "Naslab arbeitet eng mit Nastech Global zusammen. Die Kooperation mit weiteren Partnern und Kunden ist wesentlich, um die Produkte von Nastech erfolgreich zu vermarkten und bekannter zu machen."
+        }
+      ]
+    }
+  },
+  "STRATEGY_PAGE": {
+    "title": "Unsere Strategie",
+    "subtitle": "Wir stärken die Zukunft der digitalen Finanzwelt",
+    "intro": [
+      "Die Strategie von Naslab beruht auf einer Grundüberzeugung: Unternehmen und Privatpersonen sollen Zugang zu den innovativsten verfügbaren digitalen Finanzlösungen erhalten. Wir vermarkten die fortschrittlichen Produkte von Nastech Global gezielt und strategisch — darunter Krypto-Reserven, Staking-Programme und Werkzeuge für automatisiertes Trading. Unser Ziel ist es, Kunden ihr Potenzial voll ausschöpfen zu lassen, indem wir ihnen hochmoderne Lösungen für Wachstum in einem stetig wandelnden Finanzumfeld anbieten.",
+      "Unser Ansatz verbindet Marktkenntnis, technologische Innovation und sichere Finanzstrategien. So liefern wir heute wirksame Lösungen und bleiben zugleich offen für die Chancen von morgen. Durch enge Zusammenarbeit und ein tiefes Verständnis aufkommender Trends geben wir Kunden Werkzeuge an die Hand, die nicht nur aktuelle Herausforderungen lösen, sondern sie auch auf die Finanzwelt von morgen vorbereiten."
+    ],
+    "pillars": {
+      "heading": "Die Säulen unserer Strategie",
+      "items": [
+        {
+          "title": "Ganzheitliche und skalierbare Lösungen",
+          "body": "Naslab liefert skalierbare Marketinglösungen, die sich mit dem dynamischen Markt für digitale Finanzen weiterentwickeln. Ob Krypto-Reserven, Staking-Programme oder Bots für automatisiertes Trading — unser Ziel ist es, Kunden die Mittel zu geben, ihre Finanzstrategien zu schärfen und die bestmöglichen Erträge zu erzielen. Wandelt sich die digitale Finanzwelt, wandeln sich unsere Marketingstrategien mit: Wir gehen neue Herausforderungen an und nutzen aufkommende Chancen."
+        },
+        {
+          "title": "Ein passendes Erlebnis für jeden Beteiligten",
+          "body": "Weil jeder Kunde eigene Ziele und Bedürfnisse hat, richten wir unsere Marketingstrategien auf Ihren individuellen finanziellen Weg aus. Ob Sie neu in digitalen Finanzen sind oder als erfahrener Anleger agieren — unser Ansatz orientiert sich an Ihren finanziellen Zielen, Ihrer Risikobereitschaft und Ihren Präferenzen. So passen die Lösungen, die wir für Naslab vermarkten, in jeder Phase Ihres finanziellen Wegs zu Ihnen."
+        }
+      ]
+    },
+    "focus1": {
+      "heading": "Strategischer Fokus",
+      "items": [
+        {
+          "title": "Individuelle Kundenlösungen",
+          "body": "Wir entwickeln Marketingstrategien, die auf die jeweiligen finanziellen Ziele, die Risikobereitschaft und die Ambitionen jedes Kunden zugeschnitten sind. Ob Sie gerade erst beginnen oder bereits tief in digitalen Finanzen aktiv sind — die Lösungen von Naslab richten sich nach Ihrem Bedarf."
+        },
+        {
+          "title": "Skalierbares und adaptives Marketing",
+          "body": "Unsere Strategien sind darauf ausgelegt, mit Ihrem finanziellen Weg zu wachsen. Verschieben sich die Marktbedingungen, passen wir unser Vorgehen an, damit die Lösungen relevant, flexibel und auf Ihre veränderten Bedürfnisse ausgerichtet bleiben."
+        },
+        {
+          "title": "Laufende Optimierung",
+          "body": "Wir verbessern unsere Marketingstrategien fortlaufend anhand von Kundenrückmeldungen und aufkommenden Trends im digitalen Finanzbereich. So sind die Lösungen, die wir vermarkten, nicht nur aktuell, sondern auch wirksam für die Ziele unserer Kunden."
+        }
+      ]
+    },
+    "security": {
+      "heading": "Innovation mit Sicherheit zuerst",
+      "body": "Sicherheit steht bei Naslab im Zentrum unseres Handelns. Alle von Naslab vermarkteten Produkte, einschließlich derer von Nastech, sind durch modernste Schutzmaßnahmen abgesichert, etwa durch Blockchain-Technologie und Verschlüsselung. Wir bieten unseren Kunden ein sicheres Umfeld, um führende Werkzeuge der digitalen Finanzwelt souverän zu nutzen — ihre Investitionen sind geschützt, und der langfristige finanzielle Erfolg ist gestützt.",
+      "chips": [
+        "Sicherheit der Blockchain",
+        "Starke Verschlüsselung",
+        "Risikomanagement",
+        "Geschützte Assets"
+      ]
+    },
+    "growth": {
+      "heading": "Warum wir auf strategisches Wachstum und Partnerschaft setzen",
+      "body": "Das Engagement von Naslab für strategisches Wachstum beruht auf einem klaren Verständnis der Marktbedürfnisse. So wie die innovativen Produkte von Nastech Effizienz schaffen, bringt unser Marketing diese Lösungen über direkte Zusammenarbeit und langfristige Partnerschaften zum richtigen Publikum. Wir richten jeden Teil unserer Arbeit darauf aus, dass unsere Kunden in einem stetig wandelnden Ökosystem digitaler Finanzen erfolgreich sind.",
+      "focusHeading": "Strategischer Fokus",
+      "items": [
+        {
+          "title": "Marketing gemeinsam mit Kunden",
+          "body": "Wir arbeiten direkt mit Kunden daran, Marketingstrategien zu schärfen, damit die Produkte von Nastech ihre ideale Zielgruppe wirksam und effizient erreichen."
+        },
+        {
+          "title": "Maßarbeit im Kern",
+          "body": "Jede Strategie entsteht mit Blick auf den Kunden und bietet zugeschnittene Marketinglösungen, die sich an die besonderen Bedürfnisse und betrieblichen Anforderungen jedes Unternehmens anpassen."
+        },
+        {
+          "title": "Langfristige Partnerschaften aufbauen",
+          "body": "Bei Naslab pflegen wir Partnerschaften, die Unternehmen beim Wachstum tragen. Wir helfen unseren Kunden, mit neuen Technologien und sich wandelnden Markttrends Schritt zu halten."
+        }
+      ]
+    },
+    "innovation": {
+      "heading": "Innovation & Anpassungsfähigkeit",
+      "blocks": [
+        {
+          "title": "Lösungen für die Zukunft",
+          "body": "Naslab bleibt der Entwicklung voraus, indem wir Innovation fortlaufend leben. Wir investieren in Forschung und Entwicklung, damit unsere Marketingstrategien mit den jüngsten Fortschritten in Blockchain, KI und Krypto im Einklang stehen. Dieses vorausschauende Handeln erlaubt uns, Lösungen anzubieten, die sich mit technologischen und marktseitigen Veränderungen weiterentwickeln."
+        },
+        {
+          "title": "Unsere Vision für Wachstum",
+          "body": "Der Ausbau der Marketingarbeit von Naslab geht über die ersten Angebote von Nastech hinaus. Während wir unsere Strategien weiter schärfen, erschließen wir neue Technologien und Marketingmethoden, damit unsere Kunden im digitalen Finanzbereich an der Spitze bleiben. Mit Blick auf langfristige Skalierbarkeit hilft Naslab Unternehmen, in einem stetig wandelnden technologischen Umfeld vorn zu bleiben."
+        }
+      ],
+      "focusHeading": "Strategischer Fokus",
+      "items": [
+        {
+          "title": "Investition in Marketing-Innovation",
+          "body": "Wir verbessern unsere Marketingstrategien laufend mit den neuesten Werkzeugen und Technologien und bieten Kunden damit hochmoderne digitale Finanzlösungen."
+        },
+        {
+          "title": "Anpassung an den Wandel der Branche",
+          "body": "Wandelt sich der Markt für digitale Finanzen, schärfen wir unsere Strategien, um relevant zu bleiben und unseren Kunden weiterhin die wirksamsten Marketingansätze zu bieten."
+        },
+        {
+          "title": "Wachstum auf lange Sicht",
+          "body": "Unsere Lösungen sind auf langfristige Skalierbarkeit ausgelegt, damit sich unsere Marketingstrategien mit den Bedürfnissen der Kunden, Marktverschiebungen und neuen Technologien weiterentwickeln."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Warum Naslab?",
+      "items": [
+        {
+          "title": "Intelligente Marketinglösungen",
+          "body": "Bei Naslab sind wir auf intelligente Marketingstrategien spezialisiert, die sich mit der dynamischen Welt der digitalen Finanzen weiterentwickeln. Unsere Expertise reicht von Krypto-Reserven über Staking-Programme bis zu Werkzeugen für automatisiertes Trading."
+        },
+        {
+          "title": "Zugeschnittene Lösungen mit Wirkung",
+          "body": "Wir wissen, dass jeder Kunde eigene Bedürfnisse und Ziele hat. Deshalb bieten wir persönliche Marketingstrategien, die sich nahtlos in Ihren bestehenden finanziellen Ansatz einfügen."
+        },
+        {
+          "title": "Innovation, die Ihnen den Vorsprung sichert",
+          "body": "Technologie wandelt sich fortlaufend — und wir uns mit ihr. Bei Naslab investieren wir in die neuesten Entwicklungen, von Blockchain-Technologie bis zu Werkzeugen mit KI, um unsere Marketingstrategien zukunftsfest zu machen."
+        }
+      ]
+    },
+    "visionAhead": {
+      "commitHeading": "Das Innovationsversprechen von Naslab",
+      "commitBody": "Bei Naslab steht Innovation im Zentrum unseres Handelns. Wir verbessern unsere Marketingstrategien und Werkzeuge fortlaufend, damit unsere Kunden im digitalen Finanzbereich stets einen Schritt voraus sind.",
+      "visionHeading": "Die Vision von Naslab",
+      "visionSub": "Heute erneuern für den Erfolg von morgen",
+      "visionBody": "Die Vision von Naslab ist es, Unternehmen mit innovativen, zukunftsfesten Marketinglösungen zu stärken. Wir entwickeln Strategien, die nicht nur die Herausforderungen von heute lösen, sondern auch den Boden für die Chancen von morgen bereiten. Unser Fokus liegt auf ergebnisorientierten Lösungen, die sich nahtlos in die finanziellen Ziele unserer Kunden einfügen und klügere Entscheidungen, optimiertes Wachstum und langfristigen Erfolg im digitalen Finanzbereich ermöglichen.",
+      "aheadHeading": "Der Blick nach vorn",
+      "aheadSub": "Eine Zukunft aus Wachstum, Innovation und Expansion",
+      "items": [
+        {
+          "title": "Digitale Finanzlösungen voranbringen",
+          "body": "Bei Naslab treiben wir digitale Finanzen durch fortlaufende Innovation voran. Im Fokus stehen hochmoderne Technologien wie Blockchain, KI und maschinelles Lernen."
+        },
+        {
+          "title": "Unsere Marktreichweite ausbauen",
+          "body": "Naslab ist auf dem Weg, seinen Einfluss auf globalen Märkten auszuweiten. Bis 2026 wollen wir unsere Präsenz im Bereich der digitalen Finanzen deutlich verbreitern."
+        },
+        {
+          "title": "Ein stärkeres globales Netzwerk aufbauen",
+          "body": "Als Teil unserer Wachstumsvision baut Naslab seine globale Präsenz durch belastbare Beziehungen zu führenden Akteuren und Partnern der Branche aus."
+        }
+      ]
+    }
+  },
+  "CAREERS_PAGE": {
+    "title": "Werden Sie Teil des Teams von Naslab",
+    "intro": "Bei Naslab suchen wir stets nach begeisterten, engagierten Menschen, die innovative, technologiegetriebene Lösungen mitgestalten wollen — Lösungen, die Branchen prägen und Unternehmen verändern. Wir bauen ein starkes Netzwerk talentierter Fachleute auf. Wenn Sie in einem dynamischen, vorausschauenden Umfeld aufblühen und sich für die Zukunft der Technologie begeistern, freuen wir uns auf Ihre Nachricht.",
+    "why": {
+      "heading": "Warum Naslab?",
+      "body": "Bei Naslab treiben wir Wachstum durch Innovation und strategisches Marketing voran. Unser Team setzt hochmoderne Technologie ein, um Marken mit ihrem Publikum zu verbinden und echte Wirkung zu erzielen. Ob wir unsere wichtigsten Produkte bekannt machen oder Partnern helfen, ihre Reichweite auszubauen — wir verstehen uns als Motor für nachhaltiges Wachstum und langfristigen Erfolg. Jede Kampagne ist eine Gelegenheit, die digitale Welt ein Stück voranzubringen."
+    },
+    "lookingFor": {
+      "heading": "Wen wir suchen",
+      "body": "Wir freuen uns jederzeit über den Kontakt zu talentierten Fachleuten in den folgenden Rollen:"
+    },
+    "ready": {
+      "heading": "Bereit für den nächsten Schritt?",
+      "body": "Machen Sie den ersten Schritt in eine spannende Laufbahn bei Naslab. Wir freuen uns auf Ihre Nachricht!",
+      "cta": "Kontakt aufnehmen"
+    }
+  },
+  "COLLAB_PAGE": {
+    "title": "Kooperation",
+    "subtitle": "Gemeinsam mit Naslab arbeiten",
+    "intro": "Bei Naslab sind wir überzeugt: Langfristiger Wert entsteht durch enge Zusammenarbeit und Fähigkeiten, die einander ergänzen. Wir arbeiten mit Partnern, die Qualität in der Ausführung, Verlässlichkeit der Systeme und langfristiges Denken teilen.",
+    "approach": {
+      "heading": "Unser Ansatz",
+      "body": "Statt auf transaktionale oder kurzfristige Partnerschaften setzen wir auf Kooperationen, die zu belastbaren Systemen, echter Innovation und nachhaltigem Wachstum beitragen."
+    },
+    "focus": {
+      "heading": "Unsere Schwerpunkte in der Kooperation",
+      "groups": [
+        {
+          "title": "Kooperation in Technologie & Produkt",
+          "bullets": [
+            "Partnerschaft mit Engineering-Teams und Anbietern von Infrastruktur für leistungsstarke Systeme",
+            "Zusammenarbeit an Architektur der Ausführung, Datenintelligenz und Systemdesign",
+            "Übersetzung anspruchsvoller technischer Fähigkeiten in skalierbare, produktionsreife Lösungen"
+          ]
+        },
+        {
+          "title": "Kooperation in Markt & Geschäft",
+          "bullets": [
+            "Arbeit mit Plattformen und Partnern im Ökosystem an gemeinsamen Lösungen",
+            "Abstimmung von Go-to-Market-Strategie, Compliance und Leistung für Kunden",
+            "Aufbau langfristiger, für beide Seiten wertvoller Geschäftsbeziehungen"
+          ]
+        },
+        {
+          "title": "Kooperation in Forschung & Strategie",
+          "bullets": [
+            "Forschung zu Marktstruktur, Mechanik der Ausführung und Anreizen im System",
+            "Übersetzung von Forschungsergebnissen in umsetzbare Strategien und Produktfunktionen",
+            "Erkundung neuer Technologien und neuer Marktchancen"
+          ]
+        }
+      ]
+    },
+    "who": {
+      "heading": "Mit wem wir zusammenarbeiten",
+      "intro": "Typischerweise arbeiten wir zusammen mit:",
+      "bullets": [
+        "Teams aus Technologie und Infrastruktur",
+        "Handelsplattformen und Organisationen mit Fokus auf Liquidität",
+        "Forschungseinrichtungen und spezialisierten Teams",
+        "Partnern im Ökosystem mit langfristiger, umsetzungsstarker Perspektive"
+      ],
+      "closing": "Wir schätzen Professionalität, klare Absichten und übereinstimmende Werte."
+    },
+    "build": {
+      "heading": "Lassen Sie uns gemeinsam bauen",
+      "body": "Wenn Sie einen Partner suchen, der auf Ausführung, technische Präzision und den langfristigen Aufbau von Systemen setzt, sprechen wir gern über eine Zusammenarbeit.",
+      "cta": "Kontakt aufnehmen"
+    }
+  },
+  "CONTACT_PAGE": {
+    "title": "Kontakt",
+    "body": "Wir beantworten Ihre Fragen und sprechen gern über Möglichkeiten der Zusammenarbeit. Melden Sie sich jederzeit bei uns.",
+    "emailLabel": "Schreiben Sie uns",
+    "supportLabel": "Kundenbetreuung",
+    "fields": [
+      {
+        "label": "Vorname"
+      },
+      {
+        "label": "Nachname"
+      },
+      {
+        "label": "E-Mail"
+      },
+      {
+        "label": "Telefon"
+      },
+      {
+        "label": "Anliegen *",
+        "options": [
+          "Thema auswählen",
+          "Karriere",
+          "Kooperation",
+          "Produkt",
+          "Strategie",
+          "Sonstiges"
+        ]
+      },
+      {
+        "label": "Nachricht"
+      }
+    ],
+    "submit": "Nachricht senden"
+  }
+}

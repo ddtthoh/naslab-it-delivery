@@ -1,0 +1,1301 @@
+{
+  "NAV": [
+    {
+      "label": "Ana Sayfa"
+    },
+    {
+      "label": "Naslab",
+      "children": [
+        {
+          "label": "Hakkımızda"
+        },
+        {
+          "label": "Strateji"
+        },
+        {
+          "label": "Yol Haritası"
+        }
+      ]
+    },
+    {
+      "label": "Ürünler",
+      "children": [
+        {
+          "label": "Ncore 2.0"
+        },
+        {
+          "label": "Temel Bilgiler"
+        },
+        {
+          "label": "İşlem Mantığı"
+        },
+        {
+          "label": "Özellikler"
+        },
+        {
+          "label": "Piyasa Trendleri"
+        },
+        {
+          "label": "Ncore X"
+        },
+        {
+          "label": "NCT Token"
+        }
+      ]
+    },
+    {
+      "label": "Kariyer"
+    },
+    {
+      "label": "İş Birliği"
+    },
+    {
+      "label": "Bize Ulaşın"
+    }
+  ],
+  "S1_HERO": {
+    "kicker": "NASTECH GLOBAL'İN PAZARLAMA MOTORU",
+    "h1": "DİJİTAL SERVETİN YENİ ÇAĞINA GÜÇ VERİYORUZ",
+    "body": "Bireylerin ve işletmelerin yeni nesil dijital finans çözümlerine güvenli, ölçeklenebilir ve ileri görüşlü stratejilerle erişmesini sağlıyoruz. Naslab, müşterilerinin piyasa trendlerinin önünde kalmasına ve daha isabetli kararlar almasına yardımcı olarak sürekli evrilen dijital ekonomide sürdürülebilir büyüme ve uzun vadeli değer üretir.",
+    "ctaPrimary": "BİZE ULAŞIN",
+    "ctaSecondary": "ÜRÜNLERİ KEŞFEDİN"
+  },
+  "S2_NEW_ERA": {
+    "kicker": "YENİ BİR PARADİGMA",
+    "h2": "DİJİTAL SERVETTE YENİ BİR ÇAĞ",
+    "body": "Kripto rezervinizi güvenle oluşturun; Naslab ile güvenli ve istikrarlı büyümenin ayrıcalığını yaşayın.",
+    "cta": "ÜRÜNLERİ KEŞFEDİN",
+    "stats": [
+      "7/24 İşlem Operasyonu",
+      "99.9% Çalışma Süresi Garantisi",
+      "<50ms Yürütme Gecikmesi",
+      "Küresel Piyasa Kapsamı"
+    ]
+  },
+  "S3_MISSION": {
+    "kicker": "01 · MİSYON — Ne Yapıyoruz",
+    "h2": "Gelecek Finans Çağı İçin Yaptıklarımız",
+    "body": "Naslab, Nastech Global'in gelişmiş ürünlerini sürdürülebilir ve uzun vadeli büyüme için stratejik olarak konumlandırarak işletmeleri ve bireyleri yenilikçi dijital finans çözümleriyle buluşturur.",
+    "cta": "STRATEJİMİZE GÖZ ATIN"
+  },
+  "S4_DIRECTION": {
+    "kicker": "02 · YÖN — Stratejik Yön",
+    "h2": "Dijital Finansın Geleceği İçin Stratejik Yön",
+    "body": "Naslab'ın otomatik işlem sistemlerinden ölçeklenebilir, küresel bir dijital finans altyapısına evrimini ortaya koyan uzun vadeli bir yol haritası.",
+    "cta": "STRATEJİK YOL HARİTASINI GÖRÜN"
+  },
+  "S5_NCORE_2": {
+    "kicker": "03 · ÖNGÖRÜLÜ MEV MOTORU — Ncore 2.0",
+    "h2": "Ncore 2.0 — DEX Piyasaları İçin Öngörülü MEV İşlemleri",
+    "body": "DEX odaklı bir MEV işlem platformu: mempool'u izler, büyük emirleri önceden öngörür ve front-run ile back-run stratejilerini yüksek hassasiyetle uygular.",
+    "mempoolCard": {
+      "title": "MEMPOOL AKIŞI",
+      "rows": [
+        {
+          "kind": "TAKAS"
+        },
+        {
+          "kind": "LP EKLE"
+        },
+        {
+          "kind": "TAKAS"
+        },
+        {
+          "kind": "LİKİDASYON"
+        }
+      ]
+    },
+    "logicCard": {
+      "title": "İŞLEM MANTIĞI",
+      "meta": "Canlı · v2.0",
+      "flow": "TESPİT ET → ÖNGÖR → UYGULA"
+    },
+    "panels": [
+      {
+        "label": "01 · TEMELLER — Temel Kavrayış",
+        "body": "Ncore X'in özünü kavramadan önce zincir üstü yürütmenin temel mantığını anlamak gerekir: işlemler gönderildikleri için garanti altında değildir; halka açık bir ortamda görünürlük, sıralama ve yürütme yolları tarafından belirlenir."
+      },
+      {
+        "label": "02 · MANTIK — İşlem Mantığı",
+        "body": "Ncore 2.0; mempool izleme, sandviç yürütme ve optimize edilmiş işlem sıralaması yoluyla, piyasa tepki vermeden önce değeri sistematik biçimde yakalayan DEX odaklı bir MEV işlem platformudur."
+      },
+      {
+        "label": "03 — Özellikler",
+        "body": "Ncore 2.0; mempool istihbaratını, gerçek zamanlı yürütmeyi, gas optimizasyonunu ve özelleştirilebilir risk kontrollerini bir araya getirerek işlem sıralamasından doğan değeri kesintisiz ve güvenli biçimde yakalayan gelişmiş bir DEX front-run ve MEV işlem sistemidir."
+      },
+      {
+        "label": "04 — Piyasa Trendleri",
+        "body": "Ncore 2.0; DeFi büyümesi, MEV dinamikleri, kurumsal katılım, Layer 2 ölçeklenmesi, yapay zekâ destekli işlem ve artan volatilite gibi başlıca kripto piyasası trendlerinden yararlanmak üzere uyarlanabilir, düşük gecikmeli ve yürütme odaklı işlem yetenekleri sunacak biçimde tasarlanmıştır."
+      }
+    ]
+  },
+  "S6_NCORE_X": {
+    "kicker": "04 · PLATFORMLAR ARASI — Ncore X",
+    "h2": "Ncore X — Akıllı Platformlar Arası Arbitraj Motoru",
+    "body": "DEX↔DEX, CEX↔CEX ve DEX↔CEX işlemlerini kapsayan; piyasalar arasındaki fiyat farklarını tekrarlanabilir ve sistematik getirilere dönüştüren platformlar arası bir arbitraj motoru.",
+    "cta": "NCORE X'İ KEŞFEDİN",
+    "spreadCard": {
+      "resultLabel": "YAKALANAN SPREAD",
+      "resultValue": "+$4.26 / birim"
+    }
+  },
+  "S7_NCT": {
+    "kicker": "05 · FAYDA TOKENİ — Ncore Token (NCT)",
+    "h2": "Ncore Token (NCT)",
+    "body": "Ncore Token (NCT), Ncore ekosisteminin yerel fayda tokenidir; sistem kullanımını yönlendiren, yakım mekanizmalarıyla kıtlığı güvence altına alan ve uzun vadeli ekosistem değerini hizalayan münhasır takas, erişim ve teşvik katmanı olarak görev yapar.",
+    "cta": "Ncore Token'i (NCT) Keşfedin"
+  },
+  "S8_CAREERS": {
+    "kicker": "06 · AÇIK POZİSYONLAR — Kariyer",
+    "h2": "Naslab'da Kariyer",
+    "body": "Hızla hareket eden dijital piyasalar için teknoloji odaklı sistemler inşa ediyoruz ve yürütmeyi, hassasiyeti ve etkiyi önemseyen insanlar arıyoruz.",
+    "cta": "BİZE ULAŞIN",
+    "roles": [
+      {
+        "title": "Kalite Güvence (QA) Mühendisi",
+        "meta": "UZAKTAN · TAM ZAMANLI · MÜHENDİSLİK"
+      },
+      {
+        "title": "Siber Güvenlik Uzmanı",
+        "meta": "HİBRİT · TAM ZAMANLI · GÜVENLİK"
+      },
+      {
+        "title": "Pazarlama Uzmanı"
+      },
+      {
+        "title": "Satış Yetkilisi",
+        "meta": "ÖNE ÇIKAN · TAM ZAMANLI · BÜYÜME"
+      },
+      {
+        "title": "Müşteri Destek Uzmanı",
+        "meta": "UZAKTAN · TAM ZAMANLI · OPERASYON"
+      }
+    ]
+  },
+  "S9_COLLABORATION": {
+    "kicker": "07 · ORTAKLIK — İş Birliği",
+    "h2": "Naslab ile İş Birliği",
+    "body": "Yürütme kalitesine, teknik titizliğe ve uzun vadeli sistem inşasına değer veren ortaklarla çalışıyoruz.",
+    "cta": "BİZE ULAŞIN",
+    "chips": [
+      "ENTEGRASYONLAR",
+      "ALTYAPI",
+      "YETENEK HAVUZU",
+      "ARAŞTIRMA"
+    ]
+  },
+  "S10_ROADMAP": {
+    "kicker": "08 · STRATEJİK YOL HARİTASI",
+    "h2": "Dijital Finansın Geleceğini Şekillendirmek",
+    "body": "Temel çekirdek sistemlerden küresel ölçeğe uzanan; kilometre taşları, sermaye kademeleri ve kullanıcı erişimiyle ölçülen uzun vadeli bir plan.",
+    "phases": [
+      {
+        "period": "2024 — Temel Atma ve Çekirdek Sistem Geliştirme",
+        "items": [
+          "Ncore 2.0 çekirdek mimarisinin ve otomatik işlem çerçevesinin tamamlanması",
+          "Dijital varlıkların güvenli yönetimi için Kripto Rezerv Platformu'nun geliştirilmesi",
+          "Nastech Global bünyesinde çekirdek teknik ve Ar-Ge ekiplerinin kurulması"
+        ]
+      },
+      {
+        "period": "2025 — Ürün Stabilizasyonu ve Strateji Tasarımı",
+        "items": [
+          "Ncore 2.0'a sürekli yükseltmeler (performans, güvenlik, algoritmalar)",
+          "Ncore X konseptinin, çekirdek algoritma tasarımının ve strateji simülasyonunun başlatılması",
+          "Üç arbitraj strateji hattının tanımlanması: DEX ↔ DEX / CEX ↔ CEX / DEX ↔ CEX"
+        ],
+        "note": "Kilometre Taşı — Piyasa potansiyelinin görülmesi üzerine Naslab, ölçeklenebilir dijital finans çözümlerine ve gelecekteki küresel genişlemeye odaklanmak amacıyla 2025'te resmen kuruldu."
+      },
+      {
+        "period": "2025 Q1 – Q4 — Canlı İşlem Genişlemesi ve Doğrulama",
+        "items": [
+          "Ncore 2.0 canlı işlem hacminin kademeli olarak ~$200K → ~$1M seviyesine genişletilmesi",
+          "Güvenlik, sistem kararlılığı ve risk kontrolü iyileştirmeleri",
+          "Ncore X dahili kapalı test hazırlığının tamamlanması"
+        ]
+      },
+      {
+        "period": "2026 Q1 - Q4 — Ölçek Büyütme ve Pazara Hazırlık",
+        "items": [
+          "Ncore 2.0'ın uluslararası genişlemesi",
+          "Ncore X'in kademeli canlı testleri",
+          "~$5M → ~$50M işlem hacmi",
+          "Yürütme hızı, maliyet kontrolü ve risk yönetiminde sürekli optimizasyon",
+          "Tahmini Ncore 2.0 kullanıcı sayısı: 100,000"
+        ],
+        "note": "Beklenen — Ncore X'in dışa açılması; sistem kararlılığına, risk değerlendirmesine ve düzenleyici koşullara bağlıdır."
+      },
+      {
+        "period": "2027 ve Sonrası — Ekosistem Genişlemesi",
+        "items": [
+          "Naslab'ın kendi borsasının hayata geçirilmesi",
+          "DeFi Proje Kuluçka Platformu (Launchpad)",
+          "İşlem Stratejisi ve Bot Pazar Yeri",
+          "Ncore Token'in (NCT) tanıtılması",
+          "Öngörülen Ekosistem Kullanıcı Sayısı: ~500,000+"
+        ]
+      }
+    ]
+  },
+  "S11_CONTACT": {
+    "kicker": "09 · KANAL AÇIK — İletişim",
+    "h2": "Naslab ile İletişime Geçin",
+    "body": "Bir sorunuz mu var ya da ürünlerimiz hakkında daha fazla bilgi mi almak istiyorsunuz? Bize ulaşın; Naslab'ın dijital finansın geleceğinde size nasıl yol gösterebileceğini birlikte konuşalım.",
+    "details": [
+      {
+        "label": "E-POSTA"
+      },
+      {
+        "label": "GENEL MERKEZ",
+        "value": "Nastech Global · Asya-Pasifik"
+      },
+      {
+        "label": "ÇALIŞMA SAATLERİ",
+        "value": "Pzt–Cum · 09:00–18:00 UTC+8"
+      }
+    ],
+    "fields": [
+      {
+        "label": "AD SOYAD"
+      },
+      {
+        "label": "KURUM"
+      },
+      {
+        "label": "E-POSTA"
+      },
+      {
+        "label": "TELEFON NUMARASI"
+      },
+      {
+        "label": "MESAJ"
+      }
+    ]
+  },
+  "S12_FOOTER": {
+    "blurb": "Nastech Global'in pazarlama motoru. Bireylerin ve işletmelerin yeni nesil dijital finans çözümlerine erişmesini sağlar.",
+    "columns": [
+      {
+        "title": "ÜRÜNLER",
+        "links": [
+          {
+            "label": "Ncore 2.0"
+          },
+          {
+            "label": "Ncore X"
+          },
+          {
+            "label": "NCT Token"
+          }
+        ]
+      },
+      {
+        "title": "ŞİRKET",
+        "links": [
+          {
+            "label": "Hakkımızda"
+          },
+          {
+            "label": "Kariyer"
+          },
+          {
+            "label": "İş Birliği"
+          }
+        ]
+      },
+      {
+        "title": "İLETİŞİM",
+        "links": [
+          {
+            "label": "Bize Ulaşın"
+          },
+          {
+            "label": "Yol Haritası"
+          },
+          {
+            "label": "Gizlilik Politikası"
+          },
+          {
+            "label": "Hizmet Şartları"
+          }
+        ]
+      }
+    ],
+    "legal": [
+      "© 2026 NASLAB · TÜM HAKLARI SAKLIDIR.",
+      "KARANLIKTA MÜHENDİSLİK · GÜN IŞIĞINDA TESLİMAT"
+    ]
+  },
+  "ROADMAP_EXTRA": {
+    "heroBody": "Naslab'ın yol haritası; dijital finansa, kripto benimsenmesine ve gelişmiş işlem altyapısına yönelik uzun vadeli bir taahhüdü yansıtır — özünde ölçeklenebilirlik, güvenlik ve gerçek dünyada uygulanabilirlik vardır.",
+    "heroCta": "Zaman Çizelgesini İnceleyin",
+    "longTermVision": {
+      "heading": "Uzun Vadeli Vizyon",
+      "sub": "Geleceğe Hazır Dijital Finans Altyapısı İnşa Etmek",
+      "lead": "Dijital Finansı Yeniden Tanımlamak",
+      "body": "Naslab; otomatik işlem, platformlar arası arbitraj ve açık strateji pazar yerlerini birleştirerek kullanıcıların dijital finansla kurduğu ilişkiyi yeniden tanımlayan kapsamlı bir işlem ve strateji ekosistemine dönüşmeyi hedefler.",
+      "cards": [
+        {
+          "title": "Otomatik İşlem",
+          "body": "Verimli piyasa yürütmesi için gelişmiş algoritmalar"
+        },
+        {
+          "title": "Platformlar Arası Arbitraj",
+          "body": "DEX ve CEX genelinde kesintisiz fırsatlar"
+        },
+        {
+          "title": "Strateji Pazar Yeri",
+          "body": "İşlem stratejileri ve botlar için açık ekosistem"
+        },
+        {
+          "title": "Güvenli Altyapı",
+          "body": "Kurumsal düzeyde güvenlik ve risk yönetimi"
+        }
+      ]
+    }
+  },
+  "UI": {
+    "memberLogin": "Üye Girişi",
+    "connect": "Bizi Takip Edin",
+    "toggleNav": "Menüyü aç/kapat",
+    "langLabel": "Dil",
+    "imageSlot": "GÖRSEL ALANI",
+    "backToTop": "Başa dön",
+    "roadmapPhases": "Yol haritası aşamaları"
+  },
+  "BASIC_PAGE": {
+    "title": "Temel Kavrayış",
+    "subtitle": "Blokzincir ve Zincir Üstü İşlem Yürütmenin Temelleri",
+    "lead": "Temeli Anlamak",
+    "leadBody": "Ncore 2.0'ın gelişmiş işlem stratejilerinin bel kemiğini oluşturan blokzincir yürütmesi, işlem sıralaması ve değer çıkarımı kavramlarını temelden öğrenin.",
+    "sections": [
+      {
+        "heading": "Blokzincir ve Zincir Üstü İşlem Yürütme",
+        "paragraphs": [
+          "Blokzincir yalnızca işlemleri kaydeden bir defter değil; yürütme sırasına son derece duyarlı bir değer yürütme sistemidir.",
+          "Varlık takası, durum geçişleri ve nihai mutabakat sonuçları, bir işlemin gönderilip gönderilmediğine göre değil, blok içindeki göreli konumuna göre belirlenir.",
+          "Bu yürütme ortamında kurallar protokol tarafından katı biçimde uygulanır ve sonuçlar geri alınamaz.",
+          "Ancak onaydan önce işlemler açık, rekabetçi ve yüksek düzeyde çekişmeli bir sıralama sürecinden geçer."
+        ]
+      },
+      {
+        "heading": "Takas: Paylaşılan Durum Üzerinde Yürütme Talebi",
+        "paragraphs": [
+          "Zincir üstü sistemlerde takas, basit bir varlık değişim işlemi değil; küresel ölçekte paylaşılan durumu değiştirme talebidir.",
+          "Görece kapalı eşleştirme sistemlerine sahip geleneksel finans piyasalarının aksine, zincir üstü takaslar halka açık bir ortamda sıralanmayı ve yürütülmeyi bekler.",
+          "Bu süreçte fiyatlar, likidite koşulları ve yürütme sonuçları değişebilir.",
+          "Dolayısıyla bir işlemi göndermek, beklenen yürütme sonucunu garanti etmez."
+        ]
+      },
+      {
+        "heading": "Yürütme Sırası Sonucu Neden Değiştirir",
+        "paragraphs": [
+          "Blokzincir yürütmesi deterministik olduğundan, aynı işlem kümesi sıralamasına bağlı olarak tamamen farklı durum sonuçlarına yol açabilir.",
+          "İşlem içerikleri herkese açık ve yürütme yolları öngörülebilir olduğunda, işlem sıralamasının kendisi uğruna rekabet edilebilen ve istismar edilebilen bir kaynağa dönüşür.",
+          "Takas senaryolarında kullanıcının işleminin önüne ve arkasına dış işlemler yerleştirilebilir; bu da fiyat etkisini büyütür ve değeri sistematik biçimde transfer eder — hem de tamamı protokol kurallarının sınırları içinde.",
+          "Bu bir hata ya da anormallik değil; zincir üstü yürütme modellerinin ekonomik teşviklerle etkileşiminin sonucudur."
+        ]
+      },
+      {
+        "heading": "Özet",
+        "paragraphs": [
+          "Bu da zincir üstü takasların kritik değişkenlerinin yalnızca sözleşme mantığında değil; aynı zamanda işlem görünürlüğünde, sıralama mekanizmalarında ve yürütme yolu tasarımında bulunduğu anlamına gelir."
+        ]
+      }
+    ],
+    "takeaways": {
+      "heading": "Öne Çıkan Sonuçlar",
+      "sub": "Blokzincir yürütme dinamiklerini tanımlayan temel kavramlar",
+      "items": [
+        {
+          "title": "Yürütme Sırası Belirleyicidir",
+          "body": "Bir işlemin blok içindeki konumu sonucunu temelden belirler; yalnızca gönderilmiş olması değil."
+        },
+        {
+          "title": "Halka Açık Ortam",
+          "body": "Zincir üstü işlemler görünür bir mempool'da bekler; bu da stratejik konumlanma ve değer çıkarımı için fırsat yaratır."
+        },
+        {
+          "title": "Deterministik Sonuçlar",
+          "body": "Aynı işlemler farklı sıralarda farklı sonuçlar üretir — MEV stratejilerinin temel ilkesi budur."
+        }
+      ]
+    },
+    "nextChapter": {
+      "kicker": "SONRAKİ BÖLÜM",
+      "heading": "Daha Fazlasını Öğrenmeye Hazır mısınız?",
+      "body": "Ncore 2.0'ın bu temelleri gelişmiş MEV stratejilerini yürütmek için nasıl kullandığını keşfedin.",
+      "cta": "İşlem Mantığına Devam Edin"
+    }
+  },
+  "TRADING_PAGE": {
+    "title": "İşlem Mantığı",
+    "subtitle": "Ncore 2.0 — DEX Odaklı MEV İşlem Platformu",
+    "origins": {
+      "heading": "Ncore 2.0'ın Kökenleri",
+      "body": "Nastech Global tarafından geliştirilen Ncore 2.0, hızla evrilen merkeziyetsiz borsa (DEX) ekosistemi için özel olarak tasarlanmıştır. Dijital varlıkların önemi arttıkça geleneksel işlem sistemleri şu başlıklarda yetersiz kalmaktadır:",
+      "bullets": [
+        "DeFi piyasalarındaki yüksek frekanslı dalgalanmalar",
+        "Hızla değişen büyük emirler",
+        "Karmaşık, gerçek zamanlı yürütme zorlukları"
+      ],
+      "closing": "Ncore 2.0; büyük bekleyen işlemler ya da önemli piyasa olayları gerçekleşmeden önce piyasa fırsatlarını tespit edebilen öngörülü bir işlem mimarisi olarak geliştirildi."
+    },
+    "sandwich": {
+      "heading": "MEV ve Sandviç Stratejisi",
+      "sub": "Front-Run / Back-Run Mantığı",
+      "intro": [
+        "DEX platformlarında her işlem, bir blokta onaylanmadan önce mempool'a girer. Bu da MEV (Maximal Extractable Value) fırsatları doğurur: işlem sıralaması optimize edilerek ek değer yakalanabilir.",
+        "Ncore 2.0'ın temel stratejisi, front-run/back-run mantığı olarak da bilinen Sandviç Stratejisi'dir; bu strateji MEV'i DEX piyasaları için kullanıma hazır, ürünleşmiş bir çözüme dönüştürür:"
+      ],
+      "legs": [
+        {
+          "title": "Front-Run (İşlem Öncesi Yürütme)",
+          "bullets": [
+            "Büyük bir bekleyen emir yürütülmeden önce stratejik olarak pozisyon alın",
+            "Yaklaşan emrin fiyat üzerindeki etkisinden yararlanın",
+            "Sonraki kâr için koşulları hazırlayın"
+          ]
+        },
+        {
+          "title": "Back-Run (İşlem Sonrası Yürütme)",
+          "bullets": [
+            "Hedef emir yürütüldükten hemen sonra tepki verin",
+            "Fiyat sapmasını yakalayarak kâr döngüsünü tamamlayın",
+            "Riski kontrol altında tutarken sistematik kazancı en üst düzeye çıkarın"
+          ]
+        }
+      ],
+      "closing": "Bu kombinasyon sayesinde Ncore 2.0, geniş piyasa tepki vermeden önce sandviç stratejisini tamamlar ve kullanıcılara öncelikli kâr fırsatları sağlar."
+    },
+    "coreFeatures": {
+      "heading": "Ncore 2.0'ın Temel Özellikleri",
+      "items": [
+        {
+          "title": "Mempool İzleme",
+          "bullets": [
+            "Onaylanmamış işlemleri kesintisiz tarayın",
+            "Büyük emirleri ve olası fiyat etkisini isabetle belirleyin",
+            "Kısa vadeli fiyat sapmalarını yakalamak için önden konumlanan işlemler yürütün"
+          ]
+        },
+        {
+          "title": "Gerçek Zamanlı Piyasa İçgörüleri",
+          "bullets": [
+            "DEX zincir üstü verilerine odaklanın",
+            "İşlem akışlarını ve fiyat trendlerini analiz edin",
+            "Back-run yürütmesinden azami kârı güvence altına alın"
+          ]
+        },
+        {
+          "title": "Gas Optimizasyonu",
+          "bullets": [
+            "İşlem yürütmesini önceliklendirmek için Gas ücretlerini dinamik olarak yönetin",
+            "Ağ yoğunluğu dönemlerinde maliyetleri düşürün",
+            "Yüksek yürütme verimliliği elde edin ve getiriyi en üst düzeye çıkarın"
+          ]
+        },
+        {
+          "title": "Piyasa Trendi Öngörüsü",
+          "bullets": [
+            "Gelişmiş algoritmalarla emir akışlarını ve piyasa dinamiklerini analiz edin",
+            "Kısa vadeli volatilite trendlerini yakalayın",
+            "Piyasa geniş çapta tepki vermeden işlem aksiyonlarını tamamlayın"
+          ]
+        }
+      ]
+    },
+    "productized": {
+      "heading": "Ürünleşmiş Değer ve Müşteri Kazanımları",
+      "intro": "Ncore 2.0, karmaşık sandviç stratejilerini kullanıma hazır bir ürün hâline getirir; böylece kullanıcılar teknik ayrıntılara değil kâra odaklanır.",
+      "points": [
+        {
+          "title": "Proaktif İşlem",
+          "body": "MEV ve Sandviç Stratejisi ile DEX fiyat hareketlerini erkenden yakalayın"
+        },
+        {
+          "title": "Sistematik Yürütme",
+          "body": "Front-run / Back-run döngüleri kontrollü ve tekrarlanabilir kâr sağlar"
+        },
+        {
+          "title": "Düşük Maliyet ve Verimlilik",
+          "body": "Gas optimizasyonu hızlı ve ekonomik yürütmeyi güvence altına alır"
+        },
+        {
+          "title": "Kullanıcı Dostu",
+          "body": "Karmaşık zincir üstü mantık müşteriler için tümüyle otomatikleştirilmiştir"
+        }
+      ]
+    },
+    "useCase": {
+      "heading": "Gerçek Dünyadan Kullanım Senaryosu",
+      "intro": "Yüksek frekanslı bir DEX ortamında:",
+      "steps": [
+        "Büyük bir bekleyen emir mempool'da belirir",
+        "Ncore 2.0 önden konumlanmak için bir front-run işlemi yürütür",
+        "Emir yürütüldükten sonra back-run işlemi kâr döngüsünü tamamlar",
+        "Piyasa tam olarak tepki vermeden kazanç güvence altına alınır"
+      ],
+      "closing": "Bu strateji, müşterilerin dalgalı DEX piyasalarında öngörülebilir, sistematik ve kontrol edilebilir kâr elde etmesini sağlar."
+    },
+    "devPath": {
+      "heading": "Ncore 2.0'ın Gelişim Yolu",
+      "intro": "Ncore 2.0, Nastech Global'in otomatik işlem alanındaki yılların birikiminin ürünüdür:",
+      "bullets": [
+        "Başlangıçta üst segment müşterilere özel çözümler sunuldu",
+        "Piyasalar karmaşıklaştıkça öngörülü ve sistematikleşmiş bir işlem mimarisine evrildi",
+        "Bünyesinde mempool izleme, sandviç stratejisi yürütme, Gas optimizasyonu ve piyasa trendi öngörüsü birleştirildi",
+        "Hem bireysel hem kurumsal kullanıcılara yüksek frekanslı ve düşük gecikmeli işlem yetenekleri sağlar"
+      ],
+      "resultHeading": "Sonuç",
+      "resultBody": "Ncore 2.0 bir işlem botundan fazlasıdır — hızla evrilen piyasalarda müşterilerin üstünlüğünü korumasına yardımcı olan, ürünleşmiş bir DEX MEV çözümüdür."
+    },
+    "highlights": {
+      "heading": "Öne Çıkanlar",
+      "bullets": [
+        "Bekleyen işlemleri tespit etmek için gerçek zamanlı mempool izleme",
+        "Sistematik ve verimli yürütme için MEV + Sandviç Stratejisi (Front-run / Back-run)",
+        "Fiyat hareketlerine yönelik öngörücü analitik",
+        "Getiriyi en üst düzeye çıkarmak için Gas optimizasyonu ve düşük gecikmeli yürütme",
+        "Müşteri kullanımı için tümüyle ürünleşmiş — manuel işlem gerektirmez"
+      ]
+    },
+    "stayingAhead": {
+      "heading": "Bir Adım Önde Kalmak",
+      "intro": "Rekabetçi ve yüksek frekanslı bir DEX piyasasında:",
+      "items": [
+        {
+          "title": "Zamanında İçgörü",
+          "body": "Büyük mempool emirlerini kesintisiz izleyin"
+        },
+        {
+          "title": "Optimize Edilmiş Yürütme",
+          "body": "Konumlanmak için front-run, döngüyü kapatmak için back-run işlemleri"
+        },
+        {
+          "title": "Akıllı Gas Yönetimi",
+          "body": "Asgari maliyetle öncelikli yürütmeyi güvence altına alın"
+        }
+      ],
+      "closing": [
+        "Geniş piyasa tepki verdiğinde müşteriler işlemlerini çoktan tamamlamış ve değeri yakalamış olur; böylece istikrarlı biçimde önde kalırlar.",
+        "Ncore 2.0'ın tüm potansiyelini açığa çıkarmaya ve otomatik işlemin geleceğine adım atmaya hazır mısınız? Bu yenilikçi aracın yeni fırsatları değerlendirmenize, piyasanın önünde kalmanıza ve bugünden daha akıllı, daha kârlı işlemler yapmanıza nasıl yardımcı olabileceğini keşfedin."
+      ]
+    },
+    "footNav": {
+      "prev": "Temel Kavrayış",
+      "next": "Özelliklere Devam Edin"
+    }
+  },
+  "FEATURES_PAGE": {
+    "title": "Özellikler",
+    "intro": [
+      "Ncore 2.0, geniş bir gelişmiş özellik yelpazesini bir araya getirerek kripto para yatırımcılarına dijital varlık işlemlerinin hızlı dünyasında rekabet avantajı sağlar.",
+      "Bu özellikler; kullanım kolaylığı sunan sezgisel bir arayüzü korurken işlem stratejilerini optimize etmek, riskleri asgariye indirmek ve kârlılığı artırmak için birlikte çalışır. Aşağıda Ncore 2.0'ı farklı kılan temel özellikler yer alıyor."
+    ],
+    "features": [
+      {
+        "title": "Gelişmiş Front-Run Algoritmaları",
+        "how": "Ncore 2.0, mempool'u büyük emirler için kesintisiz tarayarak önemli işlemleri yürütülmeden önce tespit eder ve piyasadan daha hızlı hareket edebilir. Büyük bir işlem gerçekleşmek üzereyken Ncore 2.0 devreye girer ve piyasa bu büyük emre tepki vermeden, en uygun anda kendi işlemini yürütür.",
+        "why": "Kripto para piyasaları yüksek volatiliteye sahiptir ve büyük işlemler çoğu zaman fiyat dalgalanmalarına yol açar. Ncore 2.0, bu büyük işlemlerin önüne geçerek yatırımcıların fiyat değişimlerinden bu değişimler piyasaya tam yansımadan yararlanmasını sağlar ve daha yüksek kâr potansiyeli oluşturur."
+      },
+      {
+        "title": "Gerçek Zamanlı Piyasa İzleme",
+        "how": "Ncore 2.0; merkeziyetsiz borsalar ve blokzincir işlem verileri dâhil olmak üzere çok sayıda veri kaynağını kullanarak piyasa hareketlerini kesintisiz takip eder. Bu veriler gerçek zamanlı işlenir ve Ncore 2.0'ın piyasadaki değişimlere anında tepki vermesini mümkün kılar. Bot daha sonra bu bilgiyi kullanarak işlem stratejisini güncel piyasa trendleriyle uyumlu kalacak biçimde günceller.",
+        "why": "Fiyatların hızla değişebildiği kripto para dünyasında piyasa koşullarını gerçek zamanlı kavramak zorunludur. Ncore 2.0'ın piyasa gelişmelerine hızla yanıt verme yeteneği, yatırımcıların bilinçli kararlar almasına ve kârlı işlem şansını en üst düzeye çıkarmasına imkân tanır."
+      },
+      {
+        "title": "Dinamik Gas Ücreti Optimizasyonu",
+        "how": "Ncore 2.0, ağ yoğunluğunu akıllıca değerlendirir ve işlemlerinin zamanında yürütülmek üzere önceliklendirilmesi için ödenmesi gereken uygun gas ücretini belirler. Ağ yoğunsa Ncore 2.0, işlemin hızla işlenmesi için gas ücretini bir miktar artırır. Ağ rahatsa gereksiz maliyetten kaçınmak üzere gas ücretini düşürür.",
+        "why": "Gas ücretleri blokzincir ağındaki hareketliliğe göre önemli ölçüde değişebilir ve gas için fazla ödemek olası kârı aşındırır. Ncore 2.0'ın dinamik optimizasyonu, hızlı yürütmeyi güvence altına alırken kullanıcıların kaynak israf etmemesini sağlar; böylece maliyet ile hız arasında kusursuz bir denge kurulur."
+      },
+      {
+        "title": "Platformlar Arası Uyumluluk",
+        "how": "Ncore 2.0 tek bir blokzincir ya da borsayla sınırlı değildir; Ethereum, Binance Smart Chain ve diğerleri dâhil olmak üzere birden fazla platformda çalışacak biçimde yapılandırılabilir. Bu platformlar arası uyumluluk, yatırımcıların farklı ekosistemlerde işlem yapmasını ve farklı piyasa koşullarından yararlanmasını sağlar.",
+        "why": "Birden fazla platformda işlem yapabilme sayesinde Ncore 2.0 kullanıcıları portföylerini farklı blokzincir ağlarına yayabilir. Bu da tek bir ağa maruziyeti azaltır, işlem stratejilerinin dayanıklılığını artırır ve farklı piyasalarda ek kâr fırsatları açar."
+      },
+      {
+        "title": "Kapsamlı Risk Yönetimi",
+        "how": "Ncore 2.0, kullanıcıların zarar durdurma seviyeleri gibi önceden tanımlı risk eşikleri belirlemesine imkân tanır; bu eşikler belirli koşullar oluştuğunda (örneğin bir kripto paranın fiyatı belirli bir seviyenin altına düştüğünde) otomatik olarak devreye girer. Ayrıca Ncore 2.0, botun performansını izleyen ve kullanıcıların stratejilerinin etkinliğini değerlendirmesine yardımcı olan gerçek zamanlı analitik sunar.",
+        "why": "Kripto para piyasası dalgalıdır ve yatırımları büyük kayıplardan korumak önemlidir. Ncore 2.0'ın risk yönetimi araçlarıyla yatırımcılar maruziyetlerini azaltabilir ve sermayelerini güvence altına alabilir; bu da güvenle ve emniyetle işlem yapmayı kolaylaştırır."
+      },
+      {
+        "title": "Kullanıcı Dostu Arayüz",
+        "how": "Kullanıcı arayüzü; işlem etkinliğinin görüntülenebildiği, parametrelerin belirlenebildiği ve performans metriklerinin gerçek zamanlı izlenebildiği sade ve düzenli bir yerleşim sunar. Gösterge paneli, işlem stratejilerini kurma ve özelleştirme, riski yönetme ve geçmiş işlemleri inceleme araçlarını içerir.",
+        "why": "Kullanıcı dostu bir arayüz, her deneyim seviyesinden yatırımcının kripto para işlemlerinin karmaşıklığında yolunu bulmasına yardımcı olur. İster yeni başlayan ister algoritmik işlemde deneyimli olsun, Ncore 2.0'ın sezgisel tasarımı kullanıcıların işlemlerini kolayca izlemesine ve gerektiğinde düzenleme yapmasına imkân tanır."
+      },
+      {
+        "title": "Gelişmiş Strateji Özelleştirme",
+        "how": "Kullanıcılar; işlem yürütme kuralları, işlem hassasiyeti ve zamanlama gibi parametreleri kendi işlem tarzlarına göre ayarlayabilir. Ncore 2.0, performansı en üst düzeye çıkarmak ve botun kullanıcıların hedefleriyle uyumlu davranmasını sağlamak için stratejilerin ince ayarına imkân tanır.",
+        "why": "Her yatırımcının hedefi ya da risk toleransı aynı değildir. Ncore 2.0'ın strateji özelleştirme yeteneği; güvenliği önceleyen ihtiyatlı yaklaşımlardan yüksek getiriye odaklı daha agresif stratejilere kadar geniş bir işlem tarzı yelpazesine uyum sağlayabildiği anlamına gelir."
+      },
+      {
+        "title": "Geriye Dönük Test Yetenekleri",
+        "how": "Kullanıcılar istedikleri strateji parametrelerini Ncore 2.0'a girebilir ve geçmiş piyasa verilerini kullanarak stratejinin önceki işlem dönemlerindeki performansını test edebilir. Bot ardından stratejinin o koşullarda nasıl bir sonuç vereceğini gösteren raporlar üretir.",
+        "why": "Geriye dönük test, gerçek sermaye riske atılmadan bir stratejinin başarı potansiyeline dair değerli içgörüler sunar. Kullanıcıların yaklaşımlarını iyileştirmesine, riskleri anlamasına ve canlıya geçmeden önce daha bilinçli kararlar almasına yardımcı olur."
+      },
+      {
+        "title": "Yapay Zekâ Destekli Öngörücü Analitik",
+        "how": "Ncore 2.0, geçmiş ve gerçek zamanlı piyasa verilerini işlemek için gelişmiş makine öğrenimi algoritmaları kullanacak. Bu veriler, gelecekteki fiyat değişimlerini öngörmekte kullanılabilecek örüntü ve trendleri tespit etmek üzere analiz edilecek; böylece bot zaman içinde işlem stratejilerini uyarlayıp optimize edebilecek.",
+        "why": "Yapay zekâ destekli analitik, Ncore 2.0'ın geçmiş işlemlerden öğrenerek ve değişen piyasa koşullarına uyum sağlayarak işlem stratejilerini sürekli geliştirmesine imkân tanıyacak. Bu da daha akıllı işlem kararları ve daha verimli risk yönetimi anlamına gelecek."
+      },
+      {
+        "title": "Güvenli ve Şeffaf Operasyon",
+        "how": "Ncore 2.0; kişisel bilgiler ve işlem ayrıntıları dâhil olmak üzere hassas verileri korumak için sektör standardı şifreleme kullanır. Ayrıca tüm işlemlerin ve performans metriklerinin ayrıntılı kayıtlarını sunar; kullanıcılar botun faaliyetlerini doğrulamak için bu kayıtlara istedikleri an erişebilir.",
+        "why": "Kripto para alanında güvenlik ve şeffaflık kritik önemdedir. Kullanıcıların verilerinin ve fonlarının güvende olduğuna güvenmesi gerekir. Ncore 2.0'ın güvenlik protokolleri, şeffaflık özellikleriyle birlikte kullanıcıların işlemlerinin güvenli ve performanslarının görünür olduğunu bilerek güvenle işlem yapmasını sağlar."
+      },
+      {
+        "title": "7/24 Operasyonel Verimlilik",
+        "how": "Ncore 2.0 gün boyu kesintisiz ve özerk biçimde çalışır; blokzincir ağlarını analiz eder ve işlemleri gerçek zamanlı yürütür. Bu da yatırımcılar piyasaları aktif olarak izlemediğinde bile Ncore 2.0'ın ortaya çıkan fırsatları değerlendirmeye her an hazır olduğu anlamına gelir.",
+        "why": "Kripto para piyasaları öngörülemez ve hızlı hareket eder; üstelik geleneksel işlem saatlerinin dışında bile. Ncore 2.0'ın 7/24 verimliliği, yatırımcıların fırsatları kaçırmamasını ve işlemlerinin ne zaman ortaya çıkarsa çıksın gecikmeden yürütülmesini güvence altına alır."
+      },
+      {
+        "title": "Topluluk Katılımı ve Destek",
+        "how": "Ncore 2.0 kullanıcıları topluluk forumlarında diğer kullanıcılarla etkileşime geçebilir ya da müşteri hizmetleri kanallarından doğrudan destek alabilir. İster işlem stratejilerini optimize etmek ister sorun gidermek olsun, kullanıcılar ihtiyaç duydukları anda faydalı kaynaklara ve desteğe ulaşabilir.",
+        "why": "Güçlü ve destekleyici bir topluluk, yatırımcıların öğrenmesine ve gelişmesine yardımcı olur. Ncore 2.0'ın topluluk katılımına ve müşteri desteğine verdiği önem, kullanıcıların başarıya ulaşmak için ihtiyaç duydukları desteğe her zaman sahip olmasını sağlar."
+      }
+    ],
+    "conclusion": "Bu güçlü özellikleri bir araya getiren Ncore 2.0; kripto para yatırımcılarına kârı en üst düzeye çıkarmak, riskleri yönetmek ve sürekli değişen piyasalara uyum sağlamak için kapsamlı, güvenli ve özelleştirilebilir bir çözüm sunar. İster yeni başlayan ister deneyimli bir profesyonel olun, Ncore 2.0 kripto para dünyasında daha akıllı ve daha etkili işlem yapmanızı sağlar.",
+    "footNav": {
+      "prev": "İşlem Mantığı",
+      "next": "Piyasa Trendlerine Devam Edin"
+    }
+  },
+  "TRENDS_PAGE": {
+    "title": "Piyasa Trendleri",
+    "subtitle": "Ncore 2.0'ı Etkileyen Piyasa Trendleri",
+    "intro": "Kripto para dünyası hızla evriliyor ve Ncore 2.0, işlem fırsatlarını ve stratejilerini şekillendiren başlıca piyasa trendlerinden yararlanarak bir adım önde kalacak biçimde tasarlandı. Aşağıda bu trendlerin Ncore 2.0'ın kullanımını ve yeteneklerini nasıl etkilediğine dair daha ayrıntılı bilgiler yer alıyor.",
+    "trends": [
+      {
+        "title": "Merkeziyetsiz Finansın (DeFi) Yükselişi",
+        "impact": "DeFi platformları yatırımcılara merkeziyetsiz ve açık bir piyasa sunar; bu da volatiliteyi artırır ve merkezi borsalar (CEX) ile merkeziyetsiz borsalar (DEX) arasında arbitraj fırsatları yaratır. Ncore 2.0, bu farklardan gerçek zamanlı yararlanmak üzere tasarlanmıştır ve kullanıcıların her iki platform türünde de verimli işlem yapmasını sağlar.",
+        "advantage": "DeFi platform ve protokolleriyle kesintisiz etkileşim kuran Ncore 2.0, kullanıcıların arbitraj fırsatlarından yararlanmasını ve işlemlerini azami kârlılık için optimize etmesini sağlar. İster zincirler arası likidite ister fiyat farkları olsun, Ncore 2.0 kullanıcıların DeFi ekosistemlerinin karmaşıklığında yol almasına yardımcı olur ve merkeziyetsiz ortamlarda zorlanan geleneksel işlem botlarına karşı üstünlük kazandırır."
+      },
+      {
+        "title": "Artan Kurumsal Katılım",
+        "impact": "Kurumsal yatırımcılar; daha yüksek hacimleri kaldırabilen, riskleri azaltan ve uyumu güvence altına alan gelişmiş işlem çözümleri talep eder. Bu nedenle söz konusu yatırımcılar çoğu zaman yalnızca hız sunan değil, aynı zamanda piyasa tahmin isabetini artıran ve kapsamlı risk yönetimine imkân tanıyan işlem araçlarına ihtiyaç duyar.",
+        "advantage": "Ncore 2.0, büyük emirleri asgari kaymayla yönetebilen gelişmiş bir işlem ortamı sunar. Gerçek zamanlı risk yönetimi, dinamik gas ücreti optimizasyonu ve ileri düzey algoritmik stratejiler gibi özellikleriyle Ncore 2.0, kurumsal yatırımcıların ihtiyaç duyduğu hassasiyeti ve uyum yeteneğini sağlar. Hem merkezi hem merkeziyetsiz piyasaların karmaşıklığında rahatça yol almak için güvenilir bir platform sunar."
+      },
+      {
+        "title": "Blokzincir Teknolojisindeki İlerlemeler",
+        "impact": "Blokzincir platformları evrildikçe yeni protokoller ve özellikler ortaya çıkıyor; bu da işlem hızında, ölçeklenebilirlikte ve maliyette iyileşme getiriyor. Yatırımcıların rekabetçi kalabilmek için bu yeni teknolojilerle entegre olabilen araçlara ihtiyacı var.",
+        "advantage": "Ncore 2.0, yeni blokzincir protokollerine ve teknolojilerine uyum sağlayacak biçimde tasarlandı. Örneğin Layer 2 çözümleri yaygınlaştıkça Ncore 2.0, daha hızlı işlem işleme ve daha düşük ücret sunmak için bu platformlarla kesintisiz entegre olacak. Bu esneklik, kullanıcıların uyumluluk sorunlarını düşünmeden en yeni blokzincir gelişmelerinden tam olarak yararlanmasına imkân tanır."
+      },
+      {
+        "title": "Yükselen İşlem Ücretleri ve Ağ Yoğunluğu",
+        "impact": "Yüksek ücretler ve ağ yoğunluğu işlemlerin hızla yürütülmesini zorlaştırabilir; bu da kaçırılan fırsatlara ya da daha yüksek işlem maliyetlerine yol açar. Bu durum özellikle yüksek ücret ödeyecek kaynağa sahip olmayan küçük yatırımcıları etkileyebilir.",
+        "advantage": "Ncore 2.0'ın dinamik gas ücreti optimizasyonu, ağın yoğun olduğu dönemlerde bile işlemlerin zamanında yürütülmesini güvence altına alır. İşlem ücretlerini stratejik biçimde ayarlayan ve öngörücü analitikten yararlanan Ncore 2.0, işlemlerin hızlı, verimli ve maliyet etkin biçimde yürütülmesini sağlayarak dalgalı ortamlarda kârlılığı en üst düzeye çıkarır."
+      },
+      {
+        "title": "Düzenleyici Gelişmeler",
+        "impact": "Evrilen düzenleme ortamı, yatırımcılar ve kurumlar için hem fırsat hem zorluk yaratır. Düzenleyiciler kripto piyasası katılımcıları için daha net çerçevelere yöneldikçe uyumlu kalmak giderek karmaşıklaşıyor. Bu düzenlemeler, özellikle hızla değiştiklerinde belirsizlik getirebilir ve uyumsuzluk riski doğurabilir.",
+        "advantage": "Sürekli evrilen bu düzenleme ortamında Ncore 2.0, değişikliklerin önünde kalmak için gereken araçları sunar. Özünde şeffaflık ve güvenlikle inşa edilmiştir; böylece kullanıcılar düzenleyici değişimlerde güvenle yol alabilir. Ayrıntılı işlem kayıtları ve performans raporları dâhil olmak üzere Ncore 2.0'ın özellikleri tam şeffaflık sağlar ve kullanıcılara gerektiğinde uyumu belgelemek için güvenilir bir yol sunar. Yeni düzenlemelere sorunsuz uyum sağlayan Ncore 2.0, kullanıcıların uyumlu kalırken verimli işlem yapmayı sürdürmesini güvence altına alır."
+      },
+      {
+        "title": "Piyasa Volatilitesi",
+        "impact": "Kripto alanındaki volatilite hem ciddi kâr fırsatları hem de artan riskler sunar. Yatırımcıların, kârı en üst düzeye çıkarırken olası kayıpları yönetmek için fiyat trendlerini hızla tespit edip işlemleri en uygun anda yürütebilen araçlara ihtiyacı var.",
+        "advantage": "Ncore 2.0'ın gelişmiş front-run algoritmaları ve gerçek zamanlı piyasa izlemesi, piyasa dalgalanmalarını anında tespit edip değerlendirmesini sağlar. Piyasa hareketlerinin önünde kalan ve stratejilerini gerçek zamanlı ayarlayan Ncore 2.0, yatırımcıların ani düşüş ya da sıçramalara yakalanmadan dalgalı koşullardan yararlanma kabiliyetini güçlendirir."
+      },
+      {
+        "title": "Layer 2 Çözümlerinin Ortaya Çıkışı",
+        "impact": "Layer 2 çözümlerinin işlem maliyetlerini düşürmede ve ölçeklenebilirliği artırmada büyük rol oynaması bekleniyor. Yatırımcılar açısından bu, daha düşük ücretle ve daha kısa işlem süreleriyle işlem yapmak için benzersiz bir fırsat anlamına geliyor.",
+        "advantage": "Layer 2 teknolojileri ivme kazanmayı sürdürürken Ncore 2.0, kullanıcılara daha hızlı ve daha ucuz işlem yürütmesi sunmak için bu yeni platformlarla entegre olacak biçimde tasarlandı. Bu teknolojileri erkenden benimseyen Ncore 2.0, kullanıcılarının Layer 2 çözümlerinin sunduğu avantajlardan tam olarak yararlanacak konumda olmasını sağlar."
+      },
+      {
+        "title": "İşlemlerde Yapay Zekâ (AI) Entegrasyonu",
+        "impact": "Yapay zekâ destekli işlem botları piyasa koşullarına gerçek zamanlı uyum sağlayabilir ve sürekli veri analizine dayanarak stratejilerini iyileştirebilir. Bu uyum yeteneği, hızlı karar almanın kârlılığı önemli ölçüde etkilediği dalgalı kripto piyasasında kritik önemdedir.",
+        "advantage": "Gelişmiş yapay zekâ algoritmalarını entegre eden Ncore 2.0, piyasa analizini ve işlem yürütmesini güçlendirir. Gerçek zamanlı veriyi işleme ve stratejileri dinamik olarak ayarlama yeteneği, kullanıcıların hızlı tempolu işlem ortamlarında rekabet üstünlüğünü korumasına imkân tanır."
+      },
+      {
+        "title": "Gerçek Dünya Varlıklarının (RWA) Tokenleştirilmesi",
+        "impact": "Gayrimenkul, sanat eseri ya da emtia gibi varlıkların tokenleştirilmesi yeni piyasalar ve yatırım fırsatları açar; bölünmüş mülkiyetin işlem görmesini kolaylaştırır ve likiditeyi artırır.",
+        "advantage": "Ncore 2.0'ın uyum yeteneği, çeşitli tokenleştirilmiş varlıklarla çalışmasına imkân tanır; bu da kullanıcılara çeşitlendirilmiş işlem seçenekleri ve kripto alanında ortaya çıkan piyasalardan yararlanma imkânı sunar."
+      },
+      {
+        "title": "Yeni Finansal Ürün ve Hizmetlerin Ortaya Çıkışı",
+        "impact": "Yeni finansal araçlar çeşitli yatırım fırsatları sunar ve piyasa dinamiklerini etkileyebilir; yatırımcılara ek kâr kanalları açar.",
+        "advantage": "Ncore 2.0'ın çeşitli finansal ürünlere uyum sağlama yeteneği, kullanıcıların bu yeni araçları etkin biçimde kullanmasını ve getiriyi en üst düzeye çıkarmak için işlem stratejilerine dâhil etmesini sağlar."
+      },
+      {
+        "title": "Geleneksel Finansta Blokzincir Teknolojisi Entegrasyonu",
+        "impact": "Blokzincir teknolojisi bankacılık ve finansal hizmetlere giderek daha derin biçimde yerleşiyor; daha hızlı işlem, artan şeffaflık ve yeni yetenekler sağlıyor.",
+        "advantage": "Ncore 2.0'ın tasarımı, çeşitli blokzincir protokolleriyle kesintisiz entegrasyona imkân tanır; böylece kullanıcılar verimli ve güvenli işlem için blokzincir teknolojisindeki en yeni gelişmelerden yararlanabilir."
+      }
+    ],
+    "conclusion": "Ncore 2.0; kripto para yatırımcılarına gelişmiş, uyum sağlayabilen ve güvenilir bir çözüm sunarak bu dinamik piyasa trendlerinden yararlanacak konumdadır. Yeni teknolojilere ve piyasa gelişmelerine ayak uydurmak üzere sürekli evrilen Ncore 2.0, kullanıcıların hızlı tempolu ve sürekli değişen kripto dünyasında rekabetçi kalmasını güvence altına alır. Gelişmiş özellikleri, öngörü yetenekleri ve piyasaya uyum kabiliyetiyle Ncore 2.0, en dalgalı koşullarda bile kârlılığı en üst düzeye çıkarmak ve riski asgariye indirmek üzere tasarlanmıştır.",
+    "footNav": {
+      "prev": "Özellikler",
+      "next": "Ncore X"
+    }
+  },
+  "X_PAGE": {
+    "title": "Ncore X",
+    "subtitle": "Akıllı Platformlar Arası Arbitraj Motoru",
+    "newEra": {
+      "heading": "Platformlar Arası Arbitrajda Yeni Bir Çağ",
+      "paragraphs": [
+        "Günümüzün dijital varlık piyasalarında fiyat dalgalanmaları yalnızca tek bir borsa içinde değil, birden fazla işlem platformu arasında da yaşanır.",
+        "Ncore X, bu kısa ömürlü platformlar arası fırsatları yakalamak üzere tasarlandı ve müşterilere merkeziyetsiz (DEX) ile merkezi borsalar (CEX) arasındaki geçici fiyat sapmalarından sistematik biçimde kâr etme imkânı sunuyor.",
+        "Çok platformlu fiyatları, emir defterlerini ve likidite dağılımını gerçek zamanlı analiz eden Ncore X, piyasa verimsizliklerinin oluştuğu tam anda otomatik arbitraj işlemleri yürütür; müşterileri önde tutar ve öngörülebilir, sistematikleşmiş kâr sağlar."
+      ]
+    },
+    "coreConcept": {
+      "heading": "Temel Kavram: Platformlar Arası Arbitraj",
+      "intro": "Platformlar arası arbitraj, işlem platformları arasındaki fiyat farklarından kâr üretir:",
+      "points": [
+        {
+          "title": "Yönden bağımsız",
+          "body": "Kazanç piyasa trendlerinden değil, kısa vadeli fiyat sapmalarından gelir"
+        },
+        {
+          "title": "Sistematik yürütme",
+          "body": "Algoritma güdümlü otomasyon manuel müdahaleyi azaltır"
+        },
+        {
+          "title": "Piyasa verimliliğinde artış",
+          "body": "Arbitraj faaliyeti platformlar arası fiyatların hizalanmasına yardımcı olur"
+        }
+      ],
+      "closing": "Ncore X bu stratejiyi tümüyle ürünleştirir; müşterilerin arbitraj fırsatlarını verimli ve güvenilir biçimde yakalamasını sağlar."
+    },
+    "scenarios": {
+      "heading": "Üç Arbitraj Senaryosu",
+      "items": [
+        {
+          "title": "DEX ↔ DEX Arbitrajı",
+          "bullets": [
+            "Merkeziyetsiz borsalar arasındaki geçici fiyat farklarından yararlanır",
+            "Düşük fiyatlı likidite havuzlarından otomatik alım, yüksek fiyatlı havuzlara satım yapar",
+            "Arbitraj döngülerini hızla tamamlayarak DEX'ler arasında fiyat tutarlılığını artırır"
+          ]
+        },
+        {
+          "title": "CEX ↔ CEX Arbitrajı",
+          "bullets": [
+            "Merkezi borsalar arasındaki mikro fiyat farklarını tespit eder",
+            "Emir derinliği, eşleştirme mekanizmaları veya bölgesel etkenlerdeki farklardan yararlanır",
+            "Sistematik yürütme, müşterilerin piyasa hareketlerinden önce aksiyon almasını sağlar"
+          ]
+        },
+        {
+          "title": "DEX ↔ CEX Arbitrajı",
+          "bullets": [
+            "Merkeziyetsiz ve merkezi platformlar arasında köprü kurar",
+            "Sistemler arası fiyat sapmalarını yakalar",
+            "Arbitraj işlemlerini otomatik yürütür ve likiditeyi verimli biçimde aktarır"
+          ]
+        }
+      ]
+    },
+    "advantages": {
+      "heading": "Ncore X'in Temel Avantajları",
+      "items": [
+        {
+          "title": "Akıllı Çok Platformlu İzleme",
+          "bullets": [
+            "DEX ve CEX verilerinin gerçek zamanlı takibi",
+            "Fiyat anomalilerinin ve arbitraj sinyallerinin isabetli tespiti"
+          ]
+        },
+        {
+          "title": "Ultra Düşük Gecikmeli Yürütme",
+          "bullets": [
+            "İşlem talimatlarının platformlar arasında hızla iletilmesi",
+            "Arbitraj fırsatlarının fiyatlar geri dönmeden yakalanmasını sağlar"
+          ]
+        },
+        {
+          "title": "Maliyet Optimizasyonu",
+          "bullets": [
+            "İşlem ücretlerinin akıllı yönetimi",
+            "Net kârı en üst düzeye çıkarmak için ağ yoğunluğunda maliyetleri asgariye indirir"
+          ]
+        },
+        {
+          "title": "Risk İstihbaratı",
+          "bullets": [
+            "İşlem yürütmesinin ve piyasa volatilitesinin kesintisiz izlenmesi",
+            "İstikrarlı ve kontrollü getiri için dinamik strateji ayarlamaları"
+          ]
+        }
+      ]
+    },
+    "productized": {
+      "heading": "Müşteriler İçin Ürünleşmiş Değer",
+      "points": [
+        {
+          "title": "Kapsamlı Piyasa Kapsamı",
+          "body": "Tek bir strateji birden fazla platformu hedefler"
+        },
+        {
+          "title": "Otomatik Yürütme",
+          "body": "Arbitraj işlemleri manuel müdahale olmadan tamamlanır"
+        },
+        {
+          "title": "Yüksek Verim ve Düşük Maliyet",
+          "body": "Optimize edilmiş işlem ücretleri ve yürütme"
+        },
+        {
+          "title": "Kontrollü Risk",
+          "body": "Uyarlanabilir strateji parametreleri güvenliği ve kârlılığı korur"
+        }
+      ],
+      "closing": "Ncore X, karmaşık platformlar arası arbitraj stratejilerini kullanıma hazır, ürünleşmiş bir çözüme dönüştürür; böylece müşteriler teknik karmaşıklığa değil kâra odaklanır."
+    },
+    "realWorld": {
+      "heading": "Gerçek Dünyada Uygulama",
+      "intro": "Uygulamada:",
+      "steps": [
+        "Platformlar arasında fiyat farkları oluşur",
+        "Ncore X arbitraj sinyalini otomatik olarak tespit eder",
+        "Bir platformdan ucuza alır, diğerine pahalıya satar ve kâr döngüsünü kapatır",
+        "Piyasa geniş çapta tepki vermeden kazancı sabitler"
+      ],
+      "closing": "Bu yaklaşım, müşterilerin hızlı hareket eden piyasalarda öngörülebilir ve tekrarlanabilir kâr elde etmesini sağlar."
+    },
+    "futureVision": {
+      "heading": "Ncore X'in Gelecek Vizyonu",
+      "intro": "Ncore X yalnızca bir işlem aracı değildir; akıllı arbitrajın standartlaşmasını temsil eder:",
+      "bullets": [
+        "Hem bireysel hem kurumsal kullanıcılar için tasarlandı",
+        "Birden fazla platform genelinde platformlar arası arbitrajı otomatikleştirir",
+        "Piyasa verimsizliklerini sistematik biçimde yakalar",
+        "Çok sayıda varlık ve platforma ölçeklenebilir"
+      ],
+      "closing": "Hızla evrilen dijital varlık dünyasında Ncore X; müşterilerin önde kalmasını, istikrarlı kâr elde etmesini ve uzun vadeli büyümeye ulaşmasını sağlar."
+    },
+    "highlights": {
+      "heading": "Öne Çıkanlar",
+      "bullets": [
+        "Tam platformlar arası arbitraj kapsamı (DEX ↔ DEX / CEX ↔ CEX / DEX ↔ CEX)",
+        "Sistematik, otomatik ve düşük gecikmeli yürütme",
+        "Optimize edilmiş maliyet ve akıllı risk yönetimi",
+        "Ürünleşmiş çözüm, müşteri kullanımına anında hazır"
+      ]
+    }
+  },
+  "NCT_PAGE": {
+    "title": "Ncore Token (NCT)",
+    "subtitle": "Ncore Ekosistemine Güç Veren Yerel Fayda Tokeni",
+    "intro": [
+      "Ncore Token (NCT), Naslab ekosisteminin temel fayda tokenidir; sistem kullanımı, ekosisteme katılım ve uzun vadeli değer hizalaması etrafında tasarlanmıştır.",
+      "NCT, spekülatif bir varlık olmak yerine Ncore ürünleri genelinde takas, erişim ve teşvik katmanı işlevi görür."
+    ],
+    "tokenomics": {
+      "heading": "Tokenomi",
+      "stats": [
+        {
+          "label": "TOPLAM ARZ"
+        },
+        {
+          "label": "LANSMAN FİYATI",
+          "value": "USD 0.10"
+        },
+        {
+          "label": "BAŞLANGIÇTAKİ DOLAŞIM ARZI",
+          "value": "100,000,000 NCT (10%)"
+        }
+      ],
+      "initialSplit": [
+        "Mevcut kullanıcılara 50,000,000 tahsis edildi",
+        "Node sahiplerine 50,000,000 tahsis edildi"
+      ],
+      "allocationHeading": "Dağılım Kırılımı",
+      "allocation": [
+        {
+          "label": "Topluluk ve Ekosistem"
+        },
+        {
+          "label": "Listelemeler ve Ortaklıklar"
+        },
+        {
+          "label": "Hazine / Rezervler"
+        },
+        {
+          "label": "Kurucular ve Ekip (4 yıllık hak ediş)"
+        },
+        {
+          "label": "Danışmanlar"
+        },
+        {
+          "label": "Özel Satış"
+        },
+        {
+          "label": "Halka Açık Satış"
+        }
+      ]
+    },
+    "revenue": {
+      "heading": "Gelir Modeli",
+      "bullets": [
+        "Tüm Ncore sistem abonelikleri yalnızca NCT ile ödenir",
+        "Sistem içinde kullanılan tokenler otomatik olarak yakılır",
+        "Dolaşımdaki arzın sürekli azaltılması",
+        "Geri alım ve takas mekanizmaları uzun vadeli değer istikrarını destekler",
+        "Gelecekteki staking mekanizmaları daha derin ekosistem avantajlarının kilidini açacak"
+      ]
+    },
+    "utility": {
+      "heading": "Fayda ve Avantajlar",
+      "groups": [
+        {
+          "title": "Birincil Takas Tokeni",
+          "bullets": [
+            "NCT, Ncore abonelikleri için tek ödeme aracıdır",
+            "Fiat ya da alternatif token ikamesi yoktur",
+            "Kullanıma bağlı yakım mekanizması kıtlığı pekiştirir"
+          ]
+        },
+        {
+          "title": "Kıtlık Odaklı Değer Yapısı",
+          "bullets": [
+            "Tokenler yalnızca mevcut kullanıcılara ve node sahiplerine dağıtılır",
+            "Kontrollü arz büyümesi",
+            "Talep artışının arz azalmasıyla birleşmesi",
+            "Sürdürülebilir uzun vadeli değer birikimi için tasarlandı"
+          ]
+        },
+        {
+          "title": "Ayrıcalıklı Ekosistem Erişimi",
+          "bullets": [
+            "Beyaz liste ayrıcalıkları",
+            "Yüksek potansiyelli ekosistem projelerine erken katılım",
+            "Ortak girişimlere öncelikli erişim",
+            "Stratejik iş birliği fırsatları"
+          ]
+        },
+        {
+          "title": "Uyum ve Uzun Vadeli Vizyon",
+          "bullets": [
+            "NCT, Naslab'ın varlık tabanının bir parçası olarak tanınacak",
+            "Hong Kong düzenlemelerine tabi piyasa yapılarına entegrasyon planı",
+            "Geleneksel finans nezdinde artan şeffaflık ve güvenilirlik",
+            "Blokzincir inovasyonu ile düzenlenmiş finans arasında köprü olarak konumlandırıldı"
+          ]
+        }
+      ]
+    },
+    "mastercard": {
+      "heading": "Naslab Mastercard",
+      "points": [
+        {
+          "title": "Güvenli Kripto Saklama",
+          "body": "Güvenli kripto saklama, küresel harcama ve işlem imkânı sunar."
+        },
+        {
+          "title": "Geleneksel Entegrasyon",
+          "body": "Blokzincir varlıklarını geleneksel ödeme ağlarıyla bütünleştirir."
+        },
+        {
+          "title": "Günlük Kullanım",
+          "body": "Dijital varlıkları gündelik finansal kullanıma taşır."
+        }
+      ]
+    }
+  },
+  "ABOUT_PAGE": {
+    "title": "Naslab Hakkında",
+    "subtitle": "Nastech Global'in Yenilikçi Dijital Finans Çözümlerinin Pazarlaması",
+    "intro": "Naslab olarak, Nastech Global tarafından geliştirilen ileri düzey dijital finans çözümlerinin pazarlanması ve tanıtımı konusunda uzmanlaşıyoruz. Nastech'in pazarlama kolu olarak rolümüz; kripto para rezervleri, staking programları ve otomatik işlem araçları gibi yenilikçi ürünlerin tanıtılmasında ve bilinirliğinin artırılmasında belirleyicidir. Misyonumuz; bireylere ve işletmelere güvenli, ölçeklenebilir ve ileri görüşlü finansal stratejilere erişim sunarak hızla evrilen dijital ekonomide yol almalarına yardımcı olmaktır.",
+    "founded": {
+      "label": "Kuruluş"
+    },
+    "story": {
+      "heading": "Hikâyemiz",
+      "paragraphs": [
+        "Nastech Global'in kilit iş ortağı olarak kurulan Naslab, Nastech ürünlerinin benimsenmesini hızlandıracak yüksek etkili pazarlama stratejileri sunmaya odaklanır. Bu gelişmiş çözümlerin daha geniş bir kitleye ulaşmasını sağlar, farkındalık yaratır ve müşterilerimizin ve kullanıcıların büyümesini destekleriz. Pazarlama çalışmalarımız, Nastech ürünlerinin benzersiz değer önerilerini öne çıkaracak ve bu ürünleri dijital finans dünyasının vazgeçilmez araçları olarak konumlandıracak biçimde tasarlanır.",
+        "Nastech'in inovasyonlarını görünür kılma konusundaki güçlü kararlılığıyla Naslab, stratejilerini işletmelerin ve bireylerin farklı ihtiyaçlarına göre şekillendirir. Müşterilerimizi, dijital finans alanındaki en yeni gelişmelere erişmelerine yardımcı olarak başarıya ulaşmaları için gereken araçlarla donatmaya inanırız. İster yatırım potansiyelini en üst düzeye çıkarmak, ister kârlılığı artırmak, ister otomatik işlemden yararlanmak olsun; Naslab, Nastech ürünlerinin piyasanın değişen ihtiyaçlarını karşılayacak biçimde konumlandırılmasını sağlar.",
+        "İleriye baktığımızda Naslab, Nastech Global'in çığır açan ürünleri ile küresel piyasa arasındaki köprü rolünü sürdürmeye kararlıdır. Odağımız; erişimimizi genişletmek ve işletmelerin ve bireylerin sürekli değişen dijital finans ortamında gelişebilmek için en iyi kaynaklarla donanmasını sağlamak olmayı sürdürecek."
+      ]
+    },
+    "mission": {
+      "heading": "Misyonumuz",
+      "body": "Naslab olarak misyonumuz; inovasyonu ve sürdürülebilir büyümeyi destekleyerek işletmeleri ve bireyleri sınıfının en iyisi dijital finans çözümleriyle güçlendirmektir. Nastech Global'in pazarlama kolu olarak kripto para rezervleri, staking programları ve otomatik işlem araçları gibi ileri düzey ürünlerin tanıtımına odaklanıyoruz. Müşterilerimizin hızla evrilen dijital ekonomide yol almasına yardımcı olan güvenli, ölçeklenebilir ve ileri görüşlü stratejiler sunmaya kararlıyız. Nastech'in çığır açan çözümlerinden yararlanarak performansı optimize etmeyi ve hem bireyler hem işletmeler için kalıcı değer yaratmayı hedefliyoruz."
+    },
+    "vision": {
+      "heading": "Vizyonumuz",
+      "body": "Dijital finansın işletmelerin ve bireylerin tüm potansiyelini açığa çıkardığı; daha akıllı, daha verimli ve daha güvenli operasyonları mümkün kıldığı bir gelecek öngörüyoruz. Naslab olarak, Nastech Global'in yenilikçi ürünlerinin erişilebilir ve etkili olmasını sağlamak için pazarlama stratejilerimizi sürekli geliştiriyoruz. Dijital finans alanındaki uzmanlığımızı ileri görüşlü pazarlamayla birleştirerek yeni nesil müşterileri bu çözümleri benimsemeye, piyasa trendlerinin önünde kalmaya ve dijital çağın fırsatlarından yararlanmaya teşvik etmeyi amaçlıyoruz. Birlikte, dijital finanstaki inovasyonun herkes için uzun vadeli başarı ve refah ürettiği bir geleceği şekillendiriyoruz."
+    },
+    "leadership": {
+      "heading": "Liderliğimizle Tanışın",
+      "sub": "Dijital finansta inovasyonu vizyon ve uzmanlıkla ileri taşıyor",
+      "role": "Naslab ve Nastech Global CEO'su",
+      "quote": "\"Naslab olarak amacımız; işletmeleri ve bireyleri, dijital ekonomide sürdürülebilir başarı sağlayan yenilikçi çözümlerle güçlendirmek. Müşterilerimizin bir adım önde kalmasına yardımcı olan güvenli ve ölçeklenebilir stratejiler sunmaya kararlıyız.\"",
+      "bio": [
+        "Peter Kovac; dijital finans ortamını dönüştürmeye yönelik net bir vizyonla Nastech Global'in ve Naslab'ın arkasındaki itici güçtür. Hem finans hem teknoloji alanındaki güçlü birikimini birleştiren Peter, gerçek dünya sorunlarını çözmek için inovasyondan yararlanmaya tutkuyla bağlıdır.",
+        "Peter, 2025'te Naslab'ı kurmadan önce 2024'te Nastech Global'i kurdu ve burada ileri teknolojilerin finans sektörüne entegrasyonuna odaklandı. Piyasa trendlerine dair derin kavrayışı, Naslab'ı Nastech'in ileri düzey ürünlerinin tanıtımına adanmış pazarlama kolu olarak konumlandıran vizyonunu şekillendirdi.",
+        "Peter için liderlik; kalıcı değer yaratmak ve müşterileri yenilikçi dijital çözümlerle güçlendirmektir. Sürekli değişen dijital ekonomide şeffaflığı, inovasyonu ve müşteri başarısını önceliklendirir."
+      ]
+    },
+    "values": {
+      "heading": "Temel Değerlerimiz",
+      "items": [
+        {
+          "title": "İnovasyon",
+          "body": "Naslab; kripto para rezervleri, staking programları ve otomatik işlem araçları dâhil olmak üzere Nastech Global'in yenilikçi ürünlerini pazarlar. Bunların tümü ileri düzey çözümler ve ileri görüşlü bir yaklaşım gerektirir."
+        },
+        {
+          "title": "Dürüstlük",
+          "body": "Bir pazarlama şirketi olarak Naslab'ın müşterilerinin ve paydaşlarının güvenini koruması gerekir. Nastech ürünlerinin sorumlu ve inandırıcı biçimde tanıtılmasında şeffaflık ve etik iş uygulamaları belirleyicidir."
+        },
+        {
+          "title": "Güvenlik",
+          "body": "Naslab'ın pazarladığı çözümler dijital finans alanında, özellikle kripto para ve işlem tarafında yoğunlaştığından; müşteri güvenini kazanmak ve hassas verilerle işlemlerin güvenli biçimde ele alınmasını sağlamak açısından güvenlik kritik önemdedir."
+        },
+        {
+          "title": "Sürdürülebilirlik",
+          "body": "Naslab yalnızca kısa vadeli pazarlama kazanımlarına değil, uzun vadeli başarıya odaklanır. Müşterilerin evrilen dijital finans alanında sürdürülebilir biçimde büyümesine yardımcı olmak, uzun vadeli istikrar değeriyle doğrudan bağlantılıdır."
+        },
+        {
+          "title": "Müşteri Odaklılık",
+          "body": "Naslab'ın misyonu, müşterilerin dijital finans dünyasında yol almasına yardımcı olmaktır. Müşteri ihtiyaçlarıyla örtüşen kişiselleştirilmiş ve etkili pazarlama çözümleri sunmak, bu alanda başarının olmazsa olmazıdır."
+        },
+        {
+          "title": "İş Birliği",
+          "body": "Naslab, Nastech Global ile yakın çalışır; Nastech ürünlerinin başarıyla pazarlanması ve bilinirliğinin artırılması için diğer ortaklar ve müşterilerle iş birliği de zorunludur."
+        }
+      ]
+    }
+  },
+  "STRATEGY_PAGE": {
+    "title": "Stratejimiz",
+    "subtitle": "Dijital Finansın Geleceğine Güç Vermek",
+    "intro": [
+      "Naslab olarak stratejimiz temel bir inanca dayanır: işletmeleri ve bireyleri mevcut en yenilikçi dijital finans çözümleriyle buluşturmak. Kripto para rezervleri, staking programları ve otomatik işlem araçları dâhil olmak üzere Nastech Global'in gelişmiş ürünlerini stratejik biçimde pazarlamaya odaklanırız. Amacımız; sürekli evrilen bir finans ortamında büyümeyi mümkün kılan ileri düzey çözümler sunarak müşterilerimizin potansiyelini en üst düzeye çıkarmaktır.",
+      "Yaklaşımımız; piyasa içgörüsünü, teknolojik inovasyonu ve güvenli finansal stratejileri birleştirir. Böylece bugün etkili çözümler sunarken gelecekteki fırsatlara da uyum sağlayabiliriz. Dikkatli iş birliği ve yükselen trendlere dair derin kavrayış sayesinde müşterilerimize yalnızca bugünün zorluklarını çözen değil, onları yarının finans ortamına da hazırlayan araçlar sunmayı hedefliyoruz."
+    ],
+    "pillars": {
+      "heading": "Stratejimizin Temel Sütunları",
+      "items": [
+        {
+          "title": "Bütüncül ve Ölçeklenebilir Çözümler",
+          "body": "Naslab, dinamik dijital finans piyasasıyla birlikte uyum sağlayan ölçeklenebilir pazarlama çözümleri sunmaya odaklanır. İster kripto para rezervlerini, ister staking programlarını, ister otomatik işlem botlarını tanıtıyor olalım; amacımız müşterileri finansal stratejilerini güçlendirmek ve mümkün olan en iyi getiriyi elde etmek için ihtiyaç duydukları kaynaklarla donatmaktır. Dijital finans ortamı evrildikçe pazarlama stratejilerimizin de onunla birlikte evrilmesini sağlar; yeni zorlukları karşılar ve ortaya çıkan fırsatları değerlendiririz."
+        },
+        {
+          "title": "Her Katılımcıya Özel Deneyim",
+          "body": "Her müşterinin kendine özgü hedefleri ve ihtiyaçları olduğunun bilinciyle pazarlama stratejilerimizi sizin finansal yolculuğunuza göre kişiselleştiririz. İster dijital finansta yeni olun ister deneyimli bir yatırımcı; yaklaşımımız finansal hedeflerinizle, risk toleransınızla ve tercihlerinizle örtüşecek biçimde tasarlanır. Bu da Naslab adına tanıttığımız çözümlerin finansal yolculuğunuzun her aşamasında size uygun olmasını sağlar."
+        }
+      ]
+    },
+    "focus1": {
+      "heading": "Stratejik Odak",
+      "items": [
+        {
+          "title": "Kişiselleştirilmiş Müşteri Çözümleri",
+          "body": "Her müşterinin farklı finansal hedeflerine, risk toleransına ve beklentilerine yanıt veren pazarlama stratejileri kurgularız. İster henüz başlıyor olun ister dijital finansın içinde derinlemesine yer alın, Naslab'ın çözümleri ihtiyaçlarınıza göre şekillenir."
+        },
+        {
+          "title": "Ölçeklenebilir ve Uyarlanabilir Pazarlama",
+          "body": "Stratejilerimiz finansal yolculuğunuzla birlikte büyüyecek biçimde tasarlanır. Piyasa koşulları değiştikçe yaklaşımımızı uyarlar; güncel, esnek ve değişen ihtiyaçlarınızla uyumlu çözümler sunarız."
+        },
+        {
+          "title": "Sürekli Optimizasyon",
+          "body": "Pazarlama stratejilerimizi müşteri geri bildirimleri ve dijital finans alanındaki yükselen trendler doğrultusunda geliştirmeye kararlıyız. Böylece tanıttığımız çözümler yalnızca güncel değil, müşteri hedeflerine ulaşmada son derece etkili olur."
+        }
+      ]
+    },
+    "security": {
+      "heading": "Güvenlik Öncelikli İnovasyon",
+      "body": "Güvenlik, Naslab'da yaptığımız her işin merkezindedir. Nastech kaynaklı olanlar dâhil olmak üzere Naslab tarafından pazarlanan tüm ürünler; blokzincir teknolojisi ve şifreleme gibi en ileri güvenlik önlemleriyle desteklenir. Müşterilerimize önde gelen dijital finans araçlarıyla güvenle çalışabilecekleri güvenli bir ortam sunar; yatırımlarının korunmasını ve uzun vadeli finansal başarıyı destekleriz.",
+      "chips": [
+        "Blokzincir Güvenliği",
+        "Gelişmiş Şifreleme",
+        "Risk Yönetimi",
+        "Korunan Varlıklar"
+      ]
+    },
+    "growth": {
+      "heading": "Stratejik Büyümeye ve Ortaklığa Neden Odaklanıyoruz",
+      "body": "Naslab'ın stratejik büyümeye bağlılığı, piyasa ihtiyaçlarının net biçimde kavranmasına dayanır. Nastech'in yenilikçi ürünleri verimliliği artırdığı gibi, pazarlama yaklaşımımız da bu çözümleri doğrudan iş birliği ve uzun vadeli ortaklıklar yoluyla doğru kitleye ulaştırmaya odaklanır. Pazarlamanın her yönünü, müşterilerimizin sürekli evrilen dijital finans ekosisteminde başarı için konumlanmasını sağlayacak biçimde şekillendiririz.",
+      "focusHeading": "Stratejik Odak",
+      "items": [
+        {
+          "title": "Müşterilerle Ortak Pazarlama",
+          "body": "Nastech ürünlerinin ideal hedef kitlesine etkili ve verimli biçimde ulaşmasını sağlamak için pazarlama stratejilerini doğrudan müşterilerle birlikte iyileştiririz."
+        },
+        {
+          "title": "Merkezde Özelleştirme",
+          "body": "Her strateji müşteri düşünülerek kurgulanır; her işletmenin kendine özgü ihtiyaçlarına ve operasyonel gereksinimlerine uyum sağlayan pazarlama çözümleri sunulur."
+        },
+        {
+          "title": "Uzun Vadeli Ortaklıklar Kurmak",
+          "body": "Naslab olarak, işletmeleri büyürken destekleyen ortaklıklar geliştirmeye odaklanırız. Müşterilerimizin yükselen teknolojiler ve değişen piyasa trendleriyle birlikte büyümesine yardımcı olmaya kararlıyız."
+        }
+      ]
+    },
+    "innovation": {
+      "heading": "İnovasyon ve Uyum Yeteneği",
+      "blocks": [
+        {
+          "title": "Geleceğe Hazır Çözümler",
+          "body": "Naslab, sürekli inovasyonu benimseyerek bir adım önde kalır. Sunduğumuz pazarlama stratejilerinin blokzincir, yapay zekâ ve kripto para alanındaki en yeni gelişmelerle uyumlu olmasını sağlamak için araştırma ve geliştirmeye yatırım yaparız. İleri görüşlülüğe verdiğimiz bu önem, teknolojik ve piyasa değişimleriyle birlikte evrilen geleceğe hazır çözümler sunmamızı mümkün kılar."
+        },
+        {
+          "title": "Büyüme Vizyonumuz",
+          "body": "Naslab'ın pazarlama çalışmalarının genişlemesi, Nastech'in ilk ürünlerinin tanıtımıyla sınırlı değildir. Stratejilerimizi geliştirmeyi sürdürürken yeni teknolojileri ve pazarlama tekniklerini keşfetmeyi; böylece müşterilerimizin dijital finans alanında en ön safta kalmasını hedefliyoruz. Uzun vadeli ölçeklenebilirliği gözeten Naslab, işletmelerin sürekli değişen teknoloji ortamında önde kalmasına yardımcı olmaya adanmıştır."
+        }
+      ],
+      "focusHeading": "Stratejik Odak",
+      "items": [
+        {
+          "title": "Pazarlama İnovasyonuna Yatırım",
+          "body": "Müşterilere ileri düzey dijital finans çözümleri sunmak için pazarlama stratejilerimizi en yeni araç ve teknolojilerle sürekli güçlendiririz."
+        },
+        {
+          "title": "Sektör Değişimlerine Uyum",
+          "body": "Dijital finans piyasası evrildikçe stratejilerimizi güncel kalacak biçimde yeniler ve müşterilerimizin en etkili pazarlama yaklaşımlarından yararlanmayı sürdürmesini sağlarız."
+        },
+        {
+          "title": "Uzun Vadeli Büyümeyi Güvence Altına Almak",
+          "body": "Çözümlerimiz uzun vadeli ölçeklenebilirlik için tasarlanır; böylece pazarlama stratejilerimiz müşteri ihtiyaçları, piyasa değişimleri ve yeni teknolojilerle birlikte evrilir."
+        }
+      ]
+    },
+    "whyChoose": {
+      "heading": "Neden Naslab?",
+      "items": [
+        {
+          "title": "Akıllı Pazarlama Çözümleri",
+          "body": "Naslab olarak, dijital finansın dinamik dünyasıyla birlikte evrilen akıllı pazarlama stratejileri sunmakta uzmanlaşıyoruz. Uzmanlığımız kripto para rezervlerini, staking programlarını ve otomatik işlem araçlarını kapsar."
+        },
+        {
+          "title": "Etki İçin Özel Çözümler",
+          "body": "Her müşterinin kendine özgü ihtiyaçları ve hedefleri olduğunu biliriz. Bu nedenle mevcut finansal yaklaşımınıza sorunsuzca entegre olan kişiselleştirilmiş pazarlama stratejileri sunarız."
+        },
+        {
+          "title": "Sizi Önde Tutan İnovasyon",
+          "body": "Teknoloji sürekli evriliyor; biz de öyle. Naslab olarak, pazarlama stratejilerimizi geleceğe dayanıklı kılmak için blokzincir teknolojisinden yapay zekâ destekli araçlara kadar en yeni gelişmelere yatırım yapıyoruz."
+        }
+      ]
+    },
+    "visionAhead": {
+      "commitHeading": "Naslab'ın İnovasyon Taahhüdü",
+      "commitBody": "Naslab'da inovasyon, yaptığımız her işin merkezindedir. Müşterilerimizin dijital finans alanında bir adım önde kalmasını sağlamak için pazarlama stratejilerimizi ve araçlarımızı sürekli geliştirmeye adanmış durumdayız.",
+      "visionHeading": "Naslab'ın Vizyonu",
+      "visionSub": "Yarının Başarısı İçin Bugünden İnovasyon",
+      "visionBody": "Naslab olarak vizyonumuz; işletmeleri yenilikçi, geleceğe hazır pazarlama çözümleriyle güçlendirmektir. Yalnızca bugünün zorluklarını çözen değil, yarının fırsatları için de zemin hazırlayan stratejiler üretmeye kararlıyız. Odağımız; müşterilerimizin finansal hedefleriyle sorunsuz bütünleşen, sonuç odaklı çözümler sunmak ve dijital finans alanında daha isabetli karar almayı, optimize edilmiş büyümeyi ve uzun vadeli başarıyı mümkün kılmaktır.",
+      "aheadHeading": "İleriye Bakış",
+      "aheadSub": "Büyüme, İnovasyon ve Genişleme Dolu Bir Gelecek",
+      "items": [
+        {
+          "title": "Dijital Finans Çözümlerini İleri Taşımak",
+          "body": "Naslab olarak dijital finansı sürekli inovasyonla ileri taşımaya kararlıyız. Blokzincir, yapay zekâ ve makine öğrenimi gibi ileri düzey teknolojilerden yararlanmaya odaklanıyoruz."
+        },
+        {
+          "title": "Piyasa Erişimimizi Genişletmek",
+          "body": "Naslab, etkisini küresel piyasalara yayma yolunda ilerliyor. 2026 yılına kadar dijital finans sektöründeki ayak izimizi belirgin biçimde genişletmeyi planlıyoruz."
+        },
+        {
+          "title": "Daha Güçlü Bir Küresel Ağ Kurmak",
+          "body": "Büyüme vizyonumuzun bir parçası olarak Naslab, sektörün önde gelen isimleri ve ortaklarıyla güçlü ilişkiler kurarak küresel varlığını genişletmeye odaklanıyor."
+        }
+      ]
+    }
+  },
+  "CAREERS_PAGE": {
+    "title": "Naslab'da Ekibimize Katılın",
+    "intro": "Naslab olarak; sektörleri şekillendiren ve işletmeleri dönüştüren yenilikçi, teknoloji odaklı çözümlerin geliştirilmesine katkı sunmaya istekli, tutkulu ve hedef odaklı kişileri her zaman arıyoruz. Yetenekli profesyonellerden oluşan güçlü bir ağ kurmaya inanıyoruz; dinamik ve ileri görüşlü bir ortamda gelişen, teknolojinin geleceği konusunda heyecan duyan biriyseniz sizden haber almak isteriz.",
+    "why": {
+      "heading": "Neden Naslab?",
+      "body": "Naslab olarak inovasyon ve stratejik pazarlama yoluyla büyümeyi sürüklemeye adanmış durumdayız. Ekibimiz; markaları hedef kitleleriyle buluşturmak ve anlamlı bir etki yaratmak için ileri düzey teknolojiden yararlanmaya tutkuyla bağlı. Amiral gemisi ürünlerimizin tanıtımından ortaklarımızın erişimini genişletmeye kadar, sürdürülebilir büyüme ve uzun vadeli başarı için katalizör rolümüzden gurur duyuyoruz. Yürüttüğümüz her kampanya, dijital dünyanın ilerlemesine katkı sunmak için bir fırsattır."
+    },
+    "lookingFor": {
+      "heading": "Kimleri Arıyoruz",
+      "body": "Aşağıdaki rollerdeki yetenekli profesyonellerle tanışmaya her zaman açığız:"
+    },
+    "ready": {
+      "heading": "Bize Katılmaya Hazır mısınız?",
+      "body": "Naslab'da heyecan verici bir kariyere doğru ilk adımı atın. Sizden haber almak isteriz!",
+      "cta": "Bize Ulaşın"
+    }
+  },
+  "COLLAB_PAGE": {
+    "title": "İş Birliği",
+    "subtitle": "Naslab ile Birlikte Çalışmak",
+    "intro": "Naslab olarak, uzun vadeli değerin derin iş birliği ve birbirini tamamlayan yetkinlikler yoluyla yaratıldığına inanıyoruz. Yürütme kalitesine, sistem güvenilirliğine ve uzun vadeli düşünmeye aynı bağlılığı gösteren ortaklarla çalışıyoruz.",
+    "approach": {
+      "heading": "Yaklaşımımız",
+      "body": "İşlemsel ya da kısa vadeli ortaklıkların peşinden gitmek yerine; kalıcı sistemlere, anlamlı inovasyona ve sürdürülebilir büyümeye katkı sunan iş birliklerine odaklanıyoruz."
+    },
+    "focus": {
+      "heading": "İş Birliği Odağımız",
+      "groups": [
+        {
+          "title": "Teknoloji ve Ürün İş Birliği",
+          "bullets": [
+            "Yüksek performanslı sistemler kurmak için mühendislik ekipleri ve altyapı sağlayıcılarıyla ortaklık",
+            "Yürütme mimarisi, veri istihbaratı ve sistem tasarımında ortak çalışma",
+            "Gelişmiş teknik yetkinlikleri ölçeklenebilir ve üretime hazır çözümlere dönüştürme"
+          ]
+        },
+        {
+          "title": "Piyasa ve İş Geliştirme İş Birliği",
+          "bullets": [
+            "Ortak çözümler için platformlar ve ekosistem ortaklarıyla çalışma",
+            "Pazara giriş stratejisi, uyum ve müşteriye teslimat konularında hizalanma",
+            "Uzun vadeli ve karşılıklı fayda sağlayan iş ilişkileri kurma"
+          ]
+        },
+        {
+          "title": "Araştırma ve Strateji İş Birliği",
+          "bullets": [
+            "Piyasa yapısı, yürütme mekanikleri ve sistem teşvikleri üzerine araştırmalara katılma",
+            "Araştırma içgörülerini uygulanabilir stratejilere ve ürün yetkinliklerine dönüştürme",
+            "Yükselen teknolojileri ve yeni piyasa fırsatlarını keşfetme"
+          ]
+        }
+      ]
+    },
+    "who": {
+      "heading": "Kimlerle İş Birliği Yapıyoruz",
+      "intro": "Genellikle şu taraflarla iş birliği yapıyoruz:",
+      "bullets": [
+        "Teknoloji ve altyapı ekipleri",
+        "İşlem platformları ve likidite odaklı kuruluşlar",
+        "Araştırma kurumları ve uzmanlaşmış ekipler",
+        "Uzun vadeli ve yürütme odaklı bakış açısına sahip ekosistem ortakları"
+      ],
+      "closing": "Profesyonelliğe, niyet netliğine ve değerlerde uyuma önem veriyoruz."
+    },
+    "build": {
+      "heading": "Birlikte İnşa Edelim",
+      "body": "Yürütmeye, teknik titizliğe ve uzun vadeli sistem geliştirmeye odaklanan bir ortak arıyorsanız, iş birliği olanaklarını birlikte değerlendirmekten memnuniyet duyarız.",
+      "cta": "Bize Ulaşın"
+    }
+  },
+  "CONTACT_PAGE": {
+    "title": "Bize Ulaşın",
+    "body": "Sorularınızı yanıtlamak ve iş birliği fırsatlarını değerlendirmek için buradayız. Dilediğiniz zaman bize ulaşın!",
+    "emailLabel": "Bize E-posta Gönderin",
+    "supportLabel": "Müşteri Desteği",
+    "fields": [
+      {
+        "label": "Ad"
+      },
+      {
+        "label": "Soyad"
+      },
+      {
+        "label": "E-posta"
+      },
+      {
+        "label": "Telefon"
+      },
+      {
+        "label": "Konu *",
+        "options": [
+          "Bir konu seçin",
+          "Kariyer",
+          "İş Birliği",
+          "Ürün",
+          "Strateji",
+          "Diğer"
+        ]
+      },
+      {
+        "label": "Mesaj"
+      }
+    ],
+    "submit": "Mesaj Gönder"
+  }
+}
