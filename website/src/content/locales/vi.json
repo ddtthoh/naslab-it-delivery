@@ -21,7 +21,7 @@
       "label": "Sản phẩm",
       "children": [
         {
-          "label": "Ncore 2.0"
+          "label": "Ncore 3.0"
         },
         {
           "label": "Kiến thức cơ bản"
@@ -84,9 +84,9 @@
     "body": "Lộ trình dài hạn phác họa hành trình phát triển của Naslab, từ các hệ thống giao dịch tự động đến hạ tầng tài chính số toàn cầu có khả năng mở rộng.",
     "cta": "XEM LỘ TRÌNH CHIẾN LƯỢC"
   },
-  "S5_NCORE_2": {
-    "kicker": "03 · CỖ MÁY MEV DỰ ĐOÁN — Ncore 2.0",
-    "h2": "Ncore 2.0 — Giao dịch MEV dự đoán cho thị trường DEX",
+  "S5_NCORE_3": {
+    "kicker": "03 · CỖ MÁY MEV DỰ ĐOÁN — Ncore 3.0",
+    "h2": "Ncore 3.0 — Giao dịch MEV dự đoán cho thị trường DEX",
     "body": "Nền tảng giao dịch MEV tập trung vào DEX: giám sát mempool, dự đoán các lệnh lớn và thực thi chính xác các chiến lược front-run và back-run (đặt lệnh đón đầu và theo sau).",
     "mempoolCard": {
       "title": "LUỒNG MEMPOOL",
@@ -117,15 +117,15 @@
       },
       {
         "label": "02 · LOGIC — Logic giao dịch",
-        "body": "Ncore 2.0 là nền tảng giao dịch MEV tập trung vào DEX, thu giá trị một cách có hệ thống thông qua giám sát mempool, thực thi chiến lược sandwich và tối ưu thứ tự giao dịch trước khi thị trường kịp phản ứng."
+        "body": "Ncore 3.0 là nền tảng giao dịch MEV tập trung vào DEX, thu giá trị một cách có hệ thống thông qua giám sát mempool, thực thi chiến lược sandwich và tối ưu thứ tự giao dịch trước khi thị trường kịp phản ứng."
       },
       {
         "label": "03 — Tính năng",
-        "body": "Ncore 2.0 là hệ thống giao dịch MEV và front-run trên DEX tiên tiến, kết hợp phân tích mempool, thực thi theo thời gian thực, tối ưu phí Gas và cơ chế kiểm soát rủi ro tùy chỉnh, nhằm thu giá trị từ thứ tự giao dịch một cách liên tục và an toàn."
+        "body": "Ncore 3.0 là hệ thống giao dịch MEV và front-run trên DEX tiên tiến, kết hợp phân tích mempool, thực thi theo thời gian thực, tối ưu phí Gas và cơ chế kiểm soát rủi ro tùy chỉnh, nhằm thu giá trị từ thứ tự giao dịch một cách liên tục và an toàn."
       },
       {
         "label": "04 — Xu hướng thị trường",
-        "body": "Ncore 2.0 được xây dựng để tận dụng những xu hướng lớn của thị trường crypto — sự tăng trưởng của DeFi, động lực MEV, sự tham gia của các tổ chức, khả năng mở rộng Layer 2, giao dịch ứng dụng AI và mức biến động ngày càng cao — thông qua năng lực giao dịch thích ứng, độ trễ thấp và được tối ưu cho khâu thực thi."
+        "body": "Ncore 3.0 được xây dựng để tận dụng những xu hướng lớn của thị trường crypto — sự tăng trưởng của DeFi, động lực MEV, sự tham gia của các tổ chức, khả năng mở rộng Layer 2, giao dịch ứng dụng AI và mức biến động ngày càng cao — thông qua năng lực giao dịch thích ứng, độ trễ thấp và được tối ưu cho khâu thực thi."
       }
     ]
   },
@@ -217,11 +217,11 @@
       {
         "period": "2026 Q1 - Q4 — Mở rộng quy mô & Sẵn sàng ra thị trường",
         "items": [
-          "Mở rộng Ncore 2.0 ra thị trường quốc tế",
-          "Thử nghiệm giao dịch thực Ncore X theo từng giai đoạn",
+          "Triển khai thành công Ncore 3.0",
+          "Ra mắt Ncore X — CEX Arbitrage",
           "Quy mô giao dịch ~$5M → ~$50M",
           "Liên tục tối ưu tốc độ thực thi, kiểm soát chi phí và quản trị rủi ro",
-          "Số người dùng Ncore 2.0 ước tính: 100,000"
+          "Số người dùng Ncore 3.0 ước tính: 100,000"
         ],
         "note": "Dự kiến — Việc mở Ncore X cho bên ngoài phụ thuộc vào độ ổn định hệ thống, kết quả đánh giá rủi ro và các điều kiện pháp lý."
       },
@@ -279,7 +279,7 @@
         "title": "SẢN PHẨM",
         "links": [
           {
-            "label": "Ncore 2.0"
+            "label": "Ncore 3.0"
           },
           {
             "label": "Ncore X"
@@ -367,7 +367,7 @@
     "title": "Hiểu biết cơ bản",
     "subtitle": "Nền tảng về blockchain và cơ chế thực thi giao dịch on-chain",
     "lead": "Nắm vững nền tảng",
-    "leadBody": "Làm chủ những khái niệm cốt lõi về thực thi trên blockchain, thứ tự giao dịch và cơ chế trích xuất giá trị — nền móng cho các chiến lược giao dịch tiên tiến của Ncore 2.0.",
+    "leadBody": "Làm chủ những khái niệm cốt lõi về thực thi trên blockchain, thứ tự giao dịch và cơ chế trích xuất giá trị — nền móng cho các chiến lược giao dịch tiên tiến của Ncore 3.0.",
     "sections": [
       {
         "heading": "Blockchain và cơ chế thực thi giao dịch on-chain",
@@ -424,29 +424,29 @@
     "nextChapter": {
       "kicker": "CHƯƠNG TIẾP THEO",
       "heading": "Sẵn sàng tìm hiểu sâu hơn?",
-      "body": "Khám phá cách Ncore 2.0 vận dụng những nguyên lý nền tảng này để triển khai các chiến lược MEV tiên tiến.",
+      "body": "Khám phá cách Ncore 3.0 vận dụng những nguyên lý nền tảng này để triển khai các chiến lược MEV tiên tiến.",
       "cta": "Đọc tiếp: Logic giao dịch"
     }
   },
   "TRADING_PAGE": {
     "title": "Logic giao dịch",
-    "subtitle": "Ncore 2.0 — Nền tảng giao dịch MEV tập trung vào DEX",
+    "subtitle": "Ncore 3.0 — Nền tảng giao dịch MEV tập trung vào DEX",
     "origins": {
-      "heading": "Nguồn gốc của Ncore 2.0",
-      "body": "Ncore 2.0, do Nastech Global phát triển, được thiết kế riêng cho hệ sinh thái sàn giao dịch phi tập trung (DEX) đang tiến hóa nhanh chóng. Khi tài sản số ngày càng giữ vai trò quan trọng, các hệ thống giao dịch truyền thống chật vật theo kịp:",
+      "heading": "Nguồn gốc của Ncore 3.0",
+      "body": "Ncore 3.0, do Nastech Global phát triển, được thiết kế riêng cho hệ sinh thái sàn giao dịch phi tập trung (DEX) đang tiến hóa nhanh chóng. Khi tài sản số ngày càng giữ vai trò quan trọng, các hệ thống giao dịch truyền thống chật vật theo kịp:",
       "bullets": [
         "Biến động tần suất cao trên thị trường DeFi",
         "Các lệnh lớn thay đổi liên tục",
         "Những thách thức thực thi phức tạp theo thời gian thực"
       ],
-      "closing": "Ncore 2.0 ra đời như một kiến trúc giao dịch dự đoán, có khả năng phát hiện cơ hội thị trường trước khi các giao dịch lớn đang chờ xử lý hoặc những sự kiện thị trường đáng kể xảy ra."
+      "closing": "Ncore 3.0 ra đời như một kiến trúc giao dịch dự đoán, có khả năng phát hiện cơ hội thị trường trước khi các giao dịch lớn đang chờ xử lý hoặc những sự kiện thị trường đáng kể xảy ra."
     },
     "sandwich": {
       "heading": "MEV và chiến lược sandwich",
       "sub": "Logic front-run / back-run",
       "intro": [
         "Trên các nền tảng DEX, mọi giao dịch đều đi vào mempool trước khi được xác nhận trong một khối. Điều này tạo ra cơ hội cho MEV (Maximal Extractable Value): giá trị tăng thêm có thể được thu về bằng cách tối ưu thứ tự giao dịch.",
-        "Chiến lược cốt lõi của Ncore 2.0 là chiến lược sandwich, còn gọi là logic front-run/back-run, giúp hệ thống hóa MEV thành một giải pháp sẵn sàng thương mại cho thị trường DEX:"
+        "Chiến lược cốt lõi của Ncore 3.0 là chiến lược sandwich, còn gọi là logic front-run/back-run, giúp hệ thống hóa MEV thành một giải pháp sẵn sàng thương mại cho thị trường DEX:"
       ],
       "legs": [
         {
@@ -466,10 +466,10 @@
           ]
         }
       ],
-      "closing": "Nhờ sự kết hợp này, Ncore 2.0 hoàn tất chiến lược sandwich trước khi thị trường chung kịp phản ứng, giành lấy những cơ hội lợi nhuận đi trước cho người dùng."
+      "closing": "Nhờ sự kết hợp này, Ncore 3.0 hoàn tất chiến lược sandwich trước khi thị trường chung kịp phản ứng, giành lấy những cơ hội lợi nhuận đi trước cho người dùng."
     },
     "coreFeatures": {
-      "heading": "Các tính năng cốt lõi của Ncore 2.0",
+      "heading": "Các tính năng cốt lõi của Ncore 3.0",
       "items": [
         {
           "title": "Giám sát Mempool",
@@ -507,7 +507,7 @@
     },
     "productized": {
       "heading": "Giá trị sản phẩm hóa & Lợi ích cho khách hàng",
-      "intro": "Ncore 2.0 đóng gói những chiến lược sandwich phức tạp thành một sản phẩm sẵn sàng sử dụng, để người dùng tập trung vào lợi nhuận thay vì các chi tiết kỹ thuật.",
+      "intro": "Ncore 3.0 đóng gói những chiến lược sandwich phức tạp thành một sản phẩm sẵn sàng sử dụng, để người dùng tập trung vào lợi nhuận thay vì các chi tiết kỹ thuật.",
       "points": [
         {
           "title": "Giao dịch chủ động",
@@ -532,15 +532,15 @@
       "intro": "Trong một môi trường DEX tần suất cao:",
       "steps": [
         "Một lệnh lớn đang chờ xử lý xuất hiện trong mempool",
-        "Ncore 2.0 thực thi lệnh front-run để chiếm vị thế đón đầu",
+        "Ncore 3.0 thực thi lệnh front-run để chiếm vị thế đón đầu",
         "Sau khi lệnh đó được thực thi, lệnh back-run khép kín vòng lợi nhuận",
         "Lợi nhuận được chốt trước khi thị trường kịp phản ứng đầy đủ"
       ],
       "closing": "Chiến lược này giúp khách hàng đạt được lợi nhuận có thể dự đoán, có hệ thống và trong tầm kiểm soát giữa thị trường DEX nhiều biến động."
     },
     "devPath": {
-      "heading": "Chặng đường phát triển của Ncore 2.0",
-      "intro": "Ncore 2.0 là kết tinh từ nhiều năm kinh nghiệm của Nastech Global trong lĩnh vực giao dịch tự động:",
+      "heading": "Chặng đường phát triển của Ncore 3.0",
+      "intro": "Ncore 3.0 là kết tinh từ nhiều năm kinh nghiệm của Nastech Global trong lĩnh vực giao dịch tự động:",
       "bullets": [
         "Khởi đầu bằng các giải pháp thiết kế riêng cho nhóm khách hàng cao cấp",
         "Phát triển thành một kiến trúc giao dịch dự đoán, được hệ thống hóa khi thị trường ngày càng phức tạp",
@@ -548,7 +548,7 @@
         "Mang lại năng lực giao dịch tần suất cao, độ trễ thấp cho cả người dùng cá nhân lẫn tổ chức"
       ],
       "resultHeading": "Kết quả",
-      "resultBody": "Ncore 2.0 không chỉ là một bot giao dịch — đó là một giải pháp MEV trên DEX đã được sản phẩm hóa, giúp khách hàng duy trì lợi thế trong những thị trường biến chuyển nhanh."
+      "resultBody": "Ncore 3.0 không chỉ là một bot giao dịch — đó là một giải pháp MEV trên DEX đã được sản phẩm hóa, giúp khách hàng duy trì lợi thế trong những thị trường biến chuyển nhanh."
     },
     "highlights": {
       "heading": "Những điểm nổi bật",
@@ -579,7 +579,7 @@
       ],
       "closing": [
         "Đến lúc thị trường chung phản ứng, khách hàng đã hoàn tất giao dịch và thu được giá trị, luôn giữ vững vị thế đi trước.",
-        "Bạn đã sẵn sàng khai mở toàn bộ tiềm năng của Ncore 2.0 và bước vào tương lai của giao dịch tự động? Hãy khám phá cách công cụ đột phá này giúp bạn nắm bắt cơ hội mới, đón đầu thị trường và thực hiện những giao dịch thông minh, sinh lời hơn ngay từ hôm nay."
+        "Bạn đã sẵn sàng khai mở toàn bộ tiềm năng của Ncore 3.0 và bước vào tương lai của giao dịch tự động? Hãy khám phá cách công cụ đột phá này giúp bạn nắm bắt cơ hội mới, đón đầu thị trường và thực hiện những giao dịch thông minh, sinh lời hơn ngay từ hôm nay."
       ]
     },
     "footNav": {
@@ -590,72 +590,72 @@
   "FEATURES_PAGE": {
     "title": "Tính năng",
     "intro": [
-      "Ncore 2.0 tích hợp một loạt tính năng tiên tiến, mang lại cho nhà giao dịch tiền mã hóa lợi thế cạnh tranh trong thế giới giao dịch tài sản số đầy tốc độ.",
-      "Các tính năng này phối hợp với nhau để tối ưu chiến lược giao dịch, giảm thiểu rủi ro và nâng cao khả năng sinh lời, đồng thời vẫn giữ giao diện trực quan, dễ sử dụng. Dưới đây là những tính năng cốt lõi làm nên sự khác biệt của Ncore 2.0."
+      "Ncore 3.0 tích hợp một loạt tính năng tiên tiến, mang lại cho nhà giao dịch tiền mã hóa lợi thế cạnh tranh trong thế giới giao dịch tài sản số đầy tốc độ.",
+      "Các tính năng này phối hợp với nhau để tối ưu chiến lược giao dịch, giảm thiểu rủi ro và nâng cao khả năng sinh lời, đồng thời vẫn giữ giao diện trực quan, dễ sử dụng. Dưới đây là những tính năng cốt lõi làm nên sự khác biệt của Ncore 3.0."
     ],
     "features": [
       {
         "title": "Thuật toán front-run tiên tiến",
-        "how": "Bằng cách liên tục quét mempool để tìm các lệnh lớn, Ncore 2.0 nhận diện những giao dịch đáng kể trước khi chúng được thực thi, nhờ đó hành động nhanh hơn thị trường. Khi một lệnh lớn sắp được xử lý, Ncore 2.0 vào lệnh của mình đúng thời điểm tối ưu, trước khi thị trường kịp phản ứng với lệnh lớn đó.",
-        "why": "Thị trường tiền mã hóa có thể biến động rất mạnh, và các lệnh lớn thường gây ra những cú dịch chuyển giá. Bằng cách đón đầu những giao dịch lớn này, Ncore 2.0 bảo đảm nhà giao dịch tận dụng được biến động giá trước khi nó phản ánh đầy đủ vào thị trường, nâng cao tiềm năng sinh lời."
+        "how": "Bằng cách liên tục quét mempool để tìm các lệnh lớn, Ncore 3.0 nhận diện những giao dịch đáng kể trước khi chúng được thực thi, nhờ đó hành động nhanh hơn thị trường. Khi một lệnh lớn sắp được xử lý, Ncore 3.0 vào lệnh của mình đúng thời điểm tối ưu, trước khi thị trường kịp phản ứng với lệnh lớn đó.",
+        "why": "Thị trường tiền mã hóa có thể biến động rất mạnh, và các lệnh lớn thường gây ra những cú dịch chuyển giá. Bằng cách đón đầu những giao dịch lớn này, Ncore 3.0 bảo đảm nhà giao dịch tận dụng được biến động giá trước khi nó phản ánh đầy đủ vào thị trường, nâng cao tiềm năng sinh lời."
       },
       {
         "title": "Giám sát thị trường theo thời gian thực",
-        "how": "Ncore 2.0 sử dụng nhiều nguồn dữ liệu, bao gồm các sàn phi tập trung và dữ liệu giao dịch trên blockchain, để liên tục theo dõi diễn biến thị trường. Dữ liệu này được xử lý theo thời gian thực, cho phép Ncore 2.0 phản ứng với những chuyển dịch của thị trường ngay khi chúng xảy ra. Bot sau đó dùng thông tin này để điều chỉnh chiến lược giao dịch cho bám sát xu hướng thị trường hiện hành.",
-        "why": "Trong thế giới tiền mã hóa, nơi giá có thể thay đổi chóng mặt, việc nắm bắt điều kiện thị trường theo thời gian thực là điều thiết yếu. Khả năng phản ứng nhanh với diễn biến thị trường của Ncore 2.0 giúp nhà giao dịch ra quyết định có cơ sở, tối đa hóa cơ hội cho những giao dịch sinh lời."
+        "how": "Ncore 3.0 sử dụng nhiều nguồn dữ liệu, bao gồm các sàn phi tập trung và dữ liệu giao dịch trên blockchain, để liên tục theo dõi diễn biến thị trường. Dữ liệu này được xử lý theo thời gian thực, cho phép Ncore 3.0 phản ứng với những chuyển dịch của thị trường ngay khi chúng xảy ra. Bot sau đó dùng thông tin này để điều chỉnh chiến lược giao dịch cho bám sát xu hướng thị trường hiện hành.",
+        "why": "Trong thế giới tiền mã hóa, nơi giá có thể thay đổi chóng mặt, việc nắm bắt điều kiện thị trường theo thời gian thực là điều thiết yếu. Khả năng phản ứng nhanh với diễn biến thị trường của Ncore 3.0 giúp nhà giao dịch ra quyết định có cơ sở, tối đa hóa cơ hội cho những giao dịch sinh lời."
       },
       {
         "title": "Tối ưu động phí Gas",
-        "how": "Ncore 2.0 đánh giá thông minh mức độ tắc nghẽn mạng và xác định mức phí gas phù hợp cần trả để giao dịch của mình được ưu tiên thực thi kịp thời. Nếu mạng tắc nghẽn, Ncore 2.0 sẽ tăng nhẹ phí gas để bảo đảm giao dịch được xử lý nhanh. Nếu mạng thông thoáng, Ncore 2.0 sẽ hạ phí gas xuống nhằm tránh chi phí không cần thiết.",
-        "why": "Phí Gas có thể chênh lệch đáng kể tùy theo mức độ hoạt động của mạng blockchain, và trả dư phí sẽ ăn mòn lợi nhuận tiềm năng. Cơ chế tối ưu động của Ncore 2.0 bảo đảm người dùng không lãng phí nguồn lực mà vẫn được thực thi nhanh, tạo ra sự cân bằng hoàn hảo giữa chi phí và tốc độ."
+        "how": "Ncore 3.0 đánh giá thông minh mức độ tắc nghẽn mạng và xác định mức phí gas phù hợp cần trả để giao dịch của mình được ưu tiên thực thi kịp thời. Nếu mạng tắc nghẽn, Ncore 3.0 sẽ tăng nhẹ phí gas để bảo đảm giao dịch được xử lý nhanh. Nếu mạng thông thoáng, Ncore 3.0 sẽ hạ phí gas xuống nhằm tránh chi phí không cần thiết.",
+        "why": "Phí Gas có thể chênh lệch đáng kể tùy theo mức độ hoạt động của mạng blockchain, và trả dư phí sẽ ăn mòn lợi nhuận tiềm năng. Cơ chế tối ưu động của Ncore 3.0 bảo đảm người dùng không lãng phí nguồn lực mà vẫn được thực thi nhanh, tạo ra sự cân bằng hoàn hảo giữa chi phí và tốc độ."
       },
       {
         "title": "Tương thích đa nền tảng",
-        "how": "Ncore 2.0 không bị giới hạn ở một blockchain hay một sàn giao dịch duy nhất, mà có thể được cấu hình để hoạt động trên nhiều nền tảng, bao gồm Ethereum, Binance Smart Chain và các nền tảng khác. Khả năng tương thích đa nền tảng này bảo đảm nhà giao dịch có thể vận hành trong nhiều hệ sinh thái khác nhau và tận dụng các điều kiện thị trường khác nhau.",
-        "why": "Nhờ giao dịch được trên nhiều nền tảng, người dùng Ncore 2.0 có thể đa dạng hóa danh mục trên các mạng blockchain khác nhau. Điều này giúp giảm mức độ phụ thuộc vào một mạng đơn lẻ, tăng khả năng chống chịu của chiến lược giao dịch và mở ra thêm cơ hội lợi nhuận ở những thị trường khác."
+        "how": "Ncore 3.0 không bị giới hạn ở một blockchain hay một sàn giao dịch duy nhất, mà có thể được cấu hình để hoạt động trên nhiều nền tảng, bao gồm Ethereum, Binance Smart Chain và các nền tảng khác. Khả năng tương thích đa nền tảng này bảo đảm nhà giao dịch có thể vận hành trong nhiều hệ sinh thái khác nhau và tận dụng các điều kiện thị trường khác nhau.",
+        "why": "Nhờ giao dịch được trên nhiều nền tảng, người dùng Ncore 3.0 có thể đa dạng hóa danh mục trên các mạng blockchain khác nhau. Điều này giúp giảm mức độ phụ thuộc vào một mạng đơn lẻ, tăng khả năng chống chịu của chiến lược giao dịch và mở ra thêm cơ hội lợi nhuận ở những thị trường khác."
       },
       {
         "title": "Quản trị rủi ro toàn diện",
-        "how": "Ncore 2.0 cho phép người dùng thiết lập sẵn các ngưỡng rủi ro, chẳng hạn mức cắt lỗ, tự động kích hoạt khi một số điều kiện nhất định được đáp ứng (ví dụ: khi giá một loại tiền mã hóa rơi xuống dưới một mốc nào đó). Ngoài ra, Ncore 2.0 cung cấp phân tích theo thời gian thực để theo dõi hiệu suất của bot và giúp người dùng đánh giá mức độ hiệu quả của chiến lược.",
-        "why": "Thị trường tiền mã hóa nhiều biến động, và việc bảo vệ khoản đầu tư khỏi những khoản lỗ lớn là rất quan trọng. Với bộ công cụ quản trị rủi ro của Ncore 2.0, nhà giao dịch có thể hạn chế mức độ rủi ro và bảo toàn vốn, từ đó giao dịch tự tin và an toàn hơn."
+        "how": "Ncore 3.0 cho phép người dùng thiết lập sẵn các ngưỡng rủi ro, chẳng hạn mức cắt lỗ, tự động kích hoạt khi một số điều kiện nhất định được đáp ứng (ví dụ: khi giá một loại tiền mã hóa rơi xuống dưới một mốc nào đó). Ngoài ra, Ncore 3.0 cung cấp phân tích theo thời gian thực để theo dõi hiệu suất của bot và giúp người dùng đánh giá mức độ hiệu quả của chiến lược.",
+        "why": "Thị trường tiền mã hóa nhiều biến động, và việc bảo vệ khoản đầu tư khỏi những khoản lỗ lớn là rất quan trọng. Với bộ công cụ quản trị rủi ro của Ncore 3.0, nhà giao dịch có thể hạn chế mức độ rủi ro và bảo toàn vốn, từ đó giao dịch tự tin và an toàn hơn."
       },
       {
         "title": "Giao diện thân thiện với người dùng",
         "how": "Giao diện được bố trí gọn gàng và có tổ chức, nơi người dùng có thể xem hoạt động giao dịch, thiết lập tham số và kiểm tra các chỉ số hiệu suất theo thời gian thực. Bảng điều khiển bao gồm công cụ để thiết lập và tùy chỉnh chiến lược giao dịch, quản trị rủi ro và xem lại các giao dịch trong quá khứ.",
-        "why": "Một giao diện thân thiện giúp nhà giao dịch ở mọi cấp độ kinh nghiệm xử lý được sự phức tạp của giao dịch tiền mã hóa. Dù người dùng mới bắt đầu hay đã dày dạn với giao dịch thuật toán, thiết kế trực quan của Ncore 2.0 đều cho phép họ dễ dàng theo dõi giao dịch và điều chỉnh khi cần."
+        "why": "Một giao diện thân thiện giúp nhà giao dịch ở mọi cấp độ kinh nghiệm xử lý được sự phức tạp của giao dịch tiền mã hóa. Dù người dùng mới bắt đầu hay đã dày dạn với giao dịch thuật toán, thiết kế trực quan của Ncore 3.0 đều cho phép họ dễ dàng theo dõi giao dịch và điều chỉnh khi cần."
       },
       {
         "title": "Tùy chỉnh chiến lược nâng cao",
-        "how": "Người dùng có thể điều chỉnh các tham số như quy tắc thực thi lệnh, độ nhạy giao dịch và thời điểm vào lệnh sao cho phù hợp với phong cách giao dịch riêng của mình. Ncore 2.0 cho phép tinh chỉnh chiến lược để tối đa hóa hiệu suất và bảo đảm bot vận hành đúng theo mục tiêu của người dùng.",
-        "why": "Không phải nhà giao dịch nào cũng có cùng mục tiêu hay khẩu vị rủi ro. Khả năng tùy chỉnh chiến lược của Ncore 2.0 đồng nghĩa hệ thống có thể đáp ứng nhiều phong cách giao dịch khác nhau, từ cách tiếp cận thận trọng đặt an toàn lên hàng đầu cho tới những chiến lược quyết liệt hơn nhắm tới lợi nhuận cao."
+        "how": "Người dùng có thể điều chỉnh các tham số như quy tắc thực thi lệnh, độ nhạy giao dịch và thời điểm vào lệnh sao cho phù hợp với phong cách giao dịch riêng của mình. Ncore 3.0 cho phép tinh chỉnh chiến lược để tối đa hóa hiệu suất và bảo đảm bot vận hành đúng theo mục tiêu của người dùng.",
+        "why": "Không phải nhà giao dịch nào cũng có cùng mục tiêu hay khẩu vị rủi ro. Khả năng tùy chỉnh chiến lược của Ncore 3.0 đồng nghĩa hệ thống có thể đáp ứng nhiều phong cách giao dịch khác nhau, từ cách tiếp cận thận trọng đặt an toàn lên hàng đầu cho tới những chiến lược quyết liệt hơn nhắm tới lợi nhuận cao."
       },
       {
         "title": "Năng lực backtest",
-        "how": "Người dùng có thể nhập các tham số chiến lược mong muốn vào Ncore 2.0 và dùng dữ liệu thị trường lịch sử để kiểm nghiệm hiệu quả của chiến lược qua những giai đoạn giao dịch trong quá khứ. Bot sau đó tạo báo cáo cho thấy chiến lược đó sẽ hoạt động tốt đến đâu trong các điều kiện tương ứng.",
+        "how": "Người dùng có thể nhập các tham số chiến lược mong muốn vào Ncore 3.0 và dùng dữ liệu thị trường lịch sử để kiểm nghiệm hiệu quả của chiến lược qua những giai đoạn giao dịch trong quá khứ. Bot sau đó tạo báo cáo cho thấy chiến lược đó sẽ hoạt động tốt đến đâu trong các điều kiện tương ứng.",
         "why": "Backtest mang lại góc nhìn giá trị về khả năng thành công của một chiến lược mà không phải mạo hiểm vốn thật. Nó giúp người dùng tinh chỉnh cách tiếp cận, hiểu rõ rủi ro và ra quyết định có cơ sở hơn trước khi đưa vào giao dịch thực."
       },
       {
         "title": "Phân tích dự đoán ứng dụng AI",
-        "how": "Ncore 2.0 sẽ vận dụng các thuật toán học máy tiên tiến để xử lý dữ liệu thị trường lịch sử và theo thời gian thực. Dữ liệu này được phân tích nhằm phát hiện những mô hình và xu hướng có thể dùng để dự đoán biến động giá trong tương lai, giúp bot thích ứng và tối ưu chiến lược giao dịch theo thời gian.",
-        "why": "Phân tích ứng dụng AI sẽ giúp Ncore 2.0 liên tục cải thiện chiến lược giao dịch bằng cách học từ các giao dịch đã qua và thích nghi với điều kiện thị trường luôn biến chuyển. Kết quả là những quyết định giao dịch thông minh hơn và khả năng quản trị rủi ro hiệu quả hơn."
+        "how": "Ncore 3.0 sẽ vận dụng các thuật toán học máy tiên tiến để xử lý dữ liệu thị trường lịch sử và theo thời gian thực. Dữ liệu này được phân tích nhằm phát hiện những mô hình và xu hướng có thể dùng để dự đoán biến động giá trong tương lai, giúp bot thích ứng và tối ưu chiến lược giao dịch theo thời gian.",
+        "why": "Phân tích ứng dụng AI sẽ giúp Ncore 3.0 liên tục cải thiện chiến lược giao dịch bằng cách học từ các giao dịch đã qua và thích nghi với điều kiện thị trường luôn biến chuyển. Kết quả là những quyết định giao dịch thông minh hơn và khả năng quản trị rủi ro hiệu quả hơn."
       },
       {
         "title": "Vận hành an toàn và minh bạch",
-        "how": "Ncore 2.0 áp dụng mã hóa theo chuẩn ngành để bảo vệ dữ liệu nhạy cảm, bao gồm thông tin cá nhân và chi tiết giao dịch. Bên cạnh đó, hệ thống cung cấp nhật ký chi tiết của mọi giao dịch cùng các chỉ số hiệu suất, người dùng có thể truy cập bất cứ lúc nào để kiểm chứng hoạt động của bot.",
-        "why": "Trong lĩnh vực tiền mã hóa, bảo mật và minh bạch là yếu tố sống còn. Người dùng cần tin rằng dữ liệu và tài sản của mình được an toàn. Các giao thức bảo mật của Ncore 2.0, kết hợp với những tính năng minh bạch, bảo đảm người dùng có thể giao dịch một cách vững tâm khi biết rằng giao dịch của mình được bảo vệ và hiệu suất luôn hiển thị rõ ràng."
+        "how": "Ncore 3.0 áp dụng mã hóa theo chuẩn ngành để bảo vệ dữ liệu nhạy cảm, bao gồm thông tin cá nhân và chi tiết giao dịch. Bên cạnh đó, hệ thống cung cấp nhật ký chi tiết của mọi giao dịch cùng các chỉ số hiệu suất, người dùng có thể truy cập bất cứ lúc nào để kiểm chứng hoạt động của bot.",
+        "why": "Trong lĩnh vực tiền mã hóa, bảo mật và minh bạch là yếu tố sống còn. Người dùng cần tin rằng dữ liệu và tài sản của mình được an toàn. Các giao thức bảo mật của Ncore 3.0, kết hợp với những tính năng minh bạch, bảo đảm người dùng có thể giao dịch một cách vững tâm khi biết rằng giao dịch của mình được bảo vệ và hiệu suất luôn hiển thị rõ ràng."
       },
       {
         "title": "Hiệu quả vận hành 24/7",
-        "how": "Ncore 2.0 vận hành tự động suốt ngày đêm, phân tích các mạng blockchain và thực thi giao dịch theo thời gian thực. Điều này có nghĩa ngay cả khi nhà giao dịch không trực tiếp theo dõi thị trường, Ncore 2.0 vẫn luôn sẵn sàng nắm bắt các cơ hội mới xuất hiện.",
-        "why": "Thị trường tiền mã hóa khó lường và vận động rất nhanh, kể cả ngoài giờ giao dịch truyền thống. Hiệu quả vận hành 24/7 của Ncore 2.0 bảo đảm nhà giao dịch không bỏ lỡ cơ hội nào và lệnh của họ luôn được thực thi kịp thời, bất kể thời điểm nào."
+        "how": "Ncore 3.0 vận hành tự động suốt ngày đêm, phân tích các mạng blockchain và thực thi giao dịch theo thời gian thực. Điều này có nghĩa ngay cả khi nhà giao dịch không trực tiếp theo dõi thị trường, Ncore 3.0 vẫn luôn sẵn sàng nắm bắt các cơ hội mới xuất hiện.",
+        "why": "Thị trường tiền mã hóa khó lường và vận động rất nhanh, kể cả ngoài giờ giao dịch truyền thống. Hiệu quả vận hành 24/7 của Ncore 3.0 bảo đảm nhà giao dịch không bỏ lỡ cơ hội nào và lệnh của họ luôn được thực thi kịp thời, bất kể thời điểm nào."
       },
       {
         "title": "Gắn kết và hỗ trợ cộng đồng",
-        "how": "Người dùng Ncore 2.0 có thể trao đổi với những người khác trên diễn đàn cộng đồng hoặc nhận hỗ trợ trực tiếp qua các kênh chăm sóc khách hàng. Dù là tối ưu chiến lược giao dịch hay xử lý sự cố, người dùng đều tìm được tài nguyên hữu ích và sự hỗ trợ bất cứ khi nào cần.",
-        "why": "Một cộng đồng vững mạnh và tương trợ giúp nhà giao dịch học hỏi và trưởng thành. Việc Ncore 2.0 chú trọng gắn kết cộng đồng và hỗ trợ khách hàng bảo đảm người dùng luôn có được sự trợ giúp cần thiết để thành công."
+        "how": "Người dùng Ncore 3.0 có thể trao đổi với những người khác trên diễn đàn cộng đồng hoặc nhận hỗ trợ trực tiếp qua các kênh chăm sóc khách hàng. Dù là tối ưu chiến lược giao dịch hay xử lý sự cố, người dùng đều tìm được tài nguyên hữu ích và sự hỗ trợ bất cứ khi nào cần.",
+        "why": "Một cộng đồng vững mạnh và tương trợ giúp nhà giao dịch học hỏi và trưởng thành. Việc Ncore 3.0 chú trọng gắn kết cộng đồng và hỗ trợ khách hàng bảo đảm người dùng luôn có được sự trợ giúp cần thiết để thành công."
       }
     ],
-    "conclusion": "Với những tính năng mạnh mẽ này, Ncore 2.0 mang đến cho nhà giao dịch tiền mã hóa một giải pháp toàn diện, an toàn và có thể tùy chỉnh để tối đa hóa lợi nhuận, quản trị rủi ro và thích ứng với thị trường không ngừng đổi thay. Dù bạn là người mới bước vào thị trường hay đã là nhà giao dịch chuyên nghiệp, Ncore 2.0 đều giúp bạn giao dịch thông minh và hiệu quả hơn trong thế giới tiền mã hóa.",
+    "conclusion": "Với những tính năng mạnh mẽ này, Ncore 3.0 mang đến cho nhà giao dịch tiền mã hóa một giải pháp toàn diện, an toàn và có thể tùy chỉnh để tối đa hóa lợi nhuận, quản trị rủi ro và thích ứng với thị trường không ngừng đổi thay. Dù bạn là người mới bước vào thị trường hay đã là nhà giao dịch chuyên nghiệp, Ncore 3.0 đều giúp bạn giao dịch thông minh và hiệu quả hơn trong thế giới tiền mã hóa.",
     "footNav": {
       "prev": "Logic giao dịch",
       "next": "Đọc tiếp: Xu hướng thị trường"
@@ -663,66 +663,66 @@
   },
   "TRENDS_PAGE": {
     "title": "Xu hướng thị trường",
-    "subtitle": "Những xu hướng thị trường tác động tới Ncore 2.0",
-    "intro": "Bức tranh tiền mã hóa đang biến chuyển nhanh chóng, và Ncore 2.0 được thiết kế để luôn đi trước xu thế, tận dụng những xu hướng thị trường then chốt định hình cơ hội và chiến lược giao dịch. Dưới đây là phân tích chi tiết hơn về cách các xu hướng này ảnh hưởng tới cách sử dụng và năng lực của Ncore 2.0.",
+    "subtitle": "Những xu hướng thị trường tác động tới Ncore 3.0",
+    "intro": "Bức tranh tiền mã hóa đang biến chuyển nhanh chóng, và Ncore 3.0 được thiết kế để luôn đi trước xu thế, tận dụng những xu hướng thị trường then chốt định hình cơ hội và chiến lược giao dịch. Dưới đây là phân tích chi tiết hơn về cách các xu hướng này ảnh hưởng tới cách sử dụng và năng lực của Ncore 3.0.",
     "trends": [
       {
         "title": "Sự trỗi dậy của tài chính phi tập trung (DeFi)",
-        "impact": "Các nền tảng DeFi mang lại cho nhà giao dịch một thị trường mở và phi tập trung, làm gia tăng mức biến động và tạo ra cơ hội arbitrage giữa sàn tập trung (CEX) và sàn phi tập trung (DEX). Ncore 2.0 được thiết kế để tận dụng những chênh lệch đó theo thời gian thực, giúp người dùng giao dịch hiệu quả trên cả hai loại nền tảng.",
-        "advantage": "Nhờ tương tác liền mạch với các nền tảng và giao thức DeFi, Ncore 2.0 bảo đảm người dùng nắm bắt được các cơ hội arbitrage, tối ưu giao dịch để đạt khả năng sinh lời cao nhất. Dù là thanh khoản liên chuỗi hay chênh lệch giá, Ncore 2.0 đều giúp người dùng làm chủ sự phức tạp của các hệ sinh thái DeFi, tạo lợi thế so với những bot giao dịch truyền thống vốn chật vật với môi trường phi tập trung."
+        "impact": "Các nền tảng DeFi mang lại cho nhà giao dịch một thị trường mở và phi tập trung, làm gia tăng mức biến động và tạo ra cơ hội arbitrage giữa sàn tập trung (CEX) và sàn phi tập trung (DEX). Ncore 3.0 được thiết kế để tận dụng những chênh lệch đó theo thời gian thực, giúp người dùng giao dịch hiệu quả trên cả hai loại nền tảng.",
+        "advantage": "Nhờ tương tác liền mạch với các nền tảng và giao thức DeFi, Ncore 3.0 bảo đảm người dùng nắm bắt được các cơ hội arbitrage, tối ưu giao dịch để đạt khả năng sinh lời cao nhất. Dù là thanh khoản liên chuỗi hay chênh lệch giá, Ncore 3.0 đều giúp người dùng làm chủ sự phức tạp của các hệ sinh thái DeFi, tạo lợi thế so với những bot giao dịch truyền thống vốn chật vật với môi trường phi tập trung."
       },
       {
         "title": "Sự tham gia ngày càng lớn của các tổ chức",
         "impact": "Nhà giao dịch tổ chức đòi hỏi những giải pháp giao dịch tiên tiến, đủ sức xử lý khối lượng lớn, hạn chế rủi ro và bảo đảm tuân thủ. Vì vậy, họ thường cần các công cụ giao dịch không chỉ nhanh, mà còn nâng cao độ chính xác của dự báo thị trường và cho phép quản trị rủi ro toàn diện.",
-        "advantage": "Ncore 2.0 cung cấp một môi trường giao dịch tinh vi, có khả năng xử lý các lệnh lớn với mức trượt giá tối thiểu. Với những tính năng như quản trị rủi ro theo thời gian thực, tối ưu động phí gas và các chiến lược thuật toán tiên tiến, Ncore 2.0 mang lại độ chính xác và khả năng thích ứng mà nhà giao dịch tổ chức yêu cầu. Đây là một nền tảng đáng tin cậy để vận hành trơn tru giữa sự phức tạp của cả thị trường tập trung lẫn phi tập trung."
+        "advantage": "Ncore 3.0 cung cấp một môi trường giao dịch tinh vi, có khả năng xử lý các lệnh lớn với mức trượt giá tối thiểu. Với những tính năng như quản trị rủi ro theo thời gian thực, tối ưu động phí gas và các chiến lược thuật toán tiên tiến, Ncore 3.0 mang lại độ chính xác và khả năng thích ứng mà nhà giao dịch tổ chức yêu cầu. Đây là một nền tảng đáng tin cậy để vận hành trơn tru giữa sự phức tạp của cả thị trường tập trung lẫn phi tập trung."
       },
       {
         "title": "Những bước tiến của công nghệ blockchain",
         "impact": "Khi các nền tảng blockchain tiến hóa, những giao thức và tính năng mới liên tục xuất hiện, kéo theo cải thiện về tốc độ giao dịch, khả năng mở rộng và chi phí. Nhà giao dịch cần những công cụ có thể tích hợp với các công nghệ mới nổi này để giữ vững năng lực cạnh tranh.",
-        "advantage": "Ncore 2.0 được thiết kế để thích ứng với các giao thức và công nghệ blockchain mới. Chẳng hạn, khi các giải pháp Layer 2 ngày càng phổ biến, Ncore 2.0 sẽ tích hợp liền mạch với những nền tảng này nhằm bảo đảm tốc độ xử lý giao dịch nhanh hơn và mức phí thấp hơn. Sự linh hoạt đó cho phép người dùng tận dụng trọn vẹn những bước phát triển blockchain tiên tiến nhất mà không phải lo về vấn đề tương thích."
+        "advantage": "Ncore 3.0 được thiết kế để thích ứng với các giao thức và công nghệ blockchain mới. Chẳng hạn, khi các giải pháp Layer 2 ngày càng phổ biến, Ncore 3.0 sẽ tích hợp liền mạch với những nền tảng này nhằm bảo đảm tốc độ xử lý giao dịch nhanh hơn và mức phí thấp hơn. Sự linh hoạt đó cho phép người dùng tận dụng trọn vẹn những bước phát triển blockchain tiên tiến nhất mà không phải lo về vấn đề tương thích."
       },
       {
         "title": "Phí giao dịch leo thang và tình trạng tắc nghẽn mạng",
         "impact": "Phí cao và mạng tắc nghẽn có thể khiến việc thực thi giao dịch nhanh trở nên khó khăn, dẫn tới bỏ lỡ cơ hội hoặc gánh chi phí giao dịch cao hơn. Điều này đặc biệt ảnh hưởng tới các nhà giao dịch nhỏ, những người không có đủ nguồn lực để trả mức phí cao.",
-        "advantage": "Cơ chế tối ưu động phí gas của Ncore 2.0 bảo đảm giao dịch được thực thi kịp thời ngay cả trong những giai đoạn mạng tắc nghẽn nặng. Bằng cách điều chỉnh phí giao dịch một cách có chiến lược và vận dụng phân tích dự đoán, Ncore 2.0 bảo đảm các lệnh được thực thi nhanh chóng, hiệu quả và tiết kiệm, tối đa hóa khả năng sinh lời trong môi trường nhiều biến động."
+        "advantage": "Cơ chế tối ưu động phí gas của Ncore 3.0 bảo đảm giao dịch được thực thi kịp thời ngay cả trong những giai đoạn mạng tắc nghẽn nặng. Bằng cách điều chỉnh phí giao dịch một cách có chiến lược và vận dụng phân tích dự đoán, Ncore 3.0 bảo đảm các lệnh được thực thi nhanh chóng, hiệu quả và tiết kiệm, tối đa hóa khả năng sinh lời trong môi trường nhiều biến động."
       },
       {
         "title": "Diễn biến pháp lý",
         "impact": "Bối cảnh pháp lý đang biến chuyển tạo ra cả cơ hội lẫn thách thức cho nhà giao dịch và nhà đầu tư. Khi các cơ quan quản lý hướng tới những khuôn khổ rõ ràng hơn cho bên tham gia thị trường crypto, việc duy trì tuân thủ ngày càng phức tạp. Các quy định này có thể mang lại sự bất định, nhất là khi chúng thay đổi nhanh, làm phát sinh rủi ro không tuân thủ.",
-        "advantage": "Trong môi trường pháp lý luôn đổi thay đó, Ncore 2.0 cung cấp những công cụ cần thiết để đi trước các thay đổi. Hệ thống được xây dựng với tính minh bạch và bảo mật làm cốt lõi, bảo đảm người dùng có thể tự tin thích ứng với các chuyển dịch pháp lý. Các tính năng của Ncore 2.0, bao gồm nhật ký giao dịch chi tiết và báo cáo hiệu suất, mang lại sự minh bạch trọn vẹn, giúp người dùng có căn cứ đáng tin cậy để chứng minh việc tuân thủ khi cần. Nhờ thích ứng liền mạch với quy định mới, Ncore 2.0 bảo đảm người dùng tiếp tục giao dịch hiệu quả mà vẫn tuân thủ đầy đủ."
+        "advantage": "Trong môi trường pháp lý luôn đổi thay đó, Ncore 3.0 cung cấp những công cụ cần thiết để đi trước các thay đổi. Hệ thống được xây dựng với tính minh bạch và bảo mật làm cốt lõi, bảo đảm người dùng có thể tự tin thích ứng với các chuyển dịch pháp lý. Các tính năng của Ncore 3.0, bao gồm nhật ký giao dịch chi tiết và báo cáo hiệu suất, mang lại sự minh bạch trọn vẹn, giúp người dùng có căn cứ đáng tin cậy để chứng minh việc tuân thủ khi cần. Nhờ thích ứng liền mạch với quy định mới, Ncore 3.0 bảo đảm người dùng tiếp tục giao dịch hiệu quả mà vẫn tuân thủ đầy đủ."
       },
       {
         "title": "Biến động thị trường",
         "impact": "Sự biến động trong lĩnh vực crypto vừa mở ra cơ hội lợi nhuận đáng kể, vừa làm tăng rủi ro. Nhà giao dịch cần những công cụ có thể nhanh chóng nhận diện xu hướng giá và vào lệnh đúng thời điểm tối ưu để tối đa hóa lợi nhuận trong khi kiểm soát được khoản lỗ tiềm tàng.",
-        "advantage": "Các thuật toán front-run tiên tiến cùng khả năng giám sát thị trường theo thời gian thực cho phép Ncore 2.0 nhận diện và tận dụng ngay lập tức những dao động của thị trường. Nhờ đi trước diễn biến thị trường và điều chỉnh chiến lược theo thời gian thực, Ncore 2.0 nâng cao khả năng của nhà giao dịch trong việc khai thác các điều kiện biến động mà không bị cuốn vào những cú sụt hay tăng giá đột ngột."
+        "advantage": "Các thuật toán front-run tiên tiến cùng khả năng giám sát thị trường theo thời gian thực cho phép Ncore 3.0 nhận diện và tận dụng ngay lập tức những dao động của thị trường. Nhờ đi trước diễn biến thị trường và điều chỉnh chiến lược theo thời gian thực, Ncore 3.0 nâng cao khả năng của nhà giao dịch trong việc khai thác các điều kiện biến động mà không bị cuốn vào những cú sụt hay tăng giá đột ngột."
       },
       {
         "title": "Sự xuất hiện của các giải pháp Layer 2",
         "impact": "Các giải pháp Layer 2 được kỳ vọng sẽ giữ vai trò lớn trong việc giảm chi phí giao dịch và cải thiện khả năng mở rộng. Với nhà giao dịch, đây là cơ hội đặc biệt để thực thi lệnh với mức phí thấp hơn và thời gian xử lý nhanh hơn.",
-        "advantage": "Khi các công nghệ Layer 2 tiếp tục được ứng dụng rộng rãi, Ncore 2.0 được thiết kế để tích hợp với những nền tảng mới nổi này nhằm mang lại cho người dùng khả năng thực thi giao dịch nhanh hơn và rẻ hơn. Nhờ tiếp cận sớm các công nghệ đó, Ncore 2.0 bảo đảm người dùng ở vị thế thuận lợi để tận dụng trọn vẹn lợi ích mà các giải pháp Layer 2 mang lại."
+        "advantage": "Khi các công nghệ Layer 2 tiếp tục được ứng dụng rộng rãi, Ncore 3.0 được thiết kế để tích hợp với những nền tảng mới nổi này nhằm mang lại cho người dùng khả năng thực thi giao dịch nhanh hơn và rẻ hơn. Nhờ tiếp cận sớm các công nghệ đó, Ncore 3.0 bảo đảm người dùng ở vị thế thuận lợi để tận dụng trọn vẹn lợi ích mà các giải pháp Layer 2 mang lại."
       },
       {
         "title": "Ứng dụng trí tuệ nhân tạo (AI) trong giao dịch",
         "impact": "Các bot giao dịch vận hành bằng AI có thể thích ứng với điều kiện thị trường theo thời gian thực, tinh chỉnh chiến lược dựa trên việc phân tích dữ liệu liên tục. Khả năng thích ứng này là yếu tố then chốt trong thị trường crypto nhiều biến động, nơi tốc độ ra quyết định ảnh hưởng đáng kể tới khả năng sinh lời.",
-        "advantage": "Nhờ tích hợp các thuật toán AI tiên tiến, Ncore 2.0 nâng cao chất lượng phân tích thị trường và khâu thực thi giao dịch. Khả năng xử lý dữ liệu theo thời gian thực và điều chỉnh chiến lược một cách linh hoạt giúp người dùng duy trì lợi thế cạnh tranh trong những môi trường giao dịch tốc độ cao."
+        "advantage": "Nhờ tích hợp các thuật toán AI tiên tiến, Ncore 3.0 nâng cao chất lượng phân tích thị trường và khâu thực thi giao dịch. Khả năng xử lý dữ liệu theo thời gian thực và điều chỉnh chiến lược một cách linh hoạt giúp người dùng duy trì lợi thế cạnh tranh trong những môi trường giao dịch tốc độ cao."
       },
       {
         "title": "Token hóa tài sản trong thế giới thực (RWA)",
         "impact": "Việc token hóa các tài sản như bất động sản, tác phẩm nghệ thuật hay hàng hóa mở ra những thị trường và cơ hội đầu tư mới, giúp việc giao dịch quyền sở hữu phân mảnh trở nên dễ dàng hơn và làm tăng thanh khoản.",
-        "advantage": "Khả năng thích ứng của Ncore 2.0 cho phép hệ thống tương tác với nhiều loại tài sản đã token hóa, mang lại cho người dùng các lựa chọn giao dịch đa dạng và khả năng tận dụng những thị trường mới nổi trong lĩnh vực crypto."
+        "advantage": "Khả năng thích ứng của Ncore 3.0 cho phép hệ thống tương tác với nhiều loại tài sản đã token hóa, mang lại cho người dùng các lựa chọn giao dịch đa dạng và khả năng tận dụng những thị trường mới nổi trong lĩnh vực crypto."
       },
       {
         "title": "Sự xuất hiện của các sản phẩm và dịch vụ tài chính mới",
         "impact": "Những công cụ tài chính mới mang lại cơ hội đầu tư đa dạng và có thể tác động tới động lực thị trường, mở thêm nhiều hướng sinh lời cho nhà giao dịch.",
-        "advantage": "Khả năng thích ứng với nhiều loại sản phẩm tài chính của Ncore 2.0 bảo đảm người dùng vận dụng hiệu quả những công cụ mới này, đưa chúng vào chiến lược giao dịch để tối đa hóa lợi nhuận."
+        "advantage": "Khả năng thích ứng với nhiều loại sản phẩm tài chính của Ncore 3.0 bảo đảm người dùng vận dụng hiệu quả những công cụ mới này, đưa chúng vào chiến lược giao dịch để tối đa hóa lợi nhuận."
       },
       {
         "title": "Blockchain thâm nhập vào tài chính truyền thống",
         "impact": "Công nghệ blockchain đang gắn sâu hơn vào ngành ngân hàng và dịch vụ tài chính, cho phép giao dịch nhanh hơn, minh bạch hơn và mở ra những năng lực mới.",
-        "advantage": "Thiết kế của Ncore 2.0 cho phép hệ thống tích hợp liền mạch với nhiều giao thức blockchain khác nhau, bảo đảm người dùng tận dụng được những tiến bộ mới nhất của công nghệ blockchain để giao dịch hiệu quả và an toàn."
+        "advantage": "Thiết kế của Ncore 3.0 cho phép hệ thống tích hợp liền mạch với nhiều giao thức blockchain khác nhau, bảo đảm người dùng tận dụng được những tiến bộ mới nhất của công nghệ blockchain để giao dịch hiệu quả và an toàn."
       }
     ],
-    "conclusion": "Ncore 2.0 ở vị thế sẵn sàng khai thác những xu hướng thị trường năng động này bằng một giải pháp tinh vi, linh hoạt và đáng tin cậy dành cho nhà giao dịch tiền mã hóa. Nhờ liên tục tiến hóa để bắt kịp các công nghệ mới nổi và diễn biến thị trường, Ncore 2.0 bảo đảm người dùng giữ vững năng lực cạnh tranh trong bối cảnh crypto tốc độ cao và không ngừng đổi thay. Với các tính năng tiên tiến, năng lực dự đoán và khả năng thích ứng thị trường, Ncore 2.0 được thiết kế để tối đa hóa lợi nhuận và giảm thiểu rủi ro, ngay cả trong những điều kiện biến động nhất.",
+    "conclusion": "Ncore 3.0 ở vị thế sẵn sàng khai thác những xu hướng thị trường năng động này bằng một giải pháp tinh vi, linh hoạt và đáng tin cậy dành cho nhà giao dịch tiền mã hóa. Nhờ liên tục tiến hóa để bắt kịp các công nghệ mới nổi và diễn biến thị trường, Ncore 3.0 bảo đảm người dùng giữ vững năng lực cạnh tranh trong bối cảnh crypto tốc độ cao và không ngừng đổi thay. Với các tính năng tiên tiến, năng lực dự đoán và khả năng thích ứng thị trường, Ncore 3.0 được thiết kế để tối đa hóa lợi nhuận và giảm thiểu rủi ro, ngay cả trong những điều kiện biến động nhất.",
     "footNav": {
       "prev": "Tính năng",
       "next": "Ncore X"

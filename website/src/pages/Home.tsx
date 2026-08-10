@@ -9,7 +9,7 @@ import {
   S2_NEW_ERA,
   S3_MISSION,
   S4_DIRECTION,
-  S5_NCORE_2,
+  S5_NCORE_3,
   S6_NCORE_X,
   S7_NCT,
   S8_CAREERS,
@@ -122,22 +122,23 @@ export default function Home() {
         />
       </Block>
 
-      {/* S5 · 03 · Ncore 2.0 */}
-      <Block id="ncore-2">
+      {/* S5 · 03 · Ncore 3.0 */}
+      <Block id="ncore-3">
         <SectionHead
-          kicker={S5_NCORE_2.kicker}
-          title={S5_NCORE_2.h2}
-          body={S5_NCORE_2.body}
+          kicker={S5_NCORE_3.kicker}
+          title={S5_NCORE_3.h2}
+          body={S5_NCORE_3.body}
         >
           <CtaRow>
             <CtaLink to={ROUTES.ncoreBasic}>{S1_HERO.ctaSecondary}</CtaLink>
           </CtaRow>
         </SectionHead>
         <ImageSlot
-          label="Ncore 2.0 product visual"
+          label="Ncore 3.0 product visual"
           ratio="16 / 9"
-          src="/img/ncore-basic-hero.jpg"
-          video="/video/ncore2-hero.mp4"
+          src="/img/ncore3-hero.jpg"
+          video="/video/ncore3-hero.mp4"
+          videoPoster="/video/ncore3-hero-poster.jpg"
         />
       </Block>
 

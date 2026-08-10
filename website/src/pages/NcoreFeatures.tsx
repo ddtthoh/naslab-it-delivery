@@ -8,7 +8,7 @@ export default function NcoreFeatures() {
 
   return (
     <Block>
-      <PageHead kicker="Ncore 2.0" title={f.title} body={f.intro[0]}>
+      <PageHead kicker="Ncore 3.0" title={f.title} body={f.intro[0]}>
         <CtaRow>
           <CtaLink to={ROUTES.contact} variant="solid">
             CONTACT US
@@ -16,6 +16,9 @@ export default function NcoreFeatures() {
         </CtaRow>
       </PageHead>
 
+      {/* 2026-08-09 重做:静图与视频全部换成通用 NCORE 版(画面不刻版本号)。
+          视频按官网批 prompt 公式重做(5 秒生成压成 3.02 秒),见 VIDEO-PROMPT-PLAYBOOK.md。
+          旧的 2.0 版本备份在 _incoming/backup-20260809/。 */}
       <ImageSlot
         label="Features hero — exploded golden engine"
         ratio="16 / 9"
@@ -45,8 +48,6 @@ export default function NcoreFeatures() {
           </article>
         ))}
       </div>
-
-      <p className="xsec__p">{f.conclusion}</p>
 
       <CtaRow>
         <CtaLink to={ROUTES.ncoreTrading}>{f.footNav.prev}</CtaLink>

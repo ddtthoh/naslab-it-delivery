@@ -21,7 +21,7 @@
       "label": "Produk",
       "children": [
         {
-          "label": "Ncore 2.0"
+          "label": "Ncore 3.0"
         },
         {
           "label": "Pemahaman Dasar"
@@ -84,9 +84,9 @@
     "body": "Peta jalan jangka panjang yang menguraikan evolusi Naslab, dari sistem trading otomatis menuju infrastruktur keuangan digital global yang skalabel.",
     "cta": "LIHAT PETA JALAN STRATEGIS"
   },
-  "S5_NCORE_2": {
-    "kicker": "03 · MESIN MEV PREDIKTIF — Ncore 2.0",
-    "h2": "Ncore 2.0 — Trading MEV Prediktif untuk Pasar DEX",
+  "S5_NCORE_3": {
+    "kicker": "03 · MESIN MEV PREDIKTIF — Ncore 3.0",
+    "h2": "Ncore 3.0 — Trading MEV Prediktif untuk Pasar DEX",
     "body": "Platform trading MEV yang berfokus pada DEX: memantau mempool, mengantisipasi order berukuran besar, dan mengeksekusi strategi front-run maupun back-run dengan presisi.",
     "mempoolCard": {
       "title": "MEMPOOL STREAM",
@@ -117,15 +117,15 @@
       },
       {
         "label": "02 · LOGIKA — Logika Trading",
-        "body": "Ncore 2.0 adalah platform trading MEV yang berfokus pada DEX dan menangkap nilai secara sistematis melalui pemantauan mempool, eksekusi sandwich, serta pengurutan transaksi yang dioptimalkan sebelum pasar sempat bereaksi."
+        "body": "Ncore 3.0 adalah platform trading MEV yang berfokus pada DEX dan menangkap nilai secara sistematis melalui pemantauan mempool, eksekusi sandwich, serta pengurutan transaksi yang dioptimalkan sebelum pasar sempat bereaksi."
       },
       {
         "label": "03 — Fitur",
-        "body": "Ncore 2.0 adalah sistem front-running DEX dan trading MEV tingkat lanjut yang memadukan intelijen mempool, eksekusi real-time, optimasi gas, dan kontrol risiko yang dapat disesuaikan, untuk menangkap nilai dari urutan transaksi secara berkelanjutan dan aman."
+        "body": "Ncore 3.0 adalah sistem front-running DEX dan trading MEV tingkat lanjut yang memadukan intelijen mempool, eksekusi real-time, optimasi gas, dan kontrol risiko yang dapat disesuaikan, untuk menangkap nilai dari urutan transaksi secara berkelanjutan dan aman."
       },
       {
         "label": "04 — Tren Pasar",
-        "body": "Ncore 2.0 dibangun untuk memanfaatkan tren-tren besar pasar kripto — pertumbuhan DeFi, dinamika MEV, partisipasi institusional, penskalaan Layer 2, trading berbasis AI, dan volatilitas yang kian meningkat — melalui kemampuan trading yang adaptif, berlatensi rendah, dan teroptimasi untuk eksekusi."
+        "body": "Ncore 3.0 dibangun untuk memanfaatkan tren-tren besar pasar kripto — pertumbuhan DeFi, dinamika MEV, partisipasi institusional, penskalaan Layer 2, trading berbasis AI, dan volatilitas yang kian meningkat — melalui kemampuan trading yang adaptif, berlatensi rendah, dan teroptimasi untuk eksekusi."
       }
     ]
   },
@@ -217,11 +217,11 @@
       {
         "period": "2026 Q1 - Q4 — Perluasan Skala & Kesiapan Pasar",
         "items": [
-          "Ekspansi internasional Ncore 2.0",
-          "Uji coba live Ncore X secara progresif",
+          "Ncore 3.0 berhasil diimplementasikan",
+          "Peluncuran Ncore X — CEX Arbitrage",
           "Skala trading ~$5M → ~$50M",
           "Optimasi berkelanjutan pada kecepatan eksekusi, pengendalian biaya, dan manajemen risiko",
-          "Estimasi pengguna Ncore 2.0: 100,000"
+          "Estimasi pengguna Ncore 3.0: 100,000"
         ],
         "note": "Proyeksi — Ketersediaan Ncore X bagi pihak eksternal bergantung pada stabilitas sistem, hasil penilaian risiko, dan kondisi regulasi."
       },
@@ -279,7 +279,7 @@
         "title": "PRODUK",
         "links": [
           {
-            "label": "Ncore 2.0"
+            "label": "Ncore 3.0"
           },
           {
             "label": "Ncore X"
@@ -367,7 +367,7 @@
     "title": "Pemahaman Dasar",
     "subtitle": "Fundamental Blockchain dan Eksekusi Transaksi On-Chain",
     "lead": "Memahami Fondasinya",
-    "leadBody": "Kuasai konsep inti eksekusi blockchain, pengurutan transaksi, dan ekstraksi nilai yang menjadi tulang punggung strategi trading tingkat lanjut Ncore 2.0.",
+    "leadBody": "Kuasai konsep inti eksekusi blockchain, pengurutan transaksi, dan ekstraksi nilai yang menjadi tulang punggung strategi trading tingkat lanjut Ncore 3.0.",
     "sections": [
       {
         "heading": "Blockchain dan Eksekusi Transaksi On-Chain",
@@ -424,29 +424,29 @@
     "nextChapter": {
       "kicker": "BAB BERIKUTNYA",
       "heading": "Siap Mendalami Lebih Jauh?",
-      "body": "Pelajari bagaimana Ncore 2.0 memanfaatkan fundamental ini untuk menjalankan strategi MEV tingkat lanjut.",
+      "body": "Pelajari bagaimana Ncore 3.0 memanfaatkan fundamental ini untuk menjalankan strategi MEV tingkat lanjut.",
       "cta": "Lanjut ke Logika Trading"
     }
   },
   "TRADING_PAGE": {
     "title": "Logika Trading",
-    "subtitle": "Ncore 2.0 — Platform Trading MEV yang Berfokus pada DEX",
+    "subtitle": "Ncore 3.0 — Platform Trading MEV yang Berfokus pada DEX",
     "origins": {
-      "heading": "Asal-Usul Ncore 2.0",
-      "body": "Ncore 2.0, yang dikembangkan oleh Nastech Global, dirancang khusus untuk ekosistem bursa terdesentralisasi (DEX) yang berkembang pesat. Seiring menguatnya peran aset digital, sistem trading konvensional kesulitan mengimbangi:",
+      "heading": "Asal-Usul Ncore 3.0",
+      "body": "Ncore 3.0, yang dikembangkan oleh Nastech Global, dirancang khusus untuk ekosistem bursa terdesentralisasi (DEX) yang berkembang pesat. Seiring menguatnya peran aset digital, sistem trading konvensional kesulitan mengimbangi:",
       "bullets": [
         "Fluktuasi berfrekuensi tinggi di pasar DeFi",
         "Order berukuran besar yang berubah dengan cepat",
         "Tantangan eksekusi real-time yang kompleks"
       ],
-      "closing": "Ncore 2.0 dibangun sebagai arsitektur trading prediktif yang mampu mendeteksi peluang pasar sebelum transaksi tertunda berukuran besar atau peristiwa pasar signifikan terjadi."
+      "closing": "Ncore 3.0 dibangun sebagai arsitektur trading prediktif yang mampu mendeteksi peluang pasar sebelum transaksi tertunda berukuran besar atau peristiwa pasar signifikan terjadi."
     },
     "sandwich": {
       "heading": "MEV dan Strategi Sandwich",
       "sub": "Logika Front-Run / Back-Run",
       "intro": [
         "Di platform DEX, setiap transaksi terlebih dahulu masuk ke mempool sebelum dikonfirmasi ke dalam sebuah blok. Kondisi ini menciptakan peluang MEV (Maximal Extractable Value): nilai tambahan dapat ditangkap dengan mengoptimalkan urutan transaksi.",
-        "Strategi inti Ncore 2.0 adalah Strategi Sandwich, yang juga dikenal sebagai logika front-run/back-run, yang menyistematiskan MEV menjadi solusi siap pakai untuk pasar DEX:"
+        "Strategi inti Ncore 3.0 adalah Strategi Sandwich, yang juga dikenal sebagai logika front-run/back-run, yang menyistematiskan MEV menjadi solusi siap pakai untuk pasar DEX:"
       ],
       "legs": [
         {
@@ -466,10 +466,10 @@
           ]
         }
       ],
-      "closing": "Melalui kombinasi ini, Ncore 2.0 merampungkan strategi sandwich sebelum pasar yang lebih luas sempat bereaksi, mengamankan peluang laba yang lebih awal bagi pengguna."
+      "closing": "Melalui kombinasi ini, Ncore 3.0 merampungkan strategi sandwich sebelum pasar yang lebih luas sempat bereaksi, mengamankan peluang laba yang lebih awal bagi pengguna."
     },
     "coreFeatures": {
-      "heading": "Fitur Inti Ncore 2.0",
+      "heading": "Fitur Inti Ncore 3.0",
       "items": [
         {
           "title": "Pemantauan Mempool",
@@ -507,7 +507,7 @@
     },
     "productized": {
       "heading": "Nilai Terproduktisasi & Manfaat bagi Pelanggan",
-      "intro": "Ncore 2.0 mengemas strategi sandwich yang canggih menjadi produk siap pakai, sehingga pengguna dapat berfokus pada laba, bukan pada detail teknis.",
+      "intro": "Ncore 3.0 mengemas strategi sandwich yang canggih menjadi produk siap pakai, sehingga pengguna dapat berfokus pada laba, bukan pada detail teknis.",
       "points": [
         {
           "title": "Trading Proaktif",
@@ -532,15 +532,15 @@
       "intro": "Dalam lingkungan DEX berfrekuensi tinggi:",
       "steps": [
         "Sebuah order tertunda berukuran besar muncul di mempool",
-        "Ncore 2.0 mengeksekusi transaksi front-run untuk mengambil posisi lebih dahulu",
+        "Ncore 3.0 mengeksekusi transaksi front-run untuk mengambil posisi lebih dahulu",
         "Setelah order tersebut dieksekusi, transaksi back-run menutup siklus laba",
         "Perolehan diamankan sebelum pasar bereaksi sepenuhnya"
       ],
       "closing": "Strategi ini memungkinkan pelanggan meraih laba yang terprediksi, sistematis, dan terkendali di pasar DEX yang bergejolak."
     },
     "devPath": {
-      "heading": "Jalur Pengembangan Ncore 2.0",
-      "intro": "Ncore 2.0 adalah puncak dari pengalaman bertahun-tahun Nastech Global di bidang trading otomatis:",
+      "heading": "Jalur Pengembangan Ncore 3.0",
+      "intro": "Ncore 3.0 adalah puncak dari pengalaman bertahun-tahun Nastech Global di bidang trading otomatis:",
       "bullets": [
         "Awalnya menyediakan solusi khusus bagi klien kelas atas",
         "Berkembang menjadi arsitektur trading yang prediktif dan tersistematisasi seiring pasar yang kian kompleks",
@@ -548,7 +548,7 @@
         "Menghadirkan kemampuan trading berfrekuensi tinggi dan berlatensi rendah bagi pengguna individu maupun institusional"
       ],
       "resultHeading": "Hasilnya",
-      "resultBody": "Ncore 2.0 lebih dari sekadar bot trading — ini adalah solusi MEV DEX yang terproduktisasi dan membantu klien mempertahankan keunggulan di pasar yang berkembang pesat."
+      "resultBody": "Ncore 3.0 lebih dari sekadar bot trading — ini adalah solusi MEV DEX yang terproduktisasi dan membantu klien mempertahankan keunggulan di pasar yang berkembang pesat."
     },
     "highlights": {
       "heading": "Sorotan Utama",
@@ -579,7 +579,7 @@
       ],
       "closing": [
         "Saat pasar yang lebih luas mulai bereaksi, klien telah merampungkan transaksinya dan menangkap nilai — konsisten berada selangkah di depan.",
-        "Siap membuka seluruh potensi Ncore 2.0 dan melangkah ke masa depan trading otomatis? Pelajari bagaimana perangkat inovatif ini dapat membantu Anda meraih peluang baru, tetap unggul di pasar, serta melakukan trading yang lebih cerdas dan lebih menguntungkan mulai hari ini."
+        "Siap membuka seluruh potensi Ncore 3.0 dan melangkah ke masa depan trading otomatis? Pelajari bagaimana perangkat inovatif ini dapat membantu Anda meraih peluang baru, tetap unggul di pasar, serta melakukan trading yang lebih cerdas dan lebih menguntungkan mulai hari ini."
       ]
     },
     "footNav": {
@@ -590,72 +590,72 @@
   "FEATURES_PAGE": {
     "title": "Fitur",
     "intro": [
-      "Ncore 2.0 memadukan beragam fitur tingkat lanjut yang memberi trader kripto keunggulan kompetitif di dunia perdagangan aset digital yang bergerak cepat.",
-      "Fitur-fitur tersebut bekerja bersama untuk mengoptimalkan strategi trading, menekan risiko, dan meningkatkan profitabilitas, sekaligus mempertahankan antarmuka intuitif yang mudah digunakan. Berikut fitur-fitur inti Ncore 2.0 yang membedakannya."
+      "Ncore 3.0 memadukan beragam fitur tingkat lanjut yang memberi trader kripto keunggulan kompetitif di dunia perdagangan aset digital yang bergerak cepat.",
+      "Fitur-fitur tersebut bekerja bersama untuk mengoptimalkan strategi trading, menekan risiko, dan meningkatkan profitabilitas, sekaligus mempertahankan antarmuka intuitif yang mudah digunakan. Berikut fitur-fitur inti Ncore 3.0 yang membedakannya."
     ],
     "features": [
       {
         "title": "Algoritme Front-Running Tingkat Lanjut",
-        "how": "Dengan memindai mempool secara berkesinambungan untuk mencari order berukuran besar, Ncore 2.0 mengidentifikasi transaksi signifikan sebelum transaksi itu dieksekusi, sehingga dapat bergerak lebih cepat daripada pasar. Ketika sebuah transaksi besar hendak diproses, Ncore 2.0 masuk dan mengeksekusi transaksinya sendiri pada momen yang optimal, sebelum pasar bereaksi terhadap order besar tersebut.",
-        "why": "Pasar kripto dapat sangat bergejolak, dan transaksi besar kerap memicu ayunan harga. Dengan melakukan front-run terhadap transaksi besar itu, Ncore 2.0 memastikan trader dapat memanfaatkan perubahan harga sebelum perubahan tersebut sepenuhnya tercermin di pasar, sehingga memperbesar potensi laba."
+        "how": "Dengan memindai mempool secara berkesinambungan untuk mencari order berukuran besar, Ncore 3.0 mengidentifikasi transaksi signifikan sebelum transaksi itu dieksekusi, sehingga dapat bergerak lebih cepat daripada pasar. Ketika sebuah transaksi besar hendak diproses, Ncore 3.0 masuk dan mengeksekusi transaksinya sendiri pada momen yang optimal, sebelum pasar bereaksi terhadap order besar tersebut.",
+        "why": "Pasar kripto dapat sangat bergejolak, dan transaksi besar kerap memicu ayunan harga. Dengan melakukan front-run terhadap transaksi besar itu, Ncore 3.0 memastikan trader dapat memanfaatkan perubahan harga sebelum perubahan tersebut sepenuhnya tercermin di pasar, sehingga memperbesar potensi laba."
       },
       {
         "title": "Pemantauan Pasar Real-Time",
-        "how": "Ncore 2.0 memanfaatkan beragam sumber data, termasuk bursa terdesentralisasi dan data transaksi blockchain, untuk melacak pergerakan pasar secara berkesinambungan. Data tersebut diproses secara real-time sehingga Ncore 2.0 dapat menanggapi perubahan pasar tepat saat perubahan itu terjadi. Bot kemudian menggunakan informasi ini untuk menyesuaikan strategi tradingnya agar selaras dengan tren pasar terkini.",
-        "why": "Di dunia kripto, tempat harga dapat berubah dengan sangat cepat, pemahaman real-time atas kondisi pasar menjadi hal yang esensial. Kemampuan Ncore 2.0 merespons perkembangan pasar dengan cepat memungkinkan trader mengambil keputusan yang matang dan memaksimalkan peluang transaksi yang menguntungkan."
+        "how": "Ncore 3.0 memanfaatkan beragam sumber data, termasuk bursa terdesentralisasi dan data transaksi blockchain, untuk melacak pergerakan pasar secara berkesinambungan. Data tersebut diproses secara real-time sehingga Ncore 3.0 dapat menanggapi perubahan pasar tepat saat perubahan itu terjadi. Bot kemudian menggunakan informasi ini untuk menyesuaikan strategi tradingnya agar selaras dengan tren pasar terkini.",
+        "why": "Di dunia kripto, tempat harga dapat berubah dengan sangat cepat, pemahaman real-time atas kondisi pasar menjadi hal yang esensial. Kemampuan Ncore 3.0 merespons perkembangan pasar dengan cepat memungkinkan trader mengambil keputusan yang matang dan memaksimalkan peluang transaksi yang menguntungkan."
       },
       {
         "title": "Optimasi Biaya Gas secara Dinamis",
-        "how": "Ncore 2.0 mengevaluasi kepadatan jaringan secara cerdas dan menentukan biaya gas yang tepat untuk dibayarkan agar transaksinya diprioritaskan dan dieksekusi tepat waktu. Bila jaringan sedang padat, Ncore 2.0 akan menaikkan biaya gas sedikit demi memastikan transaksi diproses dengan cepat. Bila jaringan lengang, Ncore 2.0 akan menurunkan biaya gas untuk menghindari pengeluaran yang tidak perlu.",
-        "why": "Biaya Gas dapat berbeda jauh tergantung aktivitas jaringan blockchain, dan membayar gas terlalu mahal akan menggerus potensi laba. Optimasi dinamis Ncore 2.0 memastikan pengguna tidak memboroskan sumber daya sekaligus tetap menjamin eksekusi yang cepat — keseimbangan yang tepat antara biaya dan kecepatan."
+        "how": "Ncore 3.0 mengevaluasi kepadatan jaringan secara cerdas dan menentukan biaya gas yang tepat untuk dibayarkan agar transaksinya diprioritaskan dan dieksekusi tepat waktu. Bila jaringan sedang padat, Ncore 3.0 akan menaikkan biaya gas sedikit demi memastikan transaksi diproses dengan cepat. Bila jaringan lengang, Ncore 3.0 akan menurunkan biaya gas untuk menghindari pengeluaran yang tidak perlu.",
+        "why": "Biaya Gas dapat berbeda jauh tergantung aktivitas jaringan blockchain, dan membayar gas terlalu mahal akan menggerus potensi laba. Optimasi dinamis Ncore 3.0 memastikan pengguna tidak memboroskan sumber daya sekaligus tetap menjamin eksekusi yang cepat — keseimbangan yang tepat antara biaya dan kecepatan."
       },
       {
         "title": "Kompatibilitas Lintas Platform",
-        "how": "Ncore 2.0 tidak terbatas pada satu blockchain atau satu bursa, melainkan dapat dikonfigurasi untuk bekerja di berbagai platform, termasuk Ethereum, Binance Smart Chain, dan lainnya. Kompatibilitas lintas platform ini memastikan trader dapat beroperasi di beragam ekosistem dan memanfaatkan kondisi pasar yang berbeda-beda.",
-        "why": "Dengan kemampuan bertransaksi di banyak platform, pengguna Ncore 2.0 dapat mendiversifikasi portofolionya ke berbagai jaringan blockchain. Hal ini membantu mengurangi eksposur terhadap satu jaringan saja, meningkatkan ketahanan strategi trading, sekaligus membuka peluang laba tambahan di pasar yang berbeda."
+        "how": "Ncore 3.0 tidak terbatas pada satu blockchain atau satu bursa, melainkan dapat dikonfigurasi untuk bekerja di berbagai platform, termasuk Ethereum, Binance Smart Chain, dan lainnya. Kompatibilitas lintas platform ini memastikan trader dapat beroperasi di beragam ekosistem dan memanfaatkan kondisi pasar yang berbeda-beda.",
+        "why": "Dengan kemampuan bertransaksi di banyak platform, pengguna Ncore 3.0 dapat mendiversifikasi portofolionya ke berbagai jaringan blockchain. Hal ini membantu mengurangi eksposur terhadap satu jaringan saja, meningkatkan ketahanan strategi trading, sekaligus membuka peluang laba tambahan di pasar yang berbeda."
       },
       {
         "title": "Manajemen Risiko yang Menyeluruh",
-        "how": "Ncore 2.0 memungkinkan pengguna menetapkan ambang risiko yang telah ditentukan, seperti level stop-loss, yang aktif secara otomatis ketika kondisi tertentu terpenuhi (misalnya bila harga sebuah aset kripto turun di bawah titik tertentu). Selain itu, Ncore 2.0 menyediakan analitik real-time yang melacak kinerja bot dan membantu pengguna menilai efektivitas strateginya.",
-        "why": "Pasar kripto bergejolak, dan melindungi investasi dari kerugian besar merupakan hal yang penting. Dengan perangkat manajemen risiko Ncore 2.0, trader dapat menekan eksposurnya dan menjaga modalnya, sehingga lebih mudah bertransaksi dengan tenang dan aman."
+        "how": "Ncore 3.0 memungkinkan pengguna menetapkan ambang risiko yang telah ditentukan, seperti level stop-loss, yang aktif secara otomatis ketika kondisi tertentu terpenuhi (misalnya bila harga sebuah aset kripto turun di bawah titik tertentu). Selain itu, Ncore 3.0 menyediakan analitik real-time yang melacak kinerja bot dan membantu pengguna menilai efektivitas strateginya.",
+        "why": "Pasar kripto bergejolak, dan melindungi investasi dari kerugian besar merupakan hal yang penting. Dengan perangkat manajemen risiko Ncore 3.0, trader dapat menekan eksposurnya dan menjaga modalnya, sehingga lebih mudah bertransaksi dengan tenang dan aman."
       },
       {
         "title": "Antarmuka yang Mudah Digunakan",
         "how": "Antarmuka pengguna menghadirkan tata letak yang bersih dan tertata, tempat pengguna dapat melihat aktivitas transaksi, mengatur parameter, dan memeriksa metrik kinerja secara real-time. Dasbornya dilengkapi perangkat untuk menyiapkan dan menyesuaikan strategi trading, mengelola risiko, serta meninjau transaksi terdahulu.",
-        "why": "Antarmuka yang mudah digunakan membantu trader dari segala tingkat pengalaman menavigasi kerumitan trading kripto. Baik pengguna yang baru memulai maupun yang telah berpengalaman dalam trading algoritmik, desain intuitif Ncore 2.0 memudahkan mereka memantau transaksi dan melakukan penyesuaian sesuai kebutuhan."
+        "why": "Antarmuka yang mudah digunakan membantu trader dari segala tingkat pengalaman menavigasi kerumitan trading kripto. Baik pengguna yang baru memulai maupun yang telah berpengalaman dalam trading algoritmik, desain intuitif Ncore 3.0 memudahkan mereka memantau transaksi dan melakukan penyesuaian sesuai kebutuhan."
       },
       {
         "title": "Kustomisasi Strategi Tingkat Lanjut",
-        "how": "Pengguna dapat menyesuaikan parameter seperti aturan eksekusi transaksi, sensitivitas transaksi, dan pengaturan waktu agar sesuai dengan gaya trading masing-masing. Ncore 2.0 memungkinkan penyetelan strategi secara terperinci untuk memaksimalkan kinerja sekaligus memastikan bot bekerja selaras dengan tujuan penggunanya.",
-        "why": "Tidak semua trader memiliki tujuan atau toleransi risiko yang sama. Kemampuan Ncore 2.0 menyesuaikan strategi berarti sistem ini dapat mengakomodasi beragam gaya trading, mulai dari pendekatan konservatif yang mengutamakan keamanan hingga strategi yang lebih agresif demi imbal hasil yang lebih tinggi."
+        "how": "Pengguna dapat menyesuaikan parameter seperti aturan eksekusi transaksi, sensitivitas transaksi, dan pengaturan waktu agar sesuai dengan gaya trading masing-masing. Ncore 3.0 memungkinkan penyetelan strategi secara terperinci untuk memaksimalkan kinerja sekaligus memastikan bot bekerja selaras dengan tujuan penggunanya.",
+        "why": "Tidak semua trader memiliki tujuan atau toleransi risiko yang sama. Kemampuan Ncore 3.0 menyesuaikan strategi berarti sistem ini dapat mengakomodasi beragam gaya trading, mulai dari pendekatan konservatif yang mengutamakan keamanan hingga strategi yang lebih agresif demi imbal hasil yang lebih tinggi."
       },
       {
         "title": "Kemampuan Backtesting",
-        "how": "Pengguna dapat memasukkan parameter strategi yang diinginkan ke dalam Ncore 2.0 dan memakai data pasar historis untuk menguji kinerja strategi tersebut pada periode perdagangan yang telah lewat. Bot kemudian menghasilkan laporan yang menunjukkan seberapa baik strategi itu akan bekerja dalam kondisi tersebut.",
+        "how": "Pengguna dapat memasukkan parameter strategi yang diinginkan ke dalam Ncore 3.0 dan memakai data pasar historis untuk menguji kinerja strategi tersebut pada periode perdagangan yang telah lewat. Bot kemudian menghasilkan laporan yang menunjukkan seberapa baik strategi itu akan bekerja dalam kondisi tersebut.",
         "why": "Backtesting memberikan wawasan berharga tentang potensi keberhasilan sebuah strategi tanpa mempertaruhkan modal riil. Cara ini membantu pengguna menyempurnakan pendekatannya, memahami risiko, dan mengambil keputusan yang lebih matang sebelum masuk ke pasar sesungguhnya."
       },
       {
         "title": "Analitik Prediktif Berbasis AI",
-        "how": "Ncore 2.0 akan memanfaatkan algoritme machine learning tingkat lanjut untuk mengolah data pasar historis maupun real-time. Data tersebut dianalisis untuk mendeteksi pola dan tren yang dapat dipakai memprediksi perubahan harga di masa depan, sehingga bot mampu beradaptasi dan mengoptimalkan strategi tradingnya dari waktu ke waktu.",
-        "why": "Analitik berbasis AI akan memungkinkan Ncore 2.0 terus menyempurnakan strategi tradingnya dengan belajar dari transaksi terdahulu dan beradaptasi terhadap kondisi pasar yang terus berubah. Hasilnya adalah keputusan trading yang lebih cerdas dan manajemen risiko yang lebih efisien."
+        "how": "Ncore 3.0 akan memanfaatkan algoritme machine learning tingkat lanjut untuk mengolah data pasar historis maupun real-time. Data tersebut dianalisis untuk mendeteksi pola dan tren yang dapat dipakai memprediksi perubahan harga di masa depan, sehingga bot mampu beradaptasi dan mengoptimalkan strategi tradingnya dari waktu ke waktu.",
+        "why": "Analitik berbasis AI akan memungkinkan Ncore 3.0 terus menyempurnakan strategi tradingnya dengan belajar dari transaksi terdahulu dan beradaptasi terhadap kondisi pasar yang terus berubah. Hasilnya adalah keputusan trading yang lebih cerdas dan manajemen risiko yang lebih efisien."
       },
       {
         "title": "Operasi yang Aman dan Transparan",
-        "how": "Ncore 2.0 menerapkan enkripsi berstandar industri untuk mengamankan data sensitif, termasuk informasi pribadi dan detail transaksi. Selain itu, sistem menyediakan catatan terperinci atas seluruh transaksi dan metrik kinerja, yang dapat diakses pengguna kapan saja untuk memverifikasi aktivitas bot.",
-        "why": "Di ranah kripto, keamanan dan transparansi bersifat krusial. Pengguna perlu percaya bahwa data dan dananya aman. Protokol keamanan Ncore 2.0, dipadukan dengan fitur transparansinya, memastikan pengguna dapat bertransaksi dengan tenang karena transaksinya terlindungi dan kinerjanya terlihat jelas."
+        "how": "Ncore 3.0 menerapkan enkripsi berstandar industri untuk mengamankan data sensitif, termasuk informasi pribadi dan detail transaksi. Selain itu, sistem menyediakan catatan terperinci atas seluruh transaksi dan metrik kinerja, yang dapat diakses pengguna kapan saja untuk memverifikasi aktivitas bot.",
+        "why": "Di ranah kripto, keamanan dan transparansi bersifat krusial. Pengguna perlu percaya bahwa data dan dananya aman. Protokol keamanan Ncore 3.0, dipadukan dengan fitur transparansinya, memastikan pengguna dapat bertransaksi dengan tenang karena transaksinya terlindungi dan kinerjanya terlihat jelas."
       },
       {
         "title": "Efisiensi Operasional 24/7",
-        "how": "Ncore 2.0 beroperasi secara mandiri sepanjang waktu, menganalisis jaringan blockchain dan mengeksekusi transaksi secara real-time. Artinya, meski trader tidak sedang aktif mengawasi pasar, Ncore 2.0 selalu siap memanfaatkan peluang yang bermunculan.",
-        "why": "Pasar kripto sulit ditebak dan bergerak cepat, bahkan di luar jam perdagangan konvensional. Efisiensi 24/7 Ncore 2.0 memastikan trader tidak melewatkan peluang dan transaksinya dieksekusi tepat waktu, kapan pun peluang itu muncul."
+        "how": "Ncore 3.0 beroperasi secara mandiri sepanjang waktu, menganalisis jaringan blockchain dan mengeksekusi transaksi secara real-time. Artinya, meski trader tidak sedang aktif mengawasi pasar, Ncore 3.0 selalu siap memanfaatkan peluang yang bermunculan.",
+        "why": "Pasar kripto sulit ditebak dan bergerak cepat, bahkan di luar jam perdagangan konvensional. Efisiensi 24/7 Ncore 3.0 memastikan trader tidak melewatkan peluang dan transaksinya dieksekusi tepat waktu, kapan pun peluang itu muncul."
       },
       {
         "title": "Keterlibatan dan Dukungan Komunitas",
-        "how": "Pengguna Ncore 2.0 dapat berinteraksi dengan pengguna lain di forum komunitas atau memperoleh bantuan langsung melalui kanal layanan pelanggan. Baik untuk mengoptimalkan strategi trading maupun mengatasi kendala teknis, pengguna dapat menemukan sumber daya dan dukungan yang dibutuhkan kapan saja.",
-        "why": "Komunitas yang kuat dan suportif dapat membantu trader belajar dan bertumbuh. Penekanan Ncore 2.0 pada keterlibatan komunitas dan dukungan pelanggan memastikan pengguna selalu memperoleh bantuan yang mereka perlukan untuk berhasil."
+        "how": "Pengguna Ncore 3.0 dapat berinteraksi dengan pengguna lain di forum komunitas atau memperoleh bantuan langsung melalui kanal layanan pelanggan. Baik untuk mengoptimalkan strategi trading maupun mengatasi kendala teknis, pengguna dapat menemukan sumber daya dan dukungan yang dibutuhkan kapan saja.",
+        "why": "Komunitas yang kuat dan suportif dapat membantu trader belajar dan bertumbuh. Penekanan Ncore 3.0 pada keterlibatan komunitas dan dukungan pelanggan memastikan pengguna selalu memperoleh bantuan yang mereka perlukan untuk berhasil."
       }
     ],
-    "conclusion": "Dengan memadukan seluruh fitur tangguh tersebut, Ncore 2.0 menghadirkan solusi yang menyeluruh, aman, dan dapat disesuaikan bagi trader kripto untuk memaksimalkan laba, mengelola risiko, dan beradaptasi dengan pasar yang terus berubah. Baik Anda seorang trader pemula maupun profesional berpengalaman, Ncore 2.0 memberdayakan Anda untuk bertransaksi lebih cerdas dan lebih efektif di dunia kripto.",
+    "conclusion": "Dengan memadukan seluruh fitur tangguh tersebut, Ncore 3.0 menghadirkan solusi yang menyeluruh, aman, dan dapat disesuaikan bagi trader kripto untuk memaksimalkan laba, mengelola risiko, dan beradaptasi dengan pasar yang terus berubah. Baik Anda seorang trader pemula maupun profesional berpengalaman, Ncore 3.0 memberdayakan Anda untuk bertransaksi lebih cerdas dan lebih efektif di dunia kripto.",
     "footNav": {
       "prev": "Logika Trading",
       "next": "Lanjut ke Tren Pasar"
@@ -663,66 +663,66 @@
   },
   "TRENDS_PAGE": {
     "title": "Tren Pasar",
-    "subtitle": "Tren Pasar yang Memengaruhi Ncore 2.0",
-    "intro": "Lanskap kripto berkembang dengan sangat cepat, dan Ncore 2.0 dirancang untuk selalu berada di depan kurva dengan memanfaatkan tren-tren pasar utama yang membentuk peluang serta strategi trading. Berikut penjelasan lebih rinci tentang bagaimana tren-tren tersebut memengaruhi penggunaan dan kemampuan Ncore 2.0.",
+    "subtitle": "Tren Pasar yang Memengaruhi Ncore 3.0",
+    "intro": "Lanskap kripto berkembang dengan sangat cepat, dan Ncore 3.0 dirancang untuk selalu berada di depan kurva dengan memanfaatkan tren-tren pasar utama yang membentuk peluang serta strategi trading. Berikut penjelasan lebih rinci tentang bagaimana tren-tren tersebut memengaruhi penggunaan dan kemampuan Ncore 3.0.",
     "trends": [
       {
         "title": "Bangkitnya Keuangan Terdesentralisasi (DeFi)",
-        "impact": "Platform DeFi menghadirkan pasar yang terdesentralisasi dan terbuka bagi trader, yang meningkatkan volatilitas dan menciptakan peluang arbitrase antara bursa terpusat (CEX) dan bursa terdesentralisasi (DEX). Ncore 2.0 dirancang untuk memanfaatkan selisih tersebut secara real-time, sehingga pengguna dapat bertransaksi di kedua jenis platform secara efisien.",
-        "advantage": "Dengan berinteraksi secara mulus dengan berbagai platform dan protokol DeFi, Ncore 2.0 memastikan pengguna dapat memanfaatkan peluang arbitrase dan mengoptimalkan transaksinya demi profitabilitas maksimal. Baik berupa likuiditas lintas rantai maupun disparitas harga, Ncore 2.0 membantu pengguna menavigasi kerumitan ekosistem DeFi, memberikan keunggulan atas bot trading konvensional yang kerap kesulitan di lingkungan terdesentralisasi."
+        "impact": "Platform DeFi menghadirkan pasar yang terdesentralisasi dan terbuka bagi trader, yang meningkatkan volatilitas dan menciptakan peluang arbitrase antara bursa terpusat (CEX) dan bursa terdesentralisasi (DEX). Ncore 3.0 dirancang untuk memanfaatkan selisih tersebut secara real-time, sehingga pengguna dapat bertransaksi di kedua jenis platform secara efisien.",
+        "advantage": "Dengan berinteraksi secara mulus dengan berbagai platform dan protokol DeFi, Ncore 3.0 memastikan pengguna dapat memanfaatkan peluang arbitrase dan mengoptimalkan transaksinya demi profitabilitas maksimal. Baik berupa likuiditas lintas rantai maupun disparitas harga, Ncore 3.0 membantu pengguna menavigasi kerumitan ekosistem DeFi, memberikan keunggulan atas bot trading konvensional yang kerap kesulitan di lingkungan terdesentralisasi."
       },
       {
         "title": "Meningkatnya Partisipasi Institusional",
         "impact": "Trader institusional menuntut solusi trading tingkat lanjut yang mampu menangani volume besar, menekan risiko, dan menjamin kepatuhan. Karena itu, investor jenis ini umumnya membutuhkan perangkat trading yang tidak hanya cepat, tetapi juga meningkatkan akurasi prediksi pasar dan memungkinkan manajemen risiko yang menyeluruh.",
-        "advantage": "Ncore 2.0 menyediakan lingkungan trading yang canggih dan sanggup menangani order berukuran besar dengan slippage minimal. Melalui fitur seperti manajemen risiko real-time, optimasi biaya gas secara dinamis, dan strategi algoritmik tingkat lanjut, Ncore 2.0 menghadirkan presisi serta daya adaptasi yang dibutuhkan trader institusional. Sistem ini menjadi platform tepercaya untuk menavigasi kerumitan pasar terpusat maupun terdesentralisasi dengan mudah."
+        "advantage": "Ncore 3.0 menyediakan lingkungan trading yang canggih dan sanggup menangani order berukuran besar dengan slippage minimal. Melalui fitur seperti manajemen risiko real-time, optimasi biaya gas secara dinamis, dan strategi algoritmik tingkat lanjut, Ncore 3.0 menghadirkan presisi serta daya adaptasi yang dibutuhkan trader institusional. Sistem ini menjadi platform tepercaya untuk menavigasi kerumitan pasar terpusat maupun terdesentralisasi dengan mudah."
       },
       {
         "title": "Kemajuan Teknologi Blockchain",
         "impact": "Seiring berkembangnya platform blockchain, protokol dan fitur baru terus bermunculan sehingga kecepatan transaksi, skalabilitas, dan efisiensi biaya kian membaik. Trader membutuhkan perangkat yang dapat terintegrasi dengan teknologi-teknologi baru tersebut agar tetap kompetitif.",
-        "advantage": "Ncore 2.0 dirancang untuk beradaptasi dengan protokol dan teknologi blockchain baru. Sebagai contoh, ketika solusi Layer 2 kian meluas, Ncore 2.0 akan terintegrasi secara mulus dengan platform tersebut demi pemrosesan transaksi yang lebih cepat dan biaya yang lebih rendah. Fleksibilitas ini memungkinkan pengguna memetik manfaat penuh dari perkembangan blockchain termutakhir tanpa perlu mengkhawatirkan masalah kompatibilitas."
+        "advantage": "Ncore 3.0 dirancang untuk beradaptasi dengan protokol dan teknologi blockchain baru. Sebagai contoh, ketika solusi Layer 2 kian meluas, Ncore 3.0 akan terintegrasi secara mulus dengan platform tersebut demi pemrosesan transaksi yang lebih cepat dan biaya yang lebih rendah. Fleksibilitas ini memungkinkan pengguna memetik manfaat penuh dari perkembangan blockchain termutakhir tanpa perlu mengkhawatirkan masalah kompatibilitas."
       },
       {
         "title": "Melonjaknya Biaya Transaksi dan Kepadatan Jaringan",
         "impact": "Biaya yang tinggi dan jaringan yang padat dapat mempersulit eksekusi transaksi secara cepat, sehingga peluang terlewat atau biaya transaksi membengkak. Kondisi ini terutama memberatkan trader berskala kecil yang mungkin tidak memiliki sumber daya untuk membayar biaya premium.",
-        "advantage": "Optimasi biaya gas secara dinamis pada Ncore 2.0 memastikan transaksi tetap dieksekusi tepat waktu bahkan pada periode kepadatan jaringan yang tinggi. Dengan menyesuaikan biaya transaksi secara strategis dan memanfaatkan analitik prediktif, Ncore 2.0 memastikan transaksi dieksekusi secara cepat, efisien, dan hemat biaya, sehingga profitabilitas tetap maksimal di lingkungan yang bergejolak."
+        "advantage": "Optimasi biaya gas secara dinamis pada Ncore 3.0 memastikan transaksi tetap dieksekusi tepat waktu bahkan pada periode kepadatan jaringan yang tinggi. Dengan menyesuaikan biaya transaksi secara strategis dan memanfaatkan analitik prediktif, Ncore 3.0 memastikan transaksi dieksekusi secara cepat, efisien, dan hemat biaya, sehingga profitabilitas tetap maksimal di lingkungan yang bergejolak."
       },
       {
         "title": "Perkembangan Regulasi",
         "impact": "Lanskap regulasi yang terus berubah menghadirkan peluang sekaligus tantangan bagi trader dan investor. Seiring regulator bergerak menuju kerangka aturan yang lebih jelas bagi pelaku pasar kripto, menjaga kepatuhan menjadi kian kompleks. Regulasi semacam ini dapat memunculkan ketidakpastian, terutama ketika aturannya cepat berubah, sehingga menimbulkan risiko ketidakpatuhan.",
-        "advantage": "Di tengah lingkungan regulasi yang terus berkembang ini, Ncore 2.0 menyediakan perangkat yang diperlukan untuk mengantisipasi setiap perubahan. Sistem ini dibangun dengan transparansi dan keamanan sebagai intinya sehingga pengguna dapat menyikapi pergeseran regulasi dengan tenang. Fitur-fitur Ncore 2.0, termasuk catatan transaksi yang terperinci dan laporan kinerja, memungkinkan transparansi penuh dan memberi pengguna cara yang andal untuk membuktikan kepatuhan bila diperlukan. Dengan beradaptasi secara mulus terhadap regulasi baru, Ncore 2.0 memastikan pengguna dapat terus bertransaksi secara efisien sekaligus tetap patuh."
+        "advantage": "Di tengah lingkungan regulasi yang terus berkembang ini, Ncore 3.0 menyediakan perangkat yang diperlukan untuk mengantisipasi setiap perubahan. Sistem ini dibangun dengan transparansi dan keamanan sebagai intinya sehingga pengguna dapat menyikapi pergeseran regulasi dengan tenang. Fitur-fitur Ncore 3.0, termasuk catatan transaksi yang terperinci dan laporan kinerja, memungkinkan transparansi penuh dan memberi pengguna cara yang andal untuk membuktikan kepatuhan bila diperlukan. Dengan beradaptasi secara mulus terhadap regulasi baru, Ncore 3.0 memastikan pengguna dapat terus bertransaksi secara efisien sekaligus tetap patuh."
       },
       {
         "title": "Volatilitas Pasar",
         "impact": "Volatilitas di ranah kripto menghadirkan peluang laba yang besar sekaligus risiko yang meningkat. Trader membutuhkan perangkat yang mampu mengenali tren harga dengan cepat dan mengeksekusi transaksi pada waktu yang optimal demi memaksimalkan laba sambil mengelola potensi kerugian.",
-        "advantage": "Algoritme front-running tingkat lanjut dan pemantauan pasar real-time pada Ncore 2.0 memungkinkannya mengenali dan memanfaatkan fluktuasi pasar secara seketika. Dengan selalu berada di depan pergerakan pasar dan menyesuaikan strategi secara real-time, Ncore 2.0 memperkuat kemampuan trader memanfaatkan kondisi yang bergejolak tanpa terjebak dalam penurunan atau lonjakan harga yang mendadak."
+        "advantage": "Algoritme front-running tingkat lanjut dan pemantauan pasar real-time pada Ncore 3.0 memungkinkannya mengenali dan memanfaatkan fluktuasi pasar secara seketika. Dengan selalu berada di depan pergerakan pasar dan menyesuaikan strategi secara real-time, Ncore 3.0 memperkuat kemampuan trader memanfaatkan kondisi yang bergejolak tanpa terjebak dalam penurunan atau lonjakan harga yang mendadak."
       },
       {
         "title": "Kemunculan Solusi Layer 2",
         "impact": "Solusi Layer 2 diperkirakan akan berperan besar dalam menekan biaya transaksi dan meningkatkan skalabilitas. Bagi trader, hal ini membuka peluang istimewa untuk bertransaksi dengan biaya yang lebih rendah dan waktu pemrosesan yang lebih singkat.",
-        "advantage": "Seiring teknologi Layer 2 terus mendapat tempat, Ncore 2.0 dirancang untuk terintegrasi dengan platform-platform baru tersebut agar pengguna memperoleh eksekusi transaksi yang lebih cepat dan lebih murah. Dengan mengadopsi teknologi tersebut sejak dini, Ncore 2.0 memastikan penggunanya berada pada posisi ideal untuk memetik manfaat penuh dari solusi Layer 2."
+        "advantage": "Seiring teknologi Layer 2 terus mendapat tempat, Ncore 3.0 dirancang untuk terintegrasi dengan platform-platform baru tersebut agar pengguna memperoleh eksekusi transaksi yang lebih cepat dan lebih murah. Dengan mengadopsi teknologi tersebut sejak dini, Ncore 3.0 memastikan penggunanya berada pada posisi ideal untuk memetik manfaat penuh dari solusi Layer 2."
       },
       {
         "title": "Integrasi Kecerdasan Buatan (AI) dalam Trading",
         "impact": "Bot trading berbasis AI dapat menyesuaikan diri dengan kondisi pasar secara real-time dan menyempurnakan strateginya melalui analisis data yang berkelanjutan. Daya adaptasi ini krusial di pasar kripto yang bergejolak, tempat kecepatan mengambil keputusan sangat memengaruhi profitabilitas.",
-        "advantage": "Dengan mengintegrasikan algoritme AI tingkat lanjut, Ncore 2.0 memperkuat analisis pasar dan eksekusi transaksinya. Kemampuannya mengolah data real-time serta menyesuaikan strategi secara dinamis memungkinkan pengguna mempertahankan keunggulan kompetitif di lingkungan trading yang bergerak cepat."
+        "advantage": "Dengan mengintegrasikan algoritme AI tingkat lanjut, Ncore 3.0 memperkuat analisis pasar dan eksekusi transaksinya. Kemampuannya mengolah data real-time serta menyesuaikan strategi secara dinamis memungkinkan pengguna mempertahankan keunggulan kompetitif di lingkungan trading yang bergerak cepat."
       },
       {
         "title": "Tokenisasi Aset Dunia Nyata (RWA)",
         "impact": "Tokenisasi aset seperti properti, karya seni, atau komoditas membuka pasar dan peluang investasi baru, sehingga kepemilikan terfraksi lebih mudah diperdagangkan dan likuiditas meningkat.",
-        "advantage": "Daya adaptasi Ncore 2.0 memungkinkannya berinteraksi dengan beragam aset yang ditokenisasi, memberi pengguna pilihan trading yang lebih terdiversifikasi serta kemampuan memanfaatkan pasar-pasar baru di ranah kripto."
+        "advantage": "Daya adaptasi Ncore 3.0 memungkinkannya berinteraksi dengan beragam aset yang ditokenisasi, memberi pengguna pilihan trading yang lebih terdiversifikasi serta kemampuan memanfaatkan pasar-pasar baru di ranah kripto."
       },
       {
         "title": "Kemunculan Produk dan Layanan Keuangan Baru",
         "impact": "Instrumen keuangan baru menghadirkan peluang investasi yang beragam dan dapat memengaruhi dinamika pasar, sehingga membuka jalur laba tambahan bagi trader.",
-        "advantage": "Kemampuan Ncore 2.0 beradaptasi dengan beragam produk keuangan memastikan pengguna dapat memanfaatkan instrumen-instrumen baru tersebut secara efektif dan memasukkannya ke dalam strategi trading demi imbal hasil yang maksimal."
+        "advantage": "Kemampuan Ncore 3.0 beradaptasi dengan beragam produk keuangan memastikan pengguna dapat memanfaatkan instrumen-instrumen baru tersebut secara efektif dan memasukkannya ke dalam strategi trading demi imbal hasil yang maksimal."
       },
       {
         "title": "Integrasi Teknologi Blockchain ke Keuangan Tradisional",
         "impact": "Teknologi blockchain kian tertanam dalam layanan perbankan dan keuangan, memungkinkan transaksi yang lebih cepat, transparansi yang lebih tinggi, serta kapabilitas baru.",
-        "advantage": "Rancangan Ncore 2.0 memungkinkannya terintegrasi secara mulus dengan beragam protokol blockchain, sehingga pengguna dapat memanfaatkan kemajuan terbaru teknologi blockchain untuk trading yang efisien dan aman."
+        "advantage": "Rancangan Ncore 3.0 memungkinkannya terintegrasi secara mulus dengan beragam protokol blockchain, sehingga pengguna dapat memanfaatkan kemajuan terbaru teknologi blockchain untuk trading yang efisien dan aman."
       }
     ],
-    "conclusion": "Ncore 2.0 diposisikan untuk memanfaatkan tren-tren pasar yang dinamis tersebut dengan menghadirkan solusi yang canggih, adaptif, dan andal bagi trader kripto. Melalui pengembangan yang berkelanjutan untuk mengakomodasi teknologi baru dan perkembangan pasar, Ncore 2.0 memastikan penggunanya tetap kompetitif di lanskap kripto yang bergerak cepat dan terus berubah. Dengan fitur tingkat lanjut, kemampuan prediktif, dan daya adaptasi pasarnya, Ncore 2.0 dirancang untuk memaksimalkan profitabilitas sekaligus menekan risiko, bahkan pada kondisi yang paling bergejolak sekalipun.",
+    "conclusion": "Ncore 3.0 diposisikan untuk memanfaatkan tren-tren pasar yang dinamis tersebut dengan menghadirkan solusi yang canggih, adaptif, dan andal bagi trader kripto. Melalui pengembangan yang berkelanjutan untuk mengakomodasi teknologi baru dan perkembangan pasar, Ncore 3.0 memastikan penggunanya tetap kompetitif di lanskap kripto yang bergerak cepat dan terus berubah. Dengan fitur tingkat lanjut, kemampuan prediktif, dan daya adaptasi pasarnya, Ncore 3.0 dirancang untuk memaksimalkan profitabilitas sekaligus menekan risiko, bahkan pada kondisi yang paling bergejolak sekalipun.",
     "footNav": {
       "prev": "Fitur",
       "next": "Ncore X"

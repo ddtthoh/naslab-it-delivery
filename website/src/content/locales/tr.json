@@ -21,7 +21,7 @@
       "label": "Ürünler",
       "children": [
         {
-          "label": "Ncore 2.0"
+          "label": "Ncore 3.0"
         },
         {
           "label": "Temel Bilgiler"
@@ -84,9 +84,9 @@
     "body": "Naslab'ın otomatik işlem sistemlerinden ölçeklenebilir, küresel bir dijital finans altyapısına evrimini ortaya koyan uzun vadeli bir yol haritası.",
     "cta": "STRATEJİK YOL HARİTASINI GÖRÜN"
   },
-  "S5_NCORE_2": {
-    "kicker": "03 · ÖNGÖRÜLÜ MEV MOTORU — Ncore 2.0",
-    "h2": "Ncore 2.0 — DEX Piyasaları İçin Öngörülü MEV İşlemleri",
+  "S5_NCORE_3": {
+    "kicker": "03 · ÖNGÖRÜLÜ MEV MOTORU — Ncore 3.0",
+    "h2": "Ncore 3.0 — DEX Piyasaları İçin Öngörülü MEV İşlemleri",
     "body": "DEX odaklı bir MEV işlem platformu: mempool'u izler, büyük emirleri önceden öngörür ve front-run ile back-run stratejilerini yüksek hassasiyetle uygular.",
     "mempoolCard": {
       "title": "MEMPOOL AKIŞI",
@@ -117,15 +117,15 @@
       },
       {
         "label": "02 · MANTIK — İşlem Mantığı",
-        "body": "Ncore 2.0; mempool izleme, sandviç yürütme ve optimize edilmiş işlem sıralaması yoluyla, piyasa tepki vermeden önce değeri sistematik biçimde yakalayan DEX odaklı bir MEV işlem platformudur."
+        "body": "Ncore 3.0; mempool izleme, sandviç yürütme ve optimize edilmiş işlem sıralaması yoluyla, piyasa tepki vermeden önce değeri sistematik biçimde yakalayan DEX odaklı bir MEV işlem platformudur."
       },
       {
         "label": "03 — Özellikler",
-        "body": "Ncore 2.0; mempool istihbaratını, gerçek zamanlı yürütmeyi, gas optimizasyonunu ve özelleştirilebilir risk kontrollerini bir araya getirerek işlem sıralamasından doğan değeri kesintisiz ve güvenli biçimde yakalayan gelişmiş bir DEX front-run ve MEV işlem sistemidir."
+        "body": "Ncore 3.0; mempool istihbaratını, gerçek zamanlı yürütmeyi, gas optimizasyonunu ve özelleştirilebilir risk kontrollerini bir araya getirerek işlem sıralamasından doğan değeri kesintisiz ve güvenli biçimde yakalayan gelişmiş bir DEX front-run ve MEV işlem sistemidir."
       },
       {
         "label": "04 — Piyasa Trendleri",
-        "body": "Ncore 2.0; DeFi büyümesi, MEV dinamikleri, kurumsal katılım, Layer 2 ölçeklenmesi, yapay zekâ destekli işlem ve artan volatilite gibi başlıca kripto piyasası trendlerinden yararlanmak üzere uyarlanabilir, düşük gecikmeli ve yürütme odaklı işlem yetenekleri sunacak biçimde tasarlanmıştır."
+        "body": "Ncore 3.0; DeFi büyümesi, MEV dinamikleri, kurumsal katılım, Layer 2 ölçeklenmesi, yapay zekâ destekli işlem ve artan volatilite gibi başlıca kripto piyasası trendlerinden yararlanmak üzere uyarlanabilir, düşük gecikmeli ve yürütme odaklı işlem yetenekleri sunacak biçimde tasarlanmıştır."
       }
     ]
   },
@@ -217,11 +217,11 @@
       {
         "period": "2026 Q1 - Q4 — Ölçek Büyütme ve Pazara Hazırlık",
         "items": [
-          "Ncore 2.0'ın uluslararası genişlemesi",
-          "Ncore X'in kademeli canlı testleri",
+          "Ncore 3.0 başarıyla hayata geçirildi",
+          "Ncore X — CEX Arbitraj kullanıma sunuldu",
           "~$5M → ~$50M işlem hacmi",
           "Yürütme hızı, maliyet kontrolü ve risk yönetiminde sürekli optimizasyon",
-          "Tahmini Ncore 2.0 kullanıcı sayısı: 100,000"
+          "Tahmini Ncore 3.0 kullanıcı sayısı: 100,000"
         ],
         "note": "Beklenen — Ncore X'in dışa açılması; sistem kararlılığına, risk değerlendirmesine ve düzenleyici koşullara bağlıdır."
       },
@@ -279,7 +279,7 @@
         "title": "ÜRÜNLER",
         "links": [
           {
-            "label": "Ncore 2.0"
+            "label": "Ncore 3.0"
           },
           {
             "label": "Ncore X"
@@ -367,7 +367,7 @@
     "title": "Temel Kavrayış",
     "subtitle": "Blokzincir ve Zincir Üstü İşlem Yürütmenin Temelleri",
     "lead": "Temeli Anlamak",
-    "leadBody": "Ncore 2.0'ın gelişmiş işlem stratejilerinin bel kemiğini oluşturan blokzincir yürütmesi, işlem sıralaması ve değer çıkarımı kavramlarını temelden öğrenin.",
+    "leadBody": "Ncore 3.0'ın gelişmiş işlem stratejilerinin bel kemiğini oluşturan blokzincir yürütmesi, işlem sıralaması ve değer çıkarımı kavramlarını temelden öğrenin.",
     "sections": [
       {
         "heading": "Blokzincir ve Zincir Üstü İşlem Yürütme",
@@ -424,29 +424,29 @@
     "nextChapter": {
       "kicker": "SONRAKİ BÖLÜM",
       "heading": "Daha Fazlasını Öğrenmeye Hazır mısınız?",
-      "body": "Ncore 2.0'ın bu temelleri gelişmiş MEV stratejilerini yürütmek için nasıl kullandığını keşfedin.",
+      "body": "Ncore 3.0'ın bu temelleri gelişmiş MEV stratejilerini yürütmek için nasıl kullandığını keşfedin.",
       "cta": "İşlem Mantığına Devam Edin"
     }
   },
   "TRADING_PAGE": {
     "title": "İşlem Mantığı",
-    "subtitle": "Ncore 2.0 — DEX Odaklı MEV İşlem Platformu",
+    "subtitle": "Ncore 3.0 — DEX Odaklı MEV İşlem Platformu",
     "origins": {
-      "heading": "Ncore 2.0'ın Kökenleri",
-      "body": "Nastech Global tarafından geliştirilen Ncore 2.0, hızla evrilen merkeziyetsiz borsa (DEX) ekosistemi için özel olarak tasarlanmıştır. Dijital varlıkların önemi arttıkça geleneksel işlem sistemleri şu başlıklarda yetersiz kalmaktadır:",
+      "heading": "Ncore 3.0'ın Kökenleri",
+      "body": "Nastech Global tarafından geliştirilen Ncore 3.0, hızla evrilen merkeziyetsiz borsa (DEX) ekosistemi için özel olarak tasarlanmıştır. Dijital varlıkların önemi arttıkça geleneksel işlem sistemleri şu başlıklarda yetersiz kalmaktadır:",
       "bullets": [
         "DeFi piyasalarındaki yüksek frekanslı dalgalanmalar",
         "Hızla değişen büyük emirler",
         "Karmaşık, gerçek zamanlı yürütme zorlukları"
       ],
-      "closing": "Ncore 2.0; büyük bekleyen işlemler ya da önemli piyasa olayları gerçekleşmeden önce piyasa fırsatlarını tespit edebilen öngörülü bir işlem mimarisi olarak geliştirildi."
+      "closing": "Ncore 3.0; büyük bekleyen işlemler ya da önemli piyasa olayları gerçekleşmeden önce piyasa fırsatlarını tespit edebilen öngörülü bir işlem mimarisi olarak geliştirildi."
     },
     "sandwich": {
       "heading": "MEV ve Sandviç Stratejisi",
       "sub": "Front-Run / Back-Run Mantığı",
       "intro": [
         "DEX platformlarında her işlem, bir blokta onaylanmadan önce mempool'a girer. Bu da MEV (Maximal Extractable Value) fırsatları doğurur: işlem sıralaması optimize edilerek ek değer yakalanabilir.",
-        "Ncore 2.0'ın temel stratejisi, front-run/back-run mantığı olarak da bilinen Sandviç Stratejisi'dir; bu strateji MEV'i DEX piyasaları için kullanıma hazır, ürünleşmiş bir çözüme dönüştürür:"
+        "Ncore 3.0'ın temel stratejisi, front-run/back-run mantığı olarak da bilinen Sandviç Stratejisi'dir; bu strateji MEV'i DEX piyasaları için kullanıma hazır, ürünleşmiş bir çözüme dönüştürür:"
       ],
       "legs": [
         {
@@ -466,10 +466,10 @@
           ]
         }
       ],
-      "closing": "Bu kombinasyon sayesinde Ncore 2.0, geniş piyasa tepki vermeden önce sandviç stratejisini tamamlar ve kullanıcılara öncelikli kâr fırsatları sağlar."
+      "closing": "Bu kombinasyon sayesinde Ncore 3.0, geniş piyasa tepki vermeden önce sandviç stratejisini tamamlar ve kullanıcılara öncelikli kâr fırsatları sağlar."
     },
     "coreFeatures": {
-      "heading": "Ncore 2.0'ın Temel Özellikleri",
+      "heading": "Ncore 3.0'ın Temel Özellikleri",
       "items": [
         {
           "title": "Mempool İzleme",
@@ -507,7 +507,7 @@
     },
     "productized": {
       "heading": "Ürünleşmiş Değer ve Müşteri Kazanımları",
-      "intro": "Ncore 2.0, karmaşık sandviç stratejilerini kullanıma hazır bir ürün hâline getirir; böylece kullanıcılar teknik ayrıntılara değil kâra odaklanır.",
+      "intro": "Ncore 3.0, karmaşık sandviç stratejilerini kullanıma hazır bir ürün hâline getirir; böylece kullanıcılar teknik ayrıntılara değil kâra odaklanır.",
       "points": [
         {
           "title": "Proaktif İşlem",
@@ -532,15 +532,15 @@
       "intro": "Yüksek frekanslı bir DEX ortamında:",
       "steps": [
         "Büyük bir bekleyen emir mempool'da belirir",
-        "Ncore 2.0 önden konumlanmak için bir front-run işlemi yürütür",
+        "Ncore 3.0 önden konumlanmak için bir front-run işlemi yürütür",
         "Emir yürütüldükten sonra back-run işlemi kâr döngüsünü tamamlar",
         "Piyasa tam olarak tepki vermeden kazanç güvence altına alınır"
       ],
       "closing": "Bu strateji, müşterilerin dalgalı DEX piyasalarında öngörülebilir, sistematik ve kontrol edilebilir kâr elde etmesini sağlar."
     },
     "devPath": {
-      "heading": "Ncore 2.0'ın Gelişim Yolu",
-      "intro": "Ncore 2.0, Nastech Global'in otomatik işlem alanındaki yılların birikiminin ürünüdür:",
+      "heading": "Ncore 3.0'ın Gelişim Yolu",
+      "intro": "Ncore 3.0, Nastech Global'in otomatik işlem alanındaki yılların birikiminin ürünüdür:",
       "bullets": [
         "Başlangıçta üst segment müşterilere özel çözümler sunuldu",
         "Piyasalar karmaşıklaştıkça öngörülü ve sistematikleşmiş bir işlem mimarisine evrildi",
@@ -548,7 +548,7 @@
         "Hem bireysel hem kurumsal kullanıcılara yüksek frekanslı ve düşük gecikmeli işlem yetenekleri sağlar"
       ],
       "resultHeading": "Sonuç",
-      "resultBody": "Ncore 2.0 bir işlem botundan fazlasıdır — hızla evrilen piyasalarda müşterilerin üstünlüğünü korumasına yardımcı olan, ürünleşmiş bir DEX MEV çözümüdür."
+      "resultBody": "Ncore 3.0 bir işlem botundan fazlasıdır — hızla evrilen piyasalarda müşterilerin üstünlüğünü korumasına yardımcı olan, ürünleşmiş bir DEX MEV çözümüdür."
     },
     "highlights": {
       "heading": "Öne Çıkanlar",
@@ -579,7 +579,7 @@
       ],
       "closing": [
         "Geniş piyasa tepki verdiğinde müşteriler işlemlerini çoktan tamamlamış ve değeri yakalamış olur; böylece istikrarlı biçimde önde kalırlar.",
-        "Ncore 2.0'ın tüm potansiyelini açığa çıkarmaya ve otomatik işlemin geleceğine adım atmaya hazır mısınız? Bu yenilikçi aracın yeni fırsatları değerlendirmenize, piyasanın önünde kalmanıza ve bugünden daha akıllı, daha kârlı işlemler yapmanıza nasıl yardımcı olabileceğini keşfedin."
+        "Ncore 3.0'ın tüm potansiyelini açığa çıkarmaya ve otomatik işlemin geleceğine adım atmaya hazır mısınız? Bu yenilikçi aracın yeni fırsatları değerlendirmenize, piyasanın önünde kalmanıza ve bugünden daha akıllı, daha kârlı işlemler yapmanıza nasıl yardımcı olabileceğini keşfedin."
       ]
     },
     "footNav": {
@@ -590,72 +590,72 @@
   "FEATURES_PAGE": {
     "title": "Özellikler",
     "intro": [
-      "Ncore 2.0, geniş bir gelişmiş özellik yelpazesini bir araya getirerek kripto para yatırımcılarına dijital varlık işlemlerinin hızlı dünyasında rekabet avantajı sağlar.",
-      "Bu özellikler; kullanım kolaylığı sunan sezgisel bir arayüzü korurken işlem stratejilerini optimize etmek, riskleri asgariye indirmek ve kârlılığı artırmak için birlikte çalışır. Aşağıda Ncore 2.0'ı farklı kılan temel özellikler yer alıyor."
+      "Ncore 3.0, geniş bir gelişmiş özellik yelpazesini bir araya getirerek kripto para yatırımcılarına dijital varlık işlemlerinin hızlı dünyasında rekabet avantajı sağlar.",
+      "Bu özellikler; kullanım kolaylığı sunan sezgisel bir arayüzü korurken işlem stratejilerini optimize etmek, riskleri asgariye indirmek ve kârlılığı artırmak için birlikte çalışır. Aşağıda Ncore 3.0'ı farklı kılan temel özellikler yer alıyor."
     ],
     "features": [
       {
         "title": "Gelişmiş Front-Run Algoritmaları",
-        "how": "Ncore 2.0, mempool'u büyük emirler için kesintisiz tarayarak önemli işlemleri yürütülmeden önce tespit eder ve piyasadan daha hızlı hareket edebilir. Büyük bir işlem gerçekleşmek üzereyken Ncore 2.0 devreye girer ve piyasa bu büyük emre tepki vermeden, en uygun anda kendi işlemini yürütür.",
-        "why": "Kripto para piyasaları yüksek volatiliteye sahiptir ve büyük işlemler çoğu zaman fiyat dalgalanmalarına yol açar. Ncore 2.0, bu büyük işlemlerin önüne geçerek yatırımcıların fiyat değişimlerinden bu değişimler piyasaya tam yansımadan yararlanmasını sağlar ve daha yüksek kâr potansiyeli oluşturur."
+        "how": "Ncore 3.0, mempool'u büyük emirler için kesintisiz tarayarak önemli işlemleri yürütülmeden önce tespit eder ve piyasadan daha hızlı hareket edebilir. Büyük bir işlem gerçekleşmek üzereyken Ncore 3.0 devreye girer ve piyasa bu büyük emre tepki vermeden, en uygun anda kendi işlemini yürütür.",
+        "why": "Kripto para piyasaları yüksek volatiliteye sahiptir ve büyük işlemler çoğu zaman fiyat dalgalanmalarına yol açar. Ncore 3.0, bu büyük işlemlerin önüne geçerek yatırımcıların fiyat değişimlerinden bu değişimler piyasaya tam yansımadan yararlanmasını sağlar ve daha yüksek kâr potansiyeli oluşturur."
       },
       {
         "title": "Gerçek Zamanlı Piyasa İzleme",
-        "how": "Ncore 2.0; merkeziyetsiz borsalar ve blokzincir işlem verileri dâhil olmak üzere çok sayıda veri kaynağını kullanarak piyasa hareketlerini kesintisiz takip eder. Bu veriler gerçek zamanlı işlenir ve Ncore 2.0'ın piyasadaki değişimlere anında tepki vermesini mümkün kılar. Bot daha sonra bu bilgiyi kullanarak işlem stratejisini güncel piyasa trendleriyle uyumlu kalacak biçimde günceller.",
-        "why": "Fiyatların hızla değişebildiği kripto para dünyasında piyasa koşullarını gerçek zamanlı kavramak zorunludur. Ncore 2.0'ın piyasa gelişmelerine hızla yanıt verme yeteneği, yatırımcıların bilinçli kararlar almasına ve kârlı işlem şansını en üst düzeye çıkarmasına imkân tanır."
+        "how": "Ncore 3.0; merkeziyetsiz borsalar ve blokzincir işlem verileri dâhil olmak üzere çok sayıda veri kaynağını kullanarak piyasa hareketlerini kesintisiz takip eder. Bu veriler gerçek zamanlı işlenir ve Ncore 3.0'ın piyasadaki değişimlere anında tepki vermesini mümkün kılar. Bot daha sonra bu bilgiyi kullanarak işlem stratejisini güncel piyasa trendleriyle uyumlu kalacak biçimde günceller.",
+        "why": "Fiyatların hızla değişebildiği kripto para dünyasında piyasa koşullarını gerçek zamanlı kavramak zorunludur. Ncore 3.0'ın piyasa gelişmelerine hızla yanıt verme yeteneği, yatırımcıların bilinçli kararlar almasına ve kârlı işlem şansını en üst düzeye çıkarmasına imkân tanır."
       },
       {
         "title": "Dinamik Gas Ücreti Optimizasyonu",
-        "how": "Ncore 2.0, ağ yoğunluğunu akıllıca değerlendirir ve işlemlerinin zamanında yürütülmek üzere önceliklendirilmesi için ödenmesi gereken uygun gas ücretini belirler. Ağ yoğunsa Ncore 2.0, işlemin hızla işlenmesi için gas ücretini bir miktar artırır. Ağ rahatsa gereksiz maliyetten kaçınmak üzere gas ücretini düşürür.",
-        "why": "Gas ücretleri blokzincir ağındaki hareketliliğe göre önemli ölçüde değişebilir ve gas için fazla ödemek olası kârı aşındırır. Ncore 2.0'ın dinamik optimizasyonu, hızlı yürütmeyi güvence altına alırken kullanıcıların kaynak israf etmemesini sağlar; böylece maliyet ile hız arasında kusursuz bir denge kurulur."
+        "how": "Ncore 3.0, ağ yoğunluğunu akıllıca değerlendirir ve işlemlerinin zamanında yürütülmek üzere önceliklendirilmesi için ödenmesi gereken uygun gas ücretini belirler. Ağ yoğunsa Ncore 3.0, işlemin hızla işlenmesi için gas ücretini bir miktar artırır. Ağ rahatsa gereksiz maliyetten kaçınmak üzere gas ücretini düşürür.",
+        "why": "Gas ücretleri blokzincir ağındaki hareketliliğe göre önemli ölçüde değişebilir ve gas için fazla ödemek olası kârı aşındırır. Ncore 3.0'ın dinamik optimizasyonu, hızlı yürütmeyi güvence altına alırken kullanıcıların kaynak israf etmemesini sağlar; böylece maliyet ile hız arasında kusursuz bir denge kurulur."
       },
       {
         "title": "Platformlar Arası Uyumluluk",
-        "how": "Ncore 2.0 tek bir blokzincir ya da borsayla sınırlı değildir; Ethereum, Binance Smart Chain ve diğerleri dâhil olmak üzere birden fazla platformda çalışacak biçimde yapılandırılabilir. Bu platformlar arası uyumluluk, yatırımcıların farklı ekosistemlerde işlem yapmasını ve farklı piyasa koşullarından yararlanmasını sağlar.",
-        "why": "Birden fazla platformda işlem yapabilme sayesinde Ncore 2.0 kullanıcıları portföylerini farklı blokzincir ağlarına yayabilir. Bu da tek bir ağa maruziyeti azaltır, işlem stratejilerinin dayanıklılığını artırır ve farklı piyasalarda ek kâr fırsatları açar."
+        "how": "Ncore 3.0 tek bir blokzincir ya da borsayla sınırlı değildir; Ethereum, Binance Smart Chain ve diğerleri dâhil olmak üzere birden fazla platformda çalışacak biçimde yapılandırılabilir. Bu platformlar arası uyumluluk, yatırımcıların farklı ekosistemlerde işlem yapmasını ve farklı piyasa koşullarından yararlanmasını sağlar.",
+        "why": "Birden fazla platformda işlem yapabilme sayesinde Ncore 3.0 kullanıcıları portföylerini farklı blokzincir ağlarına yayabilir. Bu da tek bir ağa maruziyeti azaltır, işlem stratejilerinin dayanıklılığını artırır ve farklı piyasalarda ek kâr fırsatları açar."
       },
       {
         "title": "Kapsamlı Risk Yönetimi",
-        "how": "Ncore 2.0, kullanıcıların zarar durdurma seviyeleri gibi önceden tanımlı risk eşikleri belirlemesine imkân tanır; bu eşikler belirli koşullar oluştuğunda (örneğin bir kripto paranın fiyatı belirli bir seviyenin altına düştüğünde) otomatik olarak devreye girer. Ayrıca Ncore 2.0, botun performansını izleyen ve kullanıcıların stratejilerinin etkinliğini değerlendirmesine yardımcı olan gerçek zamanlı analitik sunar.",
-        "why": "Kripto para piyasası dalgalıdır ve yatırımları büyük kayıplardan korumak önemlidir. Ncore 2.0'ın risk yönetimi araçlarıyla yatırımcılar maruziyetlerini azaltabilir ve sermayelerini güvence altına alabilir; bu da güvenle ve emniyetle işlem yapmayı kolaylaştırır."
+        "how": "Ncore 3.0, kullanıcıların zarar durdurma seviyeleri gibi önceden tanımlı risk eşikleri belirlemesine imkân tanır; bu eşikler belirli koşullar oluştuğunda (örneğin bir kripto paranın fiyatı belirli bir seviyenin altına düştüğünde) otomatik olarak devreye girer. Ayrıca Ncore 3.0, botun performansını izleyen ve kullanıcıların stratejilerinin etkinliğini değerlendirmesine yardımcı olan gerçek zamanlı analitik sunar.",
+        "why": "Kripto para piyasası dalgalıdır ve yatırımları büyük kayıplardan korumak önemlidir. Ncore 3.0'ın risk yönetimi araçlarıyla yatırımcılar maruziyetlerini azaltabilir ve sermayelerini güvence altına alabilir; bu da güvenle ve emniyetle işlem yapmayı kolaylaştırır."
       },
       {
         "title": "Kullanıcı Dostu Arayüz",
         "how": "Kullanıcı arayüzü; işlem etkinliğinin görüntülenebildiği, parametrelerin belirlenebildiği ve performans metriklerinin gerçek zamanlı izlenebildiği sade ve düzenli bir yerleşim sunar. Gösterge paneli, işlem stratejilerini kurma ve özelleştirme, riski yönetme ve geçmiş işlemleri inceleme araçlarını içerir.",
-        "why": "Kullanıcı dostu bir arayüz, her deneyim seviyesinden yatırımcının kripto para işlemlerinin karmaşıklığında yolunu bulmasına yardımcı olur. İster yeni başlayan ister algoritmik işlemde deneyimli olsun, Ncore 2.0'ın sezgisel tasarımı kullanıcıların işlemlerini kolayca izlemesine ve gerektiğinde düzenleme yapmasına imkân tanır."
+        "why": "Kullanıcı dostu bir arayüz, her deneyim seviyesinden yatırımcının kripto para işlemlerinin karmaşıklığında yolunu bulmasına yardımcı olur. İster yeni başlayan ister algoritmik işlemde deneyimli olsun, Ncore 3.0'ın sezgisel tasarımı kullanıcıların işlemlerini kolayca izlemesine ve gerektiğinde düzenleme yapmasına imkân tanır."
       },
       {
         "title": "Gelişmiş Strateji Özelleştirme",
-        "how": "Kullanıcılar; işlem yürütme kuralları, işlem hassasiyeti ve zamanlama gibi parametreleri kendi işlem tarzlarına göre ayarlayabilir. Ncore 2.0, performansı en üst düzeye çıkarmak ve botun kullanıcıların hedefleriyle uyumlu davranmasını sağlamak için stratejilerin ince ayarına imkân tanır.",
-        "why": "Her yatırımcının hedefi ya da risk toleransı aynı değildir. Ncore 2.0'ın strateji özelleştirme yeteneği; güvenliği önceleyen ihtiyatlı yaklaşımlardan yüksek getiriye odaklı daha agresif stratejilere kadar geniş bir işlem tarzı yelpazesine uyum sağlayabildiği anlamına gelir."
+        "how": "Kullanıcılar; işlem yürütme kuralları, işlem hassasiyeti ve zamanlama gibi parametreleri kendi işlem tarzlarına göre ayarlayabilir. Ncore 3.0, performansı en üst düzeye çıkarmak ve botun kullanıcıların hedefleriyle uyumlu davranmasını sağlamak için stratejilerin ince ayarına imkân tanır.",
+        "why": "Her yatırımcının hedefi ya da risk toleransı aynı değildir. Ncore 3.0'ın strateji özelleştirme yeteneği; güvenliği önceleyen ihtiyatlı yaklaşımlardan yüksek getiriye odaklı daha agresif stratejilere kadar geniş bir işlem tarzı yelpazesine uyum sağlayabildiği anlamına gelir."
       },
       {
         "title": "Geriye Dönük Test Yetenekleri",
-        "how": "Kullanıcılar istedikleri strateji parametrelerini Ncore 2.0'a girebilir ve geçmiş piyasa verilerini kullanarak stratejinin önceki işlem dönemlerindeki performansını test edebilir. Bot ardından stratejinin o koşullarda nasıl bir sonuç vereceğini gösteren raporlar üretir.",
+        "how": "Kullanıcılar istedikleri strateji parametrelerini Ncore 3.0'a girebilir ve geçmiş piyasa verilerini kullanarak stratejinin önceki işlem dönemlerindeki performansını test edebilir. Bot ardından stratejinin o koşullarda nasıl bir sonuç vereceğini gösteren raporlar üretir.",
         "why": "Geriye dönük test, gerçek sermaye riske atılmadan bir stratejinin başarı potansiyeline dair değerli içgörüler sunar. Kullanıcıların yaklaşımlarını iyileştirmesine, riskleri anlamasına ve canlıya geçmeden önce daha bilinçli kararlar almasına yardımcı olur."
       },
       {
         "title": "Yapay Zekâ Destekli Öngörücü Analitik",
-        "how": "Ncore 2.0, geçmiş ve gerçek zamanlı piyasa verilerini işlemek için gelişmiş makine öğrenimi algoritmaları kullanacak. Bu veriler, gelecekteki fiyat değişimlerini öngörmekte kullanılabilecek örüntü ve trendleri tespit etmek üzere analiz edilecek; böylece bot zaman içinde işlem stratejilerini uyarlayıp optimize edebilecek.",
-        "why": "Yapay zekâ destekli analitik, Ncore 2.0'ın geçmiş işlemlerden öğrenerek ve değişen piyasa koşullarına uyum sağlayarak işlem stratejilerini sürekli geliştirmesine imkân tanıyacak. Bu da daha akıllı işlem kararları ve daha verimli risk yönetimi anlamına gelecek."
+        "how": "Ncore 3.0, geçmiş ve gerçek zamanlı piyasa verilerini işlemek için gelişmiş makine öğrenimi algoritmaları kullanacak. Bu veriler, gelecekteki fiyat değişimlerini öngörmekte kullanılabilecek örüntü ve trendleri tespit etmek üzere analiz edilecek; böylece bot zaman içinde işlem stratejilerini uyarlayıp optimize edebilecek.",
+        "why": "Yapay zekâ destekli analitik, Ncore 3.0'ın geçmiş işlemlerden öğrenerek ve değişen piyasa koşullarına uyum sağlayarak işlem stratejilerini sürekli geliştirmesine imkân tanıyacak. Bu da daha akıllı işlem kararları ve daha verimli risk yönetimi anlamına gelecek."
       },
       {
         "title": "Güvenli ve Şeffaf Operasyon",
-        "how": "Ncore 2.0; kişisel bilgiler ve işlem ayrıntıları dâhil olmak üzere hassas verileri korumak için sektör standardı şifreleme kullanır. Ayrıca tüm işlemlerin ve performans metriklerinin ayrıntılı kayıtlarını sunar; kullanıcılar botun faaliyetlerini doğrulamak için bu kayıtlara istedikleri an erişebilir.",
-        "why": "Kripto para alanında güvenlik ve şeffaflık kritik önemdedir. Kullanıcıların verilerinin ve fonlarının güvende olduğuna güvenmesi gerekir. Ncore 2.0'ın güvenlik protokolleri, şeffaflık özellikleriyle birlikte kullanıcıların işlemlerinin güvenli ve performanslarının görünür olduğunu bilerek güvenle işlem yapmasını sağlar."
+        "how": "Ncore 3.0; kişisel bilgiler ve işlem ayrıntıları dâhil olmak üzere hassas verileri korumak için sektör standardı şifreleme kullanır. Ayrıca tüm işlemlerin ve performans metriklerinin ayrıntılı kayıtlarını sunar; kullanıcılar botun faaliyetlerini doğrulamak için bu kayıtlara istedikleri an erişebilir.",
+        "why": "Kripto para alanında güvenlik ve şeffaflık kritik önemdedir. Kullanıcıların verilerinin ve fonlarının güvende olduğuna güvenmesi gerekir. Ncore 3.0'ın güvenlik protokolleri, şeffaflık özellikleriyle birlikte kullanıcıların işlemlerinin güvenli ve performanslarının görünür olduğunu bilerek güvenle işlem yapmasını sağlar."
       },
       {
         "title": "7/24 Operasyonel Verimlilik",
-        "how": "Ncore 2.0 gün boyu kesintisiz ve özerk biçimde çalışır; blokzincir ağlarını analiz eder ve işlemleri gerçek zamanlı yürütür. Bu da yatırımcılar piyasaları aktif olarak izlemediğinde bile Ncore 2.0'ın ortaya çıkan fırsatları değerlendirmeye her an hazır olduğu anlamına gelir.",
-        "why": "Kripto para piyasaları öngörülemez ve hızlı hareket eder; üstelik geleneksel işlem saatlerinin dışında bile. Ncore 2.0'ın 7/24 verimliliği, yatırımcıların fırsatları kaçırmamasını ve işlemlerinin ne zaman ortaya çıkarsa çıksın gecikmeden yürütülmesini güvence altına alır."
+        "how": "Ncore 3.0 gün boyu kesintisiz ve özerk biçimde çalışır; blokzincir ağlarını analiz eder ve işlemleri gerçek zamanlı yürütür. Bu da yatırımcılar piyasaları aktif olarak izlemediğinde bile Ncore 3.0'ın ortaya çıkan fırsatları değerlendirmeye her an hazır olduğu anlamına gelir.",
+        "why": "Kripto para piyasaları öngörülemez ve hızlı hareket eder; üstelik geleneksel işlem saatlerinin dışında bile. Ncore 3.0'ın 7/24 verimliliği, yatırımcıların fırsatları kaçırmamasını ve işlemlerinin ne zaman ortaya çıkarsa çıksın gecikmeden yürütülmesini güvence altına alır."
       },
       {
         "title": "Topluluk Katılımı ve Destek",
-        "how": "Ncore 2.0 kullanıcıları topluluk forumlarında diğer kullanıcılarla etkileşime geçebilir ya da müşteri hizmetleri kanallarından doğrudan destek alabilir. İster işlem stratejilerini optimize etmek ister sorun gidermek olsun, kullanıcılar ihtiyaç duydukları anda faydalı kaynaklara ve desteğe ulaşabilir.",
-        "why": "Güçlü ve destekleyici bir topluluk, yatırımcıların öğrenmesine ve gelişmesine yardımcı olur. Ncore 2.0'ın topluluk katılımına ve müşteri desteğine verdiği önem, kullanıcıların başarıya ulaşmak için ihtiyaç duydukları desteğe her zaman sahip olmasını sağlar."
+        "how": "Ncore 3.0 kullanıcıları topluluk forumlarında diğer kullanıcılarla etkileşime geçebilir ya da müşteri hizmetleri kanallarından doğrudan destek alabilir. İster işlem stratejilerini optimize etmek ister sorun gidermek olsun, kullanıcılar ihtiyaç duydukları anda faydalı kaynaklara ve desteğe ulaşabilir.",
+        "why": "Güçlü ve destekleyici bir topluluk, yatırımcıların öğrenmesine ve gelişmesine yardımcı olur. Ncore 3.0'ın topluluk katılımına ve müşteri desteğine verdiği önem, kullanıcıların başarıya ulaşmak için ihtiyaç duydukları desteğe her zaman sahip olmasını sağlar."
       }
     ],
-    "conclusion": "Bu güçlü özellikleri bir araya getiren Ncore 2.0; kripto para yatırımcılarına kârı en üst düzeye çıkarmak, riskleri yönetmek ve sürekli değişen piyasalara uyum sağlamak için kapsamlı, güvenli ve özelleştirilebilir bir çözüm sunar. İster yeni başlayan ister deneyimli bir profesyonel olun, Ncore 2.0 kripto para dünyasında daha akıllı ve daha etkili işlem yapmanızı sağlar.",
+    "conclusion": "Bu güçlü özellikleri bir araya getiren Ncore 3.0; kripto para yatırımcılarına kârı en üst düzeye çıkarmak, riskleri yönetmek ve sürekli değişen piyasalara uyum sağlamak için kapsamlı, güvenli ve özelleştirilebilir bir çözüm sunar. İster yeni başlayan ister deneyimli bir profesyonel olun, Ncore 3.0 kripto para dünyasında daha akıllı ve daha etkili işlem yapmanızı sağlar.",
     "footNav": {
       "prev": "İşlem Mantığı",
       "next": "Piyasa Trendlerine Devam Edin"
@@ -663,66 +663,66 @@
   },
   "TRENDS_PAGE": {
     "title": "Piyasa Trendleri",
-    "subtitle": "Ncore 2.0'ı Etkileyen Piyasa Trendleri",
-    "intro": "Kripto para dünyası hızla evriliyor ve Ncore 2.0, işlem fırsatlarını ve stratejilerini şekillendiren başlıca piyasa trendlerinden yararlanarak bir adım önde kalacak biçimde tasarlandı. Aşağıda bu trendlerin Ncore 2.0'ın kullanımını ve yeteneklerini nasıl etkilediğine dair daha ayrıntılı bilgiler yer alıyor.",
+    "subtitle": "Ncore 3.0'ı Etkileyen Piyasa Trendleri",
+    "intro": "Kripto para dünyası hızla evriliyor ve Ncore 3.0, işlem fırsatlarını ve stratejilerini şekillendiren başlıca piyasa trendlerinden yararlanarak bir adım önde kalacak biçimde tasarlandı. Aşağıda bu trendlerin Ncore 3.0'ın kullanımını ve yeteneklerini nasıl etkilediğine dair daha ayrıntılı bilgiler yer alıyor.",
     "trends": [
       {
         "title": "Merkeziyetsiz Finansın (DeFi) Yükselişi",
-        "impact": "DeFi platformları yatırımcılara merkeziyetsiz ve açık bir piyasa sunar; bu da volatiliteyi artırır ve merkezi borsalar (CEX) ile merkeziyetsiz borsalar (DEX) arasında arbitraj fırsatları yaratır. Ncore 2.0, bu farklardan gerçek zamanlı yararlanmak üzere tasarlanmıştır ve kullanıcıların her iki platform türünde de verimli işlem yapmasını sağlar.",
-        "advantage": "DeFi platform ve protokolleriyle kesintisiz etkileşim kuran Ncore 2.0, kullanıcıların arbitraj fırsatlarından yararlanmasını ve işlemlerini azami kârlılık için optimize etmesini sağlar. İster zincirler arası likidite ister fiyat farkları olsun, Ncore 2.0 kullanıcıların DeFi ekosistemlerinin karmaşıklığında yol almasına yardımcı olur ve merkeziyetsiz ortamlarda zorlanan geleneksel işlem botlarına karşı üstünlük kazandırır."
+        "impact": "DeFi platformları yatırımcılara merkeziyetsiz ve açık bir piyasa sunar; bu da volatiliteyi artırır ve merkezi borsalar (CEX) ile merkeziyetsiz borsalar (DEX) arasında arbitraj fırsatları yaratır. Ncore 3.0, bu farklardan gerçek zamanlı yararlanmak üzere tasarlanmıştır ve kullanıcıların her iki platform türünde de verimli işlem yapmasını sağlar.",
+        "advantage": "DeFi platform ve protokolleriyle kesintisiz etkileşim kuran Ncore 3.0, kullanıcıların arbitraj fırsatlarından yararlanmasını ve işlemlerini azami kârlılık için optimize etmesini sağlar. İster zincirler arası likidite ister fiyat farkları olsun, Ncore 3.0 kullanıcıların DeFi ekosistemlerinin karmaşıklığında yol almasına yardımcı olur ve merkeziyetsiz ortamlarda zorlanan geleneksel işlem botlarına karşı üstünlük kazandırır."
       },
       {
         "title": "Artan Kurumsal Katılım",
         "impact": "Kurumsal yatırımcılar; daha yüksek hacimleri kaldırabilen, riskleri azaltan ve uyumu güvence altına alan gelişmiş işlem çözümleri talep eder. Bu nedenle söz konusu yatırımcılar çoğu zaman yalnızca hız sunan değil, aynı zamanda piyasa tahmin isabetini artıran ve kapsamlı risk yönetimine imkân tanıyan işlem araçlarına ihtiyaç duyar.",
-        "advantage": "Ncore 2.0, büyük emirleri asgari kaymayla yönetebilen gelişmiş bir işlem ortamı sunar. Gerçek zamanlı risk yönetimi, dinamik gas ücreti optimizasyonu ve ileri düzey algoritmik stratejiler gibi özellikleriyle Ncore 2.0, kurumsal yatırımcıların ihtiyaç duyduğu hassasiyeti ve uyum yeteneğini sağlar. Hem merkezi hem merkeziyetsiz piyasaların karmaşıklığında rahatça yol almak için güvenilir bir platform sunar."
+        "advantage": "Ncore 3.0, büyük emirleri asgari kaymayla yönetebilen gelişmiş bir işlem ortamı sunar. Gerçek zamanlı risk yönetimi, dinamik gas ücreti optimizasyonu ve ileri düzey algoritmik stratejiler gibi özellikleriyle Ncore 3.0, kurumsal yatırımcıların ihtiyaç duyduğu hassasiyeti ve uyum yeteneğini sağlar. Hem merkezi hem merkeziyetsiz piyasaların karmaşıklığında rahatça yol almak için güvenilir bir platform sunar."
       },
       {
         "title": "Blokzincir Teknolojisindeki İlerlemeler",
         "impact": "Blokzincir platformları evrildikçe yeni protokoller ve özellikler ortaya çıkıyor; bu da işlem hızında, ölçeklenebilirlikte ve maliyette iyileşme getiriyor. Yatırımcıların rekabetçi kalabilmek için bu yeni teknolojilerle entegre olabilen araçlara ihtiyacı var.",
-        "advantage": "Ncore 2.0, yeni blokzincir protokollerine ve teknolojilerine uyum sağlayacak biçimde tasarlandı. Örneğin Layer 2 çözümleri yaygınlaştıkça Ncore 2.0, daha hızlı işlem işleme ve daha düşük ücret sunmak için bu platformlarla kesintisiz entegre olacak. Bu esneklik, kullanıcıların uyumluluk sorunlarını düşünmeden en yeni blokzincir gelişmelerinden tam olarak yararlanmasına imkân tanır."
+        "advantage": "Ncore 3.0, yeni blokzincir protokollerine ve teknolojilerine uyum sağlayacak biçimde tasarlandı. Örneğin Layer 2 çözümleri yaygınlaştıkça Ncore 3.0, daha hızlı işlem işleme ve daha düşük ücret sunmak için bu platformlarla kesintisiz entegre olacak. Bu esneklik, kullanıcıların uyumluluk sorunlarını düşünmeden en yeni blokzincir gelişmelerinden tam olarak yararlanmasına imkân tanır."
       },
       {
         "title": "Yükselen İşlem Ücretleri ve Ağ Yoğunluğu",
         "impact": "Yüksek ücretler ve ağ yoğunluğu işlemlerin hızla yürütülmesini zorlaştırabilir; bu da kaçırılan fırsatlara ya da daha yüksek işlem maliyetlerine yol açar. Bu durum özellikle yüksek ücret ödeyecek kaynağa sahip olmayan küçük yatırımcıları etkileyebilir.",
-        "advantage": "Ncore 2.0'ın dinamik gas ücreti optimizasyonu, ağın yoğun olduğu dönemlerde bile işlemlerin zamanında yürütülmesini güvence altına alır. İşlem ücretlerini stratejik biçimde ayarlayan ve öngörücü analitikten yararlanan Ncore 2.0, işlemlerin hızlı, verimli ve maliyet etkin biçimde yürütülmesini sağlayarak dalgalı ortamlarda kârlılığı en üst düzeye çıkarır."
+        "advantage": "Ncore 3.0'ın dinamik gas ücreti optimizasyonu, ağın yoğun olduğu dönemlerde bile işlemlerin zamanında yürütülmesini güvence altına alır. İşlem ücretlerini stratejik biçimde ayarlayan ve öngörücü analitikten yararlanan Ncore 3.0, işlemlerin hızlı, verimli ve maliyet etkin biçimde yürütülmesini sağlayarak dalgalı ortamlarda kârlılığı en üst düzeye çıkarır."
       },
       {
         "title": "Düzenleyici Gelişmeler",
         "impact": "Evrilen düzenleme ortamı, yatırımcılar ve kurumlar için hem fırsat hem zorluk yaratır. Düzenleyiciler kripto piyasası katılımcıları için daha net çerçevelere yöneldikçe uyumlu kalmak giderek karmaşıklaşıyor. Bu düzenlemeler, özellikle hızla değiştiklerinde belirsizlik getirebilir ve uyumsuzluk riski doğurabilir.",
-        "advantage": "Sürekli evrilen bu düzenleme ortamında Ncore 2.0, değişikliklerin önünde kalmak için gereken araçları sunar. Özünde şeffaflık ve güvenlikle inşa edilmiştir; böylece kullanıcılar düzenleyici değişimlerde güvenle yol alabilir. Ayrıntılı işlem kayıtları ve performans raporları dâhil olmak üzere Ncore 2.0'ın özellikleri tam şeffaflık sağlar ve kullanıcılara gerektiğinde uyumu belgelemek için güvenilir bir yol sunar. Yeni düzenlemelere sorunsuz uyum sağlayan Ncore 2.0, kullanıcıların uyumlu kalırken verimli işlem yapmayı sürdürmesini güvence altına alır."
+        "advantage": "Sürekli evrilen bu düzenleme ortamında Ncore 3.0, değişikliklerin önünde kalmak için gereken araçları sunar. Özünde şeffaflık ve güvenlikle inşa edilmiştir; böylece kullanıcılar düzenleyici değişimlerde güvenle yol alabilir. Ayrıntılı işlem kayıtları ve performans raporları dâhil olmak üzere Ncore 3.0'ın özellikleri tam şeffaflık sağlar ve kullanıcılara gerektiğinde uyumu belgelemek için güvenilir bir yol sunar. Yeni düzenlemelere sorunsuz uyum sağlayan Ncore 3.0, kullanıcıların uyumlu kalırken verimli işlem yapmayı sürdürmesini güvence altına alır."
       },
       {
         "title": "Piyasa Volatilitesi",
         "impact": "Kripto alanındaki volatilite hem ciddi kâr fırsatları hem de artan riskler sunar. Yatırımcıların, kârı en üst düzeye çıkarırken olası kayıpları yönetmek için fiyat trendlerini hızla tespit edip işlemleri en uygun anda yürütebilen araçlara ihtiyacı var.",
-        "advantage": "Ncore 2.0'ın gelişmiş front-run algoritmaları ve gerçek zamanlı piyasa izlemesi, piyasa dalgalanmalarını anında tespit edip değerlendirmesini sağlar. Piyasa hareketlerinin önünde kalan ve stratejilerini gerçek zamanlı ayarlayan Ncore 2.0, yatırımcıların ani düşüş ya da sıçramalara yakalanmadan dalgalı koşullardan yararlanma kabiliyetini güçlendirir."
+        "advantage": "Ncore 3.0'ın gelişmiş front-run algoritmaları ve gerçek zamanlı piyasa izlemesi, piyasa dalgalanmalarını anında tespit edip değerlendirmesini sağlar. Piyasa hareketlerinin önünde kalan ve stratejilerini gerçek zamanlı ayarlayan Ncore 3.0, yatırımcıların ani düşüş ya da sıçramalara yakalanmadan dalgalı koşullardan yararlanma kabiliyetini güçlendirir."
       },
       {
         "title": "Layer 2 Çözümlerinin Ortaya Çıkışı",
         "impact": "Layer 2 çözümlerinin işlem maliyetlerini düşürmede ve ölçeklenebilirliği artırmada büyük rol oynaması bekleniyor. Yatırımcılar açısından bu, daha düşük ücretle ve daha kısa işlem süreleriyle işlem yapmak için benzersiz bir fırsat anlamına geliyor.",
-        "advantage": "Layer 2 teknolojileri ivme kazanmayı sürdürürken Ncore 2.0, kullanıcılara daha hızlı ve daha ucuz işlem yürütmesi sunmak için bu yeni platformlarla entegre olacak biçimde tasarlandı. Bu teknolojileri erkenden benimseyen Ncore 2.0, kullanıcılarının Layer 2 çözümlerinin sunduğu avantajlardan tam olarak yararlanacak konumda olmasını sağlar."
+        "advantage": "Layer 2 teknolojileri ivme kazanmayı sürdürürken Ncore 3.0, kullanıcılara daha hızlı ve daha ucuz işlem yürütmesi sunmak için bu yeni platformlarla entegre olacak biçimde tasarlandı. Bu teknolojileri erkenden benimseyen Ncore 3.0, kullanıcılarının Layer 2 çözümlerinin sunduğu avantajlardan tam olarak yararlanacak konumda olmasını sağlar."
       },
       {
         "title": "İşlemlerde Yapay Zekâ (AI) Entegrasyonu",
         "impact": "Yapay zekâ destekli işlem botları piyasa koşullarına gerçek zamanlı uyum sağlayabilir ve sürekli veri analizine dayanarak stratejilerini iyileştirebilir. Bu uyum yeteneği, hızlı karar almanın kârlılığı önemli ölçüde etkilediği dalgalı kripto piyasasında kritik önemdedir.",
-        "advantage": "Gelişmiş yapay zekâ algoritmalarını entegre eden Ncore 2.0, piyasa analizini ve işlem yürütmesini güçlendirir. Gerçek zamanlı veriyi işleme ve stratejileri dinamik olarak ayarlama yeteneği, kullanıcıların hızlı tempolu işlem ortamlarında rekabet üstünlüğünü korumasına imkân tanır."
+        "advantage": "Gelişmiş yapay zekâ algoritmalarını entegre eden Ncore 3.0, piyasa analizini ve işlem yürütmesini güçlendirir. Gerçek zamanlı veriyi işleme ve stratejileri dinamik olarak ayarlama yeteneği, kullanıcıların hızlı tempolu işlem ortamlarında rekabet üstünlüğünü korumasına imkân tanır."
       },
       {
         "title": "Gerçek Dünya Varlıklarının (RWA) Tokenleştirilmesi",
         "impact": "Gayrimenkul, sanat eseri ya da emtia gibi varlıkların tokenleştirilmesi yeni piyasalar ve yatırım fırsatları açar; bölünmüş mülkiyetin işlem görmesini kolaylaştırır ve likiditeyi artırır.",
-        "advantage": "Ncore 2.0'ın uyum yeteneği, çeşitli tokenleştirilmiş varlıklarla çalışmasına imkân tanır; bu da kullanıcılara çeşitlendirilmiş işlem seçenekleri ve kripto alanında ortaya çıkan piyasalardan yararlanma imkânı sunar."
+        "advantage": "Ncore 3.0'ın uyum yeteneği, çeşitli tokenleştirilmiş varlıklarla çalışmasına imkân tanır; bu da kullanıcılara çeşitlendirilmiş işlem seçenekleri ve kripto alanında ortaya çıkan piyasalardan yararlanma imkânı sunar."
       },
       {
         "title": "Yeni Finansal Ürün ve Hizmetlerin Ortaya Çıkışı",
         "impact": "Yeni finansal araçlar çeşitli yatırım fırsatları sunar ve piyasa dinamiklerini etkileyebilir; yatırımcılara ek kâr kanalları açar.",
-        "advantage": "Ncore 2.0'ın çeşitli finansal ürünlere uyum sağlama yeteneği, kullanıcıların bu yeni araçları etkin biçimde kullanmasını ve getiriyi en üst düzeye çıkarmak için işlem stratejilerine dâhil etmesini sağlar."
+        "advantage": "Ncore 3.0'ın çeşitli finansal ürünlere uyum sağlama yeteneği, kullanıcıların bu yeni araçları etkin biçimde kullanmasını ve getiriyi en üst düzeye çıkarmak için işlem stratejilerine dâhil etmesini sağlar."
       },
       {
         "title": "Geleneksel Finansta Blokzincir Teknolojisi Entegrasyonu",
         "impact": "Blokzincir teknolojisi bankacılık ve finansal hizmetlere giderek daha derin biçimde yerleşiyor; daha hızlı işlem, artan şeffaflık ve yeni yetenekler sağlıyor.",
-        "advantage": "Ncore 2.0'ın tasarımı, çeşitli blokzincir protokolleriyle kesintisiz entegrasyona imkân tanır; böylece kullanıcılar verimli ve güvenli işlem için blokzincir teknolojisindeki en yeni gelişmelerden yararlanabilir."
+        "advantage": "Ncore 3.0'ın tasarımı, çeşitli blokzincir protokolleriyle kesintisiz entegrasyona imkân tanır; böylece kullanıcılar verimli ve güvenli işlem için blokzincir teknolojisindeki en yeni gelişmelerden yararlanabilir."
       }
     ],
-    "conclusion": "Ncore 2.0; kripto para yatırımcılarına gelişmiş, uyum sağlayabilen ve güvenilir bir çözüm sunarak bu dinamik piyasa trendlerinden yararlanacak konumdadır. Yeni teknolojilere ve piyasa gelişmelerine ayak uydurmak üzere sürekli evrilen Ncore 2.0, kullanıcıların hızlı tempolu ve sürekli değişen kripto dünyasında rekabetçi kalmasını güvence altına alır. Gelişmiş özellikleri, öngörü yetenekleri ve piyasaya uyum kabiliyetiyle Ncore 2.0, en dalgalı koşullarda bile kârlılığı en üst düzeye çıkarmak ve riski asgariye indirmek üzere tasarlanmıştır.",
+    "conclusion": "Ncore 3.0; kripto para yatırımcılarına gelişmiş, uyum sağlayabilen ve güvenilir bir çözüm sunarak bu dinamik piyasa trendlerinden yararlanacak konumdadır. Yeni teknolojilere ve piyasa gelişmelerine ayak uydurmak üzere sürekli evrilen Ncore 3.0, kullanıcıların hızlı tempolu ve sürekli değişen kripto dünyasında rekabetçi kalmasını güvence altına alır. Gelişmiş özellikleri, öngörü yetenekleri ve piyasaya uyum kabiliyetiyle Ncore 3.0, en dalgalı koşullarda bile kârlılığı en üst düzeye çıkarmak ve riski asgariye indirmek üzere tasarlanmıştır.",
     "footNav": {
       "prev": "Özellikler",
       "next": "Ncore X"

@@ -21,7 +21,7 @@
       "label": "Productos",
       "children": [
         {
-          "label": "Ncore 2.0"
+          "label": "Ncore 3.0"
         },
         {
           "label": "Conceptos básicos"
@@ -84,9 +84,9 @@
     "body": "Una hoja de ruta a largo plazo que traza la evolución de Naslab: de los sistemas de trading automatizado a una infraestructura global y escalable de finanzas digitales.",
     "cta": "VER HOJA DE RUTA ESTRATÉGICA"
   },
-  "S5_NCORE_2": {
-    "kicker": "03 · MOTOR MEV PREDICTIVO — Ncore 2.0",
-    "h2": "Ncore 2.0 — Trading MEV predictivo para mercados DEX",
+  "S5_NCORE_3": {
+    "kicker": "03 · MOTOR MEV PREDICTIVO — Ncore 3.0",
+    "h2": "Ncore 3.0 — Trading MEV predictivo para mercados DEX",
     "body": "Una plataforma de trading MEV centrada en DEX que supervisa la mempool, anticipa las órdenes de gran tamaño y ejecuta con precisión estrategias de front-run y back-run (anticipación y seguimiento de órdenes).",
     "mempoolCard": {
       "title": "FLUJO MEMPOOL",
@@ -117,15 +117,15 @@
       },
       {
         "label": "02 · LÓGICA — Lógica de trading",
-        "body": "Ncore 2.0 es una plataforma de trading MEV centrada en DEX que captura valor de forma sistemática mediante la supervisión de la mempool, la ejecución tipo sándwich y el ordenamiento optimizado de las transacciones, antes de que el mercado reaccione."
+        "body": "Ncore 3.0 es una plataforma de trading MEV centrada en DEX que captura valor de forma sistemática mediante la supervisión de la mempool, la ejecución tipo sándwich y el ordenamiento optimizado de las transacciones, antes de que el mercado reaccione."
       },
       {
         "label": "03 — Características",
-        "body": "Ncore 2.0 es un sistema avanzado de front-running en DEX y trading MEV que combina inteligencia de mempool, ejecución en tiempo real, optimización de Gas y controles de riesgo configurables para capturar de forma continua y segura el valor derivado del orden de las transacciones."
+        "body": "Ncore 3.0 es un sistema avanzado de front-running en DEX y trading MEV que combina inteligencia de mempool, ejecución en tiempo real, optimización de Gas y controles de riesgo configurables para capturar de forma continua y segura el valor derivado del orden de las transacciones."
       },
       {
         "label": "04 — Tendencias de mercado",
-        "body": "Ncore 2.0 está diseñado para capitalizar las grandes tendencias del mercado cripto —el crecimiento de DeFi, la dinámica MEV, la participación institucional, el escalado en Layer 2, el trading impulsado por IA y el alza de la volatilidad— mediante capacidades de trading adaptativas, de baja latencia y optimizadas para la ejecución."
+        "body": "Ncore 3.0 está diseñado para capitalizar las grandes tendencias del mercado cripto —el crecimiento de DeFi, la dinámica MEV, la participación institucional, el escalado en Layer 2, el trading impulsado por IA y el alza de la volatilidad— mediante capacidades de trading adaptativas, de baja latencia y optimizadas para la ejecución."
       }
     ]
   },
@@ -217,11 +217,11 @@
       {
         "period": "2026 Q1 - Q4 — Ampliación de escala y preparación para el mercado",
         "items": [
-          "Expansión internacional de Ncore 2.0",
-          "Pruebas progresivas en vivo de Ncore X",
+          "Ncore 3.0 implementado con éxito",
+          "Lanzamiento de Ncore X — Arbitraje CEX",
           "Escala de trading de ~$5M → ~$50M",
           "Optimización continua de la velocidad de ejecución, el control de costos y la gestión de riesgos",
-          "Usuarios estimados de Ncore 2.0: 100,000"
+          "Usuarios estimados de Ncore 3.0: 100,000"
         ],
         "note": "Previsto — La disponibilidad externa de Ncore X estará sujeta a la estabilidad del sistema, la evaluación de riesgos y las condiciones regulatorias."
       },
@@ -279,7 +279,7 @@
         "title": "PRODUCTOS",
         "links": [
           {
-            "label": "Ncore 2.0"
+            "label": "Ncore 3.0"
           },
           {
             "label": "Ncore X"
@@ -367,7 +367,7 @@
     "title": "Comprensión básica",
     "subtitle": "Fundamentos del blockchain y de la ejecución de operaciones on-chain",
     "lead": "Entender los fundamentos",
-    "leadBody": "Domine los conceptos centrales de la ejecución en blockchain, el ordenamiento de transacciones y la extracción de valor que sostienen las estrategias avanzadas de trading de Ncore 2.0.",
+    "leadBody": "Domine los conceptos centrales de la ejecución en blockchain, el ordenamiento de transacciones y la extracción de valor que sostienen las estrategias avanzadas de trading de Ncore 3.0.",
     "sections": [
       {
         "heading": "El blockchain y la ejecución de operaciones on-chain",
@@ -424,29 +424,29 @@
     "nextChapter": {
       "kicker": "SIGUIENTE CAPÍTULO",
       "heading": "¿Listo para saber más?",
-      "body": "Descubra cómo Ncore 2.0 aprovecha estos fundamentos para ejecutar estrategias MEV avanzadas.",
+      "body": "Descubra cómo Ncore 3.0 aprovecha estos fundamentos para ejecutar estrategias MEV avanzadas.",
       "cta": "Continuar a Lógica de trading"
     }
   },
   "TRADING_PAGE": {
     "title": "Lógica de trading",
-    "subtitle": "Ncore 2.0 — Plataforma de trading MEV centrada en DEX",
+    "subtitle": "Ncore 3.0 — Plataforma de trading MEV centrada en DEX",
     "origins": {
-      "heading": "Orígenes de Ncore 2.0",
-      "body": "Ncore 2.0, desarrollado por Nastech Global, está diseñado específicamente para el ecosistema de exchanges descentralizados (DEX), en rápida evolución. A medida que los activos digitales han ganado relevancia, los sistemas de trading tradicionales tienen dificultades para seguir el ritmo de:",
+      "heading": "Orígenes de Ncore 3.0",
+      "body": "Ncore 3.0, desarrollado por Nastech Global, está diseñado específicamente para el ecosistema de exchanges descentralizados (DEX), en rápida evolución. A medida que los activos digitales han ganado relevancia, los sistemas de trading tradicionales tienen dificultades para seguir el ritmo de:",
       "bullets": [
         "Las fluctuaciones de alta frecuencia de los mercados DeFi",
         "Las órdenes de gran tamaño que cambian con rapidez",
         "Los desafíos de ejecución complejos y en tiempo real"
       ],
-      "closing": "Ncore 2.0 nació como una arquitectura de trading predictivo, capaz de detectar oportunidades de mercado antes de que se produzcan grandes transacciones pendientes o eventos de mercado relevantes."
+      "closing": "Ncore 3.0 nació como una arquitectura de trading predictivo, capaz de detectar oportunidades de mercado antes de que se produzcan grandes transacciones pendientes o eventos de mercado relevantes."
     },
     "sandwich": {
       "heading": "MEV y estrategia sándwich",
       "sub": "Lógica de front-run / back-run",
       "intro": [
         "En las plataformas DEX, cada transacción entra primero en la mempool antes de confirmarse en un bloque. Esto genera oportunidades de MEV (Maximal Extractable Value): se puede capturar valor adicional optimizando el orden de las transacciones.",
-        "La estrategia central de Ncore 2.0 es la estrategia sándwich, también conocida como lógica de front-run/back-run, que sistematiza el MEV y lo convierte en una solución lista para el mercado DEX:"
+        "La estrategia central de Ncore 3.0 es la estrategia sándwich, también conocida como lógica de front-run/back-run, que sistematiza el MEV y lo convierte en una solución lista para el mercado DEX:"
       ],
       "legs": [
         {
@@ -466,10 +466,10 @@
           ]
         }
       ],
-      "closing": "Mediante esta combinación, Ncore 2.0 completa la estrategia sándwich antes de que el mercado en su conjunto reaccione, y asegura para el usuario oportunidades de beneficio anticipadas."
+      "closing": "Mediante esta combinación, Ncore 3.0 completa la estrategia sándwich antes de que el mercado en su conjunto reaccione, y asegura para el usuario oportunidades de beneficio anticipadas."
     },
     "coreFeatures": {
-      "heading": "Funcionalidades centrales de Ncore 2.0",
+      "heading": "Funcionalidades centrales de Ncore 3.0",
       "items": [
         {
           "title": "Supervisión de la Mempool",
@@ -507,7 +507,7 @@
     },
     "productized": {
       "heading": "Valor de producto y beneficios para el cliente",
-      "intro": "Ncore 2.0 empaqueta estrategias sándwich sofisticadas en un producto listo para usar, de modo que el usuario se concentre en los beneficios y no en los detalles técnicos.",
+      "intro": "Ncore 3.0 empaqueta estrategias sándwich sofisticadas en un producto listo para usar, de modo que el usuario se concentre en los beneficios y no en los detalles técnicos.",
       "points": [
         {
           "title": "Trading proactivo",
@@ -532,15 +532,15 @@
       "intro": "En un entorno DEX de alta frecuencia:",
       "steps": [
         "Aparece en la mempool una orden pendiente de gran tamaño",
-        "Ncore 2.0 ejecuta una operación de front-run para posicionarse de forma anticipada",
+        "Ncore 3.0 ejecuta una operación de front-run para posicionarse de forma anticipada",
         "Una vez ejecutada la orden, una operación de back-run cierra el ciclo de beneficio",
         "Las ganancias quedan aseguradas antes de que el mercado reaccione por completo"
       ],
       "closing": "Esta estrategia permite al cliente obtener beneficios predecibles, sistemáticos y controlables en mercados DEX volátiles."
     },
     "devPath": {
-      "heading": "Trayectoria de desarrollo de Ncore 2.0",
-      "intro": "Ncore 2.0 es la culminación de los años de experiencia de Nastech Global en trading automatizado:",
+      "heading": "Trayectoria de desarrollo de Ncore 3.0",
+      "intro": "Ncore 3.0 es la culminación de los años de experiencia de Nastech Global en trading automatizado:",
       "bullets": [
         "En sus inicios ofrecía soluciones a medida para clientes de alto nivel",
         "Evolucionó hacia una arquitectura de trading predictiva y sistematizada a medida que los mercados se volvían más complejos",
@@ -548,7 +548,7 @@
         "Ofrece a usuarios particulares e institucionales capacidades de trading de alta frecuencia y baja latencia"
       ],
       "resultHeading": "El resultado",
-      "resultBody": "Ncore 2.0 es más que un bot de trading: es una solución MEV para DEX convertida en producto, que ayuda al cliente a mantener su ventaja en mercados que evolucionan a gran velocidad."
+      "resultBody": "Ncore 3.0 es más que un bot de trading: es una solución MEV para DEX convertida en producto, que ayuda al cliente a mantener su ventaja en mercados que evolucionan a gran velocidad."
     },
     "highlights": {
       "heading": "Puntos clave",
@@ -579,7 +579,7 @@
       ],
       "closing": [
         "Para cuando el mercado en general reacciona, el cliente ya ha completado sus operaciones y capturado el valor, y se mantiene sistemáticamente por delante.",
-        "¿Listo para liberar todo el potencial de Ncore 2.0 y dar el paso hacia el futuro del trading automatizado? Descubra cómo esta herramienta innovadora puede ayudarle a aprovechar nuevas oportunidades, anticiparse al mercado y realizar operaciones más inteligentes y rentables desde hoy."
+        "¿Listo para liberar todo el potencial de Ncore 3.0 y dar el paso hacia el futuro del trading automatizado? Descubra cómo esta herramienta innovadora puede ayudarle a aprovechar nuevas oportunidades, anticiparse al mercado y realizar operaciones más inteligentes y rentables desde hoy."
       ]
     },
     "footNav": {
@@ -590,72 +590,72 @@
   "FEATURES_PAGE": {
     "title": "Características",
     "intro": [
-      "Ncore 2.0 integra un amplio abanico de funcionalidades avanzadas que otorgan al trader de criptomonedas una ventaja competitiva en el acelerado mundo del trading de activos digitales.",
-      "Estas funcionalidades operan de forma conjunta para optimizar las estrategias de trading, minimizar los riesgos y mejorar la rentabilidad, todo ello con una interfaz intuitiva y fácil de usar. A continuación se detallan las características centrales que distinguen a Ncore 2.0."
+      "Ncore 3.0 integra un amplio abanico de funcionalidades avanzadas que otorgan al trader de criptomonedas una ventaja competitiva en el acelerado mundo del trading de activos digitales.",
+      "Estas funcionalidades operan de forma conjunta para optimizar las estrategias de trading, minimizar los riesgos y mejorar la rentabilidad, todo ello con una interfaz intuitiva y fácil de usar. A continuación se detallan las características centrales que distinguen a Ncore 3.0."
     ],
     "features": [
       {
         "title": "Algoritmos avanzados de front-running",
-        "how": "Al escanear de forma continua la mempool en busca de órdenes de gran tamaño, Ncore 2.0 identifica las transacciones relevantes antes de que se ejecuten, lo que le permite actuar más rápido que el mercado. Cuando una operación de gran volumen está a punto de procesarse, Ncore 2.0 interviene y ejecuta su propia operación en el momento óptimo, antes de que el mercado reaccione a esa orden.",
-        "why": "Los mercados de criptomonedas pueden ser muy volátiles, y las operaciones de gran tamaño suelen provocar oscilaciones de precio. Al anticiparse a esas transacciones, Ncore 2.0 permite al trader capitalizar los cambios de precio antes de que se reflejen por completo en el mercado, lo que amplía el potencial de beneficio."
+        "how": "Al escanear de forma continua la mempool en busca de órdenes de gran tamaño, Ncore 3.0 identifica las transacciones relevantes antes de que se ejecuten, lo que le permite actuar más rápido que el mercado. Cuando una operación de gran volumen está a punto de procesarse, Ncore 3.0 interviene y ejecuta su propia operación en el momento óptimo, antes de que el mercado reaccione a esa orden.",
+        "why": "Los mercados de criptomonedas pueden ser muy volátiles, y las operaciones de gran tamaño suelen provocar oscilaciones de precio. Al anticiparse a esas transacciones, Ncore 3.0 permite al trader capitalizar los cambios de precio antes de que se reflejen por completo en el mercado, lo que amplía el potencial de beneficio."
       },
       {
         "title": "Supervisión del mercado en tiempo real",
-        "how": "Ncore 2.0 recurre a un conjunto de fuentes de datos —entre ellas exchanges descentralizados y datos de transacciones en blockchain— para seguir de forma continua los movimientos del mercado. Esos datos se procesan en tiempo real, lo que permite a Ncore 2.0 reaccionar a los cambios del mercado en el momento en que se producen. El bot utiliza después esa información para ajustar su estrategia de trading y mantenerla alineada con las tendencias vigentes.",
-        "why": "En el mundo de las criptomonedas, donde los precios pueden cambiar con rapidez, comprender las condiciones del mercado en tiempo real resulta esencial. La capacidad de Ncore 2.0 para responder con rapidez a la evolución del mercado permite al trader tomar decisiones informadas y maximizar sus probabilidades de operar con beneficio."
+        "how": "Ncore 3.0 recurre a un conjunto de fuentes de datos —entre ellas exchanges descentralizados y datos de transacciones en blockchain— para seguir de forma continua los movimientos del mercado. Esos datos se procesan en tiempo real, lo que permite a Ncore 3.0 reaccionar a los cambios del mercado en el momento en que se producen. El bot utiliza después esa información para ajustar su estrategia de trading y mantenerla alineada con las tendencias vigentes.",
+        "why": "En el mundo de las criptomonedas, donde los precios pueden cambiar con rapidez, comprender las condiciones del mercado en tiempo real resulta esencial. La capacidad de Ncore 3.0 para responder con rapidez a la evolución del mercado permite al trader tomar decisiones informadas y maximizar sus probabilidades de operar con beneficio."
       },
       {
         "title": "Optimización dinámica de las comisiones de Gas",
-        "how": "Ncore 2.0 evalúa de forma inteligente la congestión de la red y determina la comisión de gas adecuada para asegurar que sus operaciones se prioricen y se ejecuten a tiempo. Si la red está congestionada, Ncore 2.0 eleva ligeramente la comisión de gas para que la transacción se procese con rapidez. Si la red está despejada, la reduce para evitar costos innecesarios.",
-        "why": "Las comisiones de Gas pueden variar de forma notable según la actividad de la red blockchain, y pagar de más por el gas erosiona el beneficio potencial. La optimización dinámica de Ncore 2.0 evita que el usuario desperdicie recursos sin renunciar a una ejecución rápida, con el equilibrio justo entre costo y velocidad."
+        "how": "Ncore 3.0 evalúa de forma inteligente la congestión de la red y determina la comisión de gas adecuada para asegurar que sus operaciones se prioricen y se ejecuten a tiempo. Si la red está congestionada, Ncore 3.0 eleva ligeramente la comisión de gas para que la transacción se procese con rapidez. Si la red está despejada, la reduce para evitar costos innecesarios.",
+        "why": "Las comisiones de Gas pueden variar de forma notable según la actividad de la red blockchain, y pagar de más por el gas erosiona el beneficio potencial. La optimización dinámica de Ncore 3.0 evita que el usuario desperdicie recursos sin renunciar a una ejecución rápida, con el equilibrio justo entre costo y velocidad."
       },
       {
         "title": "Compatibilidad entre plataformas",
-        "how": "Ncore 2.0 no se limita a una única blockchain o exchange: puede configurarse para operar en varias plataformas, entre ellas Ethereum, Binance Smart Chain y otras. Esta compatibilidad entre plataformas permite al trader operar en distintos ecosistemas y aprovechar diferentes condiciones de mercado.",
-        "why": "Al poder operar en múltiples plataformas, el usuario de Ncore 2.0 puede diversificar su cartera entre distintas redes blockchain. Esto reduce la exposición a una sola red, aumenta la resiliencia de las estrategias de trading y abre nuevas oportunidades de beneficio en otros mercados."
+        "how": "Ncore 3.0 no se limita a una única blockchain o exchange: puede configurarse para operar en varias plataformas, entre ellas Ethereum, Binance Smart Chain y otras. Esta compatibilidad entre plataformas permite al trader operar en distintos ecosistemas y aprovechar diferentes condiciones de mercado.",
+        "why": "Al poder operar en múltiples plataformas, el usuario de Ncore 3.0 puede diversificar su cartera entre distintas redes blockchain. Esto reduce la exposición a una sola red, aumenta la resiliencia de las estrategias de trading y abre nuevas oportunidades de beneficio en otros mercados."
       },
       {
         "title": "Gestión integral del riesgo",
-        "how": "Ncore 2.0 permite al usuario fijar umbrales de riesgo predefinidos, como niveles de stop-loss, que se activan de forma automática cuando se cumplen determinadas condiciones (por ejemplo, si el precio de una criptomoneda cae por debajo de cierto nivel). Además, ofrece analítica en tiempo real que da seguimiento al desempeño del bot y ayuda a evaluar la eficacia de cada estrategia.",
-        "why": "El mercado de criptomonedas es volátil y resulta imprescindible proteger la inversión frente a pérdidas significativas. Con las herramientas de gestión de riesgo de Ncore 2.0, el trader puede mitigar su exposición y salvaguardar su capital, lo que facilita operar con confianza y seguridad."
+        "how": "Ncore 3.0 permite al usuario fijar umbrales de riesgo predefinidos, como niveles de stop-loss, que se activan de forma automática cuando se cumplen determinadas condiciones (por ejemplo, si el precio de una criptomoneda cae por debajo de cierto nivel). Además, ofrece analítica en tiempo real que da seguimiento al desempeño del bot y ayuda a evaluar la eficacia de cada estrategia.",
+        "why": "El mercado de criptomonedas es volátil y resulta imprescindible proteger la inversión frente a pérdidas significativas. Con las herramientas de gestión de riesgo de Ncore 3.0, el trader puede mitigar su exposición y salvaguardar su capital, lo que facilita operar con confianza y seguridad."
       },
       {
         "title": "Interfaz fácil de usar",
         "how": "La interfaz presenta una disposición limpia y ordenada, donde el usuario puede consultar la actividad de trading, fijar parámetros y revisar métricas de desempeño en tiempo real. El panel incluye herramientas para configurar y personalizar estrategias de trading, gestionar el riesgo y revisar operaciones pasadas.",
-        "why": "Una interfaz fácil de usar ayuda a traders de cualquier nivel de experiencia a moverse entre las complejidades del trading de criptomonedas. Tanto si el usuario da sus primeros pasos como si domina el trading algorítmico, el diseño intuitivo de Ncore 2.0 le permite supervisar sus operaciones y hacer ajustes con facilidad."
+        "why": "Una interfaz fácil de usar ayuda a traders de cualquier nivel de experiencia a moverse entre las complejidades del trading de criptomonedas. Tanto si el usuario da sus primeros pasos como si domina el trading algorítmico, el diseño intuitivo de Ncore 3.0 le permite supervisar sus operaciones y hacer ajustes con facilidad."
       },
       {
         "title": "Personalización avanzada de estrategias",
-        "how": "El usuario puede ajustar parámetros como las reglas de ejecución, la sensibilidad de las operaciones y su temporización para adaptarlos a su estilo de trading. Ncore 2.0 permite afinar cada estrategia para maximizar el desempeño y asegurar que el bot se comporte conforme a los objetivos del usuario.",
-        "why": "No todos los traders comparten los mismos objetivos ni la misma tolerancia al riesgo. La capacidad de personalización de Ncore 2.0 le permite acomodar estilos de trading muy distintos, desde enfoques conservadores centrados en la seguridad hasta estrategias más agresivas orientadas a rendimientos mayores."
+        "how": "El usuario puede ajustar parámetros como las reglas de ejecución, la sensibilidad de las operaciones y su temporización para adaptarlos a su estilo de trading. Ncore 3.0 permite afinar cada estrategia para maximizar el desempeño y asegurar que el bot se comporte conforme a los objetivos del usuario.",
+        "why": "No todos los traders comparten los mismos objetivos ni la misma tolerancia al riesgo. La capacidad de personalización de Ncore 3.0 le permite acomodar estilos de trading muy distintos, desde enfoques conservadores centrados en la seguridad hasta estrategias más agresivas orientadas a rendimientos mayores."
       },
       {
         "title": "Capacidad de backtesting",
-        "how": "El usuario puede introducir en Ncore 2.0 los parámetros de la estrategia que desee y utilizar datos históricos de mercado para probar su desempeño en periodos de trading anteriores. El bot genera después informes que muestran cómo habría funcionado esa estrategia en dichas condiciones.",
+        "how": "El usuario puede introducir en Ncore 3.0 los parámetros de la estrategia que desee y utilizar datos históricos de mercado para probar su desempeño en periodos de trading anteriores. El bot genera después informes que muestran cómo habría funcionado esa estrategia en dichas condiciones.",
         "why": "El backtesting aporta información valiosa sobre el potencial de éxito de una estrategia sin arriesgar capital real. Ayuda al usuario a refinar sus enfoques, entender los riesgos y tomar decisiones más informadas antes de operar en vivo."
       },
       {
         "title": "Analítica predictiva impulsada por IA",
-        "how": "Ncore 2.0 empleará algoritmos avanzados de aprendizaje automático para procesar datos de mercado históricos y en tiempo real. Ese análisis servirá para detectar patrones y tendencias con los que anticipar los cambios de precio futuros, de modo que el bot pueda adaptar y optimizar sus estrategias de trading con el tiempo.",
-        "why": "La analítica impulsada por IA permitirá a Ncore 2.0 mejorar de forma continua sus estrategias de trading, aprendiendo de las operaciones pasadas y adaptándose a la evolución del mercado. El resultado serán decisiones de trading más inteligentes y una gestión del riesgo más eficiente."
+        "how": "Ncore 3.0 empleará algoritmos avanzados de aprendizaje automático para procesar datos de mercado históricos y en tiempo real. Ese análisis servirá para detectar patrones y tendencias con los que anticipar los cambios de precio futuros, de modo que el bot pueda adaptar y optimizar sus estrategias de trading con el tiempo.",
+        "why": "La analítica impulsada por IA permitirá a Ncore 3.0 mejorar de forma continua sus estrategias de trading, aprendiendo de las operaciones pasadas y adaptándose a la evolución del mercado. El resultado serán decisiones de trading más inteligentes y una gestión del riesgo más eficiente."
       },
       {
         "title": "Operativa segura y transparente",
-        "how": "Ncore 2.0 emplea cifrado de estándar del sector para proteger los datos sensibles, incluidos la información personal y los detalles de las transacciones. Además, ofrece registros detallados de todas las operaciones y métricas de desempeño, accesibles en cualquier momento para verificar la actividad del bot.",
-        "why": "En el ámbito de las criptomonedas, la seguridad y la transparencia son decisivas. El usuario necesita confiar en que sus datos y sus fondos están a salvo. Los protocolos de seguridad de Ncore 2.0, sumados a sus funciones de transparencia, permiten operar con confianza, sabiendo que las transacciones son seguras y que el desempeño es plenamente visible."
+        "how": "Ncore 3.0 emplea cifrado de estándar del sector para proteger los datos sensibles, incluidos la información personal y los detalles de las transacciones. Además, ofrece registros detallados de todas las operaciones y métricas de desempeño, accesibles en cualquier momento para verificar la actividad del bot.",
+        "why": "En el ámbito de las criptomonedas, la seguridad y la transparencia son decisivas. El usuario necesita confiar en que sus datos y sus fondos están a salvo. Los protocolos de seguridad de Ncore 3.0, sumados a sus funciones de transparencia, permiten operar con confianza, sabiendo que las transacciones son seguras y que el desempeño es plenamente visible."
       },
       {
         "title": "Eficiencia operativa 24/7",
-        "how": "Ncore 2.0 opera de forma autónoma las veinticuatro horas, analizando redes blockchain y ejecutando operaciones en tiempo real. Esto significa que, incluso cuando el trader no está siguiendo el mercado de forma activa, Ncore 2.0 está siempre listo para aprovechar las oportunidades que surjan.",
-        "why": "Los mercados de criptomonedas son impredecibles y se mueven deprisa, incluso fuera del horario de negociación tradicional. La eficiencia 24/7 de Ncore 2.0 asegura que el trader no se pierda ninguna oportunidad y que sus operaciones se ejecuten con prontitud, con independencia de cuándo se produzcan."
+        "how": "Ncore 3.0 opera de forma autónoma las veinticuatro horas, analizando redes blockchain y ejecutando operaciones en tiempo real. Esto significa que, incluso cuando el trader no está siguiendo el mercado de forma activa, Ncore 3.0 está siempre listo para aprovechar las oportunidades que surjan.",
+        "why": "Los mercados de criptomonedas son impredecibles y se mueven deprisa, incluso fuera del horario de negociación tradicional. La eficiencia 24/7 de Ncore 3.0 asegura que el trader no se pierda ninguna oportunidad y que sus operaciones se ejecuten con prontitud, con independencia de cuándo se produzcan."
       },
       {
         "title": "Participación en la comunidad y soporte",
-        "how": "El usuario de Ncore 2.0 puede interactuar con otros en los foros de la comunidad o recibir asistencia directa a través de los canales de atención al cliente. Ya se trate de optimizar estrategias de trading o de resolver incidencias, siempre encontrará recursos y apoyo cuando los necesite.",
-        "why": "Una comunidad sólida y colaborativa ayuda al trader a aprender y a crecer. El énfasis de Ncore 2.0 en la participación en la comunidad y en la atención al cliente garantiza que el usuario cuente siempre con la ayuda que necesita para tener éxito."
+        "how": "El usuario de Ncore 3.0 puede interactuar con otros en los foros de la comunidad o recibir asistencia directa a través de los canales de atención al cliente. Ya se trate de optimizar estrategias de trading o de resolver incidencias, siempre encontrará recursos y apoyo cuando los necesite.",
+        "why": "Una comunidad sólida y colaborativa ayuda al trader a aprender y a crecer. El énfasis de Ncore 3.0 en la participación en la comunidad y en la atención al cliente garantiza que el usuario cuente siempre con la ayuda que necesita para tener éxito."
       }
     ],
-    "conclusion": "Al incorporar estas potentes funcionalidades, Ncore 2.0 ofrece al trader de criptomonedas una solución integral, segura y personalizable para maximizar beneficios, gestionar riesgos y adaptarse a mercados en constante cambio. Tanto si es un trader principiante como un profesional experimentado, Ncore 2.0 le permite operar de forma más inteligente y eficaz en el mundo de las criptomonedas.",
+    "conclusion": "Al incorporar estas potentes funcionalidades, Ncore 3.0 ofrece al trader de criptomonedas una solución integral, segura y personalizable para maximizar beneficios, gestionar riesgos y adaptarse a mercados en constante cambio. Tanto si es un trader principiante como un profesional experimentado, Ncore 3.0 le permite operar de forma más inteligente y eficaz en el mundo de las criptomonedas.",
     "footNav": {
       "prev": "Lógica de trading",
       "next": "Continuar a Tendencias de mercado"
@@ -663,66 +663,66 @@
   },
   "TRENDS_PAGE": {
     "title": "Tendencias de mercado",
-    "subtitle": "Tendencias de mercado que influyen en Ncore 2.0",
-    "intro": "El panorama de las criptomonedas evoluciona con rapidez, y Ncore 2.0 está diseñado para ir por delante de la curva y capitalizar las tendencias de mercado que definen las oportunidades y las estrategias de trading. A continuación se detalla con mayor amplitud cómo influyen esas tendencias en el uso y en las capacidades de Ncore 2.0.",
+    "subtitle": "Tendencias de mercado que influyen en Ncore 3.0",
+    "intro": "El panorama de las criptomonedas evoluciona con rapidez, y Ncore 3.0 está diseñado para ir por delante de la curva y capitalizar las tendencias de mercado que definen las oportunidades y las estrategias de trading. A continuación se detalla con mayor amplitud cómo influyen esas tendencias en el uso y en las capacidades de Ncore 3.0.",
     "trends": [
       {
         "title": "El auge de las finanzas descentralizadas (DeFi)",
-        "impact": "Las plataformas DeFi ofrecen al trader un mercado abierto y descentralizado, lo que incrementa la volatilidad y genera oportunidades de arbitraje entre exchanges centralizados (CEX) y exchanges descentralizados (DEX). Ncore 2.0 está diseñado para aprovechar esas discrepancias en tiempo real y permitir al usuario operar en ambos tipos de plataforma con eficiencia.",
-        "advantage": "Al interactuar sin fricciones con las plataformas y los protocolos DeFi, Ncore 2.0 asegura que el usuario pueda aprovechar las oportunidades de arbitraje y optimizar sus operaciones para obtener la máxima rentabilidad. Ya se trate de liquidez entre cadenas o de diferencias de precio, Ncore 2.0 ayuda a moverse entre las complejidades de los ecosistemas DeFi y aporta una ventaja frente a los bots de trading tradicionales, que suelen tener dificultades en entornos descentralizados."
+        "impact": "Las plataformas DeFi ofrecen al trader un mercado abierto y descentralizado, lo que incrementa la volatilidad y genera oportunidades de arbitraje entre exchanges centralizados (CEX) y exchanges descentralizados (DEX). Ncore 3.0 está diseñado para aprovechar esas discrepancias en tiempo real y permitir al usuario operar en ambos tipos de plataforma con eficiencia.",
+        "advantage": "Al interactuar sin fricciones con las plataformas y los protocolos DeFi, Ncore 3.0 asegura que el usuario pueda aprovechar las oportunidades de arbitraje y optimizar sus operaciones para obtener la máxima rentabilidad. Ya se trate de liquidez entre cadenas o de diferencias de precio, Ncore 3.0 ayuda a moverse entre las complejidades de los ecosistemas DeFi y aporta una ventaja frente a los bots de trading tradicionales, que suelen tener dificultades en entornos descentralizados."
       },
       {
         "title": "Mayor participación institucional",
         "impact": "El trader institucional exige soluciones de trading avanzadas, capaces de gestionar volúmenes elevados, mitigar riesgos y garantizar el cumplimiento normativo. Por ello, estos inversores requieren herramientas que no solo ofrezcan velocidad, sino que además mejoren la precisión de la previsión de mercado y permitan una gestión integral del riesgo.",
-        "advantage": "Ncore 2.0 ofrece un entorno de trading sofisticado, capaz de gestionar órdenes de gran tamaño con un deslizamiento mínimo. Con funcionalidades como la gestión de riesgo en tiempo real, la optimización dinámica de las comisiones de gas y las estrategias algorítmicas avanzadas, Ncore 2.0 aporta la precisión y la adaptabilidad que exige el trader institucional. Constituye una plataforma de confianza para moverse con soltura entre las complejidades de los mercados centralizados y descentralizados."
+        "advantage": "Ncore 3.0 ofrece un entorno de trading sofisticado, capaz de gestionar órdenes de gran tamaño con un deslizamiento mínimo. Con funcionalidades como la gestión de riesgo en tiempo real, la optimización dinámica de las comisiones de gas y las estrategias algorítmicas avanzadas, Ncore 3.0 aporta la precisión y la adaptabilidad que exige el trader institucional. Constituye una plataforma de confianza para moverse con soltura entre las complejidades de los mercados centralizados y descentralizados."
       },
       {
         "title": "Avances en la tecnología blockchain",
         "impact": "A medida que las plataformas blockchain evolucionan, surgen nuevos protocolos y funcionalidades que mejoran la velocidad de las transacciones, la escalabilidad y los costos. El trader necesita herramientas capaces de integrarse con esas tecnologías emergentes para seguir siendo competitivo.",
-        "advantage": "Ncore 2.0 está diseñado para adaptarse a los nuevos protocolos y tecnologías blockchain. A medida que las soluciones de Layer 2 se generalicen, por ejemplo, Ncore 2.0 se integrará con ellas sin fricciones para asegurar un procesamiento de transacciones más rápido y comisiones más bajas. Esa flexibilidad permite al usuario aprovechar al máximo los avances más punteros del blockchain sin preocuparse por problemas de compatibilidad."
+        "advantage": "Ncore 3.0 está diseñado para adaptarse a los nuevos protocolos y tecnologías blockchain. A medida que las soluciones de Layer 2 se generalicen, por ejemplo, Ncore 3.0 se integrará con ellas sin fricciones para asegurar un procesamiento de transacciones más rápido y comisiones más bajas. Esa flexibilidad permite al usuario aprovechar al máximo los avances más punteros del blockchain sin preocuparse por problemas de compatibilidad."
       },
       {
         "title": "Escalada de las comisiones de transacción y congestión de la red",
         "impact": "Las comisiones elevadas y la congestión de la red pueden dificultar la ejecución rápida de operaciones y provocar oportunidades perdidas o costos de transacción más altos. Esto afecta especialmente al trader más pequeño, que quizá no disponga de recursos para pagar comisiones prémium.",
-        "advantage": "La optimización dinámica de las comisiones de gas de Ncore 2.0 asegura la ejecución puntual de las operaciones incluso en periodos de fuerte congestión de la red. Al ajustar de forma estratégica las comisiones de transacción y apoyarse en la analítica predictiva, Ncore 2.0 garantiza que las operaciones se ejecuten con rapidez, eficiencia y contención de costos, y maximiza la rentabilidad en entornos volátiles."
+        "advantage": "La optimización dinámica de las comisiones de gas de Ncore 3.0 asegura la ejecución puntual de las operaciones incluso en periodos de fuerte congestión de la red. Al ajustar de forma estratégica las comisiones de transacción y apoyarse en la analítica predictiva, Ncore 3.0 garantiza que las operaciones se ejecuten con rapidez, eficiencia y contención de costos, y maximiza la rentabilidad en entornos volátiles."
       },
       {
         "title": "Evolución regulatoria",
         "impact": "El cambiante panorama regulatorio genera oportunidades y desafíos a la vez para traders e inversores. A medida que los reguladores avanzan hacia marcos más claros para los participantes del mercado cripto, mantener el cumplimiento se ha vuelto cada vez más complejo. Esas normativas pueden traer incertidumbre, sobre todo cuando están sujetas a cambios rápidos, lo que crea riesgos de incumplimiento.",
-        "advantage": "En este entorno regulatorio en constante evolución, Ncore 2.0 aporta las herramientas necesarias para anticiparse a los cambios. Está construido con la transparencia y la seguridad en su núcleo, de modo que el usuario pueda afrontar con confianza los giros normativos. Las funcionalidades de Ncore 2.0, entre ellas los registros detallados de transacciones y los informes de desempeño, permiten una transparencia total y ofrecen una vía fiable para acreditar el cumplimiento cuando sea necesario. Al adaptarse sin fricciones a las nuevas normativas, Ncore 2.0 asegura que el usuario pueda seguir operando con eficiencia y en cumplimiento."
+        "advantage": "En este entorno regulatorio en constante evolución, Ncore 3.0 aporta las herramientas necesarias para anticiparse a los cambios. Está construido con la transparencia y la seguridad en su núcleo, de modo que el usuario pueda afrontar con confianza los giros normativos. Las funcionalidades de Ncore 3.0, entre ellas los registros detallados de transacciones y los informes de desempeño, permiten una transparencia total y ofrecen una vía fiable para acreditar el cumplimiento cuando sea necesario. Al adaptarse sin fricciones a las nuevas normativas, Ncore 3.0 asegura que el usuario pueda seguir operando con eficiencia y en cumplimiento."
       },
       {
         "title": "Volatilidad del mercado",
         "impact": "La volatilidad del ámbito cripto presenta a la vez oportunidades sustanciales de beneficio y riesgos mayores. El trader necesita herramientas capaces de identificar con rapidez las tendencias de precio y de ejecutar operaciones en el momento óptimo para maximizar los beneficios y contener las pérdidas potenciales.",
-        "advantage": "Los algoritmos avanzados de front-running de Ncore 2.0 y su supervisión del mercado en tiempo real le permiten identificar y aprovechar las fluctuaciones de mercado al instante. Al anticiparse a los movimientos del mercado y ajustar las estrategias en tiempo real, Ncore 2.0 refuerza la capacidad del trader para aprovechar las condiciones volátiles sin quedar atrapado en caídas o repuntes repentinos."
+        "advantage": "Los algoritmos avanzados de front-running de Ncore 3.0 y su supervisión del mercado en tiempo real le permiten identificar y aprovechar las fluctuaciones de mercado al instante. Al anticiparse a los movimientos del mercado y ajustar las estrategias en tiempo real, Ncore 3.0 refuerza la capacidad del trader para aprovechar las condiciones volátiles sin quedar atrapado en caídas o repuntes repentinos."
       },
       {
         "title": "La aparición de las soluciones Layer 2",
         "impact": "Se espera que las soluciones de Layer 2 desempeñen un papel decisivo en la reducción de los costos de transacción y en la mejora de la escalabilidad. Para el trader, esto supone una oportunidad singular de ejecutar operaciones con comisiones más bajas y tiempos de procesamiento más rápidos.",
-        "advantage": "A medida que las tecnologías de Layer 2 ganan tracción, Ncore 2.0 está diseñado para integrarse con esas plataformas emergentes y ofrecer al usuario una ejecución de transacciones más rápida y económica. Al adoptar estas tecnologías de forma temprana, Ncore 2.0 asegura que sus usuarios queden bien posicionados para aprovechar al máximo las ventajas que aportan las soluciones de Layer 2."
+        "advantage": "A medida que las tecnologías de Layer 2 ganan tracción, Ncore 3.0 está diseñado para integrarse con esas plataformas emergentes y ofrecer al usuario una ejecución de transacciones más rápida y económica. Al adoptar estas tecnologías de forma temprana, Ncore 3.0 asegura que sus usuarios queden bien posicionados para aprovechar al máximo las ventajas que aportan las soluciones de Layer 2."
       },
       {
         "title": "Integración de la inteligencia artificial (IA) en el trading",
         "impact": "Los bots de trading impulsados por IA pueden adaptarse a las condiciones del mercado en tiempo real y refinar sus estrategias a partir de un análisis continuo de datos. Esa adaptabilidad es crucial en el volátil mercado cripto, donde la rapidez en la toma de decisiones puede influir de forma decisiva en la rentabilidad.",
-        "advantage": "Al integrar algoritmos avanzados de IA, Ncore 2.0 mejora el análisis de mercado y la ejecución de las operaciones. Su capacidad para procesar datos en tiempo real y ajustar las estrategias de forma dinámica permite al usuario mantener una ventaja competitiva en entornos de trading acelerados."
+        "advantage": "Al integrar algoritmos avanzados de IA, Ncore 3.0 mejora el análisis de mercado y la ejecución de las operaciones. Su capacidad para procesar datos en tiempo real y ajustar las estrategias de forma dinámica permite al usuario mantener una ventaja competitiva en entornos de trading acelerados."
       },
       {
         "title": "Tokenización de activos del mundo real (RWA)",
         "impact": "Tokenizar activos como inmuebles, arte o materias primas abre nuevos mercados y oportunidades de inversión, y facilita la negociación de la propiedad fraccionada y el aumento de la liquidez.",
-        "advantage": "La adaptabilidad de Ncore 2.0 le permite operar con distintos activos tokenizados y ofrecer al usuario opciones de trading diversificadas, además de la capacidad de capitalizar los mercados emergentes dentro del ámbito cripto."
+        "advantage": "La adaptabilidad de Ncore 3.0 le permite operar con distintos activos tokenizados y ofrecer al usuario opciones de trading diversificadas, además de la capacidad de capitalizar los mercados emergentes dentro del ámbito cripto."
       },
       {
         "title": "Aparición de nuevos productos y servicios financieros",
         "impact": "Los nuevos instrumentos financieros ofrecen oportunidades de inversión diversas y pueden influir en la dinámica del mercado, lo que aporta al trader vías adicionales de beneficio.",
-        "advantage": "La capacidad de Ncore 2.0 para adaptarse a distintos productos financieros asegura que el usuario pueda aprovechar con eficacia esos nuevos instrumentos e incorporarlos a sus estrategias de trading para maximizar los rendimientos."
+        "advantage": "La capacidad de Ncore 3.0 para adaptarse a distintos productos financieros asegura que el usuario pueda aprovechar con eficacia esos nuevos instrumentos e incorporarlos a sus estrategias de trading para maximizar los rendimientos."
       },
       {
         "title": "Integración de la tecnología blockchain en las finanzas tradicionales",
         "impact": "La tecnología blockchain se integra cada vez más a fondo en la banca y en los servicios financieros, y habilita transacciones más rápidas, mayor transparencia y nuevas capacidades.",
-        "advantage": "El diseño de Ncore 2.0 le permite integrarse sin fricciones con distintos protocolos blockchain, de modo que el usuario pueda aprovechar los últimos avances de esta tecnología para operar de forma eficiente y segura."
+        "advantage": "El diseño de Ncore 3.0 le permite integrarse sin fricciones con distintos protocolos blockchain, de modo que el usuario pueda aprovechar los últimos avances de esta tecnología para operar de forma eficiente y segura."
       }
     ],
-    "conclusion": "Ncore 2.0 está posicionado para aprovechar estas tendencias de mercado dinámicas mediante una solución sofisticada, adaptable y fiable para el trader de criptomonedas. Al evolucionar de forma continua para acomodar las tecnologías emergentes y la evolución del mercado, Ncore 2.0 asegura que el usuario se mantenga competitivo en un panorama cripto acelerado y en constante cambio. Con sus funcionalidades avanzadas, sus capacidades predictivas y su adaptabilidad al mercado, Ncore 2.0 está diseñado para maximizar la rentabilidad y minimizar el riesgo, incluso en las condiciones más volátiles.",
+    "conclusion": "Ncore 3.0 está posicionado para aprovechar estas tendencias de mercado dinámicas mediante una solución sofisticada, adaptable y fiable para el trader de criptomonedas. Al evolucionar de forma continua para acomodar las tecnologías emergentes y la evolución del mercado, Ncore 3.0 asegura que el usuario se mantenga competitivo en un panorama cripto acelerado y en constante cambio. Con sus funcionalidades avanzadas, sus capacidades predictivas y su adaptabilidad al mercado, Ncore 3.0 está diseñado para maximizar la rentabilidad y minimizar el riesgo, incluso en las condiciones más volátiles.",
     "footNav": {
       "prev": "Características",
       "next": "Ncore X"

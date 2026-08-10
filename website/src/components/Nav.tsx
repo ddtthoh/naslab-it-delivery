@@ -22,7 +22,7 @@ import { scrollToTop } from "../scroll/scrollToTop";
 export function Nav() {
   const [open, setOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
-  /* 下拉里可折叠的父项(目前只有 Ncore 2.0)。**默认全部收起**,
+  /* 下拉里可折叠的父项(目前只有 Ncore 3.0)。**默认全部收起**,
      要看四页链式内容的人自己点开(2026-07-22 用户定案)。
      每次整个菜单关掉时重置,免得下次打开还记着上次展开的状态。 */
   const [expanded, setExpanded] = useState<string[]>([]);
@@ -126,7 +126,7 @@ export function Nav() {
                       return (
                         <li className="nav__subrow" key={child.label}>
                           <NavLink
-                            /* --parent:自己有子项的行(Ncore 2.0)。它的 to 和
+                            /* --parent:自己有子项的行(Ncore 3.0)。它的 to 和
                                第一个子页(Basic Understanding)是同一条路由,
                                两行会同时拿到 .active,手机上就是两个高亮块叠着 ——
                                所以父行只留金字、不要底块,底块归具体子页。 */

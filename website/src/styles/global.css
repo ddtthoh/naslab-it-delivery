@@ -186,7 +186,7 @@ main {
    同一个坑 SPEC「RTL 实现」一节已为 ar/fa 记过,rtl.css 里的规则一直在生效;
    这里把它扩到走 LTR 的 hi/th。
    只归零 letter-spacing,不动 text-transform —— 这两种文字本身没有大小写,
-   uppercase 只作用于句中混排的拉丁词(Ncore 2.0 等),那是原设计意图,不改。 */
+   uppercase 只作用于句中混排的拉丁词(Ncore 3.0 等),那是原设计意图,不改。 */
 [lang="hi"] .kicker,
 [lang="th"] .kicker,
 [lang="hi"] .btn,

@@ -398,7 +398,7 @@ export function SectionHead({
   );
 }
 
-/** Labelled prose block (Ncore 2.0 fundamentals / logic / features panels). */
+/** Labelled prose block (Ncore 3.0 fundamentals / logic / features panels). */
 export function Panel({ label, body }: { label: string; body: string }) {
   return (
     <article className="panel">

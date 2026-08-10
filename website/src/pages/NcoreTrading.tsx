@@ -16,8 +16,9 @@ export default function NcoreTrading() {
         </CtaRow>
       </PageHead>
 
-      {/* 2026-07-22 用户验收通过(v3):落位顺序按 front-run / back-run 语义 ——
-          ①NCORE 2.0 长条(1.50s)→ ②TARGET 方块(2.92s)→ ③后方小方块(4.08s)。 */}
+      {/* 2026-08-09 重做:静图与视频全部换成通用 NCORE 版(画面不刻版本号)。
+          落位顺序:①刻 NCORE 金条从右滑入 → ②TARGET 方块从左后落位 → ③第二条金条夹住迸熔金火花。
+          旧的 2.0 版本备份在 _incoming/backup-20260809/。 */}
       <ImageSlot
         label="Trading logic hero — sandwich strategy"
         ratio="16 / 9"

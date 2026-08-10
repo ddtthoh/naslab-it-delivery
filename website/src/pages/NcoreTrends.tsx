@@ -38,7 +38,7 @@ export default function NcoreTrends() {
                 <dd className="pointlist__body">{item.impact}</dd>
               </div>
               <div className="pointlist__item">
-                <dt className="pointlist__title">NCORE 2.0 ADVANTAGE</dt>
+                <dt className="pointlist__title">NCORE 3.0 ADVANTAGE</dt>
                 <dd className="pointlist__body">{item.advantage}</dd>
               </div>
             </dl>

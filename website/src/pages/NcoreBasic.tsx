@@ -4,7 +4,7 @@
  * 定稿视觉逐节嵌入。
  */
 
-import { BASIC_PAGE, ROUTES, S5_NCORE_2 } from "../content/frozen";
+import { BASIC_PAGE, ROUTES, S5_NCORE_3 } from "../content/frozen";
 import { useDesktop } from "../hooks/useDesktop";
 import {
   Block,
@@ -24,6 +24,8 @@ import {
 const SECTION_VIDEOS: Record<string, string | undefined> = {
   "/img/ncore-blockchain-execution.jpg": "/video/ncore-blockchain-execution.mp4",
   "/img/ncore-swap-state.jpg": "/video/ncore-swap-state.mp4",
+  // 2026-08-09 重做:静图与视频全部换成通用 NCORE 版(画面不刻版本号),
+  // 视频用官网批原文 prompt(job 6d73cd25)重生成,5 秒压成 3.02 秒。
   "/img/ncore-execution-order.jpg": "/video/ncore-execution-order.mp4",
   "/img/ncore-summary.jpg": "/video/ncore-summary.mp4",
 };
@@ -45,7 +47,7 @@ function pickVideo(img: string, desktop: boolean) {
 export default function NcoreBasic() {
   const b = BASIC_PAGE;
   const desktop = useDesktop();
-  const { mempoolCard, logicCard } = S5_NCORE_2;
+  const { mempoolCard, logicCard } = S5_NCORE_3;
 
   return (
     <Block>
@@ -59,10 +61,11 @@ export default function NcoreBasic() {
       </PageHead>
 
       <ImageSlot
-        label="Ncore 2.0 hero visual"
+        label="Ncore 3.0 hero visual"
         ratio="16 / 9"
-        src="/img/ncore-basic-hero.jpg"
-        video="/video/ncore2-hero.mp4"
+        src="/img/ncore3-hero.jpg"
+        video="/video/ncore3-hero.mp4"
+        videoPoster="/video/ncore3-hero-poster.jpg"
       />
 
       {/* 附属 UI 卡 A(alpha 设计侧) */}
