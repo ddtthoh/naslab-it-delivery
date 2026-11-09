@@ -1018,13 +1018,28 @@
     },
     "leadership": {
       "heading": "Mengenal Pimpinan Kami",
-      "sub": "Mendorong inovasi keuangan digital dengan visi dan keahlian",
-      "role": "CEO Naslab & Nastech Global",
-      "quote": "\"Di Naslab, tujuan kami adalah memberdayakan pelaku usaha dan individu melalui solusi inovatif yang mendorong keberhasilan berkelanjutan di ekonomi digital. Kami berkomitmen menghadirkan strategi yang aman dan skalabel untuk membantu klien kami selalu selangkah di depan.\"",
-      "bio": [
-        "Peter Kovac adalah penggerak utama di balik Nastech Global dan Naslab, dengan visi yang jelas untuk mentransformasi lanskap keuangan digital. Berbekal latar belakang yang kuat di bidang keuangan sekaligus teknologi, Peter bersemangat memanfaatkan inovasi untuk menjawab tantangan nyata.",
-        "Sebelum mendirikan Naslab pada 2025, Peter mendirikan Nastech Global pada 2024, tempat ia berfokus mengintegrasikan teknologi tingkat lanjut ke dalam sektor keuangan. Pemahamannya yang mendalam atas tren pasar membentuk visinya bagi Naslab sebagai lengan pemasaran yang didedikasikan untuk mempromosikan produk-produk termutakhir Nastech.",
-        "Bagi Peter, kepemimpinan berarti menciptakan nilai yang bertahan lama dan memberdayakan klien melalui solusi digital yang inovatif. Ia mengutamakan transparansi, inovasi, dan keberhasilan klien di tengah ekonomi digital yang terus berubah."
+      "sub": "Dua spesialis, satu perusahaan — kepemimpinan korporat dan internasional di tangan Chief Executive Officer kami, teknologi dipimpin oleh Chief Technology Officer kami.",
+      "people": [
+        {
+          "role": "Chief Executive Officer",
+          "scope": "Operasi korporat, hukum, dan internasional",
+          "quote": "\"Naslab dibangun di atas teknologi yang nyata, dan itu tetap menjadi aset terbesarnya. Tanggung jawab saya adalah struktur di sekelilingnya — persiapan hukum, strategi kawasan, dan disiplin operasional yang dibutuhkan sebuah perusahaan untuk bekerja secara kredibel di banyak pasar sekaligus. Arahnya sudah ditetapkan, dan ambisi kami lebih besar daripada semua yang pernah kami bangun.\"",
+          "bio": [
+            "Fabian Vossberg diangkat sebagai Chief Executive Officer Naslab pada 2026, memegang tanggung jawab atas manajemen korporat, operasi internasional, serta ekspansi pasar global. Selama lima belas tahun, pekerjaannya selalu berkisar pada satu jenis persoalan: membawa perusahaan yang berjalan di satu pasar menjadi perusahaan yang berjalan di banyak pasar — di Eropa dan Asia Tenggara. Di titik itulah Naslab berada hari ini.",
+            "Sebagian besar perusahaan mencapai tahap ini dengan teknologi yang belum terbukti. Di Naslab teknologinya sudah berjalan, dan itulah bagian yang paling sulit. Yang tersisa adalah struktur di sekelilingnya — persiapan hukum dan regulasi, strategi kawasan, serta disiplin untuk beroperasi secara kredibel di banyak pasar sekaligus. Itulah tanggung jawab yang dipikul Vossberg sebagai Chief Executive Officer.",
+            "Tiga prioritas menandai tahap saat ini: memperkuat fondasi Naslab di Asia, tempat Ncore 3.0 kini resmi beroperasi; menyiapkan kerangka perusahaan untuk Timur Tengah dan Eropa; serta memberikan dukungan yang lebih jelas dan lebih konsisten bagi mitra dan pengguna. Vossberg memimpin sisi korporat dan internasional Naslab bersama Peter Kovac, yang memimpin teknologi."
+          ]
+        },
+        {
+          "role": "Chief Technology Officer",
+          "scope": "Teknologi, arsitektur produk, dan inovasi sistem",
+          "quote": "\"Teknologi membangun fondasi Naslab. Manajemen global yang profesional akan membawa fondasi itu jauh lebih maju. Saya membawa Fabian untuk memimpin perusahaan, dan mengalihkan fokus saya sendiri ke bagian yang kontribusinya paling besar.\"",
+          "bio": [
+            "Peter Kovac memimpin teknologi di balik Naslab. Titik awalnya justru bagian yang paling sulit bagi sebagian besar perusahaan — teknologinya sendiri: sistem perdagangan blockchain, arsitektur sistem, dan inovasi produk. Semua yang dibawa Naslab ke pasar hari ini tumbuh dari fondasi rekayasa itu.",
+            "Pada 2026 Kovac beralih ke peran kepemimpinan yang khusus menangani teknologi sebagai Chief Technology Officer, dengan fokus pada pengembangan teknologi, arsitektur produk, dan inovasi sistem di seluruh infrastruktur perdagangan perusahaan. Ia membawa Fabian Vossberg untuk memimpin perusahaan dan mengalihkan fokusnya sendiri ke teknologi, tempat kontribusinya paling besar.",
+            "Kini Kovac memimpin teknologi yang menjadi penentu perusahaan — logika eksekusi, penilaian struktur pasar, interpretasi data on-chain, dan penyaringan yang sadar risiko di balik Ncore 3.0 yang kini resmi beroperasi, serta arah pengembangan berikutnya yang diwakili Ncore X. Teknologi pada Kovac, kepemimpinan korporat pada Fabian Vossberg. Dua spesialis, satu perusahaan."
+          ]
+        }
       ]
     },
     "values": {

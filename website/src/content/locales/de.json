@@ -1018,13 +1018,28 @@
     },
     "leadership": {
       "heading": "Unsere Führung",
-      "sub": "Innovation in digitalen Finanzen — mit Weitblick und Erfahrung",
-      "role": "CEO von Naslab & Nastech Global",
-      "quote": "„Bei Naslab ist es unser Ziel, Unternehmen und Privatpersonen mit innovativen Lösungen zu stärken, die nachhaltigen Erfolg in der digitalen Wirtschaft tragen. Wir liefern sichere, skalierbare Strategien, mit denen unsere Kunden der Entwicklung stets einen Schritt voraus sind.“",
-      "bio": [
-        "Peter Kovac ist die treibende Kraft hinter Nastech Global und Naslab und verfolgt eine klare Vision: die digitale Finanzwelt zu verändern. Mit starkem Hintergrund in Finanzen wie in Technologie setzt er Innovation gezielt ein, um reale Herausforderungen zu lösen.",
-        "Vor der Gründung von Naslab im Jahr 2025 gründete Peter Kovac 2024 Nastech Global, wo er fortschrittliche Technologien in den Finanzsektor einbrachte. Sein tiefes Verständnis für Markttrends prägte seine Vision für Naslab als Marketing-Arm für die hochmodernen Produkte von Nastech.",
-        "Führung bedeutet für ihn, bleibenden Wert zu schaffen und Kunden mit innovativen digitalen Lösungen zu stärken. Transparenz, Innovation und der Erfolg der Kunden stehen für ihn in der stetig wandelnden digitalen Wirtschaft an erster Stelle."
+      "sub": "Zwei Spezialisten, ein Unternehmen — Unternehmensführung und internationales Geschäft bei unserem Chief Executive Officer, Technologie in der Hand unseres Chief Technology Officers.",
+      "people": [
+        {
+          "role": "Chief Executive Officer",
+          "scope": "Unternehmensführung, Recht und internationales Geschäft",
+          "quote": "„Naslab ist auf echter Technologie aufgebaut, und das bleibt sein größtes Kapital. Meine Aufgabe ist die Struktur darum herum — die rechtliche Vorbereitung, die Regionalstrategie und die operative Disziplin, die ein Unternehmen braucht, um in vielen Märkten gleichzeitig glaubwürdig zu arbeiten. Die Richtung steht, und unser Anspruch ist größer als alles, was wir bisher aufgebaut haben.“",
+          "bio": [
+            "Fabian Vossberg wurde 2026 zum Chief Executive Officer von Naslab berufen. Er verantwortet Unternehmensführung, internationales Geschäft und die globale Marktexpansion. Fünfzehn Jahre lang ging es in seiner Arbeit um dieselbe Art von Aufgabe: ein Unternehmen, das in einem Markt funktioniert, zu einem zu machen, das in vielen funktioniert — in Europa und in Südostasien. Genau an diesem Punkt steht Naslab heute.",
+            "Die meisten Unternehmen erreichen diese Phase mit unerprobter Technologie. Bei Naslab läuft die Technologie bereits, und das ist der schwierigste Teil. Was bleibt, ist die Struktur darum herum — die rechtliche und regulatorische Vorbereitung, die Regionalstrategie und die Disziplin, in vielen Märkten gleichzeitig glaubwürdig zu arbeiten. Das ist die Verantwortung, die Vossberg als Chief Executive Officer trägt.",
+            "Drei Prioritäten prägen die aktuelle Phase: das Fundament von Naslab in Asien zu festigen, wo Ncore 3.0 inzwischen offiziell im Einsatz ist; den Rahmen des Unternehmens für den Nahen Osten und Europa vorzubereiten; und Partnern wie Nutzern klarere und verlässlichere Unterstützung zu geben. Vossberg führt die Unternehmens- und Auslandsseite von Naslab gemeinsam mit Peter Kovac, der die Technologie verantwortet."
+          ]
+        },
+        {
+          "role": "Chief Technology Officer",
+          "scope": "Technologie, Produktarchitektur und Systeminnovation",
+          "quote": "„Technologie hat das Fundament von Naslab gelegt. Professionelles globales Management wird dieses Fundament deutlich weiter tragen. Ich habe Fabian an die Spitze des Unternehmens geholt und meinen eigenen Fokus auf den Bereich verlagert, in dem mein Beitrag am größten ist.“",
+          "bio": [
+            "Peter Kovac verantwortet die Technologie von Naslab. Der Ausgangspunkt war genau der Teil, der den meisten Unternehmen am schwersten fällt — die Technologie selbst: Blockchain-Handelssysteme, Systemarchitektur und Produktinnovation. Alles, was Naslab heute auf den Markt bringt, ist auf diesem technischen Fundament gewachsen.",
+            "2026 wechselte Kovac in eine eigene Technologieführungsrolle als Chief Technology Officer und konzentriert sich dort auf Technologieentwicklung, Produktarchitektur und Systeminnovation in der gesamten Handelsinfrastruktur des Unternehmens. Er holte Fabian Vossberg an die Spitze des Unternehmens und verlagerte seinen eigenen Fokus auf die Technologie, wo sein Beitrag am größten ist.",
+            "Kovac führt heute die Technologie, die dieses Unternehmen ausmacht — die Ausführungslogik, die Bewertung von Marktstrukturen, die Auswertung von On-Chain-Daten und die risikobewusste Filterung hinter Ncore 3.0, das inzwischen offiziell im Einsatz ist, sowie die nächste Entwicklungsrichtung, für die Ncore X steht. Technologie bei Kovac, Unternehmensführung bei Fabian Vossberg. Zwei Spezialisten, ein Unternehmen."
+          ]
+        }
       ]
     },
     "values": {

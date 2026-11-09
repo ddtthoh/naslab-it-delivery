@@ -1,7 +1,9 @@
 /**
  * /about — naslabtec.com/about 全文(2026-07-17 P1 补齐,文案 1:1)。
- * Peter Kovac 人像用 PDF p5 真实照片(铁律:真人不得 AI 伪造),
- * 图待批4定稿后接入。
+ * 2026-10-11 领导层改双人:Fabian Vossberg(CEO)在上、Peter Kovac(Founder & CTO)在下,
+ * 两张卡严格等大、人像同规格(3:4 · 1350×1800)——顺序不代表权重,版面才代表。
+ * 铁律:真人不得 AI 伪造。两张都是真实照片;Fabian 那张只做了去背 + 背景色场对齐
+ * Peter 的影棚光(人物本身零改动)。母版在 website-redesign/_incoming/fabian-portrait-20261011/。
  */
 
 import { ABOUT_PAGE, ROUTES, S1_HERO } from "../content/frozen";
@@ -76,25 +78,28 @@ export default function About() {
       <section className="xsec">
         <h2 className="xsec__h">{a.leadership.heading}</h2>
         <p className="xsec__p">{a.leadership.sub}</p>
-        {/* PDF p5 内嵌原图直抽(1536×2048),铁律:真人不得 AI 伪造。
-            2026-07-22 用户验收通过做成视频:人物全程完全静止(不眨眼/不转头/
-            不改表情/不改外貌),只有周围光效和图形动 —— 肖像本身没有被 AI 改动。 */}
-        <ImageSlot
-          label="Peter Kovac — CEO of Naslab & Nastech Global Limited"
-          ratio="3 / 4"
-          src="/img/about-peter-kovac.jpg"
-          video="/video/about-peter-kovac.mp4"
-          videoPoster="/video/about-peter-kovac-poster.jpg"
-        />
-        <h3 className="scenario__title">
-          {a.leadership.name} — {a.leadership.role}
-        </h3>
-        <p className="xsec__p">{a.leadership.quote}</p>
-        {a.leadership.bio.map((p) => (
-          <p className="xsec__p" key={p.slice(0, 24)}>
-            {p}
-          </p>
-        ))}
+        <div className="leaders">
+          {a.leadership.people.map((person) => (
+            <article className="leader" key={person.name}>
+              <ImageSlot
+                label={`${person.name} — ${person.role}`}
+                ratio="3 / 4"
+                src={person.img}
+                video={person.video}
+                videoPoster={person.videoPoster}
+              />
+              <h3 className="scenario__title">{person.name}</h3>
+              <p className="leader__role">{person.role}</p>
+              <p className="leader__scope">{person.scope}</p>
+              <p className="xsec__p leader__quote">{person.quote}</p>
+              {person.bio.map((para) => (
+                <p className="xsec__p" key={para.slice(0, 24)}>
+                  {para}
+                </p>
+              ))}
+            </article>
+          ))}
+        </div>
       </section>
 
       <section className="xsec">

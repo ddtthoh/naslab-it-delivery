@@ -1018,13 +1018,28 @@
     },
     "leadership": {
       "heading": "Liderliğimizle Tanışın",
-      "sub": "Dijital finansta inovasyonu vizyon ve uzmanlıkla ileri taşıyor",
-      "role": "Naslab ve Nastech Global CEO'su",
-      "quote": "\"Naslab olarak amacımız; işletmeleri ve bireyleri, dijital ekonomide sürdürülebilir başarı sağlayan yenilikçi çözümlerle güçlendirmek. Müşterilerimizin bir adım önde kalmasına yardımcı olan güvenli ve ölçeklenebilir stratejiler sunmaya kararlıyız.\"",
-      "bio": [
-        "Peter Kovac; dijital finans ortamını dönüştürmeye yönelik net bir vizyonla Nastech Global'in ve Naslab'ın arkasındaki itici güçtür. Hem finans hem teknoloji alanındaki güçlü birikimini birleştiren Peter, gerçek dünya sorunlarını çözmek için inovasyondan yararlanmaya tutkuyla bağlıdır.",
-        "Peter, 2025'te Naslab'ı kurmadan önce 2024'te Nastech Global'i kurdu ve burada ileri teknolojilerin finans sektörüne entegrasyonuna odaklandı. Piyasa trendlerine dair derin kavrayışı, Naslab'ı Nastech'in ileri düzey ürünlerinin tanıtımına adanmış pazarlama kolu olarak konumlandıran vizyonunu şekillendirdi.",
-        "Peter için liderlik; kalıcı değer yaratmak ve müşterileri yenilikçi dijital çözümlerle güçlendirmektir. Sürekli değişen dijital ekonomide şeffaflığı, inovasyonu ve müşteri başarısını önceliklendirir."
+      "sub": "İki uzman, tek şirket — kurumsal ve uluslararası yönetim İcra Kurulu Başkanımızda, teknoloji ise Teknolojiden Sorumlu Başkanımızın liderliğinde.",
+      "people": [
+        {
+          "role": "İcra Kurulu Başkanı (CEO)",
+          "scope": "Kurumsal, hukuki ve uluslararası operasyonlar",
+          "quote": "\"Naslab gerçek teknoloji üzerine kuruldu ve bu, şirketin en büyük değeri olmayı sürdürüyor. Benim sorumluluğum bu teknolojinin etrafındaki yapı: hukuki hazırlık, bölgesel strateji ve bir şirketin aynı anda birçok pazarda güvenilir biçimde çalışabilmesi için gereken operasyonel disiplin. Yön belirlendi ve hedefimiz bugüne kadar kurduğumuz her şeyden daha büyük.\"",
+          "bio": [
+            "Fabian Vossberg, 2026 yılında Naslab'ın İcra Kurulu Başkanlığına atandı; kurumsal yönetim, uluslararası operasyonlar ve küresel pazar büyümesinin sorumluluğunu üstlendi. On beş yıl boyunca çalışmaları aynı tür bir meselenin etrafında döndü: tek bir pazarda işleyen bir şirketi, birçok pazarda işleyen bir şirkete dönüştürmek — Avrupa ve Güneydoğu Asya genelinde. Naslab bugün tam olarak bu noktada duruyor.",
+            "Çoğu şirket bu aşamaya henüz kanıtlanmamış bir teknolojiyle gelir. Naslab'da teknoloji hâlihazırda çalışıyor ve en zor kısım da buydu. Geriye kalan iş, teknolojinin etrafındaki yapı: hukuki ve düzenleyici hazırlık, bölgesel strateji ve aynı anda birçok pazarda güvenilir biçimde faaliyet gösterebilmek için gereken disiplin. Vossberg'in İcra Kurulu Başkanı olarak taşıdığı sorumluluk budur.",
+            "Mevcut aşamayı üç öncelik tanımlıyor: Ncore 3.0'ın resmî olarak devrede olduğu Asya'da Naslab'ın temelini güçlendirmek; şirketin Orta Doğu ve Avrupa için çerçevesini hazırlamak; ve iş ortaklarıyla kullanıcılara daha net, daha tutarlı bir destek sunmak. Vossberg, Naslab'ın kurumsal ve uluslararası tarafını, teknolojiyi yöneten Peter Kovac ile birlikte yürütüyor."
+          ]
+        },
+        {
+          "role": "Teknolojiden Sorumlu Başkan (CTO)",
+          "scope": "Teknoloji, ürün mimarisi ve sistem inovasyonu",
+          "quote": "\"Naslab'ın temelini teknoloji kurdu. Profesyonel küresel yönetim ise bu temeli çok daha ileriye taşıyacak. Fabian'ı şirketin başına getirdim ve kendi odağımı en çok katkı sunduğum alana kaydırdım.\"",
+          "bio": [
+            "Peter Kovac, Naslab'ın teknolojisini yönetiyor. Başlangıç noktası, çoğu şirketin en çok zorlandığı yerdi — teknolojinin kendisi: blokzincir alım-satım sistemleri, sistem mimarisi ve ürün inovasyonu. Naslab'ın bugün pazara sunduğu her şey bu mühendislik temeli üzerinde büyüdü.",
+            "2026 yılında Kovac, Teknolojiden Sorumlu Başkan olarak teknolojiye ayrılmış bir liderlik görevine geçti; şirketin alım-satım altyapısı genelinde teknoloji geliştirme, ürün mimarisi ve sistem inovasyonuna odaklanıyor. Fabian Vossberg'i şirketin başına getirdi ve kendi odağını en çok katkı sunduğu alan olan teknolojiye kaydırdı.",
+            "Kovac bugün şirketi tanımlayan teknolojiyi yönetiyor: resmî olarak devrede olan Ncore 3.0'ın ardındaki yürütme mantığı, piyasa yapısı değerlendirmesi, zincir üstü veri yorumlaması ve riske duyarlı filtreleme ile Ncore X'in temsil ettiği sonraki geliştirme yönü. Teknoloji Kovac'ta, kurumsal liderlik Fabian Vossberg'de. İki uzman, tek şirket."
+          ]
+        }
       ]
     },
     "values": {
