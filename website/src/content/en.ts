@@ -697,36 +697,36 @@ export const ABOUT_PAGE = {
   },
   leadership: {
     heading: "Meet Our Leadership",
-    sub: "Two specialists, one company — corporate and international leadership under our Chief Executive Officer, technology under our Chief Technology Officer.",
+    sub: "A planned leadership transition — Peter Kovac leads Naslab as Chief Executive Officer, with Fabian Vossberg appointed Chief Executive Officer-Designate, taking office in January 2027.",
     people: [
       {
         name: "Fabian Vossberg",
-        role: "Chief Executive Officer",
-        scope: "Corporate, legal and international operations",
+        role: "Chief Executive Officer-Designate",
+        scope: "Takes office January 2027 · Corporate, legal and international operations",
         img: "/img/about-fabian-vossberg.jpg",
         video: undefined,
         videoPoster: undefined,
         quote:
-          "\"Naslab has been built on real technology, and that remains its greatest asset. My responsibility is the structure around it — the legal preparation, the regional strategy, and the operating discipline a company needs in order to work credibly in many markets at once. The vision is set, and the ambition is larger than anything we have built so far.\"",
+          "\"Naslab has been built on real technology, and that remains its greatest asset. My responsibility will be the structure around it — the legal preparation, the regional strategy, and the operating discipline a company needs in order to work credibly in many markets at once. The vision is set, and the ambition is larger than anything we have built so far.\"",
         bio: [
-          "Fabian Vossberg was appointed Chief Executive Officer of Naslab in 2026, taking responsibility for corporate management, international operations, and global market expansion. For fifteen years he has taken companies past the point where one market is enough — across Europe and Southeast Asia. That is exactly where Naslab stands today.",
-          "Most companies reach this stage with unproven technology. At Naslab the technology already works, and that is the hardest part. The remaining work is the structure around it — legal and regulatory preparation, regional strategy, and the discipline to operate credibly in many markets at once. That is the responsibility Vossberg carries as Chief Executive Officer.",
-          "Three priorities define the current stage: strengthening Naslab's foundation in Asia, where Ncore 3.0 is now in official operation; preparing the company's framework for the Middle East and Europe; and giving partners and users clearer, more consistent support. Vossberg leads Naslab's corporate and international side alongside Peter Kovac, who leads technology.",
+          "Fabian Vossberg has been appointed Chief Executive Officer-Designate of Naslab and will formally take office in January 2027, assuming responsibility for corporate management, international operations, and global market expansion. For fifteen years he has taken companies past the point where one market is enough — across Europe and Southeast Asia. That is exactly where Naslab stands today.",
+          "Most companies reach this stage with unproven technology. At Naslab the technology already works, and that is the hardest part. The remaining work is the structure around it — legal and regulatory preparation, regional strategy, and the discipline to operate credibly in many markets at once. That is the responsibility Vossberg will carry as Chief Executive Officer.",
+          "Three priorities will define his first stage: strengthening Naslab's foundation in Asia, where Ncore 3.0 is now in official operation; preparing the company's framework for the Middle East and Europe; and giving partners and users clearer, more consistent support. Until he takes office, Vossberg is working alongside Chief Executive Officer Peter Kovac to ensure a smooth transition.",
         ],
       },
       {
         name: "Peter Kovac",
-        role: "Chief Technology Officer",
-        scope: "Technology, product architecture and system innovation",
+        role: "Chief Executive Officer",
+        scope: "Company leadership, technology and product architecture",
         img: "/img/about-peter-kovac.jpg",
         video: "/video/about-peter-kovac.mp4",
         videoPoster: "/video/about-peter-kovac-poster.jpg",
         quote:
-          "\"Technology built the foundation of Naslab. Professional global management will help take that foundation much further. I brought in Fabian to lead the company, and turned my own focus to the part where I contribute most.\"",
+          "\"Technology built the foundation of Naslab. Professional global management will help take that foundation much further. That is why I appointed Fabian to lead the company into its next stage — and after the handover, I will turn my own focus to the part where I contribute most.\"",
         bio: [
           "Peter Kovac leads the technology behind Naslab. His work started with the part most companies find hardest — the technology itself: blockchain trading systems, system architecture, and product innovation. Everything Naslab brings to market today grew out of that engineering foundation.",
-          "In 2026 Kovac moved into a dedicated technology leadership role as Chief Technology Officer, concentrating on technology development, product architecture, and system innovation across the company's trading infrastructure. He brought in Fabian Vossberg to lead the company and turned his own focus to the technology, where his contribution is greatest.",
-          "Kovac now leads the technology that defines the company — the execution logic, market structure assessment, on-chain data interpretation and risk-aware filtering behind Ncore 3.0, now in official operation, and the next development direction represented by Ncore X. Technology with Kovac, corporate leadership with Fabian Vossberg. Two specialists, one company.",
+          "As Chief Executive Officer, Kovac is leading the company into its next stage. In 2026 he appointed Fabian Vossberg as Chief Executive Officer-Designate to lead Naslab's corporate and international expansion; after the handover in January 2027, Kovac will concentrate on technology development, product architecture, and system innovation — where his contribution is greatest.",
+          "Kovac now leads the technology that defines the company — the execution logic, market structure assessment, on-chain data interpretation and risk-aware filtering behind Ncore 3.0, now in official operation, and the next development direction represented by Ncore X. A planned transition, one company: technology with Kovac, corporate leadership with Fabian Vossberg.",
         ],
       },
     ],

@@ -1018,25 +1018,25 @@
     },
     "leadership": {
       "heading": "La nostra leadership",
-      "sub": "Due specialisti, una sola azienda: la guida societaria e internazionale affidata al nostro Amministratore Delegato, la tecnologia guidata dal nostro Direttore Tecnico.",
+      "sub": "Una transizione di leadership pianificata — Peter Kovac guida Naslab come Amministratore Delegato, e Fabian Vossberg è stato nominato Amministratore Delegato designato, con insediamento a gennaio 2027.",
       "people": [
         {
-          "role": "Amministratore Delegato (CEO)",
-          "scope": "Operazioni societarie, legali e internazionali",
+          "role": "Amministratore Delegato designato",
+          "scope": "In carica da gennaio 2027 · Operazioni societarie, legali e internazionali",
           "quote": "«Naslab è stata costruita su tecnologia reale, e questo resta il suo bene più prezioso. La mia responsabilità è la struttura che le sta attorno: la preparazione legale, la strategia regionale e la disciplina operativa che servono a un’azienda per lavorare in modo credibile in molti mercati contemporaneamente. La direzione è tracciata, e la nostra ambizione è più grande di tutto ciò che abbiamo costruito finora.»",
           "bio": [
-            "Fabian Vossberg è stato nominato Amministratore Delegato di Naslab nel 2026, assumendo la responsabilità della gestione societaria, delle operazioni internazionali e dell’espansione sui mercati globali. Per quindici anni il suo lavoro ha ruotato attorno allo stesso tipo di problema: prendere un’azienda che funziona in un mercato e trasformarla in una che funziona in molti, tra Europa e Sud-est asiatico. È esattamente il punto in cui si trova Naslab oggi.",
-            "La maggior parte delle aziende arriva a questa fase con una tecnologia non ancora provata. In Naslab la tecnologia funziona già, e quella è la parte più difficile. Ciò che resta da fare è la struttura attorno: la preparazione legale e regolamentare, la strategia regionale e la disciplina necessaria a operare in modo credibile in molti mercati contemporaneamente. È la responsabilità che Vossberg porta come Amministratore Delegato.",
-            "Tre priorità definiscono la fase attuale: rafforzare le basi di Naslab in Asia, dove Ncore 3.0 è ora in esercizio ufficiale; preparare il quadro dell’azienda per Medio Oriente ed Europa; e offrire a partner e utenti un supporto più chiaro e più coerente. Vossberg guida il lato societario e internazionale di Naslab insieme a Peter Kovac, che guida la tecnologia."
+            "Fabian Vossberg è stato nominato Amministratore Delegato designato di Naslab e assumerà formalmente l’incarico a gennaio 2027, con la responsabilità della gestione societaria, delle operazioni internazionali e dell’espansione sui mercati globali. Per quindici anni il suo lavoro ha ruotato attorno allo stesso tipo di problema: prendere un’azienda che funziona in un mercato e trasformarla in una che funziona in molti, tra Europa e Sud-est asiatico. È esattamente il punto in cui si trova Naslab oggi.",
+            "La maggior parte delle aziende arriva a questa fase con una tecnologia non ancora provata. In Naslab la tecnologia funziona già, e quella è la parte più difficile. Ciò che resta da fare è la struttura attorno: la preparazione legale e regolamentare, la strategia regionale e la disciplina necessaria a operare in modo credibile in molti mercati contemporaneamente. È la responsabilità che Vossberg assumerà come Amministratore Delegato.",
+            "Tre priorità definiscono la fase attuale: rafforzare le basi di Naslab in Asia, dove Ncore 3.0 è ora in esercizio ufficiale; preparare il quadro dell’azienda per Medio Oriente ed Europa; e offrire a partner e utenti un supporto più chiaro e più coerente. Fino al suo insediamento, Vossberg lavora al fianco dell’Amministratore Delegato Peter Kovac per garantire una transizione senza scosse."
           ]
         },
         {
-          "role": "Direttore Tecnico (CTO)",
-          "scope": "Tecnologia, architettura di prodotto e innovazione di sistema",
-          "quote": "«La tecnologia ha costruito le fondamenta di Naslab. Una gestione globale professionale aiuterà a portare quelle fondamenta molto più lontano. Ho portato Fabian alla guida dell’azienda e ho spostato il mio impegno sulla parte in cui conto di più.»",
+          "role": "Amministratore Delegato",
+          "scope": "Guida dell’azienda, tecnologia e architettura di prodotto",
+          "quote": "\"La tecnologia ha costruito le fondamenta di Naslab. Una gestione globale professionale porterà quelle fondamenta molto più lontano. Per questo ho nominato Fabian per guidare l’azienda nella sua fase successiva — e, dopo il passaggio di consegne, concentrerò il mio impegno sulla parte in cui contribuisco di più.\"",
           "bio": [
             "Peter Kovac guida la tecnologia di Naslab. Il punto di partenza è stato proprio ciò che per la maggior parte delle aziende è più difficile: la tecnologia stessa, i sistemi di trading su blockchain, l’architettura di sistema e l’innovazione di prodotto. Tutto ciò che Naslab porta oggi sul mercato è nato su quelle fondamenta ingegneristiche.",
-            "Nel 2026 Kovac è passato a un ruolo dedicato alla guida tecnologica come Direttore Tecnico, concentrandosi sullo sviluppo tecnologico, sull’architettura di prodotto e sull’innovazione di sistema in tutta l’infrastruttura di trading dell’azienda. Ha portato Fabian Vossberg alla guida dell’azienda e ha spostato il proprio impegno sulla tecnologia, dove il suo contributo è maggiore.",
+            "Come Amministratore Delegato, Kovac sta guidando l’azienda verso la sua fase successiva. Nel 2026 ha nominato Fabian Vossberg Amministratore Delegato designato per guidare l’espansione societaria e internazionale di Naslab; dopo il passaggio di consegne a gennaio 2027, Kovac si concentrerà su sviluppo tecnologico, architettura di prodotto e innovazione dei sistemi — dove il suo contributo è più grande.",
             "Kovac guida oggi la tecnologia che definisce l’azienda: la logica di esecuzione, la valutazione della struttura di mercato, l’interpretazione dei dati on-chain e il filtraggio attento al rischio alla base di Ncore 3.0, ora in esercizio ufficiale, e la prossima direzione di sviluppo rappresentata da Ncore X. La tecnologia con Kovac, la guida societaria con Fabian Vossberg. Due specialisti, una sola azienda."
           ]
         }

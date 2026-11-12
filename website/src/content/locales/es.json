@@ -1018,25 +1018,25 @@
     },
     "leadership": {
       "heading": "Nuestro equipo directivo",
-      "sub": "Dos especialistas, una sola empresa: la dirección corporativa e internacional a cargo de nuestro Director Ejecutivo, y la tecnología liderada por nuestro Director de Tecnología.",
+      "sub": "Una transición de liderazgo planificada — Peter Kovac dirige Naslab como Director Ejecutivo, y Fabian Vossberg ha sido nombrado Director Ejecutivo designado, con toma de posesión en enero de 2027.",
       "people": [
         {
-          "role": "Director Ejecutivo (CEO)",
-          "scope": "Operaciones corporativas, legales e internacionales",
+          "role": "Director Ejecutivo designado",
+          "scope": "Asume el cargo en enero de 2027 · Operaciones corporativas, legales e internacionales",
           "quote": "\"Naslab se ha construido sobre tecnología real, y eso sigue siendo su mayor activo. Mi responsabilidad es la estructura que la rodea: la preparación legal, la estrategia regional y la disciplina operativa que una empresa necesita para funcionar con credibilidad en muchos mercados a la vez. El rumbo ya está fijado, y nuestra ambición es mayor que todo lo que hemos construido hasta ahora.\"",
           "bio": [
-            "Fabian Vossberg fue nombrado Director Ejecutivo de Naslab en 2026, asumiendo la responsabilidad de la gestión corporativa, las operaciones internacionales y la expansión en los mercados globales. Durante quince años su trabajo ha girado sobre un mismo tipo de problema: tomar una empresa que funciona en un mercado y convertirla en una que funciona en muchos, entre Europa y el Sudeste Asiático. Ahí es exactamente donde se encuentra Naslab hoy.",
-            "La mayoría de las empresas llegan a esta etapa con tecnología sin probar. En Naslab la tecnología ya funciona, y esa es la parte más difícil. El trabajo que queda es la estructura que la rodea: la preparación legal y regulatoria, la estrategia regional y la disciplina para operar con credibilidad en muchos mercados a la vez. Esa es la responsabilidad que Vossberg asume como Director Ejecutivo.",
-            "Tres prioridades definen la etapa actual: reforzar la base de Naslab en Asia, donde Ncore 3.0 ya está en operación oficial; preparar el marco de la empresa para Oriente Medio y Europa; y ofrecer a socios y usuarios un soporte más claro y más consistente. Vossberg dirige el ámbito corporativo e internacional de Naslab junto a Peter Kovac, que lidera la tecnología."
+            "Fabian Vossberg ha sido nombrado Director Ejecutivo designado de Naslab y asumirá formalmente el cargo en enero de 2027, con la responsabilidad de la gestión corporativa, las operaciones internacionales y la expansión en los mercados globales. Durante quince años su trabajo ha girado sobre un mismo tipo de problema: tomar una empresa que funciona en un mercado y convertirla en una que funciona en muchos, entre Europa y el Sudeste Asiático. Ahí es exactamente donde se encuentra Naslab hoy.",
+            "La mayoría de las empresas llegan a esta etapa con tecnología sin probar. En Naslab la tecnología ya funciona, y esa es la parte más difícil. El trabajo que queda es la estructura que la rodea: la preparación legal y regulatoria, la estrategia regional y la disciplina para operar con credibilidad en muchos mercados a la vez. Esa es la responsabilidad que Vossberg asumirá como Director Ejecutivo.",
+            "Tres prioridades definen la etapa actual: reforzar la base de Naslab en Asia, donde Ncore 3.0 ya está en operación oficial; preparar el marco de la empresa para Oriente Medio y Europa; y ofrecer a socios y usuarios un soporte más claro y más consistente. Hasta su toma de posesión, Vossberg trabaja junto al Director Ejecutivo Peter Kovac para garantizar una transición fluida."
           ]
         },
         {
-          "role": "Director de Tecnología (CTO)",
-          "scope": "Tecnología, arquitectura de producto e innovación de sistemas",
-          "quote": "\"La tecnología construyó los cimientos de Naslab. Una gestión global profesional ayudará a llevar esos cimientos mucho más lejos. Traje a Fabian para dirigir la empresa y centré mi propio trabajo en la parte en la que más aporto.\"",
+          "role": "Director Ejecutivo",
+          "scope": "Dirección de la compañía, tecnología y arquitectura de producto",
+          "quote": "\"La tecnología construyó los cimientos de Naslab. Una gestión global profesional llevará esos cimientos mucho más lejos. Por eso nombré a Fabian para dirigir la compañía en su siguiente etapa — y, tras el relevo, centraré mi atención en la parte donde más aporto.\"",
           "bio": [
             "Peter Kovac dirige la tecnología de Naslab. El punto de partida fue precisamente lo que a la mayoría de las empresas le resulta más difícil: la tecnología misma, los sistemas de trading en blockchain, la arquitectura de sistemas y la innovación de producto. Todo lo que Naslab lleva hoy al mercado creció sobre esos cimientos de ingeniería.",
-            "En 2026 Kovac pasó a un cargo dedicado al liderazgo tecnológico como Director de Tecnología, concentrado en el desarrollo tecnológico, la arquitectura de producto y la innovación de sistemas en toda la infraestructura de trading de la empresa. Trajo a Fabian Vossberg para dirigir la empresa y centró su propio trabajo en la tecnología, donde su aportación es mayor.",
+            "Como Director Ejecutivo, Kovac está llevando a la compañía a su siguiente etapa. En 2026 nombró a Fabian Vossberg Director Ejecutivo designado para liderar la expansión corporativa e internacional de Naslab; tras el relevo en enero de 2027, Kovac se concentrará en el desarrollo tecnológico, la arquitectura de producto y la innovación de sistemas — donde su aportación es mayor.",
             "Kovac lidera hoy la tecnología que define a la empresa: la lógica de ejecución, la evaluación de la estructura del mercado, la interpretación de datos on-chain y el filtrado consciente del riesgo que hay detrás de Ncore 3.0, ya en operación oficial, además de la próxima dirección de desarrollo que representa Ncore X. La tecnología con Kovac, la dirección corporativa con Fabian Vossberg. Dos especialistas, una sola empresa."
           ]
         }

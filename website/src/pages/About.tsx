@@ -79,7 +79,8 @@ export default function About() {
         <h2 className="xsec__h">{a.leadership.heading}</h2>
         <p className="xsec__p">{a.leadership.sub}</p>
         <div className="leaders">
-          {a.leadership.people.map((person) => (
+          {/* 2026-11-12: Peter (CEO) 在前、Fabian (CEO-Designate) 在后;数据顺序不动以免 14 语种错位 */}
+          {[...a.leadership.people].reverse().map((person) => (
             <article className="leader" key={person.name}>
               <ImageSlot
                 label={`${person.name} — ${person.role}`}
